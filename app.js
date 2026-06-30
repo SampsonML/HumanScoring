@@ -9,7 +9,7 @@
  * If left blank, Submit is disabled and you can still Export JSON.
  * ==========================================================================*/
 const CONFIG = {
-  SHEETS_URL: "",                 // <-- paste your Apps Script /exec URL here
+  SHEETS_URL: "https://script.google.com/macros/s/AKfycbzf74xGytoanarLaYkCysDsyw0cKmxBHNwtFobmDgWMcWohsphNkbNnKK2jvl4a8b9Z/exec",
   STORAGE_KEY: "humanScoring:v1",
   MAX_SCORE: 10,
 };
