@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The universe contains a fixed kinematic background plus a simple external field: every particle experiences the same-strength transverse acceleration, directed tangentially around the origin. That coupling is independent of mass and radius, so the probes do not noticeably interact with one another or with the ring through pairwise forces; instead they are advected by a uniform counterclockwise swirl superposed on straight-line motion.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The universe appears to obey Newton-like point-particle gravity in 2D: each particle generates a central field proportional to source mass and directed along the separation vector, with acceleration scaling as r/r^3. Probe trajectories are independent of probe mass, indicating equivalence of gravitational and inertial mass. The anchor and the orbiting ring are just ordinary sources in the same pairwise field, with the anchor’s huge mass making it effectively stationary.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The world is governed by ordinary Newtonian-style point-particle dynamics: each body feels the vector sum of pairwise central forces proportional to the source mass and decaying as distance squared, equivalently acceleration proportional to \((r_j-r_i)/|r_j-r_i|^3\). The anchor is just an extremely massive body, and the ring particles are ordinary moving sources that must be included because their superposed fields noticeably perturb the probes.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The universe appears to obey ordinary Newtonian-style mutual attraction in two dimensions: each particle accelerates due to the vector sum of pairwise inverse-square central forces from all other particles. The coupling is proportional to the source mass and independent of the test particle’s own mass, so inertial and gravitational mass are equal. The central anchor is not a special field source beyond having enormous mass, and the ring particles simply follow the same many-body law.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The universe appears to follow ordinary 2D Newtonian-style N-body dynamics: every particle sources a central field whose acceleration contribution is proportional to source mass and points along the separation vector with inverse-square magnitude. Probe trajectories were independent of probe mass but strongly affected by the massive anchor and the moving ring particles, consistent with a universal gravitational coupling and no extra drag or charge-like sign changes.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+Particle 1 is fixed at the origin and creates an isotropic attractive central field. Particle 2 couples to this field with acceleration proportional to p1/p2, and the radial field magnitude is the sum of a constant term and an inverse-square term: \(a_r=-(p_1/p_2)(0.1+1/r^2)\). The motion is otherwise ordinary second-order Newtonian motion with no drag or velocity-dependent forces.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The source particle is fixed at the origin and creates a central attractive field whose magnitude is a constant inward component plus a softened inverse-square component, approximately \(0.1 + 1/(r^2+0.04)\). The probe acceleration is directed toward the source and is scaled by \(p_1/p_2\), so the first property acts as source strength while the second acts as inertial resistance. The dynamics are otherwise conservative and velocity-independent, with angular deflection arising solely from this radial force field.
+
+--- seed 2 ---   score: 0.60  (6/10)
+The source particle produces a radially symmetric attractive field consisting of a uniform-magnitude inward component plus a softened inverse-square component, with softening scale squared 0.04. The probe couples to this field with strength proportional to p1/p2, so p1 sets the source charge and p2 acts like inertial mass. The source remains fixed at the origin, and particle 2 follows the resulting second-order central-force ODE.
+
+--- seed 3 ---   score: 0.70  (7/10)
+Particle 1 is fixed at the origin and creates a static, isotropic attractive field. Particle 2 couples to this field with acceleration proportional to p1/p2, following a central force whose magnitude is \( (p1/p2)\,[0.1 + 1/(r^2+0.04)] \). The inverse-square-like component is softened at short distance, and the additional constant radial attraction dominates at large distance.
+
+--- seed 4 ---   score: 0.80  (8/10)
+Particle 1 is fixed at the origin and produces a central attractive field whose magnitude is the sum of a constant term and a softened inverse-square term, \(0.1 + 1/(r^2+0.04)\). Particle 2 couples to this field with acceleration proportional to \(p_1/p_2\), so larger source property strengthens the attraction while larger probe property reduces its response. The motion is otherwise ordinary second-order dynamics with the acceleration always directed along the line from the probe toward the source.

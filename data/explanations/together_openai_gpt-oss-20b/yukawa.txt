@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 2 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered dynamics are that particle 2 experiences a constant deceleration along the x‑direction only, in magnitude proportional to the source particle’s property `p1`.  There is no dependence on the probe property `p2` or on any positional quantity.  The motion is governed by `a_x = -α p1`, while `a_y = 0`, yielding parabolic trajectories in x and linear motion in y.  The parameter `α` is fitted from data and captures the strength of this inertial coupling.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered dynamics show that particle 2 is subject to a constant left‑directed acceleration. Its magnitude decreases with increasing property p₂, following a 1/p₂ law, while particle 1 and the spatial arrangement do not influence the motion. This yields straightforward analytic kinematics for trajectory prediction.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

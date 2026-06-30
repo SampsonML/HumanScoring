@@ -1,0 +1,23 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 2 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered universe follows Newtonian gravity in two dimensions: all particles interact pairwise with a central inverse‑square attraction proportional to the product of their masses. The anchor’s overwhelming mass keeps the ring in a stable orbit, while probes behave as test masses. The law reproduces the observed trajectories, including the ring’s fixed angular speed and the probes’ radial motions.
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.30  (3/10)
+The particles interact via a central inverse‑square attraction: the acceleration of particle i is
+∑_{j≠i} G m_j (r_j‑r_i)/|r_j‑r_i|³, independent of i’s own mass.  The anchor’s enormous mass dominates,
+creating a Keplerian field that makes the probes orbit in circles.  Background orbiter masses add small perturbations but do not change the overall 1/r² form.

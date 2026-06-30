@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The probe particle moves under a purely central, attractive force directed toward the fixed source at the origin, with magnitude proportional to p1 (source strength) and inversely proportional to p2 (inertial mass). The force is the superposition of two field contributions: a long-range 2D-gravity tail F ∝ 1/(2πr) (the gradient of a logarithmic potential, as for a massless field in two dimensions) and a short-range screened component F ∝ (1+mr)e^(−mr)/r², which is exactly the gradient of a Yukawa potential e^(−mr)/r with screening mass m ≈ 1.68. The initial velocity simply sets the orbit's initial conditions; trajectories from radial drops, bound orbits, and slingshot passes are all reproduced to the observation-noise floor by this single law.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The probe particle is attracted toward the fixed source at the origin by a central, velocity-independent force whose acceleration scales exactly as p1/p2 (source property over probe property, so p2 acts like inertial mass and p1 like a source charge). The radial dependence is the gradient of a two-component potential: a long-range 2D logarithmic potential (giving acceleration A/r with A ≈ 1/2π, as if sourced by a 2D Poisson field equation) plus a short-range screened Yukawa potential C·e^(−μr)/r (giving the force term C(1+μr)e^(−μr)/r² with screening length 1/μ ≈ 0.6). The motion is purely Newtonian second-order dynamics in this static composite field, with no velocity- or time-dependent couplings detected.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 2 experiences a purely central, attractive, velocity-independent acceleration directed at the fixed particle 1, scaling linearly with the source property p1 and inversely with its own property p2 (p2 acts as inertia). The radial profile is the superposition of two field contributions: a long-range 2D-gravity term a = p1/(2π p2 r), as sourced by a point mass through the 2D Poisson equation, plus a short-range screened (Yukawa) term a = (p1/p2)·A·(1+r/λ)e^{−r/λ}/r² with screening length λ ≈ 0.6 and strength A ≈ 0.22, corresponding to a massive-mediator potential ∝ e^{−r/λ}/r. The screened term dominates inside r ≲ 1 and becomes negligible beyond r ≈ 3, where the force smoothly approaches pure logarithmic gravity.
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 2 obeys Newtonian-style dynamics (acceleration, no drag, no velocity dependence) under a purely central, attractive force from particle 1 whose magnitude scales as p1/p2 — so p1 acts as a gravitational "charge" of the source and p2 as the inertial mass of the probe. The dominant long-range part is the field of a 2D Poisson equation (logarithmic potential, force ∝ 1/(2πr)), augmented by a short-range Yukawa-type screened component whose gradient gives C·e^(−κr)(1+κr)/r² with screening length 1/κ ≈ 0.57, softened at the origin by a small core scale ε ≈ 0.046 (r² → r²+ε²). Finally there is a very weak linear restoring deficit (force term −λr, λ ≈ 1.3×10⁻⁴, like a tiny repulsive harmonic/cosmological background) that slightly reduces the attraction at large separations.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particle 2 is attracted toward the fixed source particle at the origin by a central, velocity-independent force whose acceleration scales exactly as p1/p2 — p1 acts as a source "charge" while p2 acts as inertia. The radial profile is a superposition of two field contributions: a long-range 2D Coulomb (logarithmic-potential) term producing acceleration 1/(2πr), mildly suppressed at large distances by a Gaussian screening factor exp(−r²/λ²) with λ ≈ 90, plus a short-range massive (Yukawa-like) field term A(1+κr)e^(−κr)/r² with A ≈ 0.22 and screening mass κ ≈ 1.7. Both terms are softened at the core (r² → r² + ε², ε ≈ 0.035), so the force stays finite at the origin; the dynamics is otherwise standard Newtonian second-order motion with no velocity drag or time dependence.

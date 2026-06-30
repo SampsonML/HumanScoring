@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The system is governed by a scalar field where each particle sources a Coulomb-like 1/r potential proportional to its own (signed) charge q_j, but particles are passively transported by the gradient of this field independent of their own charge. The acceleration on particle i is a_i = Σ_{j≠i} q_j (r_i − r_j) / |r_i − r_j|^3 — a positive q_j repels every other particle isotropically (1/r² strength) while a negative q_j attracts them. This violates Newton's third law: forces between two particles are generally not equal and opposite (e.g. a charged particle exerts force on a neutral one, but feels none back), giving a non-conservative, asymmetric many-body dynamics.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The universe contains 10 particles interacting through an inverse-square central force whose source is a signed scalar charge. Unlike Coulomb's law, the acceleration of particle i depends only on the charges of the OTHER particles (the "sources"), not on its own charge or mass: a_i = Σ_j q_j (r_i − r_j) / |r_i − r_j|³. A zero-charge particle therefore exerts no influence on others but is still accelerated by the field of charged particles, breaking Newton's third law in this universe.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The system behaves like a gravity-style inverse-square interaction but with a crucial asymmetry: the acceleration of particle i is determined only by the signed charges of the OTHER particles, not by its own charge. Specifically, a_i = G·Σ_{j≠i} q_j (r_i − r_j)/|r_i − r_j|³, with G ≈ 1. Positive source charges push test particles away (repulsive field) and negative sources pull them in; because a test particle's own charge does not enter, even neutral (q=0) particles are accelerated by charged ones, and Newton's third law is violated for unequal-charge pairs.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The 10 particles interact through an inverse-square central field with a peculiar twist: each particle's acceleration depends only on the charges of the OTHER particles (the "sources"), not on its own charge. Specifically, a_i = Σ_j q_j (r_i − r_j)/|r_i − r_j|^3, so positive charges repel everything and negative charges attract everything, like a one-sided Coulomb/gravitational field. This explicitly breaks Newton's third law (e.g. a particle with q=0 feels forces but exerts none, and a (+,−) pair both accelerate in the same direction), and is consistent with a scalar field sourced by signed charges where the test-particle response is universal rather than charge-weighted.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The system implements a non-reciprocal inverse-square interaction: each particle feels an acceleration determined solely by the source charges of the OTHER particles, not by its own charge. Specifically, a_i = Σ_{j≠i} q_j · (r_i - r_j)/|r_i - r_j|^3, so positive charges push every other particle (including neutral ones) outward radially, while negative charges attract them. Because the receiver's charge does not appear in the formula, equal-and-opposite charges do not produce equal-and-opposite forces — Newton's third law fails and momentum is not conserved, a distinctive structural feature of this universe.

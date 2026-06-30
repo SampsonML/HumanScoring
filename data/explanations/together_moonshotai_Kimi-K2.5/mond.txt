@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The discovered law consists of 11 Coulomb-like particles arranged symmetrically: one central particle and ten on a ring. Each ring particle experiences a harmonic restoring force toward the center (F = -κr) that provides confinement, balanced by strong inverse-square repulsion from its two nearest neighbors on the ring. The center particle feels the symmetric sum of all ring attractions, keeping it nearly stationary. The critical rotation velocity v_crit ≈ 0.164*r represents the balance between centrifugal expansion and the confining spring-like force; below this threshold, neighbor repulsion dominates and drives explosive expansion, while above it, stable quasi-circular orbits emerge with angular frequencies approximately independent of radius.
+
+--- seed 1 ---   score: 0.00  (0/10)
+The system consists of 11 particles in a 2D "centre + ring" configuration interacting through pairwise spring forces with a time-weakening rest length. Particle 0 sits at the center, while particles 1-10 form a symmetric ring. The spring rest length l_eff = l0*(1 + 0.5*t) increases linearly with time, causing the delayed explosive expansion observed when initial tangential velocity is zero. When sufficient angular momentum is present (v0 > ~0.5), centrifugal effects stabilize the ring against collapse, creating bounded oscillating orbits. The dynamics are purely mechanical: Hookean springs between all particle pairs with no velocity-dependent damping or gravitational forces.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The discovered law describes a universe with Hubble-like cosmic expansion where particles experience acceleration proportional to their distance from the origin (a = H·r). This initial expansion leads to runaway growth at early times. However, a strong velocity-dependent damping term (∝ v³) creates a terminal velocity ceiling, causing the system to stabilize at late times. A weak quadratic position coupling modulates the effective Hubble constant at larger radii, explaining the non-monotonic terminal velocity dependence on ring radius. The center particle remains effectively stationary due to symmetry, while ring particles exhibit collective behavior determined by their 10-fold rotational symmetry, leading to resonance effects around characteristic length scales comparable to the particle spacing.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The system consists of 11 particles interacting through pairwise repulsive forces scaling as $F_{ij} = A|\mathbf{r}_i - \mathbf{r}_j|^{-3}$. This inverse-cube law creates a critical velocity $v_{crit} = \sqrt{A}/r$ that separates unstable runaway expansion (when $v < v_{crit}$) from stable orbital motion. The force law emerges from analyzing the observed scaling $v_{crit} \propto 1/r$ using centripetal force balance: $mv^2/r = A/r^3$. All 11 particles contribute to the dynamics, with the central particle and 10 ring particles mutually repelling.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered law describes a 2D rotating harmonic oscillator system. Particles experience a restoring force proportional to their distance from the origin (f ~ ω²r) combined with a Coriolis-like coupling between velocity components (f_coriolis ~ 2ωv⊥). This creates characteristic elliptical or circular trajectories whose stability depends on the initial tangential velocity relative to the critical value ω·r. The coupling between position and perpendicular velocity components produces the observed spiral and oscillatory motion patterns, with ω ≈ 0.4177 governing the natural frequency of the system.

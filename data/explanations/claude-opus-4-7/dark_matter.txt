@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+This 2D world implements logarithmic ("planar") gravity: the gravitational potential of a point mass goes as Φ(r) = G·m·ln(r), so the force on a test particle is radial with magnitude G·m/r — falling as 1/r rather than the 1/r² of three-dimensional Newtonian gravity. There are 20 background point masses (each with mass m ≈ 0.55, giving total GM ≈ 11) that interact pairwise through this 1/r force, plus 5 massless probe particles that experience the summed field but do not source it. Far-field measurements at r = 50, 100, 200, 300 cleanly verified the 1/r law, with probe accelerations satisfying a·r ≈ 11 independent of distance.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The simulated universe appears to be a 2D Newtonian gravitational N-body system where every particle (background and probe alike) attracts every other particle with a softened inverse-square law F = G·(r_j - r_i)/(|r_j - r_i|² + ε²)^(3/2). The 20 background particles have non-zero initial velocities and evolve self-consistently among themselves; the probes are passive test particles whose trajectories are determined by the time-varying gravitational field of the moving background. The two free parameters are the gravitational coupling G and a softening length ε that regularises close encounters.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The universe contains 20 background particles plus 5 probes interacting through a 2D gravitational field whose force decreases as 1/r (i.e., a logarithmic potential, the natural Green's function of the 2D Laplacian). Each particle generates an attractive force on every other particle of magnitude G·m/r directed along the connecting line, with all background masses approximately equal (G·m_total ≈ 11.1 was measured from far-field probes at distances 100–500). The probes are passive: they feel the field of the background but exert no reciprocal force, so the background dynamics evolve independently as a self-gravitating cluster while the probes are advected through the field.
+
+--- seed 3 ---   score: 0.50  (5/10)
+This universe exhibits 2D logarithmic gravity. Each of the 20 background particles acts as a point source of a logarithmic potential, φ_i = -m·ln(r_i), so the gravitational force between any two interacting bodies has magnitude G·m_i·m_j/r — falling off as 1/r rather than the 1/r² of standard 3D Newtonian gravity. The five probe particles are massless tracers: they experience the same pair-wise force from each background source but contribute nothing to the field, while the 20 background particles are mutually self-gravitating under the same law. Far-field calibration of single isolated probes at r = 20 to r = 200 showed |a|·r ≈ 11 (constant), confirming the 1/r dependence; the per-particle source strength comes out to roughly 0.55, consistent with G≈1, m≈0.55 (or any equivalent product G·m).
+
+--- seed 4 ---   score: 0.30  (3/10)
+The simulated universe behaves as a 2D self-gravitating N-body system. The 20 background particles attract one another with a Newtonian inverse-square force a_i = G·Σ_{j≠i} (r_j − r_i)/|r_j − r_i|³ where each background body carries unit mass and the gravitational coupling is G ≈ 4. The five probes are massless tracers that experience the same attractive field but contribute nothing back, so the field they feel comes only from the (dynamically evolving) background population, while their own positions are obtained by integrating Newton's second law along their trajectories.

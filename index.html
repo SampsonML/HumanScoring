@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Human Explanation Scoring</title>
+<link rel="stylesheet" href="style.css" />
+<!-- MathJax: renders inline \( ... \) and display \[ ... \] in the prose. -->
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+    options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea'] },
+    startup: {
+      typeset: false,
+      // Typeset once after MathJax finishes loading, in case the app's first
+      // render ran before MathJax was ready. Subsequent re-renders call
+      // typesetPromise() themselves (see typesetMath in app.js).
+      pageReady: function () {
+        return MathJax.startup.defaultPageReady().then(function () {
+          return MathJax.typesetPromise();
+        });
+      }
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-left">
+    <h1>Human Explanation Scoring</h1>
+    <p class="subtitle">Read each model explanation, consult the world rubric, assign a 0–10 score.</p>
+  </div>
+  <div class="topbar-right">
+    <label class="annotator">
+      <span>Annotator</span>
+      <input id="annotator" type="text" placeholder="your name / id" autocomplete="off" />
+    </label>
+    <span id="save-indicator" class="save-indicator" title="Drafts autosave in this browser">drafts saved locally</span>
+  </div>
+</header>
+
+<nav class="controls">
+  <div class="control">
+    <label for="model-select">Model</label>
+    <select id="model-select"></select>
+  </div>
+  <div class="control">
+    <label for="world-select">World</label>
+    <select id="world-select"></select>
+  </div>
+  <div class="control nav-arrows">
+    <button id="prev-world" title="Previous world">◀</button>
+    <button id="next-world" title="Next world">▶</button>
+  </div>
+  <div class="control toggle">
+    <label class="switch">
+      <input id="reveal-toggle" type="checkbox" />
+      <span>Reveal judge scores</span>
+    </label>
+  </div>
+  <div class="control progress">
+    <span id="progress-world" class="chip">world 0/0</span>
+    <span id="progress-total" class="chip">total 0</span>
+  </div>
+</nav>
+
+<main>
+  <details id="criteria-panel" class="criteria" open>
+    <summary>World criteria &amp; ground truth</summary>
+    <div class="criteria-body">
+      <section class="gt">
+        <h3>Ground truth</h3>
+        <div id="ground-truth" class="boxed prose"></div>
+      </section>
+      <section class="rubric">
+        <h3>Scoring rubric (0–10)</h3>
+        <div id="rubric" class="boxed prose"></div>
+      </section>
+      <details class="full-criteria">
+        <summary>Full judge prompt (system + user)</summary>
+        <pre id="full-criteria-text"></pre>
+      </details>
+    </div>
+  </details>
+
+  <div id="cards" class="cards"></div>
+
+  <div id="empty" class="empty" hidden>No explanations found for this model &amp; world.</div>
+</main>
+
+<footer class="actions">
+  <div class="actions-left">
+    <button id="submit-world" class="primary">Submit this world</button>
+    <button id="export-json">Export JSON backup</button>
+    <span id="submit-status" class="submit-status"></span>
+  </div>
+  <div class="actions-right">
+    <span id="config-warning" class="config-warning" hidden>
+      ⚠ Sheets URL not configured — see CONFIG in app.js. Submit disabled; use Export.
+    </span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

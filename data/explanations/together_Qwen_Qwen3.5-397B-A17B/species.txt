@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law describes a system where six particles interact through pairwise forces that depend on their mutual distances. Each particle experiences acceleration from all other particles, with force magnitude following an inverse power law (1/r^alpha) directed along the line connecting particle pairs. This creates complex collective dynamics where particles repel or attract based on the sign and magnitude of the coupling constant G, producing the intricate motion patterns observed across multiple experimental configurations with varying initial separations.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered law describes a 2D universe where 6 particles interact through a pairwise force field. Each particle experiences acceleration from all other particles proportional to the displacement vector divided by distance raised to power alpha (approximately 2). This is analogous to gravitational or electrostatic interactions in our universe, but generalized to allow the power-law exponent to be discovered. The coupling constant G≈1 determines the overall force strength. The force diverges at zero separation (causing NaN when particles overlap), and the vector nature ensures momentum conservation through symmetric pairwise interactions.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered law describes six particles in a 2D universe interacting through pairwise inverse-square attractive forces. Each particle experiences acceleration toward every other particle, with force magnitude proportional to G/r² where r is the inter-particle distance. The singularity at r=0 (observed as NaN in experiments when particles overlap) is regularized with a small parameter. This produces gravitational-like clustering behavior where particles accelerate toward centers of mass, with stronger acceleration at shorter distances.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law describes a system of 6 particles interacting through mutual gravitational-like attraction in 2D space. Each particle experiences an acceleration toward every other particle, with the force magnitude following an inverse-square law (F ∝ 1/r²), meaning the acceleration vector is proportional to the displacement vector divided by the cube of the distance. This creates attractive dynamics where particles tend to cluster together over time, with closer particles experiencing stronger mutual attraction. The parameter G represents the coupling strength of this interaction.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The discovered law describes particles interacting through an attractive central force field in 2D space. Each particle generates a field that exerts force on all other particles, with the force magnitude following an inverse power law (1/r^n) where r is the inter-particle distance. The force direction points from each particle toward its neighbors, causing mutual attraction. This is analogous to gravitational or electrostatic attraction in our universe, but the exponent n and coupling strength G are determined by this universe's specific physics. The n=1 case corresponds to a 2D Coulomb-like interaction where the potential is logarithmic.

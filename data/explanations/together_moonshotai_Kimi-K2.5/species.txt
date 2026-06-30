@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+I discovered a 2D gravitational system where particles attract each other with inverse-square law forces. Each particle's acceleration is proportional to the vector sum of 1/r^2 forces from all other particles, pointing toward each neighbor. The force constant is approximately 0.25. This explains the observed behavior where distant particles experience weaker attraction than nearby ones, and particle pairs accelerate toward each other over time.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered physical law is an attractive inverse-square force law between particle pairs, analogous to Newtonian gravitation but with a specific coupling constant G ≈ 0.25. Each particle experiences an acceleration directed toward every other particle with magnitude G/r, where r is the inter-particle distance. Forces obey linear superposition, and the dynamics are time-reversible with no dissipative terms detected.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered law is 2D Newtonian gravity with equal-mass particles. Each particle experiences pairwise attractive forces following an inverse-square law: F = G/r² where r is the inter-particle distance. The fitted coupling constant G ≈ 0.5 yields excellent agreement with observed trajectories. This is a conservative, central-force system where all six particles interact simultaneously through the same field.
+
+--- seed 3 ---   score: 0.50  (5/10)
+This universe exhibits a pairwise attractive force between particles where the acceleration magnitude scales as 1/r (inverse distance), creating an effective logarithmic potential. The force is purely central (along the line connecting particles), velocity-independent, and pairwise additive. The coupling constant G ≈ 0.036 gives the strength of this 2D analog of gravitational/Coulomb attraction.
+
+--- seed 4 ---   score: 0.40  (4/10)
+This 2D universe follows Newtonian gravity with pairwise attractive forces proportional to 1/r^2, softened at small distances by epsilon^2 to prevent numerical singularities. Particles interact simultaneously with all others through central inverse-square attraction. The fitted coupling G ≈ 0.35 and softening length ε ≈ 0.98 characterize the interaction strength and prevent unphysical blow-up at close encounters.

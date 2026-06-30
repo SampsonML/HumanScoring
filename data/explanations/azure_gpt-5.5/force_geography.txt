@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+Particle 1 generates an attractive central field, softened at very short range, whose radial inverse-distance force is multiplied by a square periodic modulation \(0.16+0.08\cos(2\pi x/5)\cos(2\pi y/5)\). Particle 2 couples to this field with acceleration proportional to \(p_1/p_2\), so \(p_1\) sets the source strength and \(p_2\) behaves as inertial mass. The resulting motion is a second-order ODE with no velocity-dependent force and a fixed source at the origin.
+
+--- seed 1 ---   score: 0.60  (6/10)
+Particle 2 is attracted toward the fixed source at the origin by a logarithmic radial field, so the acceleration is proportional to the displacement vector divided by squared distance. The field strength is not uniform: it is modulated by a spatial standing-wave factor, \(0.16 + 0.08\cos(2\pi x/5)\cos(2\pi y/5)\). The coupling scales as \(p_1/p_2\), making the source property increase the attraction and the probe property reduce its acceleration.
+
+--- seed 2 ---   score: 0.70  (7/10)
+Particle 2 accelerates toward the fixed source at the origin with an inverse-radius form, scaled by the property ratio p1/p2. The field strength is not isotropic in magnitude: it is modulated by a lattice factor 0.16 + 0.08 cos(2πx/5) cos(2πy/5), while the force direction remains radial toward the source. A small softening core prevents a singularity at the origin.
+
+--- seed 3 ---   score: 1.00  (10/10)
+Particle 1 sits at the origin and sources an attractive central field, but the field strength is not radially uniform: it is modulated by a two-dimensional standing wave proportional to cos(2πx/5) cos(2πy/5). Particle 2 couples to this field through acceleration proportional to p1 only, with p2 acting inertially neutral in the observed dynamics. The resulting force is radial toward the origin with magnitude coefficient (0.16 + 0.08 cos(2πx/5) cos(2πy/5))/r.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particle 2 moves under a fixed central field sourced by particle 1 at the origin, with acceleration directed toward the source. The field strength is proportional to p1/p2 and has magnitude (0.16 + 0.08 cos(2πr/5))/r, so it is a two-dimensional inverse-radius attraction with a periodic radial modulation. The modulation stays positive, so the interaction remains attractive while alternating between stronger and weaker radial bands.

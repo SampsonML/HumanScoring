@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The probe particle experiences a central attractive force directed toward particle 1. The force magnitude follows an inverse‑distance law (∝ 1 / r), reflecting the 2‑D analogue of a Coulomb/gravitation field where the potential is logarithmic. The source strength p₁ scales the force linearly, while the probe’s property p₂ acts as an inertial mass, appearing in the denominator of the acceleration.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 is attracted to the fixed source particle 1 at the origin by a central inverse‑square force proportional to the product of their scalar properties (p₁ p₂). The force follows **F = -G·p₁·p₂ r̂ / r²**, with G a universal coupling constant, leading to Newton‑like orbital dynamics. This law captures the observed accelerations, isotropy, and dependence on the scalar parameters.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 1 is fixed at the origin and creates a central field. Particle 2 experiences an attractive acceleration proportional to the source’s property p1, inversely proportional to its own property p2, and decaying with distance as 1/rⁿ (empirically n≈1). No significant drag or other forces were detected.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (located at the origin). The force magnitude obeys an inverse‑square dependence on the separation r, scaled by the source scalar p1, the probe scalar p2, and a universal coupling constant G (i.e., a = G·p1/(p2·r²) toward the source). This law reproduces the observed trajectories across varied p1, p2, and initial conditions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 1 generates a static radial field whose strength is proportional to its scalar property p1. Particle 2 experiences a constant acceleration toward the source, with magnitude k·p1/p2 (k≈0.14), i.e. inversely proportional to its own property p2, analogous to inertial mass. Consequently the probe follows simple constant‑acceleration kinematics directed toward the origin.

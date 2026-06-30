@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+Each of the 6 particles independently experiences a central restoring (harmonic-trap-like) force directed toward the coordinate origin, with magnitude F = min(k·r, F_max) that grows linearly at short range and saturates to a constant at large distances (~r > 4 units). In addition, each particle pair interacts through a pairwise force whose sign is determined solely by the "source charge" of the emitting particle — particles {0, 3, 5} carry positive source charge (+1) and attract all neighbors, while particles {1, 2, 4} carry negative source charge (−1) and repel all neighbors — with the pairwise force magnitude also following a capped-linear form. The central field dominates dynamics (F_max ≈ 0.60), while the pairwise couplings are weaker (F_max_p ≈ 0.06), producing the oscillatory infall toward the origin observed across all experiments.
+
+--- seed 1 ---   score: 0.00  (0/10)
+Each of the 6 particles in this universe experiences an external radial force directed toward the origin (centre of the coordinate system), with no pairwise interaction between particles whatsoever. The force magnitude follows a saturating tanh law: F(r) = A·tanh((r/r₀)ⁿ), where r is the particle's distance from the origin, A≈26.3 is the saturation amplitude, r₀≈3.2 is the characteristic length scale, and n≈3 is the power governing the steepness of the transition. At small radii the force grows approximately as r³ (harmonic-cube confinement), while at large radii it saturates to a constant value A, giving bounded acceleration regardless of how far particles travel from the centre.
+
+--- seed 2 ---   score: 0.00  (0/10)
+In this 2D universe, particles interact through a "boundary tension" field: along each Cartesian axis independently, only the two extreme particles (the one with the largest coordinate and the one with the smallest) experience a constant inward force of magnitude C ≈ 297, directed toward the interior of the particle cloud. All particles that are not axis-extremes feel zero force. This is analogous to a constant-tension elastic band stretched around the outermost particles along each axis, pulling them inward regardless of their separation distance. The force law is purely topological in the sense that it depends only on which particle is currently the axis-extreme (determined by rank ordering), not on any distance or field strength.
+
+--- seed 3 ---   score: 0.50  (5/10)
+In this simulated universe, all 6 particles interact through a pairwise attractive force that falls off as the inverse of the separation distance: F(r) = G/r, directed along the line joining each pair of particles. This corresponds to a logarithmic potential V(r) = -G·ln(r), fundamentally different from the 1/r² gravitational force familiar in our universe. The coupling constant G ≈ 0.17 was determined by isolating clean two-particle interactions (placing the other four particles on the far y-axis to eliminate contamination) and observing that the product F·d remained constant across all tested separations from d=2 to d=12.
+
+--- seed 4 ---   score: 0.10  (1/10)
+In this universe, each particle j generates a force field proportional to the component-wise signed square of its own position: g(r_j) = -G × (x_j|x_j|, y_j|y_j|). Every other particle i feels an acceleration equal to the sum of these fields from all N-1 other particles: a_i = Σ_{j≠i} g(r_j). This is a non-pairwise "broadcast" interaction where each particle radiates a field based purely on its own displacement from the origin (not the relative displacement between particles), and all other particles respond equally to this field regardless of their own positions. The quadratic component-wise dependence (rather than isotropic r²) means the force magnitude scales differently depending on the angle of the source particle's displacement.

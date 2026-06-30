@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The simulated universe contains a massive anchor at the origin and 20 ring particles in circular orbits at radius 5. These ring particles collectively generate a harmonic field: probes inside equilibrium radius r_eq ≈ 7.2 experience inward acceleration toward the ring, while probes outside experience outward acceleration away from the ring. The 20 background masses create this effective potential through their distributed mass, behaving like a 2D harmonic oscillator centered at r_eq rather than at the origin. The force law follows F = k(r - r_eq) in the radial direction, independent of the probe mass.
+
+--- seed 1 ---   score: 0.30  (3/10)
+This universe exhibits a broken-symmetry central force with critical radius R0=5: inside, particles experience harmonic oscillator attraction (a = -Ω²r with Ω≈0.518), while outside they undergo repulsive runaway acceleration growing as a ∝ (r-R0)^α with α≈2.5. The 20 ring particles at r=5 are in stable circular orbits balancing these competing tendencies. This physics resembles a "phase transition" at the ring location, with an effectively attractive well interior and divergent exterior field, distinct from standard Newtonian gravitation.
+
+--- seed 2 ---   score: 0.30  (3/10)
+I discovered a central force field where particles experience a sign-changing force that depends only on their distance from the origin: inside r≈12.5 the force is attractive (pulling toward the center), while outside r≈12.5 it becomes repulsive (pushing away). The force magnitude follows F/m ∝ (r₀−r)·rᵖ where r₀≈12.5 is the neutral equilibrium radius and p≈0.3 provides weak distance scaling; the 20 background ring particles self-organize into stable orbits at r=5 under this field.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The discovered system is governed by a universal central field where all particles experience identical mass-independent acceleration of the form a(r) = -A/r + B·r, combining an inward 1/r term with an outward linear term that creates an equilibrium radius around r ≈ 12.5. Particles inside this radius are pulled toward the origin while those outside are repelled outward, with the 20 ring particles executing stable circular orbits at r = 5 where their centrifugal acceleration balances the inward field.
+
+--- seed 4 ---   score: 0.10  (1/10)
+This universe is governed by a 2D isotropic harmonic oscillator potential centered on the massive anchor particle. Every particle experiences a restoring force proportional to its displacement from the origin (F ∝ -r), causing all trajectories to be elliptical orbits about the center with a universal angular frequency ω ≈ 0.518 rad/s. The 20 ring particles execute perfect circular orbits at radius 5 with velocity v = ωr ≈ 2.59, confirming this law. Critically, the acceleration is mass-independent, so all particles—regardless of their inertial mass—oscillate with the same period, analogous to Galileo's principle but in a harmonic rather than gravitational potential.

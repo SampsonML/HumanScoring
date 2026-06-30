@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The source particle generates a static radial field in 2D whose strength is the sum of a long-range Coulomb-like part (A/r, the natural 1/r field of a point source in two dimensions) and a short-range screened Yukawa part (C·exp(-r/λ)/r). The probe couples attractively to this field with a force proportional to the source charge p1, and its acceleration is divided by its own property p2, which behaves as an inertial mass; there is no velocity dependence or tangential component. Fitting gives A≈0.16, C≈0.9, and a screening length λ≈0.4, so the exponential term boosts the attraction strongly only within roughly half a unit of the source.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The source particle (held at the origin) sets up a static two-dimensional field whose potential increases logarithmically with distance, so the resulting force on the probe is purely central and attractive, falling off as 1/r (force ∝ r̂/r). The probe's acceleration scales linearly with the source property p1 and inversely with the probe property p2, with a coupling constant C ≈ 0.159 ≈ 1/(2π). No velocity-dependent terms (drag or magnetic-type coupling) were observed; the dramatic speed changes seen for trajectories launched from the origin were simply artifacts of the 1/r singularity at r = 0.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The source particle generates a static radial field whose acceleration on the probe points toward the origin with magnitude k·(p1/p2)/r — an inverse-first-power force corresponding to a two-dimensional logarithmic potential. The probe couples to this field in proportion to the source strength p1 and inversely to its own property p2, with no dependence on velocity (no magnetic-like or drag terms). The fitted coefficient is k≈0.15 and the radial exponent is essentially 1, producing nearly circular precessing orbits characteristic of a 2D gravitational/Coulomb-like log field.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 1 sources a static 2D field with a logarithmic potential, so the force on the probe is a central attraction whose magnitude falls off as 1/r (the gradient of ln r). The probe's acceleration is proportional to the source strength p1 and inversely proportional to its own property p2 (which acts like an inertial/coupling mass), giving a = C·(p1/p2)/r directed toward particle 1, with the dimensionless coupling C ≈ 0.16. The dynamics are purely this conservative central force; there is no dependence on velocity, producing precessing orbits around the source.
+
+--- seed 4 ---   score: 0.60  (6/10)
+Particle 1 acts as a fixed point source of a 2D field, and particle 2 (the probe) feels a purely radial, attractive acceleration directed toward the origin. The acceleration magnitude equals (p1/p2)·[A/r + B·exp(-r/λ)/r²]: the A/r piece is the long-range 2D log-potential (Gauss-law) force with A≈1/(2π)≈0.159, while the B·exp(-r/λ)/r² piece is a short-range, exponentially screened (Yukawa-like, λ≈1) massive-field contribution that dominates near the source and produces the observed crossover from a 1/r² close-range force to a 1/r far-range force. The coupling is linear in the source strength p1 and inversely proportional to the probe property p2 (its inertial mass), with no dependence on absolute time.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+Particle 2 experiences a purely radial central acceleration directed toward the fixed source particle 1, with magnitude (p1/p2)·(1/(r²+α) + β). The factor p1/p2 means particle 1's scalar property acts as a "charge" while particle 2's acts as inertia. The 1/(r²+α) term is a softened inverse-square attraction (gravitational-like but regularised at the origin by α ≈ 0.04), and the additive constant β ≈ 0.1 represents a uniform radial background pull that dominates at large separations — analogous to a confining or cosmological-constant-like term that prevents the force from vanishing far from the source.
+
+--- seed 1 ---   score: 0.90  (9/10)
+The probe particle moves under a central, attractive force directed toward a fixed source at the origin. The radial acceleration has the form (p1/p2)·(A + B/(r² + ε²)): a constant long-range component A ≈ 0.1 (a uniform "pull" felt even at infinity) added to a softened inverse-square core B/(r²+ε²) with B ≈ 1 and a small regularisation length ε² ≈ 0.04 that prevents the force from diverging at the origin. The source "charge" p1 couples linearly to the field strength, while the probe's parameter p2 acts as inertial mass (acceleration ∝ 1/p2), so doubling p2 halves the response while doubling p1 doubles it.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The probe particle is attracted radially toward the fixed source at the origin. The acceleration magnitude is (p1/p2)·(1/r² + α), where α ≈ 0.1 represents a constant uniform background field, and the 1/r² term is a standard Newtonian inverse-square attraction. The probe couples to the force through 1/p2 (inertia), while the source strength scales linearly with p1; the force is always directed along the line connecting the two particles, toward the source.
+
+--- seed 3 ---   score: 0.60  (6/10)
+Particle 1 (fixed at origin) generates a static central field that acts on the probe particle 2 with a force magnitude (p1/p2)·(A/r² + B) directed from particle 2 toward particle 1. The 1/r² piece is a standard Newton/Coulomb-like attraction dominating at short range, while the constant additive term B is distance-independent and dominates at large separations (verified out to r≈50, where acceleration plateaus near B). The probe responds with an effective inertia ∝ p2 and couples linearly to the source charge p1, so the acceleration scales as p1/p2.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The probe particle (particle 2) appears to be attracted toward the fixed source particle (particle 1) by a central inverse-square force whose magnitude scales linearly with the source's property p1, analogous to Newtonian gravity in 2D. The probe's own property p2 does not influence its dynamics in any of my experiments. The data showed bounded oscillatory orbits whose magnitude grew with smaller separations and with larger p1, consistent with a Kepler-like attractive 1/r² potential; a small softening length is included to regularise the singularity near the source.

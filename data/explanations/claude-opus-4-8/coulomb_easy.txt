@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The fixed source at the origin generates a central potential field to which the probe particle couples through the product p1*p2. The probe experiences an attractive acceleration of magnitude G*p1*p2/r^2 directed straight toward the source — a classic inverse-square central force (like Newtonian gravity/Coulomb attraction) where both particle "charges" enter linearly. Experiments confirmed the 1/r^2 distance scaling, linear dependence on both p1 and p2, central directionality (verified off-axis and with tangential initial velocity), and a coupling constant G≈1.
+
+--- seed 1 ---   score: 0.70  (7/10)
+Particle 1 sits at the origin and sources a central, attractive inverse-square field. The probe's acceleration points toward the origin with magnitude G·p1·p2/r², linear in both scalar properties (so p2 couples like a charge rather than acting as inertial mass). The coupling is modulated by a velocity factor (1 − v_r/c), where v_r is the outward radial velocity component and c≈100: inward-moving probes feel a stronger pull and outward-moving ones a weaker pull, while purely tangential motion has no effect — a retardation-like correction to a standard Coulomb/Newtonian 1/r² law.
+
+--- seed 2 ---   score: 0.90  (9/10)
+The source particle fixed at the origin produces a static central potential field, and the probe particle experiences a purely radial attractive force directed toward the origin. The force magnitude follows an inverse-square law, F = G·p1·p2/r², where the coupling scales as the product of the two particles' scalar properties and the dimensionless constant G equals exactly 1. There is no velocity-dependent (drag or magnetic) component; all observed velocity changes arise solely from this conservative inverse-square central force.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The source particle generates a static central field, and the probe is accelerated directly toward the source. The acceleration magnitude equals p1*p2/r² (an inverse-square law with the coupling being the product of the two scalar charges, prefactor G≈1), and the acceleration scales linearly with the probe's own charge p2 with no mass division. This produces Newtonian/Keplerian orbital dynamics: bound curved orbits for transverse motion and slingshot escape for near-radial infall, all consistent across separations, charges, and initial velocities tested.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The source particle generates a central potential field to which the probe couples through the product of their scalar properties p1*p2. The probe experiences an attractive acceleration of magnitude G*p1*p2/r^2 directed toward the fixed source, exactly an inverse-square (Newtonian-gravity-like) law with coupling constant G≈1. The force is independent of the probe's velocity, producing bound orbits and hyperbolic scattering trajectories depending on initial conditions.

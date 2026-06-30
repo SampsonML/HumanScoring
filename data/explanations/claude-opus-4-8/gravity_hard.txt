@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The particles obey a two-dimensional gravity law: they interact pairwise through an attractive force whose magnitude falls off as 1/r (a logarithmic potential, the Green's function of the 2D Laplacian), directed along each pair's separation vector. Dynamics are second order (acceleration equals the net force, unit masses) and forces superpose vectorially; I confirmed a×r is constant across separations from 1 to 16 and verified vector superposition with multi-body triangle tests. The coupling constant G is near 0.16 from direct kinematic measurements (a global trajectory fit favored a somewhat lower value, so G is left as a fitted parameter).
+
+--- seed 1 ---   score: 0.50  (5/10)
+This universe obeys a two-dimensional gravity-like law: every pair of equal-mass particles attracts along the line connecting them with an acceleration magnitude G/r (force decaying as 1/r), which is exactly the gradient of a logarithmic potential — the proper 2D Green's function for gravity. The interaction superposes linearly across all particles and is completely independent of velocity, with the coupling constant G ≈ 0.16 confirmed by both direct slope measurements (a·r ≈ 0.16 across separations 2–50) and an MSE fit (G ≈ 0.164).
+
+--- seed 2 ---   score: 0.50  (5/10)
+This universe obeys 2D Newtonian gravity: every particle attracts every other with an acceleration of magnitude G/r directed along the line connecting them, where r is the separation and G ≈ 1/(2π) ≈ 0.159 — exactly the coupling of the Green's function for the 2D Poisson (logarithmic potential) equation. Direct acceleration measurements showed a·r is constant (≈0.16) across separations from r=1 to r=20, confirming the 1/r force law with no short-range softening, and three-body tests confirmed that the pairwise accelerations add linearly via vector superposition.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The universe obeys a two-dimensional gravitational law: each pair of particles attracts along the line joining them with a force proportional to the product of their masses and inversely proportional to their separation (F = G·m_i·m_j/r, i.e. a logarithmic potential, the natural 2D analogue of Newtonian gravity). The acceleration of any particle depends only on the masses and positions of the others (mass cancels for the test body), and measured pair accelerations confirmed a·r ≈ constant across two decades of separation. The ten particles carry distinct masses [1,1,1,1,0.5,0.5,0.25,0.5,0.25,0.25] with coupling constant G ≈ 0.16.
+
+--- seed 4 ---   score: 0.50  (5/10)
+This is a 2D gravitational universe where every particle attracts every other with an acceleration of magnitude k/r (k ≈ 0.15) directed along the line joining them — a force that falls off as the inverse of distance, corresponding to a logarithmic gravitational potential characteristic of 2D gravity. The forces from all particles superpose linearly, all particles have equal mass, and there is no velocity dependence; the dynamics are simply Newtonian integration of these pairwise accelerations.

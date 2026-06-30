@@ -1,0 +1,73 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: mond
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Eleven particles: particle 0 is a heavy, effectively immobile central source at the origin; the other ten are massless test particles on a surrounding ring that feel only the central field (they neither source it nor interact pairwise). The central force is attractive and directed radially. At small radius it is ordinary inverse-square gravity, g_N = G·M/r² with G = 1 and source coupling M = 50, so inner orbits are Keplerian. Beyond an acceleration-scale crossover the law is modified (MOND): the true field magnitude g solves μ(g/a₀)·g = g_N with the simple interpolating function μ(x) = x/(1+x), i.e. g = ½(g_N + sqrt(g_N² + 4·g_N·a₀)) with a₀ = 1.2. For g_N ≫ a₀ this returns g → g_N (Keplerian); for g_N ≪ a₀ it gives g → sqrt(g_N·a₀) ∝ 1/r, so the orbital speed flattens to a constant instead of falling as the Keplerian v ∝ 1/√r. The crossover sits at r* = sqrt(G·M/a₀) ≈ 6.45. An agent probing only the inner ring sees textbook 1/r² gravity; the modification — the flat rotation curve, the historical no-dark-matter alternative — only reveals itself on the outer ring.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies a central attractive force from particle 0 that behaves as
+     ordinary inverse-square (Keplerian, ∝ 1/r²) at small radius but
+     transitions to a ∝ 1/r law at large radius, producing a flat
+     rotation curve (orbital speed → constant, not the Keplerian
+     v ∝ 1/√r falloff); identifies an acceleration-scale crossover
+     a₀ separating the two regimes (r* = sqrt(GM/a₀) ≈ 6); states the
+     MOND-type relation μ(g/a₀)·g = g_N or an equivalent interpolation
+     reproducing both asymptotes; estimates a₀ within roughly a factor
+     of 2 of 1.2 and the source coupling M within a factor of 2 of 50;
+     correctly notes the 10 ring particles are test bodies feeling only
+     the central source.
+ 7–9 — Identifies the inner-Keplerian / outer-flattening structure and
+     that the modification is set by an acceleration (or radius) scale,
+     but gets the interpolating form wrong (e.g. a sharp broken power
+     law or an exponential turnover), or estimates a₀/M significantly
+     off, or attributes the flattening to extra unseen mass instead of
+     a modified force law.
+ 4–6 — Fits a single fixed power law (pure 1/r² Newtonian, or pure 1/r)
+     across all radii, missing the two-regime crossover entirely; or
+     identifies "the outer orbits are too fast for Kepler" only
+     qualitatively with no scale or functional form.
+ 1–3 — Wrong qualitative picture: time-dependent, wave-like, repulsive,
+     drag, or pairwise-among-ring forces; or no quantitative
+     force-vs-radius / rotation-curve analysis.
+   0 — Empty, irrelevant, or no physical content.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

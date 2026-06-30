@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The discovered law describes particle 2 moving in a two-region potential landscape. For distances r < r_binding ≈ 0.005, particles are trapped in a bound state (no dynamics). For r ≥ r_binding, particles experience a short-range exponential repulsive/attractive force F = (p1 - p2) × G × exp(−λ × r), where the force is repulsive when p1 < p2 (and attractive when p1 > p2), with decay length λ ≈ 70. This explains both the bound states observed at small radii and the smooth exponential dynamics observed at larger distances.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The discovered law is an inverse-square attractive force between two particles: Particle 2 experiences a radially inward force proportional to the product of their scalar properties p1 and p2, with magnitude inversely proportional to the squared distance. The system behaves analogously to Newtonian gravity, where particle 1 (held fixed at the origin) acts as a massive attractor and particle 2 follows geodesics determined by this central force field.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 is governed by a central inverse-square attractive force exerted by particle 1 at the origin, with magnitude F = k·p1/r². The force depends only on p1 (not on p2) and is always directed radially toward the fixed source particle, causing acceleration proportional to p1/r³ in the radial direction. This is analogous to Coulomb's law in electrostatics or Newton's law of gravitation, where the coupling strength is p1 and the interaction strength constant k ≈ 1.52.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 is governed by a Newtonian gravitational law: it experiences an attractive central force from the stationary particle 1, proportional to the product of their properties (p1·p2) and inversely proportional to the squared separation distance. The force is always directed toward particle 1 (at the origin) and causes particle 2 to accelerate inward while conservation of energy allows it to gain speed as it approaches. The coupling constant G ≈ 0.1989 was determined by fitting integrated trajectories to experimental observations across diverse initial conditions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 is governed by a gravitational (Coulomb-like) inverse-square law where it experiences an attractive acceleration toward the origin (particle 1) proportional to the source property p1, inversely proportional to its own inertial property p2, and inversely proportional to the square of its distance from the origin. The coupling strength G ≈ 0.1 was determined through fits across 26 diverse trajectories spanning a wide range of initial conditions, distances, and parameter combinations. This is a central-force potential system where particle 2 follows classical dynamics under a 1/r potential.

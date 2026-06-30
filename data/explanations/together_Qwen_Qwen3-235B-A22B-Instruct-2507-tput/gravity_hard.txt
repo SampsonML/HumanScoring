@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The particles interact through a universal attractive inverse-square force, analogous to gravity in 3D but operating in 2D. The acceleration of each particle is proportional to the sum of the forces from all other particles, with magnitude scaling as 1/r² and direction along the line connecting them. The system follows second-order dynamics with no damping, conserving momentum and energy in the absence of numerical error.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The system follows a gravitational-like law where each particle attracts every other particle with a force proportional to the inverse square of the distance. The acceleration of each particle is the vector sum of the forces from all others, directed toward each other and scaled by the inverse cube of the separation (due to the unit vector). This results in a net attraction that governs the dynamics.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The system is governed by a velocity-coupled interaction mediated by a screened field with finite propagation speed. Each particle generates a field proportional to its velocity, and experiences acceleration proportional to the weighted sum of others' velocities, exponentially screened by distance. The dynamics suggest a diffusive field evolution rather than wave-like propagation, with no direct position-based attraction or repulsion.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The system consists of 10 particles interacting through a pairwise inverse-square force field, similar to Newtonian gravitation. Each particle experiences a force proportional to the sum of the unit vectors toward all other particles, scaled by the inverse square of their distances. The coupling is isotropic, conservative, and obeys superposition, with no velocity-dependent terms.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The system follows a 2D long-range interaction where each particle generates a field with logarithmic potential, leading to a pairwise force that scales as 1/r. The force is central and attractive, consistent with 2D gravity or electrostatics in a planar universe. Accelerations arise from the vector sum of pairwise interactions, with superposition holding exactly.

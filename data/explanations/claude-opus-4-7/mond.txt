@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The universe is governed by a pair-wise central force in which every particle attracts every other particle along the line joining them, with force magnitude F = G/d^p where d is the inter-particle separation and p ≈ 1.6 (i.e. a non-standard "fractional" gravity weaker than 1/r² at short distances but still divergent at d→0). Starting from the symmetric ring configuration, the centre particle is held at the origin by perfect symmetry of forces from the ten ring particles, while each ring particle experiences a net inward force that grows as it approaches the centre, causing it to plunge through and emerge with very large radial velocity on the opposite side — the "explosion" observed in the trajectories. The functional form was identified by reading initial accelerations a(r) for various ring radii (which scaled approximately as r^(−1.6)) and confirmed by the constant terminal velocities seen at large separations, indicating the force falls off (but not as 1/r²) with distance.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The 11 particles interact through a pairwise central attractive force per pair that combines a standard Newtonian inverse-square term with a slower-decaying inverse-distance term: F_ij = G/r² + H/r along the line between particles, corresponding to potential V(r) = -G/r - H·ln(r). All particles (centre included) are dynamically equivalent unit masses. Evidence: with the symmetric ring + centre configuration, the initial radial acceleration on a ring particle satisfies a·R² ≈ 4.86·G + 5.5·H·R (matching geometric sums over the 10-particle ring), which fits the measured a(R) data for R=4–15 with G≈7.4, H≈1.31; the dynamics collapse-then-explode through the origin with terminal radial speed governed by the energy released, consistent with this two-term force law.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The universe contains particles that all attract each other through a pairwise central force whose magnitude is the sum of an inverse-square Newtonian term (A/d²) and an inverse-distance term (B/d, which corresponds to a 2D logarithmic potential). The acceleration on each particle is therefore the vector sum over every other particle of (A/d³ + B/d²)·r̂. In the symmetric ring initial condition, by symmetry the central particle stays at rest while the ring contracts radially under this dual force, passes very close to the center where the inverse-square term dominates and ejects the particles outward with very large velocities, leading to the apparent runaway expansion observed at late times.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The 11 particles in this universe interact through pairwise attractive forces with magnitude proportional to 1/d^1.5 (weaker fall-off than Newtonian gravity). Each particle's acceleration is the sum over all other particles of K*(r_j - r_i)/|r_j - r_i|^2.5. Because of this softer power, ring particles starting from rest fall inward, slingshot through their closest approach, then fly outward with nearly constant terminal velocity. The fitted coupling constant K≈6.86 produces an effective central-restoring acceleration of approximately 34.7/r^1.5 on each ring particle in the symmetric ring configuration.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The universe contains 11 identical particles that interact pairwise through an attractive central force with two contributions: an inverse-square term α/d² (analogous to 3D gravity acting in this 2D plane) plus an inverse-distance term β/d (analogous to a 2D Coulomb/log-potential force). By analyzing initial radial accelerations of the symmetric ring at five different radii, I established that the inward acceleration on a ring particle scales as a(r) = A/r² + B/r with A≈34.65, B≈7.29, which decomposes (using the geometric ring sums Σ1/sin(πk/10)=15.45 and Σ1=9 for k=1..9) into a universal pair force F(d) = α/d² + β/d with α≈7.13, β≈1.33. The force acts along the line of centers, identically on every particle (center and ring alike), with no other dynamics.

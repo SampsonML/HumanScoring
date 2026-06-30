@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+Particle 2 is attracted radially toward the fixed source (particle 1). The acceleration magnitude is a = K·(p1/p2)·t³/r⁷, i.e. it couples linearly to the source strength p1, inversely to the probe property p2 (which acts like an inertial mass), grows with the cube of elapsed time as if a field amplitude builds up over the experiment, and falls off extremely steeply (inverse seventh power) with separation. Confirmed K≈3.3, with the time exponent and spatial exponent both pinned to exactly 3 and 7 by fitting; experiments with equal p1=p2 ratios produced identical motion regardless of absolute magnitude, verifying the p1/p2 dependence.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 experiences a central, attractive force directed toward the fixed source particle 1 at the origin. The acceleration magnitude is proportional to p1/p2 and decays exponentially with separation r as exp(-r/L) with a very short screening length L≈0.06, so the interaction is essentially contact-range — negligible beyond r≈0.6 but extremely strong inside r≈0.3, producing fast in-and-out (chaotic) probe trajectories. Here p1 acts as the source "charge" setting field strength, while p2 behaves as the probe's inertial mass (the force itself is independent of p2, and acceleration scales as 1/p2).
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 1 acts as the source of a scalar field that propagates outward at a finite speed c, so the force on the probe at distance r is governed by the retarded time (t − r/c); no influence is felt until the disturbance arrives. The source amplitude grows polynomially in time, producing a central (radial) attraction whose magnitude rises like (t − r/c)^q and falls off as an inverse power of distance 1/r^m. The interaction strength scales as p1/p2 (linear in the source property p1 and inversely with the probe property p2, i.e. p2 behaves like an inertial mass), and the force is purely central with no velocity-dependent (drag) component.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 1 (fixed at the origin) sources a purely radial, attractive force on the probe whose magnitude is F = K·p1·t³/r⁷, i.e. it grows as the cube of absolute elapsed time and decays as the inverse seventh power of separation. The probe's scalar property p2 behaves as its inertial mass, so the acceleration is F/p2 directed toward the origin. Because of the very steep 1/r⁷ falloff, probes beyond a few units feel essentially nothing and drift ballistically (verified by outward-moving probes keeping constant velocity), whereas nearby probes experience a rapidly intensifying, time-amplified inward pull that drives runaway infall.
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 2 feels a purely radial, attractive force directed toward the fixed source particle 1 at the origin. The force is Yukawa-screened in space (decaying as exp(-r) with separation r) and, unusually, grows with absolute time as a power law t^n (n≈4), as if mediated by a field whose coupling ramps up over the experiment. The acceleration scales linearly with the source's scalar property p1 and inversely with the probe's property p2 (consistent with force ∝ p1·p2 and inertial mass ∝ p2), and is independent of the probe's velocity.

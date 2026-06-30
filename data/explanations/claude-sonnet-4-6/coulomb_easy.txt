@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+In this 2D universe, particle 2 experiences an attractive radial force toward particle 1 (fixed at the origin) governed by F = -G·p1^α / r^β · r̂, where r is the separation distance. The scalar property p2 of the probe particle has no influence on its motion whatsoever, making the acceleration purely a function of p1 and distance. The fitted exponents (α ≈ 0.148, β ≈ 0.628) differ significantly from standard Newtonian gravity, yielding a sub-linear distance dependence (weaker than 1/r) and a very weak coupling to the source property p1.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The force on particle 2 acts exclusively along the x-axis: F_x = -K * p1^alpha * x^n when x > 0, and zero when x ≤ 0. This means the universe has a half-space geometry where only particles with positive x-coordinate experience a restoring force toward the origin, with the force magnitude scaling as a power law in the x-displacement. The source particle property p1 weakly modulates the force strength via a small power-law exponent (~0.15), while the probe property p2 and the y-coordinate have no influence on the dynamics.
+
+--- seed 2 ---   score: 0.30  (3/10)
+Particle 2 experiences a linear (harmonic) restoring force directed toward particle 1, with magnitude proportional to the displacement vector between them: **a = -K · p1 · (pos2 - pos1)**. This is a 2D harmonic oscillator where particle 1 acts as the force center, and the spring constant scales linearly with p1 (K ≈ 0.395). The property p2 has no effect on the acceleration, and the motion traces elliptical orbits around particle 1 with period T = 2π/√(K·p1), consistent with observed fall times of ~3s from r=4 with p1=1.
+
+--- seed 3 ---   score: 0.30  (3/10)
+In this simulated universe, particle 2 experiences a purely radial, velocity-independent attractive force directed toward particle 1 (fixed at the origin). The force magnitude follows a = K · p1^(1/2) / r^(3/4), where r is the separation distance, p1 is the scalar property of the source particle, and K ≈ 86 is a coupling constant. The probe particle's property p2 has no effect on its own acceleration, indicating test-particle behaviour where only the source charge p1 matters. Unlike Newtonian gravity (which scales as r^(-2) and p1^1), this universe features a much softer spatial decay (r^(-3/4)) and a square-root coupling to the source charge.
+
+--- seed 4 ---   score: 0.10  (1/10)
+Particle 2 in this universe experiences an instantaneous impulsive force at t=0 that immediately sets its velocity proportional to the displacement from particle 1, directed toward particle 1, then moves freely (zero force) forever after. The speed imparted scales linearly with p1 and grows with the initial separation r according to a (r−r₀) law, where r₀≈1 is a characteristic screening radius below which no kick is given. The scalar property p2 of particle 2 has no influence on the dynamics.

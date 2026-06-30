@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The discovered dynamics consist of two contributions.  First, every particle feels a central outward Hooke‑like force proportional to its displacement from the origin (coefficient α).  Second, particles repel each other with a short‑range inverse‑cube law (coefficient β), which preserves the symmetric ring ordering while allowing the system to expand radially when angular momentum is absent.  These combined fields reproduce the observed linear outward drift for non‑rotating rings and the stabilising circular motion when an initial tangential speed is present.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered dynamics consist of a uniform outward drift: every particle moves away from the centre with a constant speed C, independent of its distance. Simultaneously, each particle conserves its initial angular momentum, so the tangential velocity scales as L / r, producing a decaying circular motion as the radius grows. This combination of constant radial advection and angular‑momentum conservation reproduces the observed spiralling trajectories.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The hidden field supplies a uniform outward thrust that points radially from the origin, while the medium exerts an isotropic linear drag proportional to velocity.  Each particle therefore obeys `dv/dt = F0·r̂ – γ·v`, producing a rapid acceleration to a terminal speed (`F0/γ`) and, for non‑zero initial tangential motion, a gradual spiralling outward.  The centre particle feels no thrust because its radial direction is undefined, leaving it essentially stationary.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered dynamics are governed by a single isotropic central field. Each particle experiences an outward radial acceleration that is proportional to its displacement vector from the origin (a = α r). No pairwise interactions are present; the centre particle remains at rest while all others are repelled uniformly by this field.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The hidden field generates a central force that is the sum of an outward linear restoring term (∝ r) and an inward term that scales with the square of each particle’s angular momentum divided by the cube of its distance from the centre (∝ ‑L²/r³). The centre particle is fixed, while the ring particles experience both contributions, giving rise to rapid radial expansion when they have little rotation and a stabilising inward pull when they possess significant angular momentum. This combination reproduces the observed outward drift and the rotation‑dependent braking seen in the simulations.

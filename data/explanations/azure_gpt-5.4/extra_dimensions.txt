@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The source particle creates a static central scalar potential that grows like the logarithm of distance, so the probe experiences an attractive radial force with magnitude proportional to 1/r. The coupling scales linearly with the source property p1 and inversely with the probe property p2, making the probe’s acceleration proportional to (p1/p2) r̂/r. This law explains the straight-line inward fall from rest, the preserved directionality, and the weaker bending of fast tangential or outward trajectories.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The source particle creates a linear central field: the force on particle 2 points toward the origin and grows in direct proportion to displacement from the origin. The coupling scales as p1/p2, so p1 acts like source strength and p2 like inertial mass. This makes each Cartesian coordinate evolve as an independent harmonic oscillator with the same frequency.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 1 generates a static central field centered at the origin, and particle 2 experiences an attractive inverse-square acceleration toward that source. The coupling is linear in the source property p1 and independent of the probe property p2, so the equation of motion is equivalent to motion in a Kepler-like field with strength set by a single constant.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 1 generates a static central field centered at the origin whose strength falls as the inverse square of distance. Particle 2 couples to that field with an effective inertial factor set by its own property, giving acceleration proportional to p1/p2 and directed radially inward. The dynamics are otherwise standard second-order planar motion with no drag or self-propulsion.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 couples to it with an inertial response inversely proportional to its property p2 while the source strength is proportional to p1. The resulting acceleration is purely radial and has magnitude proportional to 1/r, equivalently a vector law proportional to -r_vec/r^2. The motion is therefore that of a probe in a logarithmic central potential with no back-reaction from particle 1.

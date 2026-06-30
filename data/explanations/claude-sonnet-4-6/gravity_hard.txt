@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+In this simulated universe, all 10 particles interact pairwise through a sign-based (L1/Manhattan) force law: the force on particle i from particle j has an x-component equal to -C·sign(xᵢ - xⱼ) and a y-component equal to -C·sign(yᵢ - yⱼ), where C ≈ 0.054 is the coupling constant. This means each coordinate axis is treated independently — particles are attracted toward each other along each axis with a constant force magnitude C regardless of their separation distance. The result is effectively a pairwise attraction based on the L1 (taxicab/Manhattan) norm rather than the Euclidean distance, producing constant-acceleration trajectories that depend only on the relative signs of coordinate differences between pairs.
+
+--- seed 1 ---   score: 0.00  (0/10)
+This universe obeys a first-order (overdamped) dynamical law in which each particle's velocity at every instant equals the sum of pairwise repulsive forces from all other particles — there is no inertia or acceleration, only velocity-as-force. The pairwise interaction between any two particles separated by distance r takes the Yukawa form F(r) = K · exp(−α·r) / r^n, which combines a power-law divergence at short range with an exponential screening at long range; the fitted values are approximately K ≈ 2.2, α ≈ 0.24, n ≈ 2. This screened repulsion means particles strongly repel at close range but the force falls off faster than any pure power law at large separations, consistent with a Debye-screened electrostatic or short-range interaction field.
+
+--- seed 2 ---   score: 0.50  (5/10)
+In this 2D universe, all 10 particles interact pairwise through an attractive force whose magnitude falls off as 1/r with distance — equivalent to a logarithmic potential V(r) = -G·ln(r), which is the natural 2D analog of Newtonian gravity. The force on particle i due to particle j is F_ij = G/r_ij × r_hat_ij (pointing from i toward j), with coupling constant G ≈ 0.16. Forces from all other particles superpose linearly, and the system evolves via Newton's second law with unit masses.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The simulated universe obeys an attractive pairwise force law where the force magnitude between any two particles falls off as 1/r (not the familiar 1/r² of gravity), corresponding to a logarithmic potential V(r) = -G·ln(r). This is the natural two-dimensional analogue of gravity, arising from a 2D Gauss's law. All 10 particles interact mutually via superposition of these pairwise forces, with a coupling constant G ≈ 0.16, confirmed across separations ranging from 0.25 to 40 units.
+
+--- seed 4 ---   score: 0.20  (2/10)
+All 10 particles in this universe interact via a pairwise attractive inverse-square force law, analogous to Newtonian gravity in 2D. The force on particle i due to particle j has magnitude F = G/r², directed along the line joining them toward j, where r is their separation distance and G ≈ 213.6 is the coupling constant. The system conserves momentum and energy (in the pairwise interaction sense), with all particles accelerating toward one another and eventually colliding at their mutual center of mass.

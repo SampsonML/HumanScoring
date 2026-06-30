@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The system is governed by a radial harmonic potential that attracts particles toward a preferred circular ring of radius 5, producing a spring‑like force proportional to the displacement (r − 5). Additionally, the whole space rotates as a solid body with angular speed ≈0.564, and each particle experiences viscous drag pulling its velocity toward the local background flow. The anchor particle is effectively fixed, and all forces produce accelerations inversely proportional to each particle’s inertial mass.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The system experiences a uniform magnetic field perpendicular to the 2‑D plane, producing a Lorentz force that bends particle velocities into circular motion. In addition there is a central electric field whose strength grows linearly with distance from the anchor, driving particles outward radially. Each particle’s charge equals its inertial mass, making the acceleration independent of the probe mass while still capturing the observed orbital dynamics.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system is governed by a uniform rigid‑rotation field around the massive anchor, producing a velocity field v = ω × r. Particles experience a central radial spring pulling them toward an equilibrium radius R_eq, and a linear drag that relaxes their motion toward the rotating field, yielding mass‑independent accelerations. This combination reproduces the observed circular motions of the background ring and the capture of probes onto it.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The particles move under a single central force derived from a logarithmic potential φ(r)=C ln(√(r²+ε)), giving an acceleration a = ‑C r/(r²+ε) toward the origin. The massive anchor at the center is fixed, and all other particles feel the same C regardless of their individual masses, resulting in circular motion of the background ring and the observed probe trajectories. This law fully explains the dynamics observed in the experiments.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The system consists of a massive, essentially immobile anchor at the centre that generates a repulsive radial field. Probes feel an acceleration proportional to the inverse‑square of their distance from the anchor, directed outward along the line from the anchor, and this force is independent of the probes’ own masses. The orbiters and anchor move negligibly, so only the probe trajectories reveal the field’s inverse‑square character.<|end|><|start|>assistant<|channel|>analysis<|message|>The user asks to reply with only a single <explanation>...

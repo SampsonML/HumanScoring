@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The governing force law is an attractive central force F = G * p1 / r³ directed from particle 2 toward the fixed particle 1 at the origin. The force magnitude scales linearly with the source particle's scalar property p1 and falls off as the inverse cube of the separation distance r, analogous to a dipole field or a 3D Coulomb law projected onto a 2D universe. The probe particle's property p2 has no influence on its own acceleration, indicating that only the source charge p1 enters the coupling constant.
+
+--- seed 1 ---   score: 0.10  (1/10)
+Particle 2 experiences a central, attractive force directed toward particle 1 (fixed at the origin), obeying an inverse-cube distance law: the acceleration is **a = −G·p1²/r³·r̂**, where r is the separation and r̂ is the unit vector from particle 2 toward particle 1. The force coupling scales as the square of particle 1's scalar property p1 and is entirely independent of particle 2's property p2. The constant G ≈ 0.9 sets the overall strength of the interaction, and the r⁻³ spatial dependence is steeper than Newtonian gravity (r⁻²) but shallower than a van-der-Waals-type r⁻⁶ force.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law is an attractive Yukawa-type central force where particle 2 experiences acceleration a = -G·p1²·exp(-r/λ)/r² directed toward particle 1 at the origin. The force is exponentially screened with a characteristic length scale λ ≈ 0.626, meaning it decays much faster than pure inverse-square gravity at large distances. The coupling to particle 1's property p1 is quadratic, while p2 (particle 2's property) has no influence on the motion.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The simulated universe contains a separable force field where particle 2 experiences acceleration in each Cartesian direction that depends only on the corresponding coordinate: F_i(q) = -A · sign(q) · exp(−|q|³/3). This is a Weibull-type force with a cubic exponent, meaning the force peaks near the origin and falls off super-exponentially with distance, giving particles a universal terminal speed regardless of starting position. The scalar properties p1 and p2 of the two particles have no influence on the force, and the two spatial dimensions are entirely decoupled, so the particle follows independent 1D motions in x and y.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 is attracted toward the fixed particle 1 (at the origin) by a Yukawa-like screened force law, where the acceleration magnitude is a = C · p1 · exp(−r/λ) / r^n, directed radially inward toward particle 1. The source particle property p1 enters linearly as a coupling strength, while the probe property p2 has no effect on the dynamics. The fitting reveals n≈0, λ≈1.0, and C≈1388, indicating the force is dominated by an exponential screening factor exp(−r) rather than a power-law decay.

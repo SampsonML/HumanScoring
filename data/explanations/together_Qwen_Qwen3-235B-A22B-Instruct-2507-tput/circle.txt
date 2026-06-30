@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The system follows a gravitational-like inverse-square law where each particle attracts every other particle with a force proportional to the vector difference divided by the cube of their distance. The dynamics are symmetric and conserve angular momentum, with stable orbits achievable when tangential velocity balances the centripetal force. The coupling strength G is a universal constant fitted from trajectory data.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The physical system is governed by an inverse-square attractive force between each ring particle and the central particle. The force magnitude is proportional to 1/r², where r is the distance to the centre, analogous to Newtonian gravity in two dimensions. The central particle acts as a fixed source, and the ring particles orbit or collapse depending on their initial tangential velocity relative to the escape threshold. The coupling constant G determines the strength of the interaction and is fitted from the data.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system is governed by a central harmonic potential where every particle experiences a restoring force proportional to its distance from the origin, resulting in isotropic 2D harmonic oscillator dynamics. This explains both the stable rotating configurations when tangential velocity matches the harmonic frequency and the radial collapse or expansion otherwise. The symmetry of the ring and the linear scaling of stable velocity with radius confirm this quadratic potential.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The system is governed by a central inverse-square force field sourced by the particle at the origin. The ring particles move under this attraction alone, with no mutual interactions. Their trajectories are Keplerian: low tangential velocity leads to collapse, while sufficient angular momentum produces stable or expanding orbits. The central particle remains approximately fixed, indicating it dominates the field dynamics.
+
+--- seed 4 ---   score: 0.60  (6/10)
+The system consists of 11 particles interacting through a pairwise attractive force that scales as $1/r^{1.5}$, where $r$ is the distance between particles. This force arises from a potential proportional to $1/\sqrt{r}$, leading to non-Newtonian dynamics. The exponent was determined by analyzing the radial acceleration during collapse experiments, which scaled as $1/r^{1.5}$ across different initial radii.

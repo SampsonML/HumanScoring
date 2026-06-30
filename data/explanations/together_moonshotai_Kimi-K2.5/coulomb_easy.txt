@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The discovered law describes a universe with velocity-capped motion where particle 2 experiences a radial drag force that drives it toward a terminal velocity. The terminal velocity magnitude is proportional to the product p1*p2 and falls off as 1/r^2 with distance from the fixed source particle. The acceleration is proportional to the difference between current velocity and this target velocity, causing exponential approach to terminal speed. Particle 1 remains essentially stationary throughout, confirming it acts as a fixed source of the underlying field.
+
+--- seed 1 ---   score: 0.60  (6/10)
+The discovered law is an inverse-square force law where particle 2 experiences an attractive central force proportional to sqrt(p1)*p2/r^2 toward particle 1. The square-root dependence on p1 and linear dependence on p2 were identified by comparing terminal velocities across different parameter combinations. The force creates characteristic dynamics where particles starting at rest accelerate toward the origin, while particles with high initial radial velocity maintain nearly constant velocity.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The discovered law follows a standard Lennard-Jones interatomic potential form, where the attractive van der Waals interaction (r^-6 term) competes with short-range Pauli repulsion (r^-12 term). The force scales multiplicatively with the scalar charges p1 and p2 of both particles, and acts radially between them. The equilibrium separation is governed by the sigma parameter, with the minimum potential occurring at r = 2^(1/6) * sigma.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law is a central repulsive force with acceleration proportional to p1/r², directed radially outward from particle 1 (fixed at the origin). Particle 2 has inertial mass equal to its p2 property, and the force on it is proportional to p1 * p2 / r², resulting in acceleration a = k * p1 / r² that is independent of p2. The force is purely radial with no velocity-dependent terms, and integration by solve_ivp captures the nonlinear trajectory as particle 2 moves away from the origin.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered law describes particle 2 experiencing a repulsive force from particle 1 (fixed at origin) with magnitude following a power law F ∝ p1*p2/r^alpha, where alpha ≈ 2.6-3.0 (close to inverse-cube or modified inverse-square). Crucially, the particle exhibits terminal velocity saturation proportional to sqrt(p1*p2), suggesting velocity-dependent effective mass or drag that resembles relativistic effects or modified inertia. The force is always repulsive (pushing particle 2 away from origin), with the terminal velocity scaling with the geometric mean of the charge-like properties p1 and p2.

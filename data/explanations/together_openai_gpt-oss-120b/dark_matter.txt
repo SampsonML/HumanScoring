@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The probes experience a central force generated solely by the immutable background particles.  The force follows an inverse‑cube law (the gradient of a 1/|r| potential), equivalent to Newtonian gravity in two dimensions, with a single coupling constant G.  Background particles themselves remain static, acting only as sources of the field that dictate the probe trajectories.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The probes are advected by a static background that generates an inverse‑distance attractive field, analogous to Newtonian gravity in two dimensions. Each particle feels a force proportional to –G (r – rᵢ)/|r – rᵢ|³ summed over all background particles, with G a coupling constant to be fitted. The probes themselves are neutral but move according to this field, reproducing the observed trajectories.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The universe obeys a universal inverse‑square central force: each particle experiences a force proportional to the displacement vector from every other particle divided by the cube of their separation. This pairwise interaction, with a single coupling constant G, governs the motion of both background and probe particles, and their trajectories are fully determined by the initial conditions and G.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The simulated universe contains a single scalar field that mediates an attractive force between all particles, decaying with the square of their separation (an inverse‑square law). Each particle feels the sum of these pairwise forces, and the probes are passive test masses that move solely under this field, with a single coupling constant governing the interaction strength. No other forces or effects were observed in the collected data.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The system follows a linear central force that repels particles from the origin (an unstable harmonic potential) combined with isotropic linear damping. Each particle obeys d²r/dt² = α r – β v, where α>0 creates outward acceleration and β≥0 provides drag, producing the observed spiraling outward trajectories. Background particles obey the same dynamics, but only the last five probe particles are evaluated for scoring.

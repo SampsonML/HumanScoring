@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The universe is governed by a two-dimensional Poisson/logarithmic potential: each particle sources a field whose force falls as displacement divided by squared distance. Particles 0–2 have source charge 1, particles 3–5 have source charge 3, and every particle responds with the same inertial coefficient, with coupling very close to 1/(2π). The interactions are label-dependent but otherwise pairwise additive and velocity-independent.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The six particles obey a second-order Newtonian ODE with pairwise forces from a two-dimensional logarithmic scalar potential, so each source contributes an acceleration proportional to \((r_j-r_i)/|r_j-r_i|^2\). The interaction is translation-invariant and depends on fixed label source strengths: particles 0–2 have unit charge, while particles 3–5 have about three times that charge. Initial velocities only set the inertial part of the trajectory; the field itself is determined instantaneously by the particle positions.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The universe is governed by a two-dimensional inverse-distance field: each particle feels an acceleration equal to a sum of displacement vectors toward the other particles divided by squared separation. Particles 0, 1, and 2 have source strength 0.16, while particles 3, 4, and 5 have source strength 0.48; the acceleration of a test particle depends on the source strengths, not on its own label. This is equivalent to motion in a logarithmic attractive potential with two species of field charge.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The universe contains six identical particles with no external field and no label-dependent properties. They interact through a pairwise attractive central field: each particle accelerates toward every other particle with vector acceleration proportional to the separation vector divided by distance^(7/4), giving a force magnitude proportional to r^(-3/4) with coupling 0.2. Velocities only set the initial kinetic state; the interaction itself depends only on instantaneous relative positions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The universe contains six labelled particles coupled to a two-dimensional logarithmic potential field: each particle is a fixed source with charge 3, 5, 7, 9, 11, or 13 according to its label. A particle’s acceleration is the sum of attractive radial contributions from the other particles, proportional to the source charge and to \((\mathbf r_j-\mathbf r_i)/|\mathbf r_j-\mathbf r_i|^2\), with coupling about 0.04. Initial velocities simply provide the inertial part of the motion; there is no damping, screening, or softening evident.

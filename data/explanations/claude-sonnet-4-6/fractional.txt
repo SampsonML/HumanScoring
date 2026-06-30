@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+In this simulated universe, particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin), with acceleration magnitude a = K·p1/r^γ where r is the separation distance, p1 is the scalar property of the source particle, and the exponent γ ≈ 2.5. The probe particle's own property p2 has no effect on its acceleration, analogous to the equivalence principle in gravity. The best-fit parameters are K ≈ 0.71 and γ ≈ 2.5, giving an inverse-five-halves power law rather than the familiar inverse-square law of Newtonian gravity.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The discovered law is a central, attractive, inverse-square force: particle 2 experiences an acceleration directed toward particle 1 (at the origin) with magnitude G·(p1/p2)/r², where r is the separation distance. The scalar property p1 of the source particle acts as a "charge" or "mass" that strengthens the attraction, while p2 of the probe particle acts as an inertial-like quantity that reduces the acceleration (analogous to F=ma with m=p2). The coupling constant G≈0.16 sets the overall strength of the interaction, making this a Newtonian gravity-like law with p1 playing the role of source mass and p2 playing the role of probe mass (or equivalently, this is a Coulomb-like force with p1/p2 as the charge-to-mass ratio).
+
+--- seed 2 ---   score: 0.30  (3/10)
+Particle 2 experiences a purely attractive central force directed toward particle 1 (fixed at the origin), with magnitude F = G × p1^α / r^β, where r is the separation between the two particles. The source property p1 sets the strength of the field while the probe property p2 has no influence on the dynamics. Experiments revealed that the force scales as approximately p1^3 / r^3, though the exact exponents α and β are left as fittable parameters for the optimizer to refine given the noisiness of position measurements; the best-fit values found during discovery were G ≈ 160–194, α ≈ 3.0, and β ≈ 3.0–3.34.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The governing force on particle 2 is an attractive, central (radial) acceleration directed toward particle 1, with magnitude a = G·p1·exp(−α·r)/r^n, where r is the separation distance. The force scales linearly with the scalar property p1 of the source particle and is entirely independent of p2. The best-fit functional form is a screened power law with exponent n≈2.6 and a mild exponential modulation (α≈−0.05, slightly anti-screening), with prefactor G≈1.91.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 experiences an attractive Yukawa-type force from particle 1 (fixed at the origin), with acceleration a = -K·p1·exp(-r/λ)/r² · r̂, where r is the separation distance and r̂ is the unit vector from particle 1 to particle 2. The force is linear in the source property p1 and completely independent of the probe property p2. The spatial dependence combines an inverse-square falloff with exponential screening at length scale λ≈2.01, yielding a force that decays much faster than pure gravity or Coulomb interactions and vanishes effectively beyond a few screening lengths.

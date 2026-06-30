@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.60  (6/10)
+The simulated universe contains 11 equal-mass particles that interact through a pairwise central attraction. Every pair attracts along the line joining them with force magnitude G/d^(3/2) — an inverse-power law softer than Newtonian gravity (exponent 3/2 instead of 2) — with coupling constant G ≈ 1/6. The total acceleration of each particle is the vector sum of these attractions toward all other particles, reproducing both the symmetric radial collapse (acceleration scaling as r^-1.5) and the orbital trajectories of the tangentially-launched ring.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The system is governed by a single central attractive field anchored at particle 0. Every other particle accelerates toward the centre with magnitude G·r^(−1.5), where r is its distance to the central particle and G≈0.84; there are no pairwise interactions among the ring particles, and the centre acts as a fixed source. This produces purely radial collapse when launched at rest and precessing rosette-like orbits when given a tangential velocity, with the symmetric ring configuration preserved throughout.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The system is governed by a static central force field anchored at the spatial origin: every particle feels an attractive acceleration of magnitude G/r^p directed toward the origin, where r is the particle's distance from the origin, G ≈ 0.84, and the exponent p ≈ 1.5. There are no inter-particle (pairwise) forces — each particle moves independently in this fixed potential, which is why the centre particle (starting at the origin) remains at rest and the symmetric ring evolves as a set of independent orbits/infalls in a 1/r^1.5 central field.
+
+--- seed 3 ---   score: 0.60  (6/10)
+The system is governed by a universal pairwise attractive force: every pair of particles pulls toward each other along their connecting line with magnitude F = G/d^1.5, a softer-than-Newtonian inverse-3/2-power gravity-like field. I determined the exponent independently in two ways — the early-time radial acceleration of the ring scaled as r^(-1.5), and full-trajectory fitting converged to α ≈ 1.50 with coupling G ≈ 0.165. The central particle remains at rest only because the symmetric ring configuration produces a balanced net force on it; the law itself is fully pairwise and applies to arbitrary positions.
+
+--- seed 4 ---   score: 0.60  (6/10)
+The eleven particles interact through a universal pairwise attractive central force whose magnitude decays as the inverse three-halves power of the inter-particle distance (F ∝ G·d^(-1.5)), corresponding to a potential U ∝ -d^(-0.5). Each particle's acceleration is the vector sum of contributions from all other particles, directed along the separation and scaled by G/d^2.5. The radial collapse experiments revealed the net inward acceleration of a ring particle scaling cleanly as r^(-1.5), and fitting the full pairwise model to orbital trajectories pinned the exponent to ≈1.50 and the coupling constant to G≈0.166.

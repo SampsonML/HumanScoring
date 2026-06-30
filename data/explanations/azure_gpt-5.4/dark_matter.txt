@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The probes appear to be neutral test particles that do not couple measurably to the background population’s field. In the simplest law consistent with that interpretation, the field contribution to probe acceleration is zero, so trajectories are straight-line inertial motion from the supplied initial positions and velocities. The background particles can be simulated trivially in the same way because scoring depends only on the last five probe positions.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The probe trajectories indicate that each probe approximately preserves its initial velocity, so the dominant law is inertial straight-line motion rather than a strong position-dependent force from the background population. In this description, the background provides contextual state information but couples only weakly enough to neglect at scoring accuracy, so the final position is initial position plus velocity times elapsed time.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The probes behave like passive tracers rather than massive particles: their measured velocity is set almost entirely by position, not by their initial velocity, indicating first-order advection in a static field. The field appears to be produced by the fixed background particles as a superposition of rotational contributions, with each source generating a tangential flow that decays approximately like an inverse distance (regularized near the source). Structurally, this is a 2D vortex-flow map from the background configuration to probe motion, with the last five particles simply transported by that flow.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The five controllable particles behave as passive probes: they do not create any field and simply sample the influence of the fixed background system. Across the tested region, their trajectories are well described by inertial motion plus an approximately uniform constant acceleration vector, with little evidence that the probes interact with one another. The background therefore acts like an externally imposed effective field that is nearly homogeneous over the probe domain and over the scored timescale.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The five controllable particles appear to be neutral tracers that do not source the field and, to good approximation, do not feel any force from the background population. Their dynamics are consistent with simple inertial motion, so the governing law for the scored probes is just straight-line propagation at constant velocity. The background particles may follow their own internal dynamics, but structurally they seem decoupled from the neutral probes.

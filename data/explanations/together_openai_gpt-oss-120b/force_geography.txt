@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+Particle 2 is attracted toward particle 1 by a central inverse‑cube force. The force magnitude scales with the source property p1 and inversely with the probe property p2, yielding acceleration a = −K (p1/p2) r̂/|r|³. The constant K is universal for this universe and is determined empirically.
+
+--- seed 1 ---   score: 0.10  (1/10)
+Particle 2 feels a central attraction toward particle 1 (fixed at the origin). The force magnitude scales inversely with the product of the two scalar properties (p1·p2) and decays exponentially with the separation distance, characterized by a length scale L. The resulting acceleration is a = −(C/(p1 p2)) e^(−r/L) r̂, where C and L are universal constants of the simulated universe.
+
+--- seed 2 ---   score: 0.10  (1/10)
+Particle 1 sits at the origin and creates a static central field. Particle 2 feels an attractive force whose direction is always radially inward and whose magnitude is a constant c, independent of the particles’ scalar attributes p1 and p2. Consequently the motion follows a constant‑speed‑increase radial trajectory, described by the ODE dv/dt = –c r/|r|.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particle 2 experiences a central attraction toward particle 1 located at the origin. The force follows an inverse‑square law proportional to the product of the two scalar properties p1 and p2, with a single coupling constant G. This law fully accounts for the observed accelerations and trajectories of particle 2 in the simulated universe.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

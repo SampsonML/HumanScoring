@@ -1,0 +1,70 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: coulomb_hard
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Ten mobile particles interact through a static 1/r² Coulomb field. Each particle j is a point source of signed strength q_j — the agent-supplied 'charges' array sets these source strengths. Crucially the response is charge-independent: every particle has unit force-coupling, so the acceleration of particle i is a_i = Σ_{j≠i} -k·q_j·(x_j-x_i)/r_ij³ with k = 1. It depends only on the OTHER particles' charges and the geometry — NOT on a product q_i·q_j and not on particle i's own charge. Every particle therefore behaves like a unit positive test charge: repelled by positive sources and attracted to negative sources, regardless of its own q_i. All particles are mobile with unit inertia.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies a static pairwise 1/r² Coulomb field in which the
+     agent-supplied signed ``charges`` set each particle's SOURCE
+     strength; crucially recognises the response is charge-INDEPENDENT
+     (unit force-coupling): a particle's acceleration is
+     a_i = Σ_{j≠i} -k·q_j·(x_j-x_i)/r_ij³ — it depends only on the OTHER
+     particles' charges and the geometry, NOT on a product q_i·q_j and
+     NOT on the particle's own charge; states every body therefore
+     behaves like a unit test charge — repelled by positive sources,
+     attracted to negative sources, regardless of its own q_i; all
+     particles mobile with unit inertia; strength k within ~2× of 1.
+ 7–9 — Identifies a static 1/r² signed-source Coulomb field with the
+     correct repel-positive / attract-negative sign convention, but
+     assumes the textbook symmetric product law (F ∝ q_i·q_j) or
+     otherwise has the moving particle's own charge modulate its
+     response (missing the unit charge-independent response), or gets k
+     badly wrong.
+ 4–6 — Recognises pairwise 1/r² forces but treats the system as
+     uniformly attractive (Newtonian-gravity style) and misses the
+     signed-source structure, or proposes a clearly wrong falloff.
+ 1–3 — Wrong operator family (time-evolving, wave-like) or proposes
+     non-pairwise dynamics inconsistent with an N-body Coulomb field.
+   0 — Empty or irrelevant.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

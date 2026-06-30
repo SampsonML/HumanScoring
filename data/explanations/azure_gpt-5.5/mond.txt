@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The system is governed by an isotropic pairwise field: every particle attracts every other particle through a combination of inverse-distance and inverse-square force magnitudes. At very short separations the coupling reverses into a steep inverse-power repulsive core, which explains the collapse-and-explosive-rebound behaviour of cold rings. The centre particle is not special dynamically; in the symmetric centre-plus-ring configuration its net force simply cancels by symmetry.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The universe is governed by an all-to-all attractive central force: each particle produces a radial field proportional to a sum of inverse-square and inverse-cube vector kernels. Every particle couples identically to this field, so the acceleration of a body is the vector sum of contributions from the other ten bodies. The centre particle is dynamically ordinary; in the ring experiments its motion vanishes only by symmetry.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The universe is governed by a pinned central particle plus mutual pairwise attractions among the ring particles. Each particle couples to an isotropic scalar-like field whose force is a superposition of two inverse-power radial kernels, approximately a long-range inverse-distance component and a steeper short-range component. The centre does not recoil, so particle 0 acts as a fixed source while all other particles accelerate under the summed field from every other particle.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The universe is governed by a pairwise isotropic field: every particle accelerates according to the vector sum of interactions with all other particles. The coupling is proportional to the separation vector divided by a signed power of the shifted squared distance, approximately \((r^2-\ell^2)^{-1.18}\), with a preferred pole at \(\ell^2\approx1.3\). Outside this pole the interaction is attractive, while close passages through the pole create the sharp impulsive reversals seen in collapsing ring experiments.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The universe is governed by a pairwise attractive central field: each particle accelerates toward every other particle with vector acceleration proportional to the displacement divided by distance to the \(5/2\) power. The coupling constant is \(2\pi\), and the symmetric ring experiments reduce this to a radial acceleration scaling as \(r^{-3/2}\). A tiny softening length is included only to regularize the simultaneous central collapse of the symmetric configurations.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The probe particle experiences a purely attractive central force directed toward the fixed source, whose magnitude follows the 2D Coulomb/gravity form (proportional to 1/r, as from a logarithmic potential) scaled by p1/p2 — the source property acts like charge/mass while the probe property acts as inertia in a way that divides the acceleration. On top of this, the coupling strength is spatially modulated by a separable square-lattice pattern, [1 + ½·cos(2πΔx/5)·cos(2πΔy/5)], as if the mediating field propagates through a periodic medium with wavelength 5 along each axis. The force is independent of the probe's velocity, and the measured constants are G = 1/(2π), modulation amplitude 1/2, and wavenumber k = 2π/5.
+
+--- seed 1 ---   score: 1.00  (10/10)
+Particle 2 is always accelerated radially toward the fixed source particle at the origin, with a magnitude proportional to p1/p2 (source strength divided by probe inertia) and falling off as 1/r — a 2D-Coulomb-like attraction. On top of this, the coupling strength is spatially modulated by a static square standing-wave lattice cos(kx)·cos(ky) with wavelength ≈ 5 (k ≈ 2π/5), so the force is stronger or weaker depending on where the probe sits in the lattice, making the force central in direction but non-conservative (angular momentum is conserved, energy is not). The overall form is a ≈ -(p1/p2)·[1/(2π) + cos(kx)cos(ky)/(4π)]·r̂/r, verified by static acceleration maps across radii, off-axis positions, and extreme p1/p2 ratios.
+
+--- seed 2 ---   score: 1.00  (10/10)
+Particle 2 is attracted toward the fixed source particle at the origin by a central force whose magnitude falls off as 1/r (consistent with a 2D logarithmic potential), scales linearly with the source property p1, and inversely with the probe's own property p2 (so p2 acts as inertia). On top of the baseline attraction, the coupling strength is spatially modulated by a static square-lattice field: the magnitude is proportional to A + B·cos(kx)·cos(ky) with lattice wavelength 2π/k = 5 and modulation depth B ≈ A/2, evaluated at the probe's instantaneous position. The force is always directed toward the source (no velocity dependence or drag was detected), and the modulation is a separable product in x and y — a sum form cos(kx)+cos(ky) was explicitly ruled out by off-axis measurements.
+
+--- seed 3 ---   score: 1.00  (10/10)
+Particle 2 experiences a purely attractive, velocity-independent central force directed toward the fixed particle 1, with acceleration proportional to p1/p2 (so p1 acts as a source charge and p2 as inertia). The base magnitude falls off as 1/(2πr), the natural 2D Coulomb/gravity field of a point source, but it is modulated by a separable standing-wave lattice factor 1 + 0.5·cos(2πx/5)·cos(2πy/5), as if the mediating field interferes with a square checkerboard pattern of wavelength 5 fixed in space. The modulation wavelength and amplitude are independent of both particle properties and of the probe's velocity, and the force direction remains exactly radial despite the anisotropic strength modulation.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The probe particle experiences a purely radial, velocity-independent attraction toward the fixed source at the origin. The force magnitude follows a 2D logarithmic-potential form, |a| = (1/2π)(p1/p2)/r — note it scales with the source charge p1 and *inversely* with the probe's own property p2 — and is multiplied by a spatial lattice modulation 1 + 0.5·cos(2πx/5)·cos(2πy/5), as if the mediating field forms a square standing-wave interference pattern of wavelength 5 that locally strengthens or weakens the coupling. The direction always points exactly at the source; only the magnitude is modulated by the lattice.

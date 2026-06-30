@@ -1,0 +1,20 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   [no trial file]
+
+--- seed 1 ---   score: 0.40  (4/10)
+This universe contains particles governed by two interactions: (1) a harmonic oscillator restoring force pulling each particle toward the origin with strength proportional to distance (F = -k·r), and (2) pairwise gravitational attraction between all particles decaying as inverse distance (F = G/r). The combination creates bounded orbits where particles oscillate while mutually attracting each other.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The discovered law is a 2D inverse-square gravitational attraction system where all particles attract each other pairwise with force proportional to G/r². The force on particle i from particle j is F_ij = G*(r_j - r_i)/|r_j - r_i|³, representing Newtonian gravity in two dimensions. Particle trajectories consistently showed mutual attraction following the inverse-square law, with fitted coupling constant G ≈ 0.22.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The simulated universe contains 10 particles subject to a spatially oscillating external acceleration field. The field has a 2D standing-wave structure where horizontal acceleration depends on vertical position as a_x = A sin(k y), and vertical acceleration depends on horizontal position as a_y = A sin(k x). This creates an "egg carton" potential that drives particles along curved trajectories. The wavelength is approximately 9.2 units (k ≈ 0.68 rad/unit) and particle-particle interactions are negligible compared to the dominant background field.
+
+--- seed 4 ---   score: 0.00  (0/10)
+This universe contains a 2D central oscillator field with a stable limit cycle at radius r=5. Particles experience a radial spring force F_r = k(5−r) pulling them toward r=5, combined with a gyroscopic Coriolis-like coupling that produces rotation. Particles inside radius 5 spiral outward while those outside spiral inward, all converging to circular orbits at r=5 with constant angular velocity. The dynamics resemble a damped harmonic oscillator in the radial direction coupled to rotational motion, creating characteristic spiral trajectories in phase space.

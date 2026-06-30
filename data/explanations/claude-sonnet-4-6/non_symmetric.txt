@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+In this simulated universe, all 30 particles interact pairwise through an attractive force whose magnitude falls off as 1/r (rather than the 1/r² of standard Newtonian gravity), where r is the separation between particle pairs. The acceleration on each particle is the vector sum of contributions G*(r_j - r_i)/|r_j - r_i|² from all other particles, equivalent to a force derived from a 2D logarithmic scalar potential. The coupling constant G ≈ 0.159 ≈ 1/(2π), which is the natural prefactor for the Green's function of the 2D Laplacian, suggesting this universe obeys a 2D Poisson-type field equation rather than the 3D inverse-square law of our own universe.
+
+--- seed 1 ---   score: 0.10  (1/10)
+In this simulated universe, all 30 particles interact through a pairwise attractive force whose magnitude scales as the 3/2 power of the inter-particle separation: F_ij = G · |r_ij|^(3/2) directed from particle i toward particle j. This differs from Newtonian gravity (which uses r^(-2)) — here the force grows with distance (super-linear), causing particles to accelerate faster as they move apart, which produces oscillatory behavior where particles overshoot and return. The coupling constant G ≈ 0.0096 sets the overall strength, and the exponent alpha ≈ 1.5 was identified through MSE fitting of trajectory data from symmetric multi-particle configurations.
+
+--- seed 2 ---   score: 0.30  (3/10)
+In this 2D universe, all 30 particles interact pairwise through an attractive force whose magnitude scales as F = G/r, where r is the separation distance between two particles (a softer, longer-range law than standard gravity's 1/r²). The acceleration of each particle is the vector sum of contributions G/r² × r̂_ij from every other particle, directed radially toward the source particle — the field thus has a logarithmic potential φ(r) ∝ -G ln(r) rather than the Newtonian -G/r. The coupling constant G ≈ 1.60 was determined from isolated two-particle experiments where doublings of separation produced exact halvings of acceleration, confirming the 1/r force dependence.
+
+--- seed 3 ---   score: 0.10  (1/10)
+This universe obeys a pairwise attractive inverse-square force law analogous to Newtonian gravity in 2D: each pair of particles (i, j) exerts a mutual attractive force of magnitude G/r², directed along the line connecting them, where r is their separation distance. The acceleration of particle i is the vector sum of G*(rj-ri)/|rj-ri|³ over all other particles j. The coupling constant G is approximately 0.8 in simulation units, though the functional form (1/r² attraction) is what matters most, with G fitted by the optimizer.
+
+--- seed 4 ---   score: 0.20  (2/10)
+In this 2D universe, all 30 particles interact pairwise through an inverse-linear attractive force field: the acceleration experienced by particle i due to particle j has magnitude G/r_ij (where r_ij is the Euclidean separation), directed along the unit vector from i toward j. This differs from Newtonian gravity (which goes as 1/r²) — here the force falls off more slowly with distance, as 1/r. The coupling constant G ≈ 0.16 was determined from isolated-pair experiments where all other particles were placed at large symmetric distances, ensuring their contributions cancelled by symmetry, allowing clean measurement of the pairwise acceleration as a function of separation.

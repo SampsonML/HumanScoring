@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered universe is governed by a 2D harmonic oscillator potential centered at the origin. All particles experience a linear restoring force proportional to their distance from the center: F = -ω²·m·r, yielding oscillations with period T ≈ 6 seconds (ω² ≈ 1.096 rad²/s²). The massive anchor at the center remains essentially stationary, the 20 background orbiters maintain fixed stable circular orbits at radius 5 with tangential velocity 2.82, and the 5 controllable probes oscillate freely in this potential well, with their motion determined entirely by their initial position and velocity through the harmonic restoring force law.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered physical system is governed by **Newtonian gravitational N-body dynamics**. Each of the 26 particles (anchor, 20 ring orbiters, and 5 probes) experiences gravitational acceleration proportional to the sum of (mass × separation direction) / (separation distance)³ from all other particles. The ring orbiters rotate on a fixed circle due to their balanced orbital configuration, while the probes respond to the combined gravitational field from the massive anchor and all orbiters. The gravitational constant is approximately G ≈ 14.7 in the simulation's units.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered universe obeys a spherically symmetric, isotropic inverse-square force law where all particles experience acceleration toward the origin scaled as a = -K/r², with K ≈ 8.0. This is analogous to a Coulomb or gravitational potential φ(r) = -K/r, but the coupling is mass-independent—the field accelerates all particles equally regardless of inertial mass. The 20 background orbiters at radius ~5 m with velocity ~2.82 m/s are in stable circular orbits, satisfying the balance condition v² = K/r. The five probe particles follow trajectories determined by this conservative potential, remaining bound if their initial energy is negative.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered physics is a Lorentz force system where orbiting background particles create a constant magnetic field perpendicular to the 2D plane. Probe particles experience pure electromagnetic deflection with no gravitational or mass-dependent forces—all probes follow cyclotron trajectories with the same radius of curvature regardless of mass. The system exhibits circular motion with angular frequency ω_c ≈ 0.28 rad/s, governed by dv/dt = ω_c(v_y, -v_x), identical to charged particle motion in a uniform magnetic field.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered physical system is a rotating cylindrical plasma or vortex structure where probe particles experience three primary forces: (1) a centrifugal acceleration proportional to distance from the axis (ω²r), arising from the rotation of the underlying background orbiter ring; (2) a Coriolis force perpendicular to velocity (2ω × v), which couples particle motion to the rotating reference frame; and (3) a radial restoring force proportional to displacement from an equilibrium radius r₀, similar to a harmonic oscillator. The system exhibits mass-independent accelerations and creates complex orbital dynamics where particles oscillate radially while precessing azimuthally due to the rotating frame.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 generates a fixed central inverse-square field, and particle 2 accelerates toward particle 1 with strength \(0.16\,p_1/p_2\). Thus the probe obeys the ordinary Kepler equation \(\ddot{\mathbf r}=-0.16(p_1/p_2)\mathbf r/|\mathbf r|^3\), while particle 1 remains stationary. The observed motion is fully explained by this conservative central field, with noisy position readouts but exact velocity evolution.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 1 is fixed at the origin and generates a static attractive central field with inverse-square radial acceleration. Particle 2 responds according to \( \mathbf{a}=-0.16(p_1/p_2)\mathbf{r}/|\mathbf{r}|^3 \), so the source strength scales with \(p_1\) while \(p_2\) behaves like inertial resistance. The motion is therefore a two-dimensional Kepler problem in a fixed central potential.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 1 remains fixed at the origin and generates an attractive central field with an inverse-square radial form at large distances. Particle 2 couples to this field with acceleration proportional to p1/p2, meaning the source property increases the field strength while the probe property reduces the response. The force is not truly singular: it has a short-range Plummer-style softening length, so the denominator is \((r^2+\epsilon^2)^{3/2}\) rather than \(r^3\).
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 1 is fixed at the origin and creates an attractive central field with inverse-square magnitude. Particle 2 couples to this field with acceleration proportional to p1/p2, so p1 acts like source charge and p2 like inertial mass. The resulting equation is Newtonian two-body motion in a static external potential, with coupling constant approximately 0.16.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The discovered dynamics are a fixed-source Kepler problem: particle 1 remains at the origin and creates an attractive inverse-square central field. Particle 2 couples to this field with acceleration proportional to p1/p2, with coupling constant 0.16, so its motion is governed by \(\ddot{\mathbf r}=-0.16(p_1/p_2)\mathbf r/|\mathbf r|^3\). This structure explains the radial infall, circular-orbit speeds, and angular deflections observed across the experiments.

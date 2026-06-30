@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The particles interact through a central inverse‑square force that pulls particle 2 toward a fixed particle 1 at the origin. The force magnitude is proportional to a constant C divided by the product of particle 2’s property p₂ and the square of the separation distance, so larger p₂ weakens the attraction. There are no velocity‑dependent or additional fields involved; particle 1 remains stationary.
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.20  (2/10)
+The particle experiences an attractive central force proportional to a source strength `p1` and inversely proportional to the probe's own property `p2`. The force decays as the inverse square of the distance from the fixed particle, yielding a familiar gravitational‐like acceleration law that directs the probe toward the source. Parameters such as the coupling constant are left fit to the noisy data.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The law describes a pair of particles interacting through an inverse-square force field that depends on the scalar properties of each particle. Particle 1 remains fixed at the origin, while particle 2 is attracted towards it with acceleration proportional to the product of their properties divided by the squared distance. The motion is purely deterministic, with Gaussian observational noise affecting the recorded positions.

@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The discovered dynamics describe particle 2 being attracted to the fixed origin by a central inverse‑square force. The attraction strength scales with the product of the two scalar properties p1 and p2, so the acceleration is proportional to p1·p2 divided by the cube of the distance. This yields the classic Newtonian (or Coulombic) gravitational/electrostatic interaction in 2‑D.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The discovered universe contains a central static source particle that attracts a test particle via an inverse‑square central force. The attraction strength scales linearly with the source’s scalar property `p1` and inversely with the probe’s property `p2` (interpreted as its inertial mass). The vectorial acceleration is directed toward the origin and follows the standard Newtonian form: `a = -G * p1/(p2*|r|^3) * r`. This law reproduces the observed trajectories while allowing the gravitational constant `G` to be fitted from data.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The probe particle moves under a steady, constant acceleration that depends linearly on the product of two scalar properties, p1 and p2. This acceleration has a fixed direction in the xy‑plane, with the x‑ and y‑components proportional to p1 p2 via constants α and β. Thus the system behaves like a field that exerts a uniform, property‑scaled force on particle 2, independent of its position or velocity.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law is that particle 2 moves under a constant force directed toward particle 1. The force magnitude is proportional to the first particle's scalar property \(p_1\) and inversely proportional to the second particle's property \(p_2\). The direction is always along the unit vector from particle 2 to particle 1, independent of distance, making the acceleration independent of separation. This yields simple linear dynamics solvable by a constant acceleration model.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The system behaves like a classical gravitational interaction: a fixed source exerts an attractive force on the moving particle, with acceleration inversely proportional to the square of their separation and scaled by the source’s property. The target’s property inversely weighs the force, so lighter probes accelerate faster. This yields a simple central-force ODE that can be solved analytically or numerically.

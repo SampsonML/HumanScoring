@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered law describes particle 2 as a bound particle oscillating in a potential well created by particle 1. The equilibrium orbital radius obeys r_eq = beta * sqrt(p1/p2), where the "charge" p1 and "mass" p2 determine the stable configuration. The restoring force follows Hooke's law (linear in displacement from equilibrium) rather than an inverse-square law, making this a "harmonic oscillator" type universe. The force strength scales as sqrt(p1/p2), causing particle 2 to undergo radial oscillations about the equilibrium radius with frequency depending on this ratio.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The discovered law describes a modified inverse-distance attraction with velocity-dependent terminal velocity dynamics. Particle 2 experiences an attractive force toward particle 1 that scales as p1/r (inverse first power of distance), with a characteristic terminal velocity that scales linearly with p1. The p2 parameter has negligible influence on the motion. The drag mechanism creates bounded oscillatory or steady-state behavior where particles cannot exceed a velocity proportional to the source strength p1, regardless of how long the force acts. This resembles electrodynamic systems with radiation reaction or systems with velocity-proportional friction in a 1/r potential field.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes particle 2 as a damped harmonic oscillator with position-dependent restoring force proportional to distance from the origin and velocity-dependent drag. The effective mass scales with p2, creating inverse-square and inverse dependencies on p2 for the stiffness and damping terms respectively. The source strength p1 linearly scales the driving force. This produces terminal velocity proportional to p1*r/p2 and mean-square displacement scaling with p2.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The discovered law is a modified Coulomb interaction with an oscillatory spatial modulation. Two particles interact via a radial force proportional to p1*p2*sin(ω*r)/r, where r is their separation distance. The ω ≈ π/5 creates alternating attractive and repulsive zones with periodicity 10 in distance. The probe particle's mass is proportional to its property p2, making its acceleration proportional to p1/p2. This creates a spatially oscillating potential analogous to a screened Coulomb interaction or matter-wave interference pattern.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered law describes a central force between two particles where particle 1 is fixed at the origin. The force follows a screened potential form: F = p1 * (A/r^α - B/r^β), where A/r^α represents a short-range repulsive component (with α ≈ 3.4) and B/r^β represents a longer-range attractive component (with β = 2). The parameter p1 acts as a source "charge" scaling the force magnitude, while p2 serves as the inertial mass of particle 2, with acceleration given by F/p2. This creates a potential well at intermediate distances (~2-3 units) where particles can undergo bound oscillatory motion, while very close encounters experience strong repulsion and distant particles feel weak attraction.

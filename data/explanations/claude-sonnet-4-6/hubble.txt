@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+This 2D universe obeys a power-law gravitational force F_ij = G·m_i·m_j/r^3 · r̂_ij between every pair of particles, where the force falls off as the cube of the distance rather than the square (as in standard Newtonian gravity). All 26 particles — the massive anchor, the 20 background ring orbiters, and the 5 probe particles — interact pairwise through this law, giving each particle an acceleration proportional to the sum of G·m_j/r³ contributions from all other particles. The fitted gravitational constant G ≈ 2.26×10⁻¹¹ is consistent with the ring orbiters' circular orbits at r=5 with speed v≈2.59, and the exponent α=3.0 was confirmed by systematic MSE fitting that showed dramatic loss reduction over the standard Newtonian (α=2) baseline.
+
+--- seed 1 ---   score: 0.30  (3/10)
+This universe obeys standard two-dimensional Newtonian gravity: every pair of particles (i, j) exerts a mutual attractive force F = G·mᵢ·mⱼ/rᵢⱼ², directed along the line joining them. The resulting acceleration on particle i is mass-independent (a_i = G·mⱼ/rᵢⱼ²·r̂ᵢⱼ, summed over all other particles j), confirming the equivalence principle holds. The gravitational constant G = 1.0 and the inverse-square exponent α = 2.0 were confirmed by multiple experiments measuring probe accelerations at varying distances and by scipy-based parameter fitting, with the characteristic zero-crossing of the net force (attractive inside, repulsive outside the ring of orbiters) fully explained by superposition of the massive anchor and the surrounding ring particles.
+
+--- seed 2 ---   score: 0.20  (2/10)
+This universe obeys standard 2D Newtonian gravity: every pair of particles (i, j) exerts a mutual attractive force F = G × mi × mj × (rj − ri) / |rj − ri|³, directed along the line joining them. The anchor particle (index 0) has enormous mass (~10¹⁵) and sits near the centre, while 20 ring orbiters orbit it at radius ~5 in circular motion. The 5 probe particles experience the gravitational field from all 21 background particles plus each other, resulting in complex, time-varying trajectories due to the orbiting ring. The coupling constant G ≈ 3.8×10⁻¹⁴ is very small because the anchor mass is so large.
+
+--- seed 3 ---   score: 0.40  (4/10)
+This universe obeys a 2D logarithmic-potential gravity where the force between two particles scales as 1/r (rather than 1/r² as in standard 3D Newtonian gravity). The acceleration on particle i due to particle j is G·m_j·(r_j - r_i)/|r_j - r_i|², which corresponds to a gravitational potential proportional to log(r). The massive anchor at the center dominates at small radii (producing inward acceleration ∝ 1/r), while the ring of 20 orbiting particles at r=5 contributes an outward force at larger radii, creating a zero-crossing in the net acceleration around r≈12-13.
+
+--- seed 4 ---   score: 0.20  (2/10)
+In this simulated universe, all 26 particles (the massive anchor, the ring orbiters, and the 5 probes) interact through a modified gravitational force law F = G·mi·mj/r^α where the exponent α≈1 rather than the standard α=2 of Newtonian gravity. The gravitational coupling constant G≈7.92×10^-15 is very small, but the anchor's enormous mass (~10^15) still dominates the inner-region dynamics. The transition from attractive to repulsive net force observed around r≈12-13 arises naturally from N-body physics: inside the orbiter ring (r=5), the anchor's attraction dominates, while outside the ring, the collective repulsive "shell" effect of the 20 ring orbiters overcomes the anchor's weakened 1/r attraction, producing the observed sign change.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 2 is subject to an attractive 1/r force directed toward particle 1 (fixed at the origin), with acceleration magnitude a = K × p1 / (p2 × r), where K = 1/(2π) ≈ 0.1592. This is the 2D analog of gravitational or electrostatic interaction, arising from the Green's function of the 2D Laplacian (logarithmic potential), rather than the 1/r² law seen in 3D. The coupling scales linearly with the source property p1 and inversely with the probe property p2, analogous to mass ratios in Newtonian gravity.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 2 experiences an attractive central force directed toward particle 1, with acceleration governed by a Yukawa-like screened power law: a = C · p1 · exp(−k·r) / r^n, where r is the separation between the particles. The force scales linearly with p1 (the source property) but is completely independent of p2 (equivalence principle holds). The combination of power-law repulsion at short range and exponential screening at large range was inferred from the strongly distance-dependent accelerations measured across separations r = 2 to 8, which could not be reconciled with either a pure power law or a pure exponential alone.
+
+--- seed 2 ---   score: 0.40  (4/10)
+In this simulated universe, particle 2 experiences an attractive Yukawa-type force directed radially toward particle 1 (fixed at the origin). The acceleration magnitude follows a = K · p1 · exp(−λr) / r^α, where r is the separation distance, p1 is the scalar property of the source particle, and K, λ, α are constants. The force is strictly independent of the probe particle's own property p2, is radially symmetric, and has no velocity dependence — it is a purely conservative screened power-law interaction, where the exponential factor causes the force to decay faster than any pure power law at large distances while remaining finite (softened) at small separations.
+
+--- seed 3 ---   score: 0.10  (1/10)
+Particle 2 experiences a repulsive radial force from particle 1 (fixed at the origin) with magnitude F = C × p1^(1/2) / r^n, where r is the separation distance, C ≈ 0.2, and n ≈ 1.3. This force is independent of p2. The equation of motion also includes a linear velocity damping term −γv (with γ ≈ 2), causing the particle to quickly reach a terminal velocity v_∞ = F(r₀)/(γ) directed radially outward from particle 1, after which it drifts at nearly constant speed. The system thus behaves as a strongly overdamped repulsive interaction where the terminal drift speed scales as √p1 and decays as a power law in distance with exponent ≈ 1.3.
+
+--- seed 4 ---   score: 0.60  (6/10)
+Particle 2 experiences an attractive Newtonian force directed toward particle 1 (fixed at the origin), with magnitude a = G × p1^α × p2^β / r^n, where r is the separation distance. The force scales approximately as 1/r^1.09 (close to inverse-linear rather than the familiar inverse-square gravity), and depends on the scalar properties of both particles via power-law exponents (α≈0.58 for the source, β≈0.20 for the probe). The dynamics follow standard second-order Newtonian mechanics (F = ma), with the coupling constant G≈0.217 and all exponents left as fittable parameters to be refined by the evaluator.

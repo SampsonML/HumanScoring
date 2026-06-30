@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 generates a static central field centered at the origin, and particle 2 accelerates directly toward the source along the separation vector. The coupling is proportional to the source property p1, shows no detectable dependence on the probe property p2, and the field strength is consistent with an inverse-square law in distance. The resulting motion is therefore a standard radial attraction with acceleration vector proportional to \(-p1\,\mathbf{r}/|\mathbf{r}|^3\).
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds inertially to that field. The field is attractive, radial, and effectively has strength proportional to p1 while showing little to no dependence on p2; the measured trajectories are well described by an inverse-distance acceleration law, with a small short-range softening to handle near-origin passages. Structurally this is a conservative two-dimensional central-force problem with fixed source and adaptive orbital/radial motion of the probe.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The source particle generates a static central field centered at the origin, and the probe responds by accelerating along the instantaneous line joining it to the source. The coupling strength scales with the product of the two particle properties, while the spatial dependence is approximately inverse-square in magnitude, giving a Kepler-like point-force law. The resulting dynamics are smooth away from the origin and naturally reverse direction after the probe passes through the center because the radial unit vector changes sign.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The source particle generates a static central attractive field centered at the origin, and particle 2 obeys Newtonian motion in that field. The force is radial and scales like p1/r² in magnitude, equivalently acceleration −k p1 r⃗/r³, while p2 does not measurably couple to the dynamics. Noise affects reported positions, but the velocity trends and multi-radius tests are consistent with an inverse-square law.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particle 1 creates a static central attractive field centered at the origin, and particle 2 responds to it with no back-reaction from its own property. The force is linear in the source strength p1, independent of p2, and points along the separation vector with an inverse-square radial magnitude, equivalently an acceleration field proportional to \(-p1\,\mathbf{r}/|\mathbf{r}|^3\). The resulting motion is standard planar motion in a spherically symmetric Kepler-like field.

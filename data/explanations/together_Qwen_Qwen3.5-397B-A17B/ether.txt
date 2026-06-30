@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law is Newtonian gravity in 2D: each particle exerts an attractive force on every other particle with magnitude F = G·m_j/r² directed along the line connecting them. The acceleration on particle i is a_i = F/m_i, meaning lighter particles accelerate more for the same force. The system contains a massive anchor (10¹5 mass units) near the center that dominates the gravitational field, plus 20 ring orbiters with small masses (1, 2, 4 repeating) rotating at radius 5, which create perturbations in the field. The 5 probe particles respond to this combined gravitational field according to their own masses.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered law describes a 2D universe where particles experience mutual attraction following an inverse-square distance dependence (1/r²). Unlike standard physics, acceleration scales positively with the probe's own mass (a ∝ m_probe), meaning heavier objects accelerate more under the same field. The force on particle i from particle j is proportional to m_i × m_j / r², but acceleration is m_i × (force contribution), yielding a_i = m_i × Σ_j (G × m_j / r_ij²). The anchor particle at the origin has enormous mass (1e15) and dominates the gravitational field, while 20 orbiters on a ring at radius 5 create secondary perturbations. This mass-dependent acceleration is the key distinguishing feature from Newtonian gravity.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered law is Newtonian gravity in 2D: particles interact through an inverse-square force law where the acceleration of particle i due to particle j is a = G * m_j / r² directed toward j. The system contains a massive central anchor (mass ~1e15) that creates the dominant central potential, and 20 orbiter particles arranged on a ring at radius 5 with tangential velocities that maintain circular orbits. The 5 probe particles move under the combined gravitational field of the anchor and orbiters. The gravitational constant G is extremely small (~1e-15) to reconcile the anchor's huge mass with the observed orbital velocities of ~2.82 at radius 5.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law describes a 2D universe where particles interact through a field with 1/r force dependence - the characteristic form for fields in two spatial dimensions (corresponding to a logarithmic potential). Each particle experiences acceleration from all other particles, with magnitude G/r_ij directed toward the source particle j, where r_ij is the distance between them. The acceleration is independent of the receiving particle's mass (all particles fall at the same rate in the field), but the field strength G is a universal coupling constant. This differs from our 3D gravitational law (1/r²) because the field lines spread in only 2 dimensions.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The discovered law is 2D gravity where the gravitational force between particles falls off as 1/r (distance) rather than 1/r² as in our 3D universe. This is the natural form of gravity in two spatial dimensions, corresponding to a logarithmic potential Φ ∝ ln(r). Each particle experiences acceleration from all other particles proportional to their mass divided by the distance to them, with direction toward the source. The equivalence principle holds: acceleration is independent of the probe's own mass. The coupling constant G ≈ 4×10⁻¹5 sets the strength of the interaction, calibrated to the anchor particle's enormous mass (10¹⁵) which dominates the central force field.

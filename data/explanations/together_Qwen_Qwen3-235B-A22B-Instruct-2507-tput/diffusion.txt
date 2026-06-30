@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The system features an attractive inverse-square force between the two particles, where the source strength is proportional to p1 and the inertial mass of the probe particle is proportional to p2. The acceleration of particle 2 is given by a = - (G p1 / p2) / r^2 in the radial direction, analogous to gravity with p1 as gravitational mass and p2 as inertial mass. The force is conservative and central, with no velocity-dependent terms.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The force on particle 2 is central, attractive, and exponentially screened, depending on the product of the scalar charges p1 and p2. The interaction strength decays as exp(-κr) with distance, indicating a short-range force mediated by a massive field. The absence of velocity dependence and angular effects confirms a conservative potential.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system exhibits a repulsive radial force on particle 2, proportional to the source strength p1 and inversely proportional to its own property p2, suggesting p2 plays a role akin to inertial mass. The force decays as 1/r^8, indicating an extremely short-range interaction, possibly from a higher-order multipole or a sharply screened field. The dynamics are second-order, with acceleration directly determined by position and particle properties, independent of velocity.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The force on particle 2 is proportional to the source strength p1 and inversely proportional to its own property p2, which acts as inertial mass. The interaction follows a 1/r law, characteristic of long-range forces in two dimensions, such as 2D gravity or electrostatics, where field lines spread in one dimension less than in 3D. The acceleration is always directed toward particle 1, indicating an attractive central force.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered law governs a causal, exponentially screened interaction where the force on particle 2 is active only when it moves radially inward or is stationary. The attraction is proportional to the product p1·p2 and decays with distance as exp(-κr)/r, resembling a Yukawa potential. The velocity-gating mechanism ensures outgoing particles do not experience the force, mimicking a retarded, signal-propagation-limited interaction.

@@ -1,0 +1,25 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 2 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.20  (2/10)
+The law describes a central inverse‑square attraction from a fixed particle.  
+The acceleration of the moving particle is proportional to the ratio of the
+source to probe scalar properties and falls off as 1/r², yielding the
+observed constant‑ratio acceleration. The equation is conservative, leading
+to parabolic trajectories when velocity is initially non‑zero.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 moves under a 2‑dimensional inverse‑distance attraction to a static particle 1. The acceleration magnitude is proportional to the product of their scalar properties divided by their separation. Consequently, the force field behaves like a logarithmic‑potential gradient, producing a steadily increasing velocity linearly with distance.
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

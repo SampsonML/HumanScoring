@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The probe particle experiences a central force directed toward the fixed source at the origin, with magnitude C·(p1/p2)·cos(ωt)/r — i.e. a 2D Coulomb/logarithmic-potential field (1/r falloff rather than 1/r²) whose coupling oscillates uniformly across all of space with angular frequency ω = π/2 (period 4) and amplitude constant C ≈ 0.796 ≈ 2.5/π. The acceleration is proportional to the source property p1 and inversely proportional to the probe property p2 (which acts like inertia), with no velocity dependence and no retardation: the field's temporal phase is globally synchronized, so the force at all radii flips sign simultaneously, alternating between attraction and repulsion. A small secular ponderomotive drift observed in nearly stationary probes is fully explained as the second-order effect of this oscillating 1/r force and required no additional terms.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The fixed source particle at the origin produces an attractive central force on the probe whose magnitude falls off as 1/r (the gradient of a 2D logarithmic potential) and whose strength oscillates globally in time as cos(ωt) with ω ≈ π/2, with the same phase at every distance — i.e., no retardation or wave propagation. The coupling is proportional to the source property p1 and inversely proportional to the probe property p2, so the probe's acceleration is a = -K(p1/p2)cos(ωt) r̂ / r with K ≈ 0.79. The probe is otherwise a free Newtonian particle: when the force time-averages to zero over each period, the probe drifts ballistically with small oscillatory perturbations superimposed.
+
+--- seed 2 ---   score: 0.80  (8/10)
+The probe particle experiences a central force directed toward the fixed source whose magnitude falls off as 1/r (not 1/r²), is proportional to the source property p1, inversely proportional to the probe's own property p2 (so it acts like a charge-to-mass ratio), and — crucially — oscillates coherently in time as cos(πt/2). The oscillation has angular frequency ω = π/2 (period 4) with no spatial phase lag, meaning the entire field pulses in unison rather than propagating as a wave; over each period the net impulse nearly cancels, leaving only a small second-order (ponderomotive) outward drift that I verified quantitatively. The acceleration law is a₂ = −0.8·(p1/p2)·cos(πt/2)·r̂/r, which reproduced every measured trajectory down to the observation-noise floor.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The source particle at the origin generates a central force field with 2D-Coulomb (logarithmic potential) geometry — force magnitude falls off as 1/r — but the coupling oscillates globally in time as cos(ωt) with ω = π/2 (period 4), with no spatial phase lag, i.e. a standing temporal oscillation rather than a traveling wave. The probe's acceleration is a = -K·(p1/p2)·cos(ωt)·r̂/r with K ≈ 0.8: linear in the source property p1, inversely proportional to the probe property p2 (which acts as an inertial mass), and alternating between attraction and repulsion. Because the force amplitude depends on r, the oscillation produces a measurable second-order ponderomotive drift pushing the probe slowly outward, which the data quantitatively confirms.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The source particle at the origin produces a radially directed force field whose magnitude decays as 1/r (not 1/r² as in our universe) and whose sign oscillates uniformly in time as cos(ωt) with ω = π/2, so the field is alternately attractive and antiattractive everywhere simultaneously (no propagation delay or spatial phase). The probe's acceleration is a = −0.8·(p1/p2)·cos(πt/2)·r̂/r: it couples linearly to the source property p1 and inversely to its own property p2, which acts like an inertial mass. The oscillation produces near-periodic radial breathing of the probe about its starting radius, plus a slow secular (ponderomotive-like) outward drift arising from the field gradient over each oscillation cycle.

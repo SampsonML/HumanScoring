@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered law describes a system where all particles interact through pairwise attractive forces. Each particle experiences an acceleration toward every other particle, with the force magnitude following a power law F ∝ 1/r^α where α ≈ 1.5 (between inverse and inverse-square). The forces are summed vectorially to produce net acceleration. This creates the observed collapse-explosion dynamics: particles initially accelerate inward due to mutual attraction, pass through the center region where forces become extremely strong at short distances, then explode outward with the kinetic energy gained during collapse, eventually moving at constant velocity as they separate.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered law is a mutual repulsive force between all particles following an inverse-cube power law (F ∝ 1/r³). Each particle experiences acceleration from every other particle proportional to G/r³ in the direction away from that particle. The center particle (index 0) and the 10 ring particles all interact through this same field, creating symmetric radial expansion when starting from rest, or orbital-like dynamics when initial tangential velocity is present. The fitted parameters are alpha=3.0 (the power law exponent) and G=1.0 (the coupling strength).
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes a universe where all particles interact through pairwise repulsive forces. Each particle experiences a force from every other particle that points away from the source particle, with magnitude F = k/d^α where d is the inter-particle distance. Based on experimental data across multiple ring radii, the exponent α ≈ 1.4 (between Coulomb-like 1/d² and a weaker decay). The center particle remains nearly stationary due to symmetric cancellation of forces from the ring particles, while ring particles accelerate outward as the repulsive forces dominate.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The system consists of 11 particles interacting through pairwise repulsive forces where each particle experiences acceleration proportional to the sum of forces from all other particles. The force law follows an inverse power relationship F ∝ G/r^(α+1) with α approximately 0.75, meaning the force decays slightly slower than inverse-square. All particles contribute equally to the interaction field, causing symmetric expansion when initially arranged on a ring around the central particle.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered law describes a universe where all particles interact through pairwise repulsive inverse-square forces. Each particle experiences an acceleration from every other particle that points away from the source particle with magnitude G/r², where r is the distance between them. This is analogous to electrostatic repulsion between like charges or gravitational repulsion with negative mass. The center particle remains near the origin because the symmetric arrangement of ring particles produces nearly canceling forces on it, while ring particles experience net outward radial acceleration causing expansion when initial tangential velocity is insufficient to provide orbital stability.

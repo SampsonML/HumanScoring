@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+Particle 2 moves under a central attractive force toward the fixed particle 1 that follows an inverse‑square law. The force magnitude is proportional to the difference of their scalar properties (p1 − p2) multiplied by a constant coupling factor. This law reproduces the observed accelerations and trajectories.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 1 is fixed at the origin and emits a radial field whose strength scales with its scalar property p1. Particle 2 couples to this field with strength proportional to its own scalar p2, experiencing an attractive central acceleration that follows an inverse‑square law, a = –α p1 p2 / r² toward particle 1. The constant α is a universal coefficient fitted from the observed trajectories.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 2 experiences a central attractive field sourced by particle 1 at the origin. The acceleration magnitude scales with the ratio of the particles’ scalar properties (p1/p2) and decays with distance as a power law r⁻ⁿ, where n≈2.3 and the coupling constant G≈0.22. This law fully captures the observed trajectories across varied initial positions, velocities, and property values.
+
+--- seed 3 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive force toward particle 1, which is fixed at the origin. The force magnitude scales with the ratio of the source and probe scalar properties (p1/p2) and decays with distance as |r|^{-n}, with n≈1.5, indicating a fractional‑power law rather than an inverse‑square law. No velocity‑dependent forces are observed, so the dynamics are governed solely by this radial potential.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The probe particle experiences a central attractive force directed toward the fixed source at the origin. The force magnitude is proportional to the product of the source and probe scalar properties and follows an inverse‑cube dependence on their separation distance, resulting in an acceleration a = –G p₁ p₂ r̂ / r³. This law explains the observed inward spiraling motion of particle 2.

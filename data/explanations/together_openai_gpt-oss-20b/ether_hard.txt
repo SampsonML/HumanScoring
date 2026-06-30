@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.00  (0/10)
+In this universe the only force is a uniform swirling field causing every particle to spin with constant angular velocity around the center. The field produces no radial forces, so particles keep their initial radii and only their angles change. Their trajectories are simple circular arcs with identical angular speed, independent of mass.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.10  (1/10)
+The universe obeys Newtonian gravitation between all particles. Each pair exerts an attractive force proportional to the product of their inertial masses and inversely to the square of their separation. The huge anchor mass dominates, causing all probes to orbit it. The observed ring of background orbiters merely perturbs trajectories but does not alter the underlying universal law.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered universe follows an inverse‑square gravitational field produced by all particles, with the anchor’s huge mass dominating probe dynamics.  The probe trajectories are governed by Newtonian point‑mass attraction, with the gravitational constant treated as a free parameter for fitting.  The background orbiters provide a quasi‑static gravitational backdrop while the probes respond to this field.

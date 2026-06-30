@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : circle
+Judge : claude-opus-4-6
+Seeds : 1 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered universe follows a Newtonian‑type gravitational interaction with a single free constant G.  Every particle exerts on each other an attractive force inversely proportional to the square of their separation.  Due to the symmetry of the initial ring, the central particle experiences no net force and remains fixed, while the ring particles move inward towards the centre, exactly matching the observed trajectories.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

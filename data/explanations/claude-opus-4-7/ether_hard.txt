@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The universe contains a single source — the massive anchor at the origin — that generates a 2D logarithmic gravitational potential. Every other particle (ring orbiters and probes alike) feels an acceleration a = −K r̂ / r pointing toward the anchor, with K ≈ 7.95 fixed by the world (independent of both the source mass and the test particle's mass, which is why probes of any mass follow identical trajectories and why the ring orbiters at r=5 sit on circular orbits with v² = K). Particles do NOT attract one another — only the anchor sources the field — so all 26 trajectories decouple into independent two-body problems with the anchor.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The simulated universe is a 2D world with logarithmic gravity: the gravitational potential of a point mass scales as Φ ∝ G·m·ln(r), producing an attractive force that decays as 1/r rather than 1/r² (consistent with Gauss's law in 2D). Every particle accelerates toward every other by a_i = Σ_j G·m_j·(r_j-r_i)/|r_j-r_i|², so the test particle's own (inertial) mass cancels — gravity is universal. The anchor's enormous mass (~10¹⁵) sets G·M_anchor ≈ 8, giving radius-independent circular speed v = √8 ≈ 2.828 — exactly the orbital speed at which the 20 ring particles travel — while the ring orbiters contribute only tiny perturbations.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The universe has a 2D logarithmic-potential gravity: each particle generates an attractive acceleration field that falls off as 1/r (rather than 1/r² as in 3D Newtonian gravity), so the force vector from source j on target i is -G·m_j·(r_i - r_j)/|r_i - r_j|². Accelerations from all sources sum linearly, but crucially there is no division by the target particle's own mass — every particle experiences the same acceleration field regardless of its inertia. The anchor's gigantic mass (~10¹⁵) makes it dominate the field everywhere while its own response to other particles is negligible; the ring orbiters at radius 5 follow nearly circular orbits sustained by this 1/r central force with G ≈ 8×10⁻¹⁵.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The central anchor (particle 0) is the sole significant source of force in this universe. It generates a logarithmic gravitational potential Φ(r) = K·ln(r), producing a radial acceleration a = -K·r̂/r (a 1/r force law) on every test particle, independent of the test particle's mass. Empirically K ≈ 8. The 20 ring orbiters have masses many orders of magnitude smaller than the anchor's effective coupling and contribute negligibly to probe trajectories; what initially looked like a uniform +y gravitational field turned out to be a systematic ~0.1·t bias in the reported velocities (visible even on the immovable anchor itself), not a real physical effect.
+
+--- seed 4 ---   score: 0.30  (3/10)
+This universe contains a single very-massive "anchor" that sources a 2D logarithmic gravitational potential — i.e. a radial force whose acceleration magnitude falls off as 1/r (so that a·r = K ≈ 8 everywhere). All other particles, regardless of their own inertial mass, experience the same acceleration field a = -K·r̂/r pointing toward the anchor; the orbiters with masses 1, 2, 4 circle the anchor at the universal orbital speed √K ≈ 2.83 at radius 5. Inter-particle gravity between non-anchor particles is absent (or negligibly small): probes do not feel the orbiters or each other, only the anchor's logarithmic well.

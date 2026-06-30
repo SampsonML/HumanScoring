@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law is Newtonian gravitational attraction between all 11 particles with gravitational constant G ≈ 0.1 and unit masses. Each particle exerts an attractive force on every other particle following F = G·m₁·m₂/r², where r is the distance between them. The center particle and the 10 ring particles all interact mutually through this inverse-square law force field. The orbital dynamics observed (where tangential velocity v ∝ 1/√r creates stable orbits) and the radial collapse rates are both consistent with this gravitational force law.
+
+--- seed 1 ---   score: 0.60  (6/10)
+The discovered law describes an attractive pairwise force between all particles where the force magnitude scales as the inverse of distance raised to the power 1.5 (F ∝ 1/r^1.5). Each particle experiences acceleration from the vector sum of forces from all other particles, directed along the line connecting them. This force law produces radial acceleration that scales as a ∝ 1/r^1.5, which explains the observed circular orbit condition where critical velocity scales as v_circ ∝ r^(-0.25). The center particle (index 0) and all ring particles (indices 1-10) interact through this same field, with the center experiencing net motion due to asymmetric forces when the ring becomes non-uniform during evolution.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The discovered law describes a system where all particles interact through pairwise attractive forces following a power-law dependence on distance: F = G/r^alpha with alpha ≈ 1.5. This is an intermediate force law between inverse-linear (alpha=1) and inverse-square (alpha=2) gravity. Each particle experiences acceleration from the vector sum of forces from all other particles. The center particle remains nearly stationary due to symmetric cancellation of forces from the ring particles, while ring particles experience net inward acceleration causing collapse unless sufficient tangential velocity provides orbital stability. The coupling constant G ≈ 3.0 determines the force magnitude.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The discovered law is Newtonian gravity: all 11 particles interact through mutual gravitational attraction with force F = G/r² between each pair, where G=1 and all particles have equal mass. The center particle and ring particles all experience forces from every other particle, causing the ring to collapse inward when there's no tangential velocity, or to orbit/expand when tangential velocity provides sufficient angular momentum. The inverse-square force law was determined by analyzing acceleration scaling across different ring radii.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The discovered law describes a universe where all particles interact through pairwise attractive forces following an inverse power law F = G * (r_j - r_i) / |r_j - r_i|^α with α ≈ 1.5. This exponent was determined by measuring acceleration scaling across different initial ring radii, where the ratio of accelerations matched 2^1.5 when distance doubled. All 11 particles (the central particle and 10 ring particles) mutually interact through this force, preserving the symmetric ring configuration during collapse while the center particle experiences small displacements from the net force of the ring.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The world is a standard many-body gravitational system: each particle creates a central field whose contribution to acceleration is proportional to its mass and points along the separation vector with inverse-square magnitude. Probe motion does not depend on probe mass, which shows equivalence of inertial and gravitational mass. The heavy anchor is not a special rule object, just an enormously massive particle, while the orbiters and probes all mutually interact under the same law.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The world is well described by ordinary Newton-like point-particle dynamics in 2D: each particle generates a central field proportional to its mass and falling as one over distance squared in magnitude, so the acceleration vector is proportional to displacement divided by distance cubed. Probe trajectories are independent of probe mass, and the fixed ring of orbiters plus the massive anchor all contribute through the same superposed pairwise interaction.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The universe appears to use ordinary pairwise inverse-square attraction in 2D embedding: each particle sources a central field proportional to its mass, and every particle accelerates according to the vector sum of those fields. The probe mass does not affect its trajectory except through being a source for the others, and the anchor is simply an extremely massive body that stays nearly fixed while still contributing to the total gravitational field.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The universe is governed by ordinary pairwise gravity: each particle creates a central field proportional to its mass and pointing along the separation vector with magnitude falling as inverse square distance, so the vector acceleration is proportional to r/|r|^3. Probe masses do not affect their own accelerations, only the forces they exert on others, and the moving ring particles plus the massive anchor must all be evolved together as one self-consistent N-body system.
+
+--- seed 4 ---   score: 0.20  (2/10)
+This universe appears to use a standard Newtonian-style many-body interaction: every particle attracts every other with a central force that falls off like the inverse square of distance, so the acceleration from each source is proportional to its mass and points along the separation vector. A particle’s own inertial mass cancels out of its acceleration, which is why probes with different masses but the same initial state follow the same path. The heavy anchor acts like an almost fixed central mass, while the ring particles are simply additional gravitating bodies orbiting within the same field.

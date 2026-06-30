@@ -1,0 +1,24 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The universe follows a repulsive pairwise inverse‑square law between all particles. The massive anchor is essentially stationary, while the ring orbiters rotate around it, creating a circulating field. Probes move away from each other and the anchor under this repulsive “gravitational” force, with the interaction strength given by a constant G≈1×10⁻⁴.
+
+--- seed 1 ---   score: 0.10  (1/10)
+These particles obey Newtonian gravitation in two dimensions.  
+Each pair attracts with a force proportional to the product of their masses and inversely to the cube of their separation, producing acceleration G m/r².  
+The anchor’s immense mass renders its motion negligible, so all bodies orbit it while also interacting with the ring orbiters.  
+The dynamics are integrated with an adaptive RK45 solver.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The universe follows a universal inverse‑square attraction law analogous to Newtonian gravity, with a gravitational constant G that must be fitted from data. Every particle—including the massive anchor and the ring orbiters—generates a force acting on all others, and all masses move under these mutual forces. The dynamics are fully captured by the equations of motion derived from this gravitational interaction.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The model assumes no forces act on the particles, i.e. they drift passively.  The field is static and independent of mass or position.  Each particle simply maintains its current velocity.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The system follows Newtonian gravity with a massive, fixed anchor at the centre exerting an inverse‑square attraction on all other bodies. All orbiters and probes move solely under this central force; their masses cancel in the motion equations, making trajectories depend only on initial positions and velocities. The dynamics are captured by a single constant k = G M_anchor in the acceleration \(a = -k\,r/|r|^3\).

@@ -1,0 +1,20 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The simulated universe exhibits hierarchical Newtonian gravity where 20 background particles interact via strong inverse-square forces (coupling G_bg), while 5 neutral probe particles act as test masses that only respond to the background field with a much weaker effective coupling (G_probe). The force law follows F = G * r_ij/|r_ij|^3 between particle pairs, but probes do not generate fields themselves—making them pure measurement instruments in the background gravitational potential.
+
+--- seed 1 ---   score: 0.20  (2/10)
+This universe contains twenty fixed background particles acting as point vortices with circulation strength Gamma, generating a 2D rotational velocity field. Each vortex induces velocity proportional to 1/r with perpendicular orientation, following the Biot-Savart law for point vortices. The neutral probe particles are passive tracers— they do not generate fields themselves but are advected by the superposition of velocity contributions from all background vortices. The system exhibits characteristic orbital motion with probes following streamlines of the multi-vortex flow.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The discovered law is a central pairwise force where particles attract each other with a force magnitude proportional to r^alpha, where alpha ≈ -0.5 (weaker than Newtonian gravity's -2). The 5 neutral probes couple to the background field but do not generate forces themselves, acting as "test particles." The background particles (20 total) mutually interact, creating a time-varying potential well that guides probe trajectories. The fitted exponent near -0.5 indicates a force that falls off slower than 1/r^2, suggesting an effective "softened" gravitational-like interaction in this 2D universe.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law describes a 2D gravitational system with 20 background particles that mutually interact via Newtonian inverse-square gravity, and 5 neutral probe particles that only feel the gravitational field without generating it themselves. The acceleration follows a = G*(r_j - r_i)/|r_j - r_i|^3, where G ≈ 5.0. This creates a one-way coupled system where background dynamics drive probe motion but probes don't back-react on the background or each other.
+
+--- seed 4 ---   [no trial file]

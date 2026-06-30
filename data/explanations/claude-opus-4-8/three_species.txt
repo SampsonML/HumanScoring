@@ -1,0 +1,17 @@
+======================================================================
+Model : claude-opus-4-8
+World : three_species
+Judge : claude-opus-4-6
+Seeds : 1 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The simulated universe is a 2D self-gravitating system in which each of the 30 fixed-population background sources generates a logarithmic gravitational potential, so the force between any pair of particles is attractive and decays as 1/distance (the displacement vector divided by the squared separation), rather than the inverse-square law of our universe. The five highest-index particles are massless probes: they accelerate under the summed field of all background sources but contribute no field of their own, and the force is independent of velocity (no magnetic-type coupling). Far-field measurements confirmed that distance times acceleration is constant (≈3.14 = 30·G), pinning the per-source coupling G near 0.105 per unit mass.
+
+--- seed 1 ---   [no trial file]
+
+--- seed 2 ---   [no trial file]
+
+--- seed 3 ---   [no trial file]
+
+--- seed 4 ---   [no trial file]

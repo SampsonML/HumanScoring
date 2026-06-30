@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+Particle 1 is fixed at the origin and generates a two-dimensional logarithmic central field, whose spatial gradient is proportional to the displacement vector divided by squared radius. Particle 2 couples to this field with strength p1/p2, and the entire field oscillates in time as cos(pi t/2), producing alternating attractive and repulsive half-cycles with period 4. No velocity-dependent force or source recoil was detected.
+
+--- seed 1 ---   score: 1.00  (10/10)
+Particle 1 is fixed and produces a radially symmetric, time-oscillating central field proportional to its scalar property p1. Particle 2 accelerates according to its inverse scalar property, with acceleration proportional to -(0.8 p1/p2) cos(pi t/2) r/r², so the force magnitude scales as 1/r and reverses sign periodically. This corresponds to a logarithmic central potential whose coupling is sinusoidally modulated in time.
+
+--- seed 2 ---   score: 0.90  (9/10)
+Particle 1 is fixed at the origin and creates a radially symmetric two-dimensional logarithmic field, giving a force direction along the separation vector with magnitude proportional to \(1/r\). Particle 2 couples to this field with strength proportional to \(p_1/p_2\), and the universal coupling oscillates as \(\cos(\pi t/2)\), alternating between attraction and repulsion with period 4.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Particle 1 is fixed at the origin and generates a central radial field proportional to the displacement vector divided by squared distance. Particle 2 accelerates according to this field with coupling proportional to p1/p2, and the field strength is modulated by a time factor cos(pi t / 2), making the attraction periodically reverse direction.
+
+--- seed 4 ---   score: 0.90  (9/10)
+Particle 1 generates an instantaneous, radially symmetric logarithmic field in 2D, whose gradient produces an inverse-radius central acceleration toward or away from the source. The field amplitude oscillates as cos(πt/2), and particle 2 couples with acceleration proportional to p1/p2. Structurally, the law is a time-modulated central-force ODE with particle 1 fixed at the origin.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The system is a Newtonian-gravity-like 2D universe: particle 1 sits fixed at the origin and exerts an attractive central force on particle 2 whose magnitude follows the inverse-square law F = G·p1·p2/r², directed along the line between the two particles. The scalar properties p1 and p2 act as gravitational/charge couplings multiplicatively, so the acceleration of particle 2 is a = -G·p1·p2·(r2-r1)/|r2-r1|³ and is independent of any "mass" of particle 2 (i.e., p2 enters the force the same way p1 does, exactly as masses do in Newtonian gravity once we treat a = F/m with m∝p2). Observation noise on positions and velocities varied substantially between sessions, but the underlying law is the clean radial inverse-square attraction with strength G≈1.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The probe particle experiences a central attractive radial force pointed toward the fixed source particle at the origin. The force magnitude follows a power-law decay with distance (F ∝ 1/r^n), with the coupling depending multiplicatively on the two particle properties p1 and p2. Empirically, the dynamics exhibits strong sensitivity to initial conditions (small changes in r₀ or initial velocity produce very different terminal velocities), suggestive of near-singular behavior at the origin which I regularized with a softening parameter ε. The functional form is consistent with attractive radial dynamics that decays at large distances (particles starting far away show negligible motion) while exhibiting strong acceleration in the intermediate range r∈[1,3].
+
+--- seed 2 ---   score: 0.70  (7/10)
+The dynamics of particle 2 follow standard two-dimensional Newtonian inverse-square gravity sourced by particle 1: the acceleration is directed radially toward particle 1 with magnitude G·p1/r². The probe's own property p2 plays no role in its motion (test-particle limit, as if its inertial and "gravitational" masses cancel). Verified by: (i) the energy/velocity at radius r matching the 1/r potential conservation law in radial infall experiments, (ii) exact circular orbits when v_tangential = √(p1/r) (e.g. r=4, v=0.5 traced a circle of period 2π·r/v), and (iii) linear scaling of the acceleration with p1.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Particle 2 moves under a central attractive force directed toward particle 1, which is pinned at the origin. The acceleration follows an inverse-square law in distance with a coupling that is symmetric in the two scalar properties (G·p1·p2/r²), as evidenced by experiments where swapping p1 and p2 produced identical trajectories. A small softening length ε is included to regularise the singularity at the origin, since particles in the data appear to pass through the origin and continue with finite velocity rather than diverging.
+
+--- seed 4 ---   score: 0.80  (8/10)
+The system implements a 2D Newtonian-style gravitational attraction: particle 2 is pulled toward the fixed particle 1 with acceleration of magnitude G·p1·p2/r², directed along the line between them. The coupling is symmetric and bilinear in the two scalar properties (verified by p1↔p2 swap giving identical trajectories), and energy/angular-momentum conservation along with the v² = 2k(1/r − 1/r₀) relation were verified across many trajectories at moderate separations. Near r→0 the simulator exhibits numerical singularity artefacts (large kicks producing apparent escape velocities), which I model with a small softening length ε so the equations of motion remain regular.

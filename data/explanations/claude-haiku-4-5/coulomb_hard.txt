@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The discovered system implements Coulomb electrostatics where 10 charged particles interact via pairwise forces. Each force is proportional to the product of the two charges and inversely proportional to the square of their separation distance, following F = k·q_i·q_j/r². Opposite charges attract (negative force) and like charges repel (positive force). Particles with zero charge experience no electrostatic forces and act as inert test masses, while the dynamical evolution is governed by Newton's second law applied to each particle under the influence of all pairwise Coulomb interactions.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The discovered universe obeys classical Coulomb's law: charged particles exert electrostatic forces on each other proportional to the product of their charges and inversely proportional to the square of their separation distance. The force direction follows the line connecting the two particles, with opposite charges attracting and like charges repelling. Particles move according to Newton's second law (F = ma) with no dissipation.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The discovered system implements Coulomb electrostatics in 2D: each charged particle experiences a repulsive or attractive force from every other charged particle, proportional to the product of their charges and inversely proportional to the square of their separation distance. Uncharged particles (charge = 0) decouple from the dynamics and travel in straight lines at constant velocity. The force law is F_ij = k·q_i·q_j / r_ij², where k is an empirically fitted coupling constant near 1.0, and particles with opposite charges attract while those with the same sign repel.
+
+--- seed 3 ---   score: 0.70  (7/10)
+This universe obeys Coulomb's law: charged particles interact via pairwise electrostatic forces F = k·q₁·q₂/r², where the coupling constant k ≈ 120 and particles have unit mass. Neutral particles (charge = 0) decouple from the field and remain stationary. The system integrates as a classical N-body problem with Coulomb interactions, producing stable trajectories when charge magnitudes and initial separations are sufficiently large to avoid singularities.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The discovered universe is a kinematic system with no forces or interactions. Particles maintain constant velocity determined by their initial conditions, with charges having no dynamical effect. Observations of particle positions contain Gaussian measurement noise with standard deviation approximately 0.05-0.1, but the underlying law simply preserves initial positions and velocities—there are no acceleration terms, no charge-charge interactions, and no temporal evolution beyond the noise-corrupted snapshot at t=0.

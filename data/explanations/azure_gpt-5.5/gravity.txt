@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 1 remains fixed at the origin and sources a two-dimensional logarithmic potential field. Particle 2 moves as a test body whose acceleration is the negative gradient of that field, with coupling strength proportional to p1/p2 and prefactor 1/(2π), producing a central inverse-radius attraction.
+
+--- seed 1 ---   score: 0.90  (9/10)
+Particle 1 is fixed at the origin and generates a central attractive field whose acceleration on particle 2 is directed along \(-\hat r\). The acceleration magnitude is proportional to \(p_1/p_2\) and equals \(0.16(p_1/p_2)/\sqrt{r^2+0.05^2}\), giving an inverse-distance law at large radius with a small-radius softening. Particle 2 otherwise follows ordinary second-order motion under this static field.
+
+--- seed 2 ---   score: 0.90  (9/10)
+The source particle is fixed and generates an attractive central field whose potential is logarithmic in distance, so the field strength scales as inverse distance. Particle 2 couples to this field with acceleration proportional to p1/p2, directed along the separation vector toward particle 1. The observed trajectories are therefore governed by the ODE a = -0.16*(p1/p2)*(pos2-pos1)/|pos2-pos1|^2 with noisy position measurements.
+
+--- seed 3 ---   score: 1.00  (10/10)
+Particle 1 sources a static two-dimensional logarithmic potential, whose gradient produces an attractive radial field proportional to \(-\mathbf{r}/|\mathbf{r}|^2\). The source strength is proportional to \(p_1\), while the probe’s inertia is proportional to \(p_2\), giving acceleration \(\mathbf{a}=-(p_1/(2\pi p_2))\,\mathbf{r}/|\mathbf{r}|^2\). The force is central and velocity-independent, so angular momentum is conserved around the fixed source.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The source particle is fixed at the origin and generates a central logarithmic potential, whose gradient gives an inverse-distance radial force. Particle 2 couples to this field with acceleration proportional to the source property p1 and inversely proportional to its own property p2. The resulting motion is governed by a conservative central-force ODE with acceleration vector -0.16*(p1/p2)*r/|r|².

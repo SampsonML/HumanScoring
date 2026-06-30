@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+In this 2D universe, charged particles interact via a modified Coulomb-like force where the force on particle i due to particle j is proportional to the charge q_i of the receiving particle and the sign (not magnitude) of the source charge q_j, directed radially away from the source. The force magnitude scales as K*|q_i|/r^n where r is the inter-particle separation, with the best-fit exponent near n=3 (steeper than the standard 2D 1/r law), suggesting a dipole-like or derivative interaction rather than a simple monopole field. The system obeys pairwise superposition, and opposite-sign charges attract while same-sign charges repel, consistent with electrostatic analogy but with an unusual charge-coupling asymmetry where only the receiving particle's charge magnitude matters.
+
+--- seed 1 ---   score: 0.20  (2/10)
+In this 2D universe, every pair of particles exerts a purely repulsive force on each other regardless of the sign of their charges — only the magnitude matters. The acceleration of particle i due to particle j is given by a_i = k × |q_i| × |q_j| / r^n × r̂_ij, where n ≈ 3 (an inverse-cube rather than inverse-square law), k ≈ 0.558 is a coupling constant, and r̂_ij points from j to i. This force law violates Newton's third law: when |q_i| ≠ |q_j|, the acceleration magnitudes differ (particle with larger charge magnitude accelerates more), implying the charge acts both as a "coupling strength" for the experienced force and not as inertial mass.
+
+--- seed 2 ---   score: 0.90  (9/10)
+This universe obeys a Coulomb-like inverse-square force law in 2D: each particle i experiences an acceleration equal to the sum over all other particles j of K·q_j·(r_i−r_j)/|r_i−r_j|³, where q_j is the signed scalar charge of the source particle j and K≈1. Unlike standard electrostatics, the receiving particle's own charge does not scale the force it feels — only the source particle's charge matters for setting the field strength, making every particle a universal test particle of unit inertial mass. Same-sign charges repel and opposite-sign charges attract, with the force falling off as 1/r² (inverse-square) in the separation between the two particles.
+
+--- seed 3 ---   score: 0.30  (3/10)
+In this 2D universe, all charged particles repel each other regardless of the sign of their charges — the interaction depends only on charge magnitudes. The force between particles i and j has magnitude F_ij = K·min(|q_i|, |q_j|)/r², so that the acceleration of particle i due to particle j is a_i = K·min(|q_i|, |q_j|)/(|q_i|·r²), directed radially outward. This is equivalent to each particle having an inertial mass proportional to its charge magnitude (m_i = |q_i|), with the interaction force given by the minimum of the two charges divided by r², making the weaker charge the "bottleneck" that limits the strength of the interaction; the coupling constant K ≈ 2000 sets the overall scale.
+
+--- seed 4 ---   score: 0.40  (4/10)
+In this simulated universe, each of the 10 charged particles experiences a force from every other particle that depends on its own charge (not the product of both charges): F_i = k × |q_i| × sign(q_i × q_j) × (r_i - r_j) / |r_i - r_j|³. The force is repulsive when two particles share the same sign of charge and attractive when they have opposite signs, exactly mirroring the sign convention of classical electrostatics. However, unlike standard electromagnetism where the Coulomb force scales with both charges, here only the receiving particle's own charge determines the force magnitude, while the source particle's charge only sets the direction/sign of the interaction.

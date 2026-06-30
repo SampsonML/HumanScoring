@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 2 experiences a central attractive force toward the fixed source at the origin. The force magnitude is [A + B·cos(kx)·cos(ky)]/r with A≈0.16, B≈0.08 and wavenumber k=2π/5, i.e. an inverse-distance central field whose amplitude is modulated by a static 2D cosine standing-wave background (interference pattern aligned with the x and y axes). The coupling scales as p1/p2: the force grows linearly with the source's scalar property p1 and is inversely proportional to the probe's property p2 (acting as an inertial mass), and there is no dependence on the probe's velocity.
+
+--- seed 1 ---   score: 0.50  (5/10)
+Particle 2 feels a central, purely attractive force pointing toward the fixed source particle 1. The force magnitude scales linearly with the source's scalar property p1 and is completely independent of the probe's property p2 and its velocity. The radial profile is a 1/r (Coulomb-like) envelope modulated by a spatial standing wave: a(r) = p1·(C + D·cos(k·r))/r with C≈1/(2π)≈0.159, D≈1/(4π)≈0.0795, and wavelength exactly 5 (k=2π/5≈1.257), as confirmed by direct acceleration measurements showing a·r oscillating with maxima at r=5,10,15 and minima at r=2.5,7.5,12.5. This is consistent with a standing-wave or screened oscillatory field sourced by particle 1.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 2 is attracted toward the fixed source by a central force whose magnitude decays as 1/r but is modulated by a spatial cosine of wavelength about 5, so the acceleration is (p1/p2)·(A + B·cos(k·r))/r pointing radially inward. The source strength enters linearly through p1 while the probe's inertial response goes as 1/p2 (p2 acts like an inertial mass), and the cosine term suggests the underlying potential field oscillates spatially (a screened/wave-like Coulomb field) producing the non-monotonic radial force. Fitted constants are A≈0.176, B≈0.089 (B/A≈0.5) and k≈2π/5≈1.257.
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 2 moves under a central, attractive force from the fixed source. The radial acceleration follows a = (p1/p2)·(A + B·cos(k·r))/r: a 1/r envelope (consistent with a 2D logarithmic-style potential) modulated by an undamped standing-wave term of fixed wavelength (period ≈5, k≈2π/5). The probe couples linearly to the source strength p1 and inversely to its own property p2, with the oscillatory term producing alternating rings of stronger and weaker pull at radii spaced by ~2.5.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particle 2 feels a central, always-attractive acceleration directed toward the fixed source at the origin. The magnitude follows |a| = (p1/p2)·(A + B·cos(k r))/r: a 1/r radial envelope multiplied by a spatially periodic standing-wave factor with wavenumber k = 2π/5 ≈ 1.257 (period 5 in distance). This is the signature of a 2D oscillating monopole / Helmholtz-like field Green's function; the probe couples to the source strength p1 and is divided by its own inertia-like property p2. Measured constants: A ≈ 0.16, B ≈ 0.08 (so the field's radial acceleration·r oscillates between ~0.08 at minima and ~0.24 at maxima).

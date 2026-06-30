@@ -1,0 +1,25 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The system behaves as if each particle carries a scalar charge that interacts via a purely repulsive inverse‑square force proportional to the absolute product of the two charges, independent of sign.  The resulting acceleration pattern pulls particles apart while preserving rotational symmetry of the initial configuration.  A single free parameter sets the overall magnitude of this repulsion.
+
+--- seed 1 ---   score: 0.70  (7/10)
+block with 2-3 sentences plain English. Let's craft 3 sentences.<explanation>
+The system follows a two‑dimensional Coulomb‑like interaction: each pair of particles experiences a force proportional to the product of their charges and inversely proportional to the square of their distance. With unit mass, the acceleration equals this force, and the motion is obtained by numerically integrating the coupled equations of motion with an adaptive RK45 solver. The only free parameter is the coupling constant k, which scales the overall strength of the interaction.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.70  (7/10)
+block, no other text or tags. Let's craft 2-3 sentence description.
+
+<explanation>
+The particles interact through a pairwise force proportional to the product of their charges and inversely proportional to the squared distance, resembling a Coulomb-like attraction or repulsion. This scalar coupling constant governs the magnitude of forces, and the equations of motion are integrated using an adaptive RK45 solver. The observed trajectories demonstrate that identical charges repel while opposite charges attract, with the effect diminishing over larger separations.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

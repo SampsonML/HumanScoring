@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The universe is governed by a fixed central radial field, not by pairwise interactions among the particles. Every non-anchor particle has acceleration \(\mathbf a=(0.05-7.957747/r^2)\mathbf r\): an inward inverse-radius force plus an outward linear force, independent of particle mass. The anchor remains effectively stationary at the origin, while the ring orbiters and probes are test particles moving in this same field.
+
+--- seed 1 ---   score: 0.60  (6/10)
+The probes and orbiters move independently in a fixed central field, not via appreciable pairwise interactions, and their inertial masses do not change their trajectories. The radial acceleration has the form a = (B - A/r²) r: an outward Hooke-like term plus an inward inverse-radius term, with the massive anchor effectively stationary at the origin.
+
+--- seed 2 ---   score: 0.60  (6/10)
+The probes and ring particles move independently in a central force field fixed at the anchor: their acceleration is radial and equals \((\alpha-\beta/r^2)\mathbf{r}\). This is equivalent to an outward harmonic-like term plus an inward logarithmic/Kepler-like central attraction, with no dependence on the probe’s inertial mass. The orbiting ring is simply a set of particles following the same central ODE; it does not produce detectable pairwise forces on the probes.
+
+--- seed 3 ---   score: 0.60  (6/10)
+The system is governed by a fixed central field, not by pairwise particle-particle forces: every particle feels the same radial acceleration from the origin. The acceleration has the form \( \mathbf a = (0.05 - 7.96/r^2)\mathbf r\), combining an inward inverse-radius term with a weak outward harmonic term. Particle masses do not influence trajectories, and the background ring is simply a set of particles in circular motion in this same central potential.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particles behave as independent test bodies in a fixed central radial field rather than exerting mutual forces on one another. The acceleration is mass-independent and approximately \( \mathbf a=(k-c/r^2)\mathbf r\), combining an outward linear field with an inward inverse-radius attraction; the anchor remains fixed and the ring orbiters are simply other tracers of this same field.

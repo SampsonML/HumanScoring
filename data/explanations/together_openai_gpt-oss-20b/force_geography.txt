@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered dynamics correspond to a point particle under an inverse‑square central attraction to a fixed source at the origin.  The force magnitude is proportional to the product of the scalar properties of the two particles (p1 × p2) and scales as 1/r².  The gravitational‑style constant G is a single free parameter to be calibrated against observation.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered world features a single fixed source particle at the origin. The probe particle experiences an attractive force with magnitude proportional to the product of their scalar properties and inversely proportional to the square of the distance, yielding a Newtonian‑like inverse‑square law for motion in two dimensions.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The governing law is a central inverse‑square attraction with softening; the force depends on the property p1 of particle 1, is inversely proportional to the property p2 of particle 2, and includes a constant r₀ that removes the singularity at zero distance. The motion follows the usual Newtonian equations of motion integrated with an adaptive solver.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particles experience an inverse‑square attraction that depends only on the probe’s property p₂.  The source particle is fixed at the origin and provides a static point potential, while the probe’s motion is governed by F = ‑G · p₂ · (r̂)/r².  The constant G is fitted from trajectory data; the law yields the probe’s final state by solving the resulting ODE.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

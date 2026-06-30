@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The probes obey a mass-independent central-force law: their acceleration is \(\mathbf a=(k-c/r^2)\mathbf r\), i.e. a weak outward harmonic term combined with an inward logarithmic/anchor attraction. The anchor remains fixed at the origin, while the ring orbiters are passive tracers moving on the same central field and their circular speed determines the attraction constant. No probe mass dependence or probe-probe interaction was detectable in the governing trajectory law.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The universe is governed by a fixed central field: each non-anchor particle has acceleration \(a = 0.05\,r - 7.96\,r/|r|^2\), with an outward harmonic-like term and an inward logarithmic-potential term. Particles do not exert forces on one another and their masses do not affect their acceleration; the ring orbiters are simply particles on near-circular orbits in this central field. The anchor remains effectively fixed at the origin and is not needed as an interacting source.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The system is governed by a fixed central field rather than by pairwise interactions between particles: each body accelerates according to \(\mathbf a=(0.05-7.96/r^2)\mathbf r\). This combines an outward Hooke-like linear term with an inward inverse-radius term, producing the ring orbiters’ circular motion and the probes’ mass-independent trajectories. Probe masses and background particle masses do not affect the probe accelerations; the anchor is effectively fixed at the origin.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The universe is governed by a fixed, origin-centred radial field rather than by mutual gravity between particles. Every non-anchor particle has acceleration \(a = 0.05\,r - 8\,r/|r|^2\): an outward harmonic term plus an inward inverse-radius logarithmic attraction. Particle masses do not affect motion, and the anchor at the origin is effectively fixed.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The probes and ring particles are non-interacting test bodies in a fixed central field anchored at particle 0. Their acceleration is an outward linear term proportional to position plus an inward logarithmic-potential force of magnitude proportional to \(1/r\), i.e. \(\mathbf a=(\lambda-\gamma/r^2)\mathbf r\). Particle masses do not affect the acceleration; the orbiting ring is simply a set of tracers moving in the same central field.

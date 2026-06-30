@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered law describes a harmonic oscillator where particle 2 oscillates around a fixed particle 1 at the origin. The system is governed by the equation d²r/dt² = -(k·p1/p2)·r, where p1 acts as the source coupling strength and p2 acts as the inertial mass of the probe particle. Each spatial coordinate (x and y) evolves independently with the same frequency ω = √(k·p1/p2), creating a radially symmetric restoring force proportional to displacement.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered law describes a 2D isotropic harmonic oscillator where particle 2 experiences a linear restoring force toward the origin, proportional to the source particle's property p1 and inversely proportional to the probe's inertial property p2. The equation of motion is d²r/dt² = -(k·p1/p2)·r with spring constant k ≈ 3.167. This produces bounded oscillatory trajectories for all initial conditions, with particles starting near the origin escaping outward while decelerating, and particles starting farther away being pulled inward with accelerating speed until they overshoot and oscillate.
+
+--- seed 2 ---   score: 0.30  (3/10)
+Particle 2 is subject to a radial attractive force toward the fixed particle 1, with acceleration magnitude proportional to √(p1/p2) and inversely proportional to √r (the distance between particles). This unusual √r scaling (rather than the familiar 1/r² or 1/r) suggests a fundamentally different interaction mechanism, possibly related to diffusion or screened interactions in this universe. Additionally, a small velocity-dependent damping term proportional to the velocity opposes the motion.
+
+--- seed 3 ---   score: 0.40  (4/10)
+This universe exhibits a two-body interaction with both attractive and dissipative components. Particle 2 experiences a central force proportional to the source particle's property p1 and decaying as 1/r², similar to electrostatics in 2D. Additionally, the particle experiences a velocity-dependent drag force that also scales with p1/p2 and 1/r², representing momentum dissipation that increases near the source. The probe particle's property p2 acts as a shielding or inertial factor that reduces the drag experienced, suggesting a fundamental symmetry in how particles interact with the field.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The universe implements a classical inverse-square gravitational or electrostatic law where particle 2 experiences an attractive radial force proportional to the product of its property p2 and the source particle's property p1, inversely proportional to the square of the distance r. The equation of motion is a = -G·p1/(p2·r²)·r̂, which produces conic-section trajectories (ellipses, hyperbolas, or parabolas) depending on initial conditions, consistent with Newtonian gravity or Coulomb's law in 2D. The gravitational constant G was fitted to be unity in the simulation's units.

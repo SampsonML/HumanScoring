@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+Particle 2 experiences a uniform background field that exerts a constant acceleration directed toward the negative x‑axis, independent of the source particle’s scalar property, the probe’s property, separation distance, or its velocity. Consequently the motion is a simple uniformly accelerated trajectory in x with free, noise‑free dynamics in y.
+
+--- seed 1 ---   score: 0.50  (5/10)
+Particle 1 generates a scalar field proportional to its property p₁. Particle 2 feels a central force directed toward particle 1, with magnitude scaling as p₁ / (p₂ r²), where p₂ acts as an inertial mass and r is the separation. This yields the familiar inverse‑square law (e.g., gravity) with a universal coupling constant G.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive acceleration toward particle 1 that follows an inverse‑square dependence on distance. The strength of the force scales linearly with the source’s scalar property p1, while the probe’s property p2 does not enter the dynamics. A single constant G determines the interaction’s magnitude.
+
+--- seed 3 ---   score: 0.40  (4/10)
+Particle 2 feels a central attractive field sourced by particle 1. The field follows an inverse‑square law, and the resulting acceleration scales with the ratio of the source’s property p1 to the probe’s property p2, multiplied by a universal coupling constant G. This law reproduces the observed trajectories across varied distances and property values.
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 2 is attracted to particle 1 by a central force whose strength is proportional to the product of their scalar properties (p1 × p2) and falls off with distance as a power law, approximately 1 / r³. The dynamics are purely Newtonian with no significant drag, so the probe follows trajectories determined solely by this inverse‑cubic‑like potential.

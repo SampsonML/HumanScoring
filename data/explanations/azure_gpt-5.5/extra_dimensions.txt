@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 1 is fixed and creates a central attractive field with acceleration proportional to p1/p2. The field points along the displacement toward the source and has radial magnitude (p1/p2)/(2πr)√(1+1/r²), behaving like an inverse-radius attraction at large distance and becoming stronger with a unit-length core correction at short range.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The source particle is fixed at the origin and generates a central logarithmic potential, equivalent to a two-dimensional field whose radial force falls as 1/r in magnitude. Particle 2 couples to this field with inertial response proportional to p1/p2, giving acceleration \(\mathbf{a}=-0.16(p_1/p_2)\mathbf{r}/|\mathbf{r}|^2\). The dynamics are conservative and rotationally symmetric, with no velocity-dependent forces.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 1 is fixed at the origin and generates a radial attractive scalar field whose force on particle 2 is central. The acceleration of particle 2 scales as p1/p2 and points toward the source with magnitude approximately (1/2π)(p1/p2)/(r tanh(3r/4)), i.e. a 2D inverse-radius field with a short-range coth-like enhancement. Initial velocity simply adds inertial motion while the central field continuously deflects the trajectory.
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 1 sources a static, radially symmetric field whose force has a two-dimensional long-range part scaling as \(1/r\) plus a short-range screened correction scaling as \(e^{-r}/r^2\). Particle 2 couples to this field through the ratio \(p_1/p_2\): \(p_1\) sets source strength while \(p_2\) acts like inertial mass. The motion is a velocity-independent central-force ODE directed toward the fixed source at the origin.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 1 is fixed at the origin and generates a two-dimensional logarithmic potential, whose field is radial with magnitude proportional to \(1/r\). Particle 2 accelerates according to this field with coupling \(p_1/p_2\), giving \(\mathbf a=-(1/2\pi)(p_1/p_2)(\mathbf r/r^2)\). The dynamics are velocity-independent and rotationally symmetric about the source.

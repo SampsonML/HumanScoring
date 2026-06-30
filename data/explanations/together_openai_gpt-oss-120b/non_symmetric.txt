@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The particles are subject to an isotropic repulsive harmonic field: the acceleration of each particle is proportional to its displacement vector from the origin (a = α r). With zero initial velocities this yields a cosine‑hyperbolic expansion, causing all particles to move radially outward while preserving their angular ordering. The single free constant α sets the strength of the repulsive coupling and is fitted from the observed trajectories.
+
+--- seed 1 ---   score: 0.00  (0/10)
+All particles experience the same linear field, resulting in a uniform exponential shrinkage of distances from the origin and a possible global rotation. The underlying equation is dr/dt = A·r with A = [[a, -b],[b, a]], where a<0 gives isotropic contraction and b controls a rigid-body angular velocity. This law reproduces the observed inward spiraling trajectories across all experiments.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The hidden field exerts a radially symmetric force on every particle. Each particle feels an outward acceleration that points along the radial unit vector from the origin, with a constant magnitude α. This results in uniformly expanding trajectories where the speed of a particle is proportional to the distance from the centre, matching the observed outward motion and the scaling of velocities with radius.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The discovered dynamics are governed by a single isotropic harmonic field. Each particle experiences a restoring acceleration proportional to the negative of its displacement from the centre, with a common angular frequency ω. Inter‑particle forces are negligible; the whole system behaves as independent harmonic oscillators in two dimensions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The particles experience a central force that draws them toward the origin with a magnitude proportional to 1/r. This corresponds to a logarithmic potential V(r)=K·ln(r), yielding an acceleration a = -K r / (r²+ε). The force is isotropic and depends only on each particle’s distance from the centre, independent of other particles or velocities.

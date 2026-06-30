@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.60  (6/10)
+The probe particle (p2) feels an attractive radial acceleration from the fixed source (p1) that scales linearly with p1 and inversely with p2. The radial force magnitude has two components: a screened core where g(r) = r·F saturates at a constant ≈ 6 inside a characteristic length R ≈ 0.75 (Coulomb-like 1/r behaviour at small separations, as in 2D point sources), and a slowly decaying long-range tail B/r^β with β ≈ 1.7 that dominates beyond a few R. This suggests the source generates a 2D field whose "enclosed charge" function rises to a finite plateau and then is partially screened — geometrically reminiscent of a finite-size source in a medium with weak anti-screening at large distances.
+
+--- seed 1 ---   score: 0.50  (5/10)
+Particle 1 is a fixed source generating a central force field that pulls particle 2 toward it. The acceleration of particle 2 is proportional to p1 and inversely proportional to p2, with a radial dependence that combines a short-range cubic-decay term (A/r³) dominating near the source and a long-range Coulomb-like term (B/r) dominating at large distances. This dual-scale behavior — much steeper than Newtonian gravity at short range, much shallower at long range — distinguishes this universe's force law from familiar 1/r² gravity and corresponds to a potential of the form φ ∝ A/(2r²) - B·ln(r).
+
+--- seed 2 ---   score: 0.40  (4/10)
+The probe particle feels a purely radial attractive acceleration toward the source. The magnitude scales linearly with the source charge p1 and inversely with the probe property p2 (acting as inertial mass). The radial profile has two regimes: at long range (r ≳ 1) the acceleration behaves like a sum of inverse-square and inverse-distance terms (A/r² + B/r), consistent with a 2D Coulomb/gravity-like field plus a long-range linear potential contribution. At short range there is an additional rapidly-decaying enhancement (modeled as a Gaussian/stretched-exponential ~ C exp(−(r/L)ⁿ)/r) that produces a sharp transition near r ≈ 0.75, suggesting a localized source structure (e.g. a finite-extent charge distribution or an extra screened contact field).
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 1 is held fixed at the origin and sources a central, radially attractive field that accelerates particle 2 inward. Experimentally the magnitude of the acceleration at rest is well-fit by G·p1/r^n with n close to 1 (a logarithmic potential in 2D), and particle 2's own scalar property p2 plays no role in its motion — it behaves as a passive test charge. The force is purely central (the perpendicular velocity component is unchanged when the probe moves along a non-radial direction), so the dynamics is described by ẍ = -G·p1·r̂/r^n.
+
+--- seed 4 ---   score: 0.70  (7/10)
+Particle 2 experiences a purely radial attractive force directed toward particle 1 (fixed at the origin), with acceleration magnitude a = K·(p1/p2)/(r·ln(c·r)). The coupling is linear in the source property p1 and inverse-linear in the probe property p2 (so p2 plays the role of inertial mass while p1 is a charge). The 1/(r·ln r) form at large r is characteristic of a 2D field with a logarithmically running coupling — the force decays slower than Coulombic 1/r² but faster than pure 1/r, producing a clean scaling a·r·ln(r) ≈ const that was directly observed across nearly two decades of separation.

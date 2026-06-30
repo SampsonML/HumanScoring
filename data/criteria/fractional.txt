@@ -1,0 +1,62 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: fractional
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Two particles interact through a static field governed by a fractional Laplacian operator, -(-∇²)^α with α = 0.5, sourced by particle 1 with coupling p1. The non-local operator produces a force on particle 2 that decays more slowly with distance than the standard 2D Laplacian case — long-range interactions are enhanced. Particle 2 responds with inertia p2 and the field is time-independent.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies a static non-local / fractional-Laplacian operator of the
+     form −(−∇²)^α with α in a plausible range (roughly 0.3–0.8; ground
+     truth α = 0.5); describes the force as decaying more slowly with
+     distance than the standard 2D Laplacian case (enhanced long-range
+     interaction); correctly names p1 as source and p2 as inertia.
+ 7–9 — Identifies an anomalous / non-local spatial operator with unusual
+     (slower-than-standard) long-range behaviour, but misses α, places α
+     outside a plausible range, or articulates the direction of the anomaly
+     vaguely or incorrectly.
+ 4–6 — Recognises static attraction but assumes a standard Laplacian or
+     ordinary power-law, missing the non-local / fractional character.
+ 1–3 — Wrong operator family (time-evolving or repulsive) or no
+     characterisation of the spatial operator at all.
+   0 — Empty or irrelevant.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

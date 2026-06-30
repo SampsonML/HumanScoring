@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered law is Newtonian gravity in 2D: every particle attracts every other particle via an inverse-square force law (F = G*m1*m2/r²), where acceleration is independent of the receiving particle's mass. The system is dominated by the anchor particle (index 0) with mass ~1e15, which creates the primary gravitational field. The 20 ring orbiters (indices 1-20) at radius ~5 are in circular orbits with tangential velocity ~2.82, consistent with v = sqrt(GM/r) for the anchor's mass. The 5 probe particles (indices 21-25) follow trajectories determined by the combined gravitational field of all 26 particles, but the anchor's contribution dominates.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered law is a central force field where each particle experiences acceleration toward the origin with magnitude proportional to 1/r (inverse distance), corresponding to a logarithmic potential Φ(r) = G ln(r). This differs from Newtonian gravity (1/r²) and produces orbital dynamics where particles oscillate radially while conserving angular momentum. The force coupling G ≈ 8 is independent of particle mass, meaning all particles fall with the same acceleration regardless of their inertia. The anchor and ring orbiters create this static central field, and the 5 probe particles move under its influence without contributing significantly to the field themselves.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered law is a central force field with a logarithmic potential Φ(r) = K ln(r), producing a radial force F = -∇Φ = -K/r directed toward the origin. This differs from standard 3D gravity (1/r² force) - here the acceleration magnitude scales as 1/r, meaning circular orbit velocity is constant regardless of radius (v = √K). The massive anchor at the origin generates this field, and all other particles (ring orbiters and probes) respond to it with acceleration independent of their own mass. The fitted constant K ≈ 8 matches the observed orbital velocity of ring particles (v ≈ 2.82) and the radial acceleration of probes across all tested distances.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law is a central force field where every particle experiences acceleration toward the origin (anchor point) with magnitude proportional to 1/r, where r is the distance from the center. This differs from Newtonian gravity (1/r²) - here the acceleration is a = -k·r̂/r, meaning |a| = k/r. The constant k ≈ 7.91 was determined from the circular orbit condition where v² = k for the ring orbiters at r=5 with v≈2.82. The equivalence principle holds: acceleration is independent of particle mass, so all particles follow the same trajectories given identical initial positions and velocities.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The physical system is governed by Newtonian gravity, where every particle exerts an attractive force on every other particle proportional to the product of their masses and inversely proportional to the square of their separation distance. The massive central anchor dominates the gravitational field, causing probes to accelerate toward the origin regardless of their own mass, while the background orbiters maintain a stable ring configuration through their initial tangential velocities. The dynamics are determined by the superposition of gravitational accelerations from all 26 particles acting simultaneously.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+In this simulated universe, all particles interact via a 1/r force law (corresponding to a logarithmic gravitational potential, which is the natural 2D analogue of Newtonian gravity). The acceleration of particle i due to particle j is a_i = G × m_j / r_ij² × (r_j - r_i), i.e., proportional to m_j/r_ij directed toward j. The anchor particle has enormous mass (~10^15), giving G × M_anchor ≈ 8.0, while the ring orbiters (masses 1, 2, 4 in repeating pattern) contribute additional 1/r forces that are summed pairwise, producing a small but measurable net outward force on the y-axis probes consistent with the 1/r interaction law summed over the ring geometry.
+
+--- seed 1 ---   score: 0.20  (2/10)
+In this simulated universe, gravity follows a 1/r force law rather than the familiar 1/r² law: the force between two particles of masses m_i and m_j separated by distance r is F = G·m_i·m_j/r, directed along the line joining them. This means the gravitational acceleration experienced by a probe particle is a = G·M_source/r, independent of the probe's own mass, and the product a·r is constant (~8.0 for the dominant anchor particle with mass 10¹⁵ and G≈8×10⁻¹⁵). The ring of 20 orbiter particles also contributes forces via the same 1/r law, but their masses (1–4 units) make their contribution negligible compared to the anchor; nonetheless, the full simulation integrates all 26 pairwise interactions using this 1/r coupling.
+
+--- seed 2 ---   score: 0.30  (3/10)
+In this simulated 2D universe, all particles interact through a logarithmic gravitational potential φ(r) = G·M·ln(r), which is the natural 2D analog of the Newtonian gravitational potential. This yields a force of magnitude F = G·m_i·m_j/r directed along the line connecting the two particles (attractive), so the acceleration of particle i due to particle j is a = G·m_j·(r_j−r_i)/|r_j−r_i|² in vector form. The massive anchor particle (mass ~10^15) at the origin dominates probe dynamics, with the background ring orbiters (masses cycling 1,2,4) providing smaller perturbations through the same pairwise interaction; the effective coupling G·M_anchor ≈ 8.0 was measured by observing that probe accelerations at distance r satisfy |a| = 8/r to high precision across two decades of distance.
+
+--- seed 3 ---   score: 0.30  (3/10)
+In this simulated universe, gravity follows a 1/r force law rather than the 1/r² law of our own universe. Specifically, the acceleration of particle i due to particle j has magnitude G·mⱼ/rᵢⱼ and points toward j, equivalent to a logarithmic gravitational potential Φ(r) = -G·M·ln(r). The massive anchor particle (mass ~10¹⁵) dominates all interactions with an effective coupling G·M_anchor ≈ 8, while the ring orbiters (masses 1–4) contribute negligibly (G·m_orbiter/r ~ 10⁻¹⁴). This 1/r law was confirmed by the precise proportionality between acceleration and 1/r across distances from 5 to 22 units, and by the orbital speed v = √(G·M) ≈ 2.83 matching the observed orbiter speeds.
+
+--- seed 4 ---   score: 0.20  (2/10)
+In this simulated universe, all 26 particles (anchor, ring orbiters, and probes) interact via a universal gravitational law where the force magnitude scales as 1/r (rather than 1/r² as in standard Newtonian gravity): F_ij = G × m_i × m_j / r_ij. This means the acceleration of particle i due to particle j is G × m_j / r_ij² × r̂_ij (directed toward j), which is the same expression as Newtonian gravity but derived from a different potential (logarithmic rather than 1/r). The coupling constant G ≈ 8×10⁻¹⁵ was determined by measuring that the massive anchor (M ≈ 10¹⁵) produces acceleration G×M/r = 8/r on test probes along the x-axis, with the ring orbiters providing small but measurable corrections to forces in other directions.

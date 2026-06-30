@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Each particle's scalar charge sources a static inverse-square (Coulomb-like) field, F/r² with potential q/r. A positive charge produces a field that pushes every other particle away, and a negative charge pulls every other particle in — crucially, the force a particle feels depends only on the SOURCE charges, not on the responding particle's own charge (a neutral particle is pushed just as strongly), and a charge exerts no self-force. The acceleration on any particle is the linear superposition of the inverse-square fields from all other charges, with unit coupling constant (k=1) and no dependence on velocity.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The universe hosts an inverse-square electrostatic field: each particle sources a Coulomb potential proportional to its signed charge, and any pair feels a force F = q_i q_j / r². The twist is that a particle's inertial mass equals its own signed charge, so its acceleration a_i = Σ_j q_j (r_i−r_j)/|r_i−r_j|³ depends only on the other particles' charges, not its own. Consequently like-positive pairs repel, opposite pairs attract, and—because of the negative effective inertia—two negative charges also attract. The coupling constant is k = 1.0.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The universe contains a scalar charge field obeying an inverse-square (Coulomb-like) law, where each particle sources a radial field proportional to its own charge q_j. Unusually, every particle responds to this field as a unit test mass: its acceleration depends only on the source charges and geometry, not on its own charge, giving a_i = Σ_j q_j (r_i − r_j)/|r_i − r_j|³ with coupling constant G ≈ 1. Like-sign charges repel and opposite-sign charges attract along the line joining them, and forces from multiple particles superpose linearly.
+
+--- seed 3 ---   score: 1.00  (10/10)
+This universe contains a scalar charge field obeying an inverse-square (Poisson-like) law: each particle j of signed charge Q_j emits a radial field of magnitude |Q_j|/r² pointing away from it (for Q_j>0) or toward it (for Q_j<0). The defining peculiarity is that a particle's acceleration equals the total source field at its location and does NOT depend on its own charge — neutral and charged particles respond identically, so this behaves like a "charge-sourced gravity" where positive charges repel everything and negative charges attract everything. Fitted constants confirm a prefactor k=1.0 and exponent p=2.0 to within measurement noise.
+
+--- seed 4 ---   score: 1.00  (10/10)
+This universe contains a static inverse-square scalar field sourced by each particle's signed charge. Unlike Coulomb's law, the acceleration a particle experiences depends only on the source charges of the other particles and the inverse-square geometry — not on the responding particle's own charge magnitude or sign (effectively every particle has identical unit inertia). The acceleration is a_i = k·Σ_j q_j (r_i−r_j)/|r_i−r_j|³ with coupling k≈1; positive sources push particles away and negative sources pull them in, producing the characteristic Newtonian-third-law-violating asymmetry observed for opposite-sign pairs.

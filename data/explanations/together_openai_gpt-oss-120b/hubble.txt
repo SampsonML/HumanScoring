@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The system is governed by a central harmonic potential: every particle feels a restoring acceleration directly opposite to its displacement from the anchor, a = −α r. The anchor’s enormous inertia makes its motion negligible, effectively fixing the field centre. Because the acceleration is proportional to position, the dynamics are mass‑independent, matching the observed identical circular motion of background orbiters and the simple harmonic trajectories of the probes.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The system exhibits a universal inverse‑square attraction between all particles, akin to gravity, but the acceleration felt by each particle is reduced by a factor proportional to its own mass raised to an exponent α. This inverse‑mass scaling explains why heavier probes respond less strongly than lighter ones. The overall coupling strength is set by a single constant G.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The system is governed by a universal inverse‑square attractive interaction identical to Newtonian gravity. Every particle, including the massive anchor, exerts a force proportional to the product of masses and directed along the line joining them, with magnitude G m_i m_j / r². This law correctly reproduces the observed orbital motion of the probe particles.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The probes experience a central restoring force that pulls them toward a preferred circular radius R≈5, the radius of the background ring. The acceleration is proportional to the radial displacement (|r|‑R) and does not depend on the probe’s mass, so the force scales with mass. This simple harmonic‑like radial attraction causes all probes to settle onto the rotating ring while leaving the anchor fixed.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The probes are attracted toward the central anchor by a force that points radially inward and scales with the inverse square of the distance, independent of the probe’s own mass. This implies a central field with acceleration **a = ‑K r / |r|³**, where K is a constant set by the massive anchor. All particles obey the same law, while the anchor remains effectively stationary due to its huge inertia.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds with an acceleration directed radially inward. The field has inverse-square form, while the probe’s response scales linearly with the source strength p1 and inversely with its own parameter p2, so the effective acceleration is proportional to (p1/p2) r / |r|^3. The dynamics are purely deterministic second-order motion with standard velocity kinematics and no evidence of magnetic, drag, or time-dependent structure.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 1 creates a static central inverse-square field centered at the origin, and particle 2 responds with acceleration proportional to the source strength p1 and inversely proportional to its own property p2. In vector form the equation is \( \ddot{\mathbf r} = -(p1/p2)\,\mathbf r/|\mathbf r|^3 \), so the coupling is radial and isotropic with no dependence on the probe’s velocity beyond standard trajectory integration. The main structural feature is that p2 acts like inertial mass while p1 acts like source charge, giving identical motion whenever the ratio p1/p2 is the same.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 1 generates a static inverse-square central field centered at the origin, and particle 2 responds with an acceleration directed toward particle 1. The coupling is linear in the source property p1 and inversely proportional to the probe property p2, so p2 acts like an inertial mass while p1 acts like a source strength. Structurally, the motion is just Newtonian point-particle dynamics in a fixed radial field with vector form proportional to r/|r|^3.
+
+--- seed 3 ---   score: 0.40  (4/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds to that field with an acceleration directed toward particle 1. The field strength scales like p1 divided by distance squared, while the probe’s inertial response scales inversely with p2, so the net law is an inverse-square radial force proportional to p1/p2. The motion therefore follows standard two-dimensional Kepler/Coulomb trajectories with particle 1 fixed.
+
+--- seed 4 ---   score: 0.40  (4/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds with an acceleration directed inward along the separation vector. The coupling strength scales linearly with the source property p1 and inversely with the probe property p2, while the field magnitude itself falls as 1/r, giving a vector law proportional to - (p1/p2) r_vec / r^2. The motion is therefore smooth orbital or deflected motion in a logarithmic-type central potential rather than a 1/r^2 Newtonian force.

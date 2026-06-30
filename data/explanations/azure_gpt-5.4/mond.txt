@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The particles appear to obey a Newtonian-style many-body law: each particle feels the vector sum of attractive pairwise forces proportional to displacement divided by distance cubed, corresponding to a 1/r potential in two-dimensional position space. The centre particle is not special dynamically; the dramatic blow-ups occur when the symmetric ring collapses inward, creating close encounters that sling particles back out with large speeds.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The particles appear to generate a pairwise radial field with two regimes: for separations below a critical distance they attract each other like linear springs, while above that distance the interaction reverses and becomes an almost distance-independent repulsion. The dramatic blow-apart events in the ring experiments are explained by crossing this threshold, after which each pair contributes nearly constant outward acceleration along the line joining the particles, with a smooth rather than perfectly sharp transition.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The particles appear to source and respond to a symmetric Coulomb-like field: each pair exerts a central repulsive force directed along their separation vector with magnitude proportional to the inverse square of distance. The full system is just the sum of these pair forces over all particles, with no evident damping or velocity-dependent interaction, so the dynamics reduce to an 11-body repulsive \(1/r^2\) law.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The particles are coupled by an all-to-all Hooke-like interaction: each pair contributes a force proportional to their separation vector, so the net acceleration on any particle is proportional to the displacement from the instantaneous centre of mass. The centre of mass moves uniformly, while the relative coordinates execute simple harmonic motion with one common angular frequency. In the symmetric ring experiments this appears as collective radial breathing and rotation of the polygon, with no special role for the central particle beyond its initial position.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The particles appear to couple directly to one another through a central repulsive field, with each pair contributing independently and symmetrically. The acceleration is well described by a force vector proportional to the separation vector divided by the fourth power of distance, equivalently a repulsive inverse-cube force in magnitude. The centre particle is not special dynamically; in the symmetric ring setups it remains near rest only because the many-body forces cancel.

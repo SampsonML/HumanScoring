@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The discovered law describes two particles interacting via a logarithmic central potential where the force magnitude is proportional to p1*p2/r and directed radially inward. Particle 2's inertial mass is proportional to its property p2, yielding an acceleration proportional to p1/p2 and inversely proportional to distance (a ∝ 1/r). Unlike inverse-square forces, this 1/r force law produces orbits that precess continuously rather than closing.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The discovered law is a central force field where particle 2 experiences an acceleration directed toward particle 1 (fixed at the origin) with magnitude G*p1/(p2*r), where r is the separation distance. This represents a linearly screened Coulomb-like interaction: stronger source strength p1 increases attraction, while larger probe property p2 inertia-like resists acceleration, and the 1/r dependence (rather than 1/r²) indicates a logarithmic potential in 2D.
+
+--- seed 2 ---   score: 0.60  (6/10)
+This universe follows Newtonian-like gravitation where particle 2 experiences a central attractive force from particle 1 proportional to p1/p2 and inversely proportional to the square of the distance. The scalar p1 acts as a source charge (like mass) while p2 acts as an inertial resistance (like mass in F=ma), with the acceleration being a = -k·p1/(p2·r²) directed toward the origin. This is mathematically equivalent to two-body gravitational dynamics with coupling constant k.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The discovered law is an inverse-square central force where particle 2 experiences an attractive force toward fixed particle 1 with magnitude F = G·p1²/(p2·r²). The force scales with the square of the source parameter p1 and inversely with the probe parameter p2, following a Coulomb-like 1/r² distance dependence with coupling constant G ≈ 0.447. This conservative central-force law produces orbital dynamics without velocity-dependent damping or other dissipative effects.
+
+--- seed 4 ---   score: 0.70  (7/10)
+I discovered that particle 2 moves under an attractive inverse-square central force law similar to Newtonian gravity, but with the gravitational strength proportional to source property p1 and the inertial mass proportional to probe property p2. The force on particle 2 is F = -G·p1/r² directed toward particle 1 (fixed at the origin), giving particle 2 an acceleration a = F/p2. This produces Kepler-like orbital motion where particles with higher p2 are harder to accelerate. There is no additional velocity-dependent drag or friction; the observed velocity changes arise entirely from the conservative gravitational field.

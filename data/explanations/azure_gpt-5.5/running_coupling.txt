@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 1 is a fixed source at the origin generating a central attractive field. Particle 2 couples to this field with acceleration proportional to p1/p2, with radial magnitude equal to 0.15/r + 0.75/r². The resulting motion is an ordinary second-order ODE in two dimensions, with angular deflection arising solely from the central radial force.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 1 is a fixed central source and particle 2 behaves as a probe whose acceleration scales as p1/p2. The field is radially attractive and is dominated at large distance by an inverse fractional power law, approximately \(r^{-3/2}\), consistent with a fractional-Poisson-like field in two spatial dimensions. Near the source there is an additional localized enhancement of the inward field, producing much stronger accelerations for radii below about one unit while preserving central-force motion and angular deflection.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 1 is fixed at the origin and produces a rotationally symmetric attractive scalar field; particle 2 accelerates along the negative radial gradient with coupling proportional to p1/p2. The far field follows a fractional inverse-power Green function, giving radial acceleration close to r^(-3/2), while the source has an enhanced short-range core that strengthens the attraction at sub-unit separations.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particle 2 moves in a central, attractive scalar field produced by the fixed source particle at the origin. The field couples linearly to the source property and inversely to the probe property, so the acceleration scales as \(p_1/p_2\) and points along \(-\hat r\). The radial field profile is not Newtonian or Coulombic; it has a strong short-range core and a long-range tail close to \(r^{-3/2}\).
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 1 is fixed at the origin and creates an attractive central field; particle 2 accelerates along the line joining it to the source. The coupling scales as p1/p2, so the source property strengthens the field while the probe property acts like inertial mass. The radial field is not Newtonian but is best captured by a combination of inverse-power components, approximately proportional to A/r^(3/2) + B/r^2 + C/r^3.

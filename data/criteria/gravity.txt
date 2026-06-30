@@ -1,0 +1,62 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: gravity
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Two particles interact through a static scalar field obeying the 2D Poisson equation, ∇²φ = source, where particle 1 sources the field with strength p1 and particle 2 is accelerated by -∇φ divided by its inertia p2. Because the Laplacian Green's function is logarithmic in 2D, the resulting attractive force falls off as 1/r rather than 1/r².
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies a static scalar field with a Laplacian/Poisson operator
+     (∇²φ = source); states the resulting attractive force falls off as 1/r
+     (not 1/r²) in 2D, or equivalently that the Green's function is
+     logarithmic; correctly distinguishes p1 as source coupling and p2 as
+     particle inertia.
+ 7–9 — Identifies a static attractive field with roughly correct decay, but
+     asserts the 3D-Newtonian 1/r² falloff, muddles the p1/p2 roles, or
+     describes the operator only qualitatively without naming it.
+ 4–6 — Recognises static attraction but commits to a clearly wrong decay law
+     (exponential, inverse-cube), or fails to distinguish source coupling
+     from inertia.
+ 1–3 — Wrong temporal character (time-evolving or wave-like) or a
+     qualitatively wrong force law (repulsive, constant).
+   0 — Empty, irrelevant, or no physical content.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

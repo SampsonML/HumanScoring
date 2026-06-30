@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 sources a static, velocity-independent central field that attracts the probe with acceleration proportional to p1 (source strength) and inversely proportional to p2 (which acts as inertial mass): a = (p1/p2)·g(r) directed toward the origin. The radial profile g(r) is piecewise: inside a sharp shell at r ≈ 0.75 the field behaves like a 2D Coulomb field, g·r ≈ 5.95 constant (with a small exponential deficit at very short range), while outside the shell it abruptly drops to a much weaker mixed law g ≈ 0.137/r + 0.80/r² + 0.57/r⁶, combining a logarithmic-potential (2D gravity) term, a 3D-Newtonian term, and a short-range van-der-Waals-like correction. The transition between the two regimes is very sharp (logistic width ≈ 0.03), as if the source carried a compensating screening shell at fixed radius R ≈ 0.754.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The probe particle experiences a purely radial, velocity-independent attraction toward the fixed source at the origin, with acceleration scaling as p1/p2 (source charge over probe inertia). The force law has two regimes: inside a sharp boundary at r ≈ 0.76 it behaves like a 2D logarithmic-potential field with acceleration A/r (A ≈ 5.94), while outside it is a superposition of a Newtonian inverse-square term (≈0.78/r²), a weaker 2D Coulomb term (≈0.14/r), and a steep short-range 1/r⁶ contribution (≈0.6/r⁶). The crossover between regimes is very sharp (width ≈ 0.02), effectively a piecewise law, and its location does not depend on the particle properties.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 2 experiences a purely radial, velocity-independent attraction toward the fixed source, with acceleration proportional to the source property p1 and inversely proportional to its own property p2 (so the force itself is independent of the probe's property). The field has two distinct zones: within a screening radius r0 ≈ 0.74 it follows a 2D-Coulomb (logarithmic potential) form g ≈ 5.95/r, softened at very small radii by a factor (1 − e^{−r/0.082}) so the force vanishes at the origin; beyond r0 the field rapidly crosses over (a sharp, stretched-exponential transition of width ~0.1) to a weaker outer field g = 0.83/r² + 0.139/r, i.e. a Newtonian inverse-square term plus a long-range 1/r correction. This structure resembles a massive mediator confined inside a screening bubble, with conventional gravity plus a 2D logarithmic tail dominating outside.
+
+--- seed 3 ---   score: 0.60  (6/10)
+The probe particle experiences a purely central, attractive, velocity-independent force directed toward the fixed source, with magnitude proportional to p1 (source charge) and acceleration inversely proportional to p2 (which acts as inertial mass), so acceleration scales exactly as p1/p2. The radial field profile is g(r) = A/(r·ln(r/r0)) at large radii — a 2D-gravity-like 1/r force further suppressed by a logarithmic screening factor — which is capped at a maximum strength Fmax/r below a critical radius r ≈ 0.74 where the log denominator would diverge, and softened by a Plummer-like factor r²/(r²+s²) deep in the core so the force vanishes linearly at the origin. Angular momentum is conserved (no drag or tangential forces), and the dynamics depend only on the ratio p1/p2, not on the individual values.
+
+--- seed 4 ---   score: (none / judge error)
+The source particle at the origin generates a static, velocity-independent central field that attracts the probe with acceleration proportional to p1/p2 (the source property strengthens the force; the probe property acts like inertia). In the far field the acceleration magnitude is a sum of a Newtonian inverse-square term (~0.81/r²) and a long-range 1/r tail (~0.14/r), the latter resembling the field of a logarithmic potential. Inside a core radius of about r0 ≈ 0.72 the field crosses over to a much stronger pure 1/r law (~5.9/r); the crossover is smooth and well described by a power-law blending weight (r0/r)^6.6 capped at 1, so the inner region is exactly 1/r and the transition is fairly sharp.

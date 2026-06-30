@@ -1,0 +1,20 @@
+======================================================================
+Model : together/meta-llama/Llama-3.3-70B-Instruct-Turbo
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   [no trial file]
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered law is a simulation of the motion of particles in a gravitational field. The law assumes that the force between two particles is proportional to the product of their masses and inversely proportional to the square of the distance between them. The simulation uses the scipy.integrate.solve_ivp function to solve the system of ordinary differential equations that describe the motion of the particles.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The discovered law is a simulation of the motion of particles in a 2D space. The law takes into account the positions, velocities, and masses of the particles, as well as the time duration of the simulation. The law uses the scipy.integrate.solve_ivp function to solve the ordinary differential equation (ODE) that describes the motion of the particles. The ODE is defined by the deriv function, which computes the derivatives of the positions and velocities of the particles. The law returns the final positions of the particles.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The scientific law that describes the behavior of the particles in this simulated universe is a gravitational law, where each particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. The motion of the particles is simulated using a simple Euler method, where the accelerations are calculated at each time step and the velocities and positions are updated accordingly.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered law is a simulation of the motion of particles in a 2D universe. The law uses the equations of motion to update the positions and velocities of the particles over time. The forces between particles are calculated using the inverse square law. The simulation is run using the solve_ivp function from scipy.integrate.

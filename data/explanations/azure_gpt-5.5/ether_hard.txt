@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The probes are not interacting with each other or with the ring masses; all ordinary particles are test bodies in a fixed external field. The field is a central logarithmic potential, giving acceleration \(\mathbf a=-8\,\mathbf r/|\mathbf r|^2\), plus a constant upward acceleration of \(0.1\). The large central anchor is effectively inert and need not be used as a dynamical source for the probes.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The probes move independently in a fixed central logarithmic field: their acceleration is \(-8\,\mathbf{r}/|\mathbf{r}|^2\), directed toward the coordinate centre, plus a uniform upward acceleration of \(0.1\). Particle masses do not alter the probe motion, and the ring/anchor particles are tracers of the same background field rather than significant mutual force sources for the probes.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The universe is governed by a central logarithmic potential: every non-anchor particle accelerates toward the anchor with acceleration proportional to the displacement vector divided by distance squared, independent of its own mass and independent of the other particles. The ring particles and probes are therefore test particles in the same central field, while the massive anchor follows a small externally prescribed drifting/epicyclic motion rather than reacting appreciably to forces.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The system is governed by a central logarithmic potential: every non-anchor particle has acceleration \(\mathbf{a}=-\mu\,\mathbf{r}/|\mathbf{r}|^2\), independent of its mass and independent of the other orbiters or probes. The observed coordinate frame itself drifts with a deterministic cycloidal offset, so all final particle positions are the central-field solution plus this common frame shift.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The universe contains a fixed central logarithmic potential: every non-anchor particle experiences acceleration proportional to \(-\mathbf{r}/|\mathbf{r}|^2\) with strength about 8, plus a constant upward acceleration of 0.1. Particle masses do not affect the acceleration, and the ring orbiters act as passive tracers rather than sources of a mutual gravitational field. The anchor is effectively fixed at the origin and defines the center of the external field.

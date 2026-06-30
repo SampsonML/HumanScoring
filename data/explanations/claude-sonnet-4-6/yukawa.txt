@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin) with magnitude F = k·p1/r^n, where r is the separation distance, p1 is the source particle's scalar property, and p2 has no dynamical effect. The force law resembles a power-law gravity with exponent n≈1 (logarithmic potential), coupled with a small linear velocity damping term γv that accounts for the observed gradual energy dissipation in trajectories. The coupling constant k and damping γ are fittable parameters, with p1 entering linearly as a charge-like source strength.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The system exhibits overdamped (purely kinematic) dynamics where particle 2's velocity is directly determined by its current position rather than by integrating an acceleration. The velocity field takes the form v = -C·p1/r^α · r̂, an attractive drift directed radially toward particle 1 at the origin, with magnitude scaling as 1/r^α (approximately 1/√r with α≈0.5 and C≈0.60). The scalar property p2 has no effect on the motion, while p1 linearly scales the drift speed everywhere in the field.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 is attracted toward particle 1 (fixed at the origin) by a central force whose magnitude falls off as the inverse 3/2 power of the separation distance: F = K·p1·r^(-3/2), directed radially inward. The scalar property p1 of the source particle acts as a charge-like coupling strength, while the property p2 of the probe particle has no influence on its acceleration (the force is purely kinematic in p2). The singularity of the potential at r=0 is strong enough that particles passing through the origin undergo an effective "corner turn," after which they travel at constant velocity, consistent with the force being conservative with a potential V(r) ∝ r^(-1/2) that diverges at the origin.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particle 2 experiences a purely attractive force directed toward the fixed particle 1 (located at the origin), with acceleration magnitude given by a = G·p1/r², where r is the separation distance and G ≈ 3.0 is a coupling constant of this universe. The force depends linearly on p1 (the source property) but is entirely independent of p2 (the probe property), unlike Newtonian gravity where both masses enter. This inverse-square law has the same spatial form as standard gravity or Coulomb's law, but with a gravitational "constant" of G = 3.0 rather than the standard value.
+
+--- seed 4 ---   score: 0.30  (3/10)
+In this simulated universe, particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin). The acceleration of particle 2 is governed by a = G × √p1 / r^(2/3) × (-r̂), where r is the distance between the particles and p1 is the scalar property of the source particle. Notably, the probe particle's own property p2 has no influence on its acceleration, making this analogous to a "gravitational-like" force but with a square-root coupling to the source charge and an unusual r^(-2/3) distance dependence (much weaker than standard 1/r² gravity). The fitted coupling constant is G ≈ 2.23.

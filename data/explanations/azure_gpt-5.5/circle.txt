@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The universe is governed by an equal-mass pairwise attractive field: each particle sources a central force field felt by all the others. The acceleration on a particle is the sum of displacement vectors toward other particles divided by distance raised to the 2.5 power, with coupling strength approximately \(1/6\). There is no damping or external field; the centre remains fixed only in the symmetric ring experiments because the net force cancels by symmetry.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The universe is governed by a mutual attractive field: every particle accelerates toward every other particle with a vector force proportional to the separation vector divided by a softened power of the distance. The exponent is close to 2.5, with coupling near 1/6, and a small short-range softening lets symmetric collapses pass through rather than becoming numerically singular. The central particle is not externally pinned; it remains at rest only when the ring symmetry makes the net field vanish there.
+
+--- seed 2 ---   score: 0.60  (6/10)
+The universe is governed by an attractive pairwise central field, but its force magnitude scales as \(1/r^{3/2}\) rather than the Newtonian \(1/r^2\). Each particle couples with the same strength, so the total acceleration of any particle is the superposition of displacement vectors to all other particles divided by distance to the \(5/2\) power, with coupling \(G=1/6\). In the centre-plus-ring topology this produces a purely radial inward field for zero tangential speed and combines linearly with the initial tangential motion.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The universe is an equal-mass many-body system with pairwise attraction, but the force magnitude scales as \(1/r^{3/2}\) rather than Newtonian \(1/r^2\). Equivalently, particle \(i\) has acceleration \(\frac{1}{6}\sum_{j\ne i}(\mathbf{x}_j-\mathbf{x}_i)/|\mathbf{x}_j-\mathbf{x}_i|^{5/2}\), while velocities determine the trajectory through ordinary second-order dynamics. The centre-ring symmetry made the centre remain stationary and reduced the ring motion to radial collapse or circular/epicyclic motion depending on the initial tangential speed.
+
+--- seed 4 ---   score: 0.60  (6/10)
+The universe is an equal-mass N-body system with an attractive pairwise central field, not a rigid ring-specific rule. A particle’s acceleration is the sum over all other particles of \((1/6)(\mathbf{x}_j-\mathbf{x}_i)/|\mathbf{x}_j-\mathbf{x}_i|^{5/2}\), i.e. a force magnitude proportional to \(r^{-3/2}\). The central particle remains stationary in the observed experiments because of symmetry, while tangential initial velocities simply add angular motion under the same conservative attraction.

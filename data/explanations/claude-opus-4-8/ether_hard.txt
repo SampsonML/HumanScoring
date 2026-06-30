@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The central anchor sources a logarithmic (2D-gravity-like) potential, so each probe feels an attractive acceleration of magnitude C/r (with C≈8) pointing toward the anchor's current position; this was verified by a·r being constant at exactly 8 over radii from 4 to 40. On top of this sits a spatially uniform, distance-independent background field with components (gx≈0, gy≈+0.1) that persists unchanged even at r=40. The probe acceleration is independent of probe mass (force scales with inertial mass), and the ring orbiters exert no measurable force on the probes — their net effect is captured entirely by the anchor term plus the uniform field.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The simulated universe obeys a two-dimensional gravity-like force law in which acceleration falls off as 1/r (a logarithmic potential) rather than the 1/r² of our world. Crucially, the acceleration a test (probe) particle feels is independent of its own mass: every source produces a radial pull of magnitude (coupling)/r toward it. The dominant source is the massive central anchor with a fixed coupling K≈8, giving a=8/r toward the centre; the ring orbiters add a much weaker mass-weighted 1/r contribution (coupling G·m_j per orbiter), which produces the small anisotropic deviations observed near the ring.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The probes obey a 2D logarithmic (1/r) central-force law: each feels an inward acceleration of magnitude A/r toward the origin (A≈8), independent of its own mass — this same field keeps the ring orbiters in their circular orbits at radius 5 (v²/r ≈ A/r). Superimposed is a small, spatially uniform background field of strength g≈0.1 pointing in the +y direction, evidenced by a consistent +y acceleration offset measured at every probe position regardless of location or time. The heavy anchor and the ring orbiters do not produce any additional measurable field beyond this effective central-plus-uniform description.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The central anchor (particle 0) sources a radial field that accelerates every other particle toward it with magnitude K/r (K≈8), independent of the particle's own mass — equivalent to a two-dimensional logarithmic gravitational potential giving rise to constant-circular-speed orbits (the ring orbiters indeed circulate at v²≈K). Inter-particle gravity between probes and orbiters is negligible; only the anchor's 1/r force governs the dynamics. Probes thus move as test particles in a fixed logarithmic central potential.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The probes move in a fixed central force field centred on the massive anchor at the origin. The acceleration is purely radial and inward with magnitude k/r (k ≈ 8), i.e. a 2D logarithmic gravitational potential Φ(r) = k·ln(r). Crucially, this acceleration is completely independent of the probe's inertial mass, and the ring orbiters (and other probes) exert no measurable force — even when a probe sits directly on the ring — so only the anchor sources the field.

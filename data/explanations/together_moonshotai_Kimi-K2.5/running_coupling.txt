@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The universe follows a central force law where particle 2 experiences an attractive inverse-square force toward particle 1 (fixed at the origin), with force magnitude proportional to p1/p2 and inversely proportional to the squared distance. The effective coupling constant G ≈ 1.5 was determined by fitting to trajectories. This creates Keplerian dynamics where stable orbits exist when the tangential velocity equals v_circular = √(G·p1/(p2·r)), with faster trajectories escaping and slower trajectories spiraling inward.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The physics follows a modified Newtonian gravity with field-dependent drag. Particle 2 experiences an attractive inverse-square gravitational force toward particle 1 at the origin, with strength proportional to p1. Additionally, a velocity-damping force opposes motion with magnitude proportional to both the particle's velocity and the local gravitational field strength (p1/r²), creating a characteristic terminal velocity proportional to the square root of the source strength p1.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law is a repulsive inverse-square force between two scalar-charged particles. Particle 2 experiences a Coulomb-like force proportional to the product of the scalar properties p1 and p2, inversely proportional to the square of the separation distance, and directed radially outward from particle 1 (which remains fixed at the origin). This creates dynamics analogous to like-charged electric charges repelling each other, with the force law F = k·p1·p2/r² where k is a positive coupling constant fitted from the trajectory data.
+
+--- seed 3 ---   score: 0.10  (1/10)
+Particle 2 experiences a central force from particle 1 that scales with the ratio p1/p2 and follows an oscillatory radial dependence. The force has the form F ∝ (p1/p2) × sin(kr)/r² × e^(-decay×r), producing alternating regions of repulsion and attraction as distance increases, similar to a Yukawa-type screened oscillatory potential but with 1/r² decay rather than exponential.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The universe follows an inverse-square force law where particle 2 experiences an attractive acceleration toward particle 1 (fixed at the origin). The acceleration magnitude is proportional to p1/p2 times 1/r^2, making p1 act like a charge/mass source and p2 like inertia. The force constant k is approximately 3.0, determined by fitting to the observed trajectories where particles accelerate toward the origin with strength scaling as the inverse square of their separation.

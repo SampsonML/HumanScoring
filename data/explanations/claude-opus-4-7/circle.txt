@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.60  (6/10)
+This 2D universe contains 11 unit-mass particles that interact via a pairwise central force resembling gravity but with a modified power law: the attractive force between any two particles falls off as 1/r^1.5 rather than the usual 1/r^2. I deduced the exponent by measuring the very-short-time radial acceleration of stationary ring particles at multiple radii (r = 2, 3, 4, 5, 8, 10) and observing that a·r^1.5 was constant to within ~1%, while a·r^2 and a·r were not. The dynamics conserve angular momentum and energy (verified on orbits with non-zero tangential velocity), consistent with a conservative central force, and the central particle remains essentially stationary by symmetry.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The 11 particles interact pairwise through an attractive central force whose magnitude decreases with distance as F ∝ 1/r^1.5 — softer than Newtonian gravity. Each particle (including the centre) feels the same law and has unit mass; with the discovered coupling constant G ≈ 1/6, a stationary ring of radius R experiences a net inward acceleration ≈ 5.06·G/R^1.5, matching observations across R∈[2,10]. The fitted exponent (1.500) and constant (0.1665) both pin the form precisely; long-time trajectories with various initial tangential velocities reproduce the simulator's symmetric collapses and expansions.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The 11 particles interact pairwise through an attractive force F_ij = k·(r_j - r_i)/|r_j - r_i|² with k ≈ 0.1, equivalent to a logarithmic potential V(d) = -k ln(d). This is the 2D analog of Newtonian gravity — the Green's function of the Laplacian in two dimensions — so the field a single particle generates falls as 1/d rather than 1/d² as in 3D. With this central force, a stationary symmetric ring collapses radially toward the center; giving the ring tangential velocity above the circular-orbit threshold causes the particles to spiral outward, which matches the observed dynamics across all tested initial conditions.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The system is a one-body-like central-force universe: only particle 0 (the centre) acts as a gravitational source for the other 10 particles, attracting each with a force of magnitude G/d^1.5 directed along the line connecting them (where d is the separation from particle 0). There is no interaction between any pair of the outer particles, which is why the symmetric ring configuration is preserved exactly under the dynamics — each particle independently follows a precessing central-force orbit determined solely by its distance to particle 0. The exponent 1.5 (rather than 2) means equilibrium circular orbits satisfy v² = G/√r, and bound orbits trace rosette-like precessing trajectories instead of closed ellipses; particle 0 itself remains at rest under the Newton-3 reaction whenever the surrounding configuration is symmetric.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The system behaves as a fixed central attractor (particle 0) plus 10 test particles, with each test particle pulled toward the centre by a radial force whose acceleration is G/r^n with G ≈ 0.84 and n ≈ 1.5 (a 1/r^{3/2} force law, intermediate between Newtonian gravity and a Coulomb-like 1/r law). Static rings collapse to the centre on a timescale T ∝ r₀^{5/4}, and orbital energetics with the corresponding potential V(r) = -2G/√r reproduce the observed bound and unbound trajectories. The mutual interactions among the ring particles are negligible (or strictly absent): only the centre acts as a source of force, and the centre itself is essentially fixed at the origin.

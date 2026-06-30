@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The hidden field is a uniform radial repulsion: every particle feels a constant acceleration directed away from the origin. The acceleration magnitude A is the sole free constant. With no torques, angular momentum is conserved, so particles follow outward spirals determined by their initial radial and tangential velocities. This simple central-force law reproduces the observed linear growth of speed and quadratic increase of radius.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered dynamics are governed by a central isotropic harmonic field. Every particle feels a linear restoring acceleration directed toward the origin, proportional to its displacement (a = ‑k r). This yields simple harmonic motion for each particle, with the same stiffness constant k across the system; the constant is treated as a free parameter to be fitted from the observed trajectories.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The particles interact through a central harmonic field: each particle experiences a force proportional to –r, pulling it toward the origin with a common stiffness k. This yields a simple linear restoring acceleration that is independent of particle identity. The constant k is the only free parameter and is fitted from the observed trajectories.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The particles interact through a universal attractive inverse‑square force: every particle experiences a vector acceleration proportional to the sum of (r_j‑r_i)/|r_j‑r_i|³ over all other particles, with a single coupling constant G. This pairwise attraction causes the ring of particles to collapse symmetrically toward the centre while conserving momentum, and no additional forces or damping are present. The law applies to any arrangement of particles and velocities in the universe.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The particles are coupled to a scalar field that exerts a Hooke‑type restoring force proportional to displacement from the centre. Simultaneously they experience a Lorentz‑like force proportional to the velocity and oriented perpendicular to it, as if moving in a uniform background “magnetic” field. The competition of these two linear forces generates the observed circular and spiralling trajectories.

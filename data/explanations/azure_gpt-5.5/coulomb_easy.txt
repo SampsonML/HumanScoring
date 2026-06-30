@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The source particle produces a point-source inverse-square attractive field, equivalent to a potential proportional to \(-p_1/r\) solving the usual point-source Poisson form away from the origin. Particle 2 couples to this field through its acceleration, not through its own scalar property, so \(p_2\) does not affect the trajectory; initial velocity simply adds the inertial part of the motion.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The source particle creates a central inverse-square attractive field, with acceleration directed from particle 2 toward particle 1. The coupling strength is proportional to the product of the two scalar particle properties, so changing either property has the same linear effect. The field is effectively Newtonian/Keplerian at resolved distances, with only a very small regularising core needed to avoid the point-source singularity during direct impacts.
+
+--- seed 2 ---   score: 0.80  (8/10)
+The source particle is fixed at the origin and generates a central inverse-square attractive field. The probe’s acceleration is proportional to the product of the two scalar properties, p1·p2, and points toward the source as \(-p_1p_2\,\mathbf r/r^3\). This produces Kepler-like orbital and radial-fall trajectories, with particle 2 behaving as a test body in that field.
+
+--- seed 3 ---   score: 0.90  (9/10)
+Particle 1 acts as a fixed source of a rotationally symmetric inverse-square attractive field centered at the origin. Particle 2 accelerates according to the product coupling \(p_1 p_2\), so its equation of motion is essentially \(\ddot{\mathbf r}=-G p_1p_2\,\mathbf r/|\mathbf r|^3\), with a small fitted short-distance softening included only to regularize near-collisions. No velocity-dependent, time-dependent, or anisotropic terms were indicated by the trajectories.
+
+--- seed 4 ---   score: 0.80  (8/10)
+Particle 1 acts as a fixed point source of an attractive inverse-square central field, with acceleration proportional to the separation vector divided by distance cubed. The probe’s coupling strength is the product p1*p2, so changing either scalar property symmetrically changes the effective gravitational parameter. The motion is therefore Kepler-like in two dimensions, with circular-orbit tests matching v² = p1*p2/r and radial tests showing the expected strong singular attraction near the origin.

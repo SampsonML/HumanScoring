@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : three_species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The universe contains 30 massive background particles plus 5 massless probes in 2D. The background particles interact with each other (and pull on the probes) via a 2D-gravity-like law with potential proportional to log(r) — i.e., attractive force F = G*m / r along the line connecting the pair, falling off as 1/r rather than 1/r² as in 3D Newtonian gravity. Far-field measurements at r=20, 50, 100 with stationary probes consistently gave a*r ≈ 3.27, where 30 equal-mass background particles each contribute G*m ≈ 0.109; the probes do not source the field, only respond to it.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The simulated universe is two-dimensional with a logarithmic gravitational potential: each background particle sources a scalar field whose Green's function is ln(r), giving a pairwise attractive force that falls off as 1/r along the line connecting the particles. The 30 background particles (all of equal mass, starting at rest) interact with each other and with the 5 massless probes through this 1/r law, while the probes are pure test charges that feel the field but do not source it. A small softening length is included to regularise the integration when particles approach each other closely.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The universe contains 30 mutually-interacting background particles whose positions source a two-dimensional logarithmic gravitational potential V(r) = -G·Σ_j ln|r − r_j|, giving a radial 1/r attractive force F = -G·Σ_j (r − r_j)/|r − r_j|². Far-field tests confirmed the force magnitude scales as 1/R with a total "charge" G·N ≈ 3.2 (so G ≈ 0.1 with unit-mass background). The five probe particles are neutral test masses that feel this field but do not source it; the background particles also feel each other and evolve as a chaotic 30-body system, which dominates long-time prediction error.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The simulated universe contains 30 mutually-attracting background particles plus 5 neutral probes. Each background particle sources a 2D logarithmic gravitational potential, producing an acceleration on every other particle equal to G·m·(r_j − r_i)/|r_j − r_i|² (force falling as 1/r rather than 1/r² as in 3D Newtonian gravity). Probes feel this acceleration from the 30 background sources but do not generate any field of their own; the only fitted parameter is the per-particle coupling G·m ≈ 0.10 (with a tiny softening to keep close approaches numerically stable).
+
+--- seed 4 ---   score: 0.40  (4/10)
+The 2D universe contains 30 background massive sources plus 5 massless probes. All particles (including the background) accelerate under a pairwise central attractive force generated only by the background sources: a_i = G·Σ_j (r_j − r_i) / (|r_j − r_i|^2 + ε²)^(p/2). The exponent p sits near the standard inverse-square form (p≈3 gives 1/r² magnitude) and a softening length ε regularises close encounters. Probes feel the field passively but do not source it, so their trajectories are determined entirely by the (also evolving) background distribution.

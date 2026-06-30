@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The discovered law describes particle 2 under a central inverse-square attractive force toward the fixed particle 1 at the origin. The acceleration is proportional to the source property p1 and inversely proportional to the square of the distance, following the form a = -G*p1/r² directed radially inward. The probe particle's property p2 and initial velocity are kinematic features that affect the trajectory through ballistic dynamics, but do not couple to the force law itself. This is analogous to gravitational or Coulomb interactions in classical physics.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The discovered law describes particle 2 moving under the influence of particle 1 (held fixed at the origin) through an inverse-square attractive force, similar to gravity. The force is proportional to both particle properties (p1 and p2) and follows an inverse-square distance dependence. Linear viscous drag proportional to velocity opposes the motion, with drag coefficient β and inverse-square coupling constant G serving as the two primary free parameters to be fitted. This system exhibits steady-state terminal velocities where the attractive force is balanced by drag resistance.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The discovered law describes an inverse-square central force: particle 2 is attracted toward the origin (position of particle 1) with acceleration proportional to p1 and inversely proportional to the square of the distance. The force is purely radial, independent of the probe particle's property p2, and acts as a gravitational-like interaction. The system conserves energy and angular momentum, with particles following conic sections determined by their initial conditions and the strength parameter p1.
+
+--- seed 3 ---   score: 0.90  (9/10)
+The discovered law describes an inverse-square attractive force between two particles, analogous to Newtonian gravity. Particle 2 experiences an acceleration proportional to the product of both particles' scalar properties (p1 and p2) divided by the square of their separation distance, always directed radially toward particle 1 at the origin. The coupling constant G ≈ 1.0 was determined through systematic experimental variation of distances, property values, and initial conditions, confirming the 1/r² distance dependence and linear scaling with both p1 and p2.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The discovered law is a repulsive Coulomb interaction where particle 2 experiences a force proportional to the product of properties p1 and p2, scaled inversely with the square of the distance r. The force points radially outward from particle 1 (fixed at the origin), causing particle 2 to accelerate away. This is analogous to electrostatic repulsion between like charges in classical mechanics, with the coupling constant K relating the strength of the interaction to the particles' properties.

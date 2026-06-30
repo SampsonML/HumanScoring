@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+Particle 1 creates a static central field whose force on particle 2 is linear in the probe’s displacement from the origin, not inverse-square. The coupling strength scales proportionally with the source property p1 and inversely with the probe property p2, so particle 2 undergoes 2D simple harmonic motion with angular frequency set by that ratio. The x and y directions evolve independently under the same restoring law.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The source particle generates a central linear restoring field, so particle 2 experiences an acceleration proportional to its displacement from the origin rather than an inverse-power force. The coupling strength scales like p1/p2, making larger source property produce faster oscillations while larger probe property reduces the response. Structurally, the x and y directions decouple into identical simple harmonic motion with a common frequency.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The source particle creates an isotropic Hooke-like field centered at the origin, so particle 2 feels a restoring acceleration proportional to its displacement vector. The coupling strength scales linearly with the source property p1 and inversely with the probe property p2, making p2 behave like inertial mass. Motion in x and y separates into independent simple harmonic oscillators with the same angular frequency.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The source particle generates an isotropic harmonic potential centered at the origin, so the probe feels a restoring acceleration directly proportional to its displacement vector. The coupling strength scales like p1/p2, meaning the source property strengthens the field while the probe property acts like inertial mass. Structurally this is a 2D simple-harmonic oscillator with independent x and y components sharing the same angular frequency.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The fixed source generates a central harmonic field: the probe’s acceleration points toward the origin and is proportional to its displacement vector. The coupling strength scales like p1/p2, so larger source property strengthens the restoring force while larger probe property weakens the response. This yields independent sinusoidal motion in x and y with a shared angular frequency set by that ratio.

@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+Particle 1 is fixed at the origin and emits a scalar field proportional to its property p1. Particle 2 couples to this field with strength inversely proportional to its own property p2, resulting in an attractive central force that obeys an inverse‑square distance dependence. The overall interaction strength is set by a universal constant G, which we fitted from the observed trajectories.
+
+--- seed 1 ---   score: 0.30  (3/10)
+Particle 2 is attracted toward particle 1 (fixed at the origin) by a central force whose strength scales with the source property p1, inversely with the probe property p2, and decays as 1 / r with the separation distance r. The resulting acceleration is a = K·p1/(p2·r) directed radially inward, with K a universal constant. This law governs the motion of particle 2 in the simulated universe.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.10  (1/10)
+Particle 2 experiences an attractive central acceleration proportional to the source’s scalar p1 and inversely proportional to its own scalar p2 and the square of the separation distance. The law is a Coulomb‑like 1/r² force with a single coupling constant α that is fitted from the experimental trajectories. No other dependencies (e.g., velocity‑dependent forces) were observed.
+
+--- seed 4 ---   score: 0.10  (1/10)
+Particle 1, fixed at the origin, creates a scalar field proportional to its property p1. Particle 2, with property p2, experiences a central force proportional to the product p1 p2 and falling off as the inverse square of the separation vector. The resulting acceleration is directed toward the origin, yielding classic Coulomb‑like dynamics with a single coupling constant G that the evaluator fits from the observed trajectories.

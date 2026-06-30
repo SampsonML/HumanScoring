@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered system is a rotating multi-body configuration consisting of a central particle surrounded by 10 ring particles equally spaced at a fixed radius. All particles maintain constant x-y positions while experiencing uniform z-direction acceleration (perpendicular to the rotation plane). This acceleration arises from the centrifugal effects of the rotating mass distribution and is proportional to v_tan²/R, where v_tan is the initial tangential velocity of the ring and R is the ring radius. The ring particles are dynamically stabilized by rotation, with the centrifugal acceleration coefficient k_cf ≈ 0.487 determined through ODE integration using RK45 solver.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered system is a **rotationally symmetric configuration of 11 particles** where one central particle remains fixed and 10 particles form a rigid ring that undergoes collective radial oscillation while rotating. The physics is governed by **angular momentum conservation** combined with a **linear repulsive force** proportional to 1/R between particles. As the ring contracts under centrifugal forces, particles repel each other with increasing strength, eventually reversing the collapse and driving ballistic expansion. This creates the characteristic collapse-then-escape dynamics observed, where the system exhibits periodic or quasi-periodic radial motion with conserved angular momentum.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The discovered system involves 11 particles where the centre particle attracts the 10 ring particles through an inverse-square force law (F ∝ -1/r²), similar to gravitational or Coulomb interactions. Additionally, a velocity-dependent damping force (F ∝ -β·v) causes tangential velocities to decay exponentially while the radial infall continues. The centre particle remains fixed at the origin throughout, serving as the source of the attractive field.
+
+--- seed 3 ---   score: 0.10  (1/10)
+This universe implements a system of 11 independent 2D harmonic oscillators, where each particle (centre + 10 ring particles) experiences a linear restoring force F = -k*r proportional to its distance from the origin. The system exhibits classical harmonic motion with k ≈ 1.857: particles with zero initial velocity spiral radially inward before reversing, while particles with initial angular momentum trace elliptical orbits. The centre particle remains at the equilibrium point (origin), and all particles evolve independently without inter-particle interactions.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The discovered system is a Newtonian gravitational N-body problem with 11 particles: one central mass and 10 particles arranged symmetrically on a ring. The central mass exerts inverse-square gravitational attraction (F ∝ 1/r²) on the ring particles, while all particles repel each other via a weak, short-range cubic power law (F ∝ 1/r³). This repulsion prevents particle overlap and maintains the ring structure. The system exhibits Keplerian orbital mechanics: when tangential velocity matches v = √(GM/r), the ring particles maintain stable circular orbits; lower velocities cause collapse toward the centre, while higher velocities lead to outward expansion and escape. The fitted parameters (GM ≈ 2.0, repulsion ≈ 0.1, power ≈ 3.0) fully characterize the dynamics.

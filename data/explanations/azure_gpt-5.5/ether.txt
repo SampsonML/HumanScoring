@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The universe is governed by a mass-independent central force: in a uniformly upward-accelerating frame, every particle obeys \(q''=-\mu q/|q|^2\), corresponding to a logarithmic central potential. The observed coordinates include an additional universal upward drift \(+\frac12 g_y t^2\), and particle masses, including probe masses, do not change the acceleration or trajectory.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The universe contains a fixed logarithmic central field: every non-anchor particle accelerates toward the anchor with acceleration proportional to the displacement divided by squared separation, independent of its own mass. A small uniform upward acceleration acts on every particle including the anchor, so in the anchor’s co-accelerating frame the motion is purely central. The ring orbiters are test bodies on near-circular orbits in this same field and do not measurably back-react on the probes.
+
+--- seed 2 ---   score: 0.80  (8/10)
+The universe is governed by a fixed central logarithmic potential: every particle experiences acceleration proportional to \(-\mathbf{r}/|\mathbf{r}|^2\) toward the origin, with no dependence on its own mass or on other particles. Superposed on this is a constant upward acceleration, which produces the small systematic \(y\)-velocity drift seen for all particles including the anchor. The ring particles are merely initialised on near-circular orbits in this same external field; they do not exert detectable forces on the probes.
+
+--- seed 3 ---   score: 0.90  (9/10)
+The universe is governed by a fixed central logarithmic potential, producing acceleration \(\mathbf a=-8\,\mathbf r/|\mathbf r|^2\), plus a uniform upward acceleration of \(0.05\). Particles couple to this field purely through inertial motion: their masses do not change their acceleration, and the probes do not exert measurable forces on one another or on the ring. The anchor and ring particles are not additional gravitational sources for the probes; they are context particles following the same external field, with the anchor near the singular centre mostly showing the uniform drift.
+
+--- seed 4 ---   score: 0.70  (7/10)
+The probes and ring particles follow a fixed central field with acceleration proportional to \(-\mathbf{r}/|\mathbf{r}|^2\), equivalent to a logarithmic radial potential, rather than interacting gravitationally with each other. Their inertial masses do not affect their motion, and the whole system also experiences a small constant acceleration in the positive y direction; the central anchor acts only as the source/marker of the field.

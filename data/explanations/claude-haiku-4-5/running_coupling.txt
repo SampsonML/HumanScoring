@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered law is Newtonian gravity: particle 2 experiences an attractive inverse-square force directed towards particle 1 (fixed at the origin), with magnitude proportional to the product of their scalar properties (p1 and p2). The acceleration is a = -G·p1·p2·(pos2-pos1)/|pos2-pos1|³, where G ≈ 0.1 is the effective gravitational constant. This law was validated across 50+ trajectories spanning diverse initial conditions, property values, distances, and velocities, consistently demonstrating purely position-dependent attractive dynamics characteristic of Newtonian gravity.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The discovered law governs particle 2's motion under a central attractive force mediated by both particles' properties. Particle 1 (fixed at the origin) acts as the source, with particle 2 experiencing acceleration inversely proportional to the square of their separation distance, with magnitude scaling linearly with both p1 and p2. This describes a generalized gravitational interaction where both particles contribute equally to the coupling strength, resembling Coulomb-type forces or modified gravity with multiple sources. The system exhibits rich dynamical behavior including bound orbits, scattering, and oscillatory motion depending on initial conditions.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The discovered law is a gravitational-like inverse-square attraction between two particles. Particle 1 (held fixed at the origin) generates an attractive force field proportional to its property p1. Particle 2, with property p2 acting as inertial mass, accelerates radially inward according to F = -k·p1/r² with a = F/p2. The system exhibits standard Newtonian mechanics: force decreases with inverse-square distance, the interaction is purely radial, and higher p2 (larger mass) produces slower acceleration for the same force.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 experiences an inverse-square attractive force toward the fixed particle 1 (at the origin), with magnitude proportional to √(p1·p2), combined with viscous damping proportional to p2. This creates a gravitational-like dynamics with friction, causing particles starting near the attractor to oscillate with amplitude decay, while those with sufficient initial velocity escape in a curved trajectory with smooth deceleration.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered law is an inverse-square central force: particle 2 is attracted toward particle 1 (fixed at origin) with a force magnitude F = G·p1/r², where p1 is a source property and r is the distance between particles. The gravitational constant G ≈ 1.8 was fitted from trajectory data. The probe particle's property p2 does not influence the force field—only initial position and velocity matter for its dynamics. This mimics Newton's law of universal gravitation, where the source property p1 plays the role of mass.

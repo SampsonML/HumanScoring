@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 2 moves under an attractive central force from particle 1 (fixed at origin). The force follows an inverse-distance law (F ∝ 1/r) scaled by the source property p1, unlike gravitational or electrostatic forces which follow 1/r². The probe particle's property p2 acts as an inertial mass, so acceleration is a = F/p2 ∝ p1/(p2·r). This creates velocity-independent dynamics where particles accelerate toward the origin with magnitude decreasing linearly with distance.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The discovered law describes a central attractive force where particle 2 accelerates toward the origin (where particle 1 is fixed) with magnitude |a| = G·p1/r. This is a 1/r force law (not 1/r² like gravity), meaning the acceleration scales linearly with the source property p1 and inversely with distance r. The probe property p2 and initial velocity do not affect the force. The force is isotropic and always points radially inward toward particle 1.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 2 experiences a radial force directed toward particle 1 (fixed at the origin). The acceleration magnitude follows a = G × (p1/p2) / max(r, R0), where r is the distance between particles. This law produces constant acceleration when r < R0 (≈5.0) and 1/r decay when r > R0. The scalar properties p1 and p2 linearly modulate the force strength, with p1 enhancing and p2 reducing the acceleration proportionally.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The discovered law describes a two-force system acting on particle 2. First, an attractive central force pulls particle 2 toward the origin (where particle 1 sits), with magnitude proportional to the ratio p1/p2 and inversely proportional to the distance r (not r²). Second, a linear drag force opposes the particle's velocity, causing exponential decay of motion. This differs from Newtonian gravity (1/r², no drag) and resembles a screened potential with friction.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The discovered law describes a central force field where particle 2 experiences an attractive acceleration toward the origin (where particle 1 is fixed). The acceleration magnitude follows an inverse-distance law (1/r) rather than inverse-square, scaled by the ratio of particle properties p1/p2. This represents a non-standard gravitational-like interaction where the force decays more slowly with distance than in our universe, and the coupling strength depends on the quotient of the source and probe particle properties.

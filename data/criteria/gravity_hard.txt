@@ -1,0 +1,71 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: gravity_hard
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Ten particles interact through a static scalar field obeying the 2D Poisson equation, ∇²φ = source — exactly the same 'gravity' law as the baseline two-particle gravity world. Every particle sources the field with coupling 1.0 and is accelerated by the total field gradient with force coupling 1.0; because the 2D Laplacian Green's function is logarithmic, the resulting mutual attraction falls off as 1/r rather than 1/r².  The single piece of hidden structure is inertial mass: the acceleration of each particle is the net 1/r force divided by its mass, and the ten particles fall into three hidden mass groups — particles 0–3 have mass 1, particles 4–6 have mass 2, and particles 7–9 have mass 4 (only the ratios 1 : 2 : 4 are physically identifiable).  All particles experience the identical gravitational field; heavier particles simply respond with proportionally smaller acceleration, tracing visibly flatter trajectories.  An agent that assumes equal masses will fit the light particles tolerably but systematically mispredict the sluggish heavy ones; recovering the law requires recognising the 1/r mutual gravity and the three-way inertial partition from the differing kinematic responses alone.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies the interaction as standard 2D Poisson ("gravity")
+     mutual attraction (1/r pairwise force, the 2D Laplacian Green's
+     function) with every particle both sourcing and feeling the
+     field equally; recognises the only hidden structure is unequal
+     inertial mass; correctly recovers three mass groups partitioned
+     as particles 0–3, 4–6, 7–9 with relative masses ≈ 1 : 2 : 4
+     (any common rescaling acceptable); correctly attributes the
+     flatter response of heavy particles to larger inertia, not to a
+     different force or source strength.
+ 7–9 — Identifies 1/r mutual gravity and that particles fall into a
+     small number of distinct inertial classes with heavier ones
+     responding less, but gets the grouping or the mass ratios
+     significantly wrong (e.g. two groups instead of three, or ratios
+     off by more than ~2×), or conflates the mass difference with a
+     source-coupling difference.
+ 4–6 — Identifies 1/r mutual attraction but treats all particles as
+     identical, missing the mass heterogeneity entirely; or notices
+     some particles move less but mismodels it (wrong force law, or
+     attributes it to position/charge rather than inertia).
+ 1–3 — Wrong qualitative picture: proposes a time-dependent, 1/r²,
+     repulsive, or position-/velocity-dependent force; or no coherent
+     account of the multi-particle dynamics.
+   0 — Empty, irrelevant, or no physical content.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+The anchor at the origin sources a logarithmic gravitational potential, so every probe feels an inward acceleration of magnitude K/r (with K≈7.96), i.e. acceleration components −K·x/r² and −K·y/r²; this is independent of the probe's mass and velocity. Superimposed on this central field is a spatially uniform constant acceleration g≈0.05 pointing in the +y direction (revealed because the y-acceleration is offset from the pure radial value by a fixed amount everywhere, e.g. stronger on the −y axis and weaker on the +y axis). The 20 ring orbiters are dynamically negligible—measurements just outside the ring still match K/r + g exactly—so the law reduces to a central log-attraction plus a uniform "gravity" field.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The anchor at the origin creates a fixed central field in which each probe experiences an inward radial acceleration of magnitude k/r (with k ≈ 7.7–7.95), corresponding to a two-dimensional logarithmic gravitational potential. This acceleration is completely independent of the probe's own mass and of the ring orbiters — even a mass-100 neighbour two units away produces no measurable force — so the orbiters and probe–probe couplings are negligible. Each probe therefore obeys the simple ODE r'' = -k·r̂/|r|, integrated forward from its initial position and velocity.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The dominant physics is a 2D logarithmic-potential gravity from the central anchor: every probe feels an acceleration of magnitude Ca/r (≈7.93/r) pointed straight at the anchor, i.e. a 1/r force rather than the 1/r² of 3D Newtonian gravity, and this acceleration is completely independent of the probe's own mass. The 20 ring orbiters couple only weakly: a small, short-range (≈g·m/d²), slightly repulsive contribution that scales with orbiter mass and decays with distance, and which barely perturbs the probe trajectories compared with the central field. Probe initial velocities simply set the orbit within this central log potential.
+
+--- seed 3 ---   score: 0.50  (5/10)
+This universe has a fixed central force field centered on the heavy anchor at the origin: every particle experiences a radial acceleration toward the origin of magnitude K/|r| (with K ≈ 8), corresponding to a logarithmic gravitational potential (the 2D "line mass" potential, force ∝ 1/r rather than the 1/r² of Newtonian gravity). The acceleration is completely independent of the particle's own mass and the orbiters do not measurably source forces on the probes — they are themselves test particles, sitting on circular orbits at radius 5 with speed √K = √8 = 2.82, which exactly matches their observed velocities. Probes placed at rest at radius r show inward acceleration with a·r constant at ≈8 across all tested radii (1 to 20), confirming the 1/r force law both inside and outside the orbiter ring.
+
+--- seed 4 ---   score: 0.80  (8/10)
+The simulated universe is governed by a two-dimensional logarithmic gravitational potential sourced by an enormously massive central anchor: every probe experiences a central acceleration of magnitude C/r (C≈8) pointing toward the origin, independent of the probe's own mass — the hallmark of a 1/r force (the gradient of a ln r potential) rather than the usual 1/r² Newtonian law. Superposed on this is a small, spatially uniform background acceleration of about 0.05 directed along +y, which I measured consistently at every radius and direction. The ring orbiters and probe–probe interactions produce no measurable force on the probes, so the dynamics are dominated entirely by the anchor's logarithmic field plus the constant background drift.

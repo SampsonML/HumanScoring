@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 2 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.20  (2/10)
+The system behaves like a central attractive field with strength proportional to the product of two properties, p1 and p2. Each object moves under a force directed toward the other, with acceleration proportional to (p1·p2)/r² and directed along the line joining them. This is a Newtonian‑style gravitational interaction with a tunable coupling constant that the fit procedure can determine.
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered universe describes a long‑range interaction that accelerates particle 2 only along the axis defined by its initial separation from the fixed source particle. The acceleration magnitude depends on the source charge‑like parameter p1 and the probe characteristic p2 through a power‑law modulation. The law does not involve distance, velocity, or any time‑dependent field; instead, particle 2 experiences a constant acceleration set by the source–probe coupling parameters a0, a1 and the exponent β. This simple one‑dimensional constant‑force model successfully fits the observed trajectories across varied settings of p1 and p2.

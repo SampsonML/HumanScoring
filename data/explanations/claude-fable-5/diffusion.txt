@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The source particle switches on at t = 0 and emits a scalar field that diffuses outward according to the 2D heat equation with diffusivity D ≈ 0.5, so the influence on the probe builds up gradually as the diffusion front (r ~ √(4Dt)) reaches it. The probe is attracted toward the source with acceleration magnitude (p1/p2)·K·exp(−r²/(4Dt))/r, i.e. it follows the gradient of the heat-kernel field of a continuously emitting point source, with K ≈ 1/(2πD). The coupling is linear in the source charge p1 and inversely proportional to the probe property p2 (which acts as inertia), and the force is purely radial with no velocity dependence.
+
+--- seed 1 ---   score: 0.90  (9/10)
+Particle 1 sources a scalar field that obeys a 2D diffusion equation with diffusivity D ≈ 0.5, with emission switched on at t = 0, so its influence spreads outward gradually rather than instantaneously — at any fixed distance r the force starts at zero and grows over time as exp(-r²/4Dt)/r. The probe particle couples to the gradient of this field, experiencing an attractive acceleration of magnitude (1/π)·(p1/p2)·exp(-r²/(4Dt))/r directed toward the source, i.e. force scales linearly with the source property p1 and inversely with the probe property p2. This is the steady-source Green's-function solution of the heat equation in two dimensions (an exponential-integral potential), whose gradient asymptotes to a 1/r force only after the diffusive front (r ~ √(4Dt)) has passed the probe.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The source particle at the origin continuously emits a scalar field starting at t = 0, which spreads by ordinary diffusion in 2D with diffusion constant D ≈ 1/2; the resulting potential is the time-integral of the 2D heat kernel weighted by the source strength p1. The probe couples to the gradient of this field, experiencing a purely attractive central acceleration a = (p1/(π p2 r))·exp(−r²/(2t)), so the force "switches on" with a delay that grows with distance as the field diffuses outward, asymptotically approaching a 1/r (2D Coulomb-like) attraction. Structurally, p1 acts as a linear source charge, p2 acts as inertial mass (acceleration ∝ 1/p2), and the force direction is exactly radial with no velocity dependence.
+
+--- seed 3 ---   score: 1.00  (10/10)
+Particle 1 is a fixed point source that, beginning at t=0, continuously emits a scalar field obeying a 2D diffusion equation with diffusivity D≈0.5. The probe particle couples to the gradient of this field: it experiences an attractive central acceleration a = G·(p1/p2)·exp(-r²/(4Dt))/r with G≈1/π, meaning force strength is proportional to the source charge p1 and the probe's p2 acts as inertial mass. The signature feature is a diffusive retardation — the force at distance r only "switches on" after a time of order r²/(4D), then asymptotically approaches a steady 1/r attraction (the 2D steady-state flux of a continuously emitting source).
+
+--- seed 4 ---   score: 1.00  (10/10)
+Particle 1 sources a scalar field that obeys the 2D diffusion equation: the source turns on at t=0 and the field spreads outward diffusively with diffusivity D ≈ 0.47, so distant probes feel essentially no force until the diffusive front (radius ~ 2√(Dt)) reaches them. The probe is accelerated down the field gradient, giving an attractive central acceleration of magnitude (p1/p2)·exp(-r²/(4Dt))/(2πD·r) — the gradient of the continuously-emitting 2D diffusion Green's function — which means the force is exponentially screened at early times and approaches a 1/r attraction at late times. The acceleration scales linearly with the source property p1 and inversely with the probe property p2 (p2 acts as inertial mass), and the law is fully isotropic with no dependence on probe velocity.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+Particle 2 is attracted toward the fixed source particle at the origin by a central, velocity-independent force. The acceleration magnitude is (p1/p2)·(1/(r² + 0.04) + 0.1): a softened (Plummer-like) inverse-square gravitational core plus a constant-magnitude confining tail that dominates at large separations, reminiscent of MOND-like or confinement potentials. Notably, the acceleration scales linearly with the source property p1 but inversely with the probe's own property p2, so heavier probes respond more weakly — the probe property acts purely as inertia rather than as a force charge.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The probe particle experiences a purely central, velocity-independent attraction toward the fixed source at the origin. The acceleration magnitude scales as the ratio p1/p2 (source charge over probe inertia) times the sum of a softened inverse-square term, 1/(r² + ε²) with ε ≈ 0.2, and a constant background pull of about 0.1 that dominates at large separation (like a confining or dark-energy-like term). This means the force never diverges at the origin (it caps near 25·p1/p2) and never falls below the constant floor, producing bound, recurring orbits for essentially all initial conditions.
+
+--- seed 2 ---   score: 0.90  (9/10)
+The probe particle experiences a purely radial, velocity-independent attraction toward the fixed source at the origin. The acceleration magnitude is (p1/p2)·[1/(r²+0.04) + 0.1]: a softened (Plummer-type, softening length ε≈0.2) inverse-square gravitational term plus a constant confining force that never lets the particle escape, no matter how far away it is. The source property p1 acts multiplicatively as a charge while the probe property p2 acts as inertial mass, so the acceleration scales as their ratio.
+
+--- seed 3 ---   score: 0.80  (8/10)
+The probe particle experiences a purely central, attractive force directed toward the fixed source particle, with acceleration magnitude (p1/p2)·(1/r² + 0.1) — an inverse-square Newtonian term combined with a constant ("string-like" confining) term, corresponding to a potential −1/r + 0.1r per unit charge ratio. Unusually, the coupling depends on the ratio of the two particle properties rather than their product: increasing p1 strengthens the pull while increasing p2 weakens it (i.e., p2 acts like inertia). The force has no velocity dependence, so energy and angular momentum are conserved, producing precessing bound orbits and confined radial oscillations.
+
+--- seed 4 ---   score: 0.80  (8/10)
+Particle 2 is attracted toward the fixed source at the origin by a central, velocity-independent force. The acceleration magnitude is (p1/p2)·(1/(r² + 0.04) + 0.1): a softened (Plummer-cored) inverse-square gravity-like term that stays finite at the origin, plus a small constant "confining" background acceleration that never lets the probe escape. The source property p1 acts as a charge multiplying the force, while the probe property p2 acts as inertia dividing it; no drag, no velocity coupling, and no dependence on direction other than the radial unit vector.

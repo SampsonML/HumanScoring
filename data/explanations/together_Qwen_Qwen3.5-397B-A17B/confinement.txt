@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive force directed toward particle 1 (fixed at the origin). The force magnitude scales proportionally with the ratio p1/p2, indicating that p1 acts as a "source strength" and p2 as an "inertial response" factor. The distance dependence follows a power law F ∝ 1/r^n where the exponent n is approximately 1-2 based on the observed acceleration scaling across different distances. This resembles a generalized gravitational or electrostatic interaction where the coupling strength and power-law exponent are determined by the specific physics of this universe.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered law describes particle 2 moving under two forces: (1) an attractive central force toward the origin with magnitude proportional to the ratio p1/p2 and a distance-dependent term that transitions from 1/r-like behavior at small distances to a constant magnitude at large distances (characterized by a saturation length r0), and (2) a linear velocity damping term (drag) proportional to velocity with coefficient gamma. This creates motion where particles are pulled toward the origin while their kinetic energy dissipates over time.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 moves under an attractive central force directed toward particle 1 at the origin, with magnitude proportional to the ratio p1/p2 and inversely proportional to distance r (F ∝ 1/r). Additionally, particle 2 experiences velocity-dependent damping (friction) with coefficient also proportional to p1/p2. The resulting equation of motion is: d²r/dt² = -G*(p1/p2)/r² * r̂ - γ*(p1/p2)*v, where G ≈ 0.5 and γ ≈ 0.068 are coupling constants.
+
+--- seed 3 ---   score: 0.80  (8/10)
+The discovered law describes a central force where particle 2 is attracted toward particle 1 (fixed at the origin). The acceleration magnitude scales proportionally with p1 and inversely with p2. The distance dependence combines a constant long-range term (A) with a short-range 1/r² enhancement (B/r²), producing stronger acceleration at close distances that asymptotes to a constant value far away. The force direction is always radial, pointing from particle 2 toward the origin.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 moves under an attractive central force directed toward particle 1 (fixed at the origin), with magnitude proportional to p1/p2 and inversely proportional to the square of the distance (1/r² force law, giving 1/r² acceleration). Additionally, particle 2 experiences linear velocity drag proportional to its instantaneous velocity, causing energy dissipation. The combined dynamics produce damped motion where the particle accelerates toward the origin while drag reduces its speed over time.

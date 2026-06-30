@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law describes particle 2 moving under an inverse-square central attractive force proportional to the product of properties p1 and p2, combined with linear viscous damping. The force equation is F = -p1·p2·r̂/r³ - γ·v, where γ ≈ 0.148 is the damping coefficient. This produces trajectories where particle 2 spirals inward toward the origin (or away if moving tangentially) while losing kinetic energy due to drag, consistent with both Coulomb-like gravity and a dissipative medium.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The universe obeys an inverse-square law of gravitation where particle 2 experiences a radial attractive force toward particle 1 (fixed at the origin). The acceleration of particle 2 is given by a = -p1/(p2·r²) r̂, where p1 is the source strength, p2 acts as an inertial mass coefficient, and r is the separation distance. This is analogous to Newton's law of gravitation but with particle properties determining the coupling strength and inertial properties.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The discovered physical law is a **central inverse-square force** between two particles in 2D space. Particle 2 is attracted toward the fixed particle 1 (at the origin) with a force magnitude inversely proportional to the square of separation distance, and linearly proportional to the source property p1. The probe property p2 does not affect the dynamics. This is mathematically identical to Coulomb's law for opposite charges or Newton's law of universal gravitation, but here applied to a simplified 2D universe with a specific coupling strength K ≈ 1.0.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The discovered law is a gravitational inverse-square law governing the motion of particle 2 under the influence of particle 1 (held fixed at the origin). Particle 2 experiences a central attractive acceleration proportional to the source property p1, inversely proportional to its own inertial property p2, and inversely proportional to the square of the distance. The radial dependence (1/r²), the isotropy of the force, and the linear coupling to the mass ratio p1/p2 all point to a fundamental gravitational or Coulomb-type interaction in this universe.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The discovered law is a 2D inverse-square gravitational interaction where particle 2 is attracted toward the fixed particle 1 (at the origin) with acceleration proportional to p1/p2 and inversely proportional to the square of the distance between them. The force couples to both particles' properties inversely (stronger for larger p1, weaker for larger p2), producing an attractive Coulomb-like dynamics that conserves energy while governing the particle's trajectory through 2D space.

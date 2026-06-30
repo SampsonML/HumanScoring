@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered universe obeys a 2D inverse-square central force law analogous to Newtonian gravity. Particle 2 experiences a radially-inward acceleration proportional to the product p1·p2 divided by the square of its distance from particle 1, with a coupling constant K ≈ 0.503. The force is conservative and purely central, causing particles to spiral or oscillate in orbits determined by their initial conditions and the mass ratio p1/p2.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered system is a 2D damped harmonic oscillator where particle 2 experiences a position-dependent restoring force and velocity-dependent damping, both scaled by the property ratio p1/p2. The equation of motion is d²r/dt² = -(p1/p2)[ω₀²r + 2ζω₀(dr/dt)], where ω₀ ≈ 0.44 rad/s is the natural frequency and ζ ≈ 0.45 is the damping ratio. The system exhibits isotropic 2D oscillations that decay exponentially to the origin with characteristic timescale determined by the inverse property ratio.
+
+--- seed 2 ---   score: 0.30  (3/10)
+Particle 2 experiences a Coulomb-like or gravitational attractive force toward particle 1 at the origin, with magnitude inversely proportional to the square of separation distance and directly proportional to the product of their scalar properties. The force law follows F = (p1 × p2 / r²) directed toward the origin, equivalent to an ODE system where acceleration is a = -(p1 × p2 / r³) × position_vector. This is a classical inverse-square law consistent with Newtonian gravity or Coulomb electrostatics in an attractive regime.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The discovered law describes particle 2 under the influence of an attractive inverse-square force from particle 1 (analogous to gravity), with the force strength proportional to the product p1·p2. Motion is damped by a velocity-dependent friction term whose coefficient inversely scales with p2, suggesting p2 acts like an inertial mass. The system exhibits both attractive dynamics (particles pulled toward each other) and dissipative dynamics (velocities decay over time), with the interplay between these two effects determining the trajectory.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The discovered law is an attractive Coulomb-like force, where particle 2 is drawn towards particle 1 (held fixed at the origin) with a force proportional to the product p1·p2 and inversely proportional to the square of their separation (F ∝ -p1·p2/r²). The effective inertial mass of particle 2 is proportional to its property p2, resulting in acceleration a = -k·(p1/p2)/r² pointing radially inward toward the origin, where k ≈ 0.01 is the coupling constant. This is analogous to gravitational or electrostatic attraction between two charged particles.

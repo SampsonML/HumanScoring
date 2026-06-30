@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+The universe contains a 2D Coulomb-like field obeying a 2D Poisson equation: every particle sources the field with identical unit strength, producing a pairwise force that falls off as 1/r (logarithmic potential), confirmed by Gauss-law tests with concentric rings (zero field inside a uniform ring, exterior field equivalent to a point source at the center). Particles come in two species: particles 0–14 couple with positive sign (accelerated toward sources) while particles 15–29 couple with negative sign (accelerated away from all sources), with a common coupling constant C ≈ 0.159 ≈ 1/(2π). Forces are purely positional — rotating-ring experiments showed no velocity-dependent (magnetic or drag) terms, and accelerations superpose linearly over all sources.
+
+--- seed 1 ---   score: 0.80  (8/10)
+All 30 particles act as equal-strength sources of a 2D logarithmic potential, so each source exerts a force whose magnitude falls off as 1/r (like 2D gravity), with coupling constant G ≈ 1/(2π). The structural twist is in how particles respond: indices 0–14 carry a positive response charge and accelerate toward the net field gradient (attraction), while indices 15–29 carry a negative response charge and accelerate in the opposite direction (repulsion), even though all particles source the field with the same positive sign. There is no velocity dependence or screening; the dynamics are a pure second-order pairwise 1/r force law with this index-based sign asymmetry.
+
+--- seed 2 ---   score: 0.90  (9/10)
+All 30 particles source an identical 2D logarithmic potential (force magnitude falling as 1/r, slightly softened at short range as r/(r²+ε²) with ε≈0.03), with coupling constant c≈0.159≈1/(2π). The interaction is non-reciprocal: particles 0–14 are universally attracted to every other particle, while particles 15–29 are universally repelled, so momentum is not conserved (e.g. an attracted/repelled pair perpetually chases itself). I verified the 1/r form via Gauss's-law shielding inside a uniform ring, confirmed no velocity dependence or drag, and that the sign depends only on the receiving particle's fixed index, not on local density or geometry.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Every particle is an identical, unsigned source of a 2D logarithmic ("2D gravity"/Coulomb) field: the field from each source decays as 1/d with coupling 1/(2π), with a short-range Plummer softening of scale ε ≈ 0.033 that regularises close encounters. The asymmetry lies entirely in the response: particles with indices 0–14 carry response charge +1 and are attracted toward every other particle, while particles 15–29 carry response charge −1 and are repelled by every other particle — i.e. the acceleration of particle i is a_i = s_i · (1/2π) Σ_j (r_j − r_i)/(|r_j − r_i|² + ε²). This violates Newton's third law (a "+" and a "−" particle both feel forces in directions set only by their own sign), which I verified through ring, line, blob-drift and pair experiments that all quantitatively match this single law.
+
+--- seed 4 ---   score: 0.90  (9/10)
+All 30 particles source a 2D Coulomb (logarithmic) potential with identical unit charge, so each pair interacts with force magnitude k/r along the line connecting them, with k ≈ 1/(2π) — the natural Green's-function normalization for the 2D Laplacian. The coupling is non-reciprocal and depends only on the receiving particle's species: particles 0–14 are universally attracted toward all other particles (they fall down the field gradient), while particles 15–29 are universally repelled (they climb the gradient), so an A–B pair chases/flees in the same direction. I verified there is no drag, no velocity dependence, exact linear superposition, and no screening — the pure 1/r force holds from r ≈ 0.7 out to r = 20.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The six particles live in a 2D world where the gravitational potential between two charges is logarithmic, producing an attractive radial force of magnitude G·m_i·m_j / r per pair. The resulting acceleration on particle i is a_i = G · Σ_{j≠i} m_j (r_j − r_i)/|r_j − r_i|², which is just the 2D Coulomb-like gradient of −Σ m_i m_j log r_ij. The coupling constant is G = 1/(2π); particles 0,1,2 carry mass 1 while particles 3,4,5 carry mass 3, so the two species exert asymmetric (but Newton's-third-law-consistent) accelerations on one another.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The universe contains six particles split into two species: particles 0-2 carry "light" source-charge q_light ≈ 0.165 while particles 3-5 carry "heavy" source-charge q_heavy ≈ 0.48 (about 3× larger). Each particle accelerates according to a_i = Σ_{j≠i} q_j · (r_j - r_i) / |r_j - r_i|², i.e. a 2D inverse-square vector force (equivalent to an attractive 1/r magnitude force, the logarithmic-potential analogue of 2D gravity), with the crucial feature that the receiver's own charge does not appear in its acceleration — only the *source* charges of the other particles do. This breaks Newton's third law at the pairwise level and lets the system's center of mass accelerate, which I observed directly in cross-configuration experiments.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The particles interact through a 2D logarithmic potential: each pair (i,j) attracts with force magnitude k/|r_ij| directed along the line connecting them (equivalent to F_ij = k·(r_j−r_i)/|r_j−r_i|², the gradient of −k·log|r_ij|). The pair coupling constant is approximately k ≈ 0.16 in the units provided. I observed additional label-dependent multi-body effects (forces no longer match pairwise sums when N≥4 particles cluster together, and Newton's third law appears to be violated in those cases), but did not fully resolve their functional form within the experiment budget, so the submitted law captures only the dominant pairwise log-Coulomb interaction.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The universe is a 2D Coulomb/gravity system governed by a logarithmic potential — exactly what one gets from a 2D Poisson equation (∇²φ = source). Each particle j is a fixed point source of strength q_j and produces a potential q_j·ln(r); particle i is accelerated by a_i = G · Σ_{j≠i} q_j (r_j − r_i)/|r_j − r_i|², i.e. a 1/r attractive force in 2D. The six particles are not identical: particles 0, 1, 2 carry unit charge while particles 3, 4, 5 carry charge ≈3, and the universal coupling is G ≈ 1/(2π), the standard prefactor of the 2D Green function for the Laplacian.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The simulated universe behaves like 2D gravity with a logarithmic potential: every pair of particles attracts each other with a force whose magnitude is K/r (inverse-distance, not inverse-square). Equivalently, particles experience an acceleration that is the gradient of a sum of logarithmic potentials, giving a_i = K * Σ_{j≠i} (r_j − r_i)/|r_j − r_i|². Pair experiments clearly showed F·r ≈ constant across distances spanning two orders of magnitude, with strong translation and rotation invariance and no apparent dependence on particle identity; the constant K was measured near 0.16–0.34 (left as a fittable parameter due to residual many-body discrepancies that may indicate a small higher-order correction I could not fully resolve).

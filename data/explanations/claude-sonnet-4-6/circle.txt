@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+In this 2D universe, all 11 particles interact through a pairwise attractive force with magnitude F = G / r^alpha, where r is the separation distance between any two particles. The force is directed along the line connecting each pair (attractive), analogous to gravity but with a different distance exponent. From early-time acceleration measurements across ring radii from 2 to 10, the net radial force on each ring particle scales as approximately 0.840/R^1.5, and geometric analysis of the 10-particle ring configuration yields a pairwise coupling constant G ≈ 0.1661 with exponent alpha ≈ 1.5. The system exhibits a characteristic "breathing" mode where the ring collapses, passes through a minimum radius, and re-expands while maintaining perfect N-fold rotational symmetry, consistent with a purely radial pairwise attractive force law.
+
+--- seed 1 ---   score: 0.20  (2/10)
+In this simulated universe, all 11 particles interact through a pairwise attractive force with an unusual distance dependence: the force magnitude scales as r^1.5 (i.e., proportional to the inter-particle separation raised to the 3/2 power), directed along the line connecting each pair. This is stronger than a linear (Hooke's law) spring force but weaker than a cubic force, causing rings of particles with no tangential velocity to collapse rapidly toward their mutual center of mass. The coupling constant G ≈ 0.030 sets the overall strength of interaction, and the force law F_ij = G · r_ij^1.5 · r̂_ij applies symmetrically between every pair of particles including the central particle and all ring particles.
+
+--- seed 2 ---   score: 0.40  (4/10)
+All 11 particles (one central and 10 on a ring) interact through pairwise attractive inverse-square force laws analogous to 2D gravity: the force on particle i from particle j has magnitude G/d² and points from i toward j, where d is the separation distance. With coupling constant G ≈ 1.0, this fully determines the dynamics: for zero tangential velocity the ring collapses toward the center, while for sufficiently large tangential velocity the ring orbits at roughly constant radius. The system is an N-body gravitational simulation where all 11 particles mutually attract via F = G/r², confirmed by initial-acceleration scaling (a ∝ r⁻²) and MSE fitting over ~1000 trajectory measurements giving G ≈ 1.004.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The simulated universe contains 11 particles interacting through pairwise attractive forces with a 1/r² magnitude law (force vector F_ij = G * r̂_ij / |r_ij|^alpha, alpha≈3.0 in 2D). The dynamics is Newtonian (F=ma), with all particles attracting each other symmetrically. The stable ring equilibrium at radius r≈10 arises because the inward pull of the centre particle and inward ring-ring radial components are exactly balanced by the outward net ring-ring force at that specific radius, analogous to a gravitational n-body ring equilibrium but with a different (1/r²) force law. The coupling constant G≈0.097 sets the overall strength of the interaction.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The 11-particle system obeys a pairwise attractive inverse-power-law interaction: each pair of particles (i, j) exerts a force F_ij = G * (r_j - r_i) / |r_j - r_i|^alpha on particle i, directed along the line connecting them. The force exponent alpha ≈ 3.5 means the interaction falls off faster than standard gravity (alpha=3 in 2D), producing a net radial acceleration on a symmetric ring that scales as r^(2-alpha) ≈ r^(-1.5). The coupling constant G ≈ 0.84 sets the overall strength of the interaction, and the system exhibits slow inward collapse for zero tangential velocity while rotating orbits are possible at nonzero tangential speed.

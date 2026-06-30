@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The particles interact via a 2D logarithmic (Coulomb-in-2D) field: each particle sources an identical potential whose gradient gives an attractive pairwise force of magnitude k/r with k ≈ 1/(2π) ≈ 0.159, independent of distance scaling other than 1/r and with equal coupling strength for all particles. The structural feature is in the inertia: the ten particles fall into three mass groups — particles 0–3 have unit mass, particles 4–6 have mass ≈ 2, and particles 7–9 have mass ≈ 4 — so identical forces produce group-dependent accelerations. Newtonian dynamics (a = F/m) with this force law reproduced all observed trajectories, including long multi-body runs with nonzero initial velocities, down to the position-noise floor.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The particles interact through a two-dimensional logarithmic potential field (the 2D Coulomb/gravity analogue): every pair attracts with a force whose magnitude falls off as 1/r, directed along the line joining them, with universal coupling G/(2π) ≈ 1/(2π). All particles carry equal coupling charge, but they fall into three inertial-mass groups — particles 0–3 have mass 1, particles 4–6 have mass ≈2, and particles 7–9 have mass ≈4 — so identical forces produce group-dependent accelerations. The dynamics are purely Newtonian second-order with no velocity dependence (no drag), confirmed by moving-particle experiments that showed no damping or velocity-coupled forces.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The particles interact via an attractive central force whose magnitude between any pair is G/r with G ≈ 1/(2π) ≈ 0.159 — exactly the force from a logarithmic potential, i.e. each particle sources a true 2D Poisson (gravitational) field with unit charge regardless of its mass. The particles have three inertial mass classes (particles 0–3 have m=1, 4–6 have m=2, 7–9 have m=4), so a particle's acceleration is the summed pairwise force divided by its own mass; notably, the source strength does not scale with mass, breaking the equivalence principle. The distance exponent was verified to be exactly 1 via ring-scaling experiments (R = 1.5, 3, 6) and free-parameter fitting (p = 1.0002), and the model reproduces all diverse trajectories down to the observation-noise floor.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The particles obey a 2D "logarithmic gravity": every particle sources an attractive field with identical unit charge, generating a pairwise force of magnitude G/r (the Green's-function form of the 2D Poisson equation, with G ≈ 1/(2π) suggesting the potential is φ = ln r with unit coupling). The particles differ only in inertial mass, organized in three groups — particles 0–3 have mass 1, particles 4–6 mass 2, and particles 7–9 mass 4 — so acceleration of particle i is (G/m_i)Σ_j r̂_ij/r_ij. Fitting confirmed the force exponent is exactly 1 (not inverse-square), the source strengths are equal across all masses (equivalence-principle violation: gravitational charge is uniform while inertia varies), and there is no drag, retardation, or velocity-dependent coupling.
+
+--- seed 4 ---   score: 0.90  (9/10)
+The particles interact through an attractive two-dimensional logarithmic-potential field (the Green's function of the 2D Laplacian): each particle sources the field with equal unit strength, producing an acceleration field of magnitude κ/√(r²+ε²) with κ ≈ 1/(2π) and a small softening length ε ≈ 0.05 that regularizes close encounters; at large separation the force falls off as 1/r exactly. The key structural feature is that while all particles source the field identically, they respond with different susceptibilities (effectively different inertial masses): particles 0–3 respond with coefficient 1, particles 4–6 with 1/2, and particles 7–9 with 1/4. Newton's third law is therefore broken in acceleration space — a light-response particle paired with a full-response one accelerates 4× less — and the equations of motion are a_i = c_i κ Σ_j r̂_ij/√(r_ij²+ε²).

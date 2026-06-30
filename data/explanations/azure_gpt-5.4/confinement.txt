@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+Particle 2 experiences an attractive central force toward the fixed source at the origin. The force points along the line joining the particles, has constant magnitude independent of separation, and scales linearly with the source property p1 while inversely with the probe property p2. Equivalently, the field corresponds to a linear radial potential.
+
+--- seed 1 ---   score: 0.30  (3/10)
+Particle 1 creates a static central field around the origin, and particle 2 responds to that field with an acceleration directed toward particle 1. The force law is consistent with an inverse-square radial attraction, with source strength proportional to p1 and inertial response inversely proportional to p2. The trajectories show standard central-force motion: purely radial starts remain radial, while transverse initial velocity produces smooth orbital bending under the same field.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The source particle creates a static central field whose force on particle 2 is linear in displacement toward the origin, not inverse-square. The probe’s acceleration is proportional to p1 and inversely proportional to p2, with vector form a = -(k p1 / p2) r, so the motion is that of a 2D isotropic harmonic oscillator centered on particle 1. There was no evidence for any extra velocity-dependent term or nonlinear radial dependence.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 couples to that field with inertial response inversely proportional to its property p2 while the source strength scales with p1. The field is consistent with an inverse-square radial attraction, so the probe follows ordinary 2D Kepler-like trajectories including straight radial infall and curved orbital motion when given tangential velocity. Noise appears only in measured positions, not in the underlying deterministic dynamics.
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds with an acceleration directed exactly toward particle 1. The strength scales linearly with the source property p1 and inversely with the probe property p2, while the spatial dependence is proportional to 1/r in magnitude, equivalently an inverse-square vector field proportional to r_vec/|r|^2. This is the force law from a logarithmic potential, and the observed curved and overshooting trajectories are consistent with that structure.

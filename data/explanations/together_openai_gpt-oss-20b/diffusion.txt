@@ -1,0 +1,20 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   [no trial file]
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered universe features a conservative inverse–cubic attraction acting between a fixed source particle and a movable probe. Each particle’s scalar property acts as a multiplicative charge, and the force vector points along the line joining them. The law is integrated with an adaptive RK45 solver to accommodate the stiff radial dependence.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered dynamics are those of a two‑dimensional linear harmonic oscillator with a very weak restoring constant \(k\). Particle 2 experiences a force \(-k\,\mathbf r\) that pulls it toward the origin; no other forces (e.g., damping or velocity dependence) appear in the data. This linear restoring behavior explains the oscillatory trajectories observed.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered dynamics describe a central attractive force that scales as the product of two scalar properties and falls off with the cube of the separation. Particle 1 generates a radial pull on particle 2 that weakens rapidly as the distance grows, leading to a deceleration that approaches zero at large separations. The motion obeys Newtonian mechanics with the acceleration computed from a conservative inverse‑cubic potential.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

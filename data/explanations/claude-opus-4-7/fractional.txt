@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 sources a static central inverse-square force field on particle 2. The acceleration of particle 2 points radially toward particle 1 with magnitude p1/(2π·p2·r²): the source charge p1 acts as the strength, the probe charge p2 appears as inertia in the denominator (so p2 behaves like a mass divided into the force), and the 1/(2π) prefactor is the universal coupling constant. The force is purely conservative and velocity-independent — no magnetic/Lorentz coupling was detected — and the sign of p1 controls attraction vs repulsion.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The source particle (p1) generates a static central potential whose gradient produces an attractive inverse-square acceleration on the probe particle, with magnitude K·p1/(p2·r²) and direction along −r̂ (toward the source). The scalar p1 acts as a "charge" of the source, while the probe's scalar p2 functions as inertial mass, so that the force on the probe scales as K·p1/r² and dividing by mass p2 yields the acceleration. The fitted prefactor K ≈ 0.16 sets the overall coupling strength, and the dynamics reduce to standard Keplerian orbits in this central field.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The discovered law is a Newtonian-style inverse-square central force: particle 2 is attracted to the fixed particle 1 with acceleration magnitude G·p1/(p2·r²) pointing radially toward particle 1. Here p1 plays the role of a "gravitational charge" of the source while p2 plays the role of inertial mass of the probe (it appears in the denominator of the acceleration, just as mass would in F=ma with F∝p1). The gravitational constant G is approximately 0.16 in these units, and the law contains no velocity dependence or screening—it is pure 1/r² attraction in 2D.
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 1 acts as a static source generating a central inverse-square attractive field in the 2D plane, with field strength scaling linearly with its scalar property p1 and a universal coupling constant of 1/(2π). Particle 2 responds to this field with acceleration a = -(1/(2π))·(p1/p2)·r̂/r², where p2 plays the role of inertial mass (the force is proportional to p1/p2). The 1/(2π) prefactor is suggestive of a 2D Green's-function normalization, though the radial dependence is 1/r² rather than the 1/r typical of pure 2D Poisson — so this universe behaves like 3D gravity/Coulomb embedded in a 2D plane with a flux-normalized coupling.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The source particle creates a static central potential at the origin, and the probe particle is attracted along the line connecting them with an acceleration of magnitude G·p1/(p2·r²). This is structurally a Newtonian inverse-square attraction where p1 plays the role of source charge/mass and p2 acts as the probe's inertia (force ∝ p1, acceleration ∝ 1/p2). No velocity-dependent forces were detected; the fitted coupling constant G is approximately 0.16.

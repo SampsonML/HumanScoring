@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The physical system is governed by a linear force law where each particle experiences a radial acceleration proportional to its distance from the origin, resulting in exponential expansion or contraction. This behavior mimics a uniform expansion of space, similar to cosmological models with a cosmological constant. The proportionality constant, fitted to the data, determines the expansion rate and captures the dominant dynamics observed in the simulations.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The system behaves as if space is expanding linearly with time, where each particle's velocity is proportional to its initial distance from the center. This is similar to a Hubble expansion in cosmology, but with a constant velocity field established at the beginning. The central particle remains approximately fixed, suggesting it is very massive or anchored.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system follows first-order dynamics where each ring particle experiences a velocity field proportional to its position vector, causing exponential expansion. The centre particle remains stationary, acting as a fixed source. This results in radial outflow with a rate determined by a single coupling constant, preserving the ring's symmetry over time.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered law reveals a first-order dynamical system where particles experience a radial force that drives them to a universal terminal speed, balanced by an effective drag. This suggests an underlying vector field with finite propagation speed, analogous to a telegraph equation or first-order relaxation dynamics, where the field's time evolution leads to velocity saturation rather than unbounded acceleration. The terminal speed is a fundamental constant of the universe.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The system consists of a fixed central particle and 10 ring particles that interact via a radial force field. Each ring particle experiences a force toward a critical radius of approximately 5.5 units, combined with linear velocity damping. This results in terminal velocity dynamics: particles move outward if initially inside the critical radius, inward if outside, and stable orbits form when tangential velocity provides angular momentum balance. The centre particle does not move, acting as a fixed source of the field.

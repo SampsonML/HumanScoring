@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 2 experiences a central force pointing toward the fixed source particle whose magnitude is proportional to (p1/p2)·(1/r) and which pulsates in time as cos(ωt), with ω ≈ π/2 (period ≈ 4) and coupling constant C ≈ 0.75. Because the force oscillates symmetrically between attraction and repulsion, a particle initially at rest simply oscillates about its starting position (velocity amplitude ≈ (C/ω)(p1/p2)/r) with no net drift, while any initial velocity is preserved as a steady drift superimposed on the radial pulsation. The field is thus a time-pulsating radial coupling (inverse-distance force law in 2D) rather than a static conservative potential.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The source particle generates a radial field whose amplitude pulsates sinusoidally in time, F ∝ cos(ωt) with ω = π/2 (period 4). The probe particle feels a radial acceleration directed along the source–probe line equal to a = −(C·p1/(p2·r))·cos(ωt)·r̂, i.e. it scales linearly with the source coupling p1, inversely with the probe's inertial mass p2, and falls off as 1/r. At t = 0 the force is attractive (toward the source), and because the time-average of cos(ωt) vanishes a stationary probe simply oscillates radially with amplitude ∝ 1/r while a moving probe drifts along its initial velocity superposed with this oscillation.
+
+--- seed 2 ---   score: 0.70  (7/10)
+Particle 1 (fixed at the origin) sources a radial field whose strength oscillates sinusoidally in time. Particle 2 experiences an acceleration directed along the line to the origin with magnitude (K·p1)/(p2·r)·cos(ωt): the coupling falls off as 1/distance, grows linearly with the source property p1, and is inversely proportional to the probe's property p2 (like an inertial mass). The time modulation has a fixed angular frequency ω ≈ π/2 (period 4) that is independent of separation and particle properties, so a particle released from rest merely jiggles about its starting point with velocity amplitude (K·p1)/(p2·r·ω) rather than falling inward.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Particle 2 experiences a central, radially-oriented force from the fixed source (particle 1) whose magnitude is proportional to p1, inversely proportional to the probe property p2, and inversely proportional to the instantaneous separation r. Crucially the field is oscillatory in time: it is modulated by cos(ωt) with a universal angular frequency ω = π/2 (period 4) that is independent of separation, p1, and p2. As a result a probe released from rest performs small sinusoidal radial oscillations (velocity ∝ sin(ωt)) about its starting point, while probes given large inward velocities sweep close to the source where the 1/r field strengthens.
+
+--- seed 4 ---   score: 0.80  (8/10)
+The source particle (held fixed at the origin) generates a radial field that the probe couples to, producing an acceleration directed along the line connecting the two particles. The acceleration magnitude is K·p1/(p2·r)·cos(ωt): it grows linearly with the source property p1, is inversely proportional to the probe property p2 (which acts like an inertial/screening mass), and falls off as 1/r with separation. The defining feature is the temporal modulation cos(ωt) with ω≈π/2 (period 4), which makes the probe oscillate back and forth about its initial position instead of being steadily attracted, as if the source were an oscillating (breathing) monopole.

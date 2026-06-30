@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+Particle 2 experiences a repulsive central force from particle 1 with magnitude proportional to p1·p2/r, exponentially screened at long distances. Additionally, the system exhibits a velocity-dependent Coriolis-like coupling where perpendicular velocity induces radial (inward) forces, characteristic of charged particle motion in a magnetic field or similar anisotropic interaction. The combination of these effects produces the observed asymptotic constant-velocity regime and the deflection of initially perpendicular motion toward radial directions.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The particle 2 experiences a repulsive force inversely proportional to the cube of its distance from particle 1 and linearly scaled by the source particle's property p1. Additionally, particle 2 experiences viscous friction proportional to its velocity and the probe particle's property p2. This creates a coupled system where the repulsive interaction pushes the particle away while the friction damps its motion, with the balance depending on both particle properties and the initial conditions.
+
+--- seed 2 ---   score: 0.40  (4/10)
+Particle 2 experiences an inverse-square law attractive force toward particle 1 (fixed at the origin), with magnitude proportional to p1 but independent of p2. The acceleration is a⃗ = −(p1/r²) · r̂, where r is the distance and r̂ is the unit vector from particle 1 to particle 2. This resembles Newtonian gravity with G·p1 as an effective gravitational parameter, and the constant G = 1.0 (fit from trajectory data).
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 experiences a repulsive radial force from particle 1 located at the origin, with magnitude F = k·p1·p2/r², where r is the separation distance. The acceleration of particle 2 is therefore a = k·p1/(p2·r²) directed radially outward. The constant k ≈ 0.001 governs the strength of the interaction. This is analogous to Coulomb repulsion between like charges, where p1 and p2 represent effective "charge" properties, and the inverse-square law dominates the dynamics.
+
+--- seed 4 ---   score: 0.10  (1/10)
+Particle 2 experiences a damped harmonic oscillator potential centered at particle 1's location. The net force consists of a linear restoring force proportional to both the displacement vector and the source particle's property p1 (representing coupling strength), combined with velocity-dependent damping that opposes motion. This explains the observed oscillatory behavior with gradually decreasing amplitude, where the oscillation period and damping rate depend on the parameters k and gamma, while the initial conditions and p1 determine the amplitude and phase of oscillation.

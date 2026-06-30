@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+Particle 2 is governed by a central inverse-square attractive force law of the form F = -G·p1/r², where r is the distance to particle 1. This force acts radially inward and causes particle 2 to accelerate toward the fixed source particle 1, with the acceleration being proportional to the source property p1 but independent of the probe property p2. The coupling constant G ≈ 0.0098 was determined through systematic experimentation and parameter fitting across a wide range of initial conditions and parameter values.
+
+--- seed 1 ---   score: 0.00  (0/10)
+Particle 2 is governed by a one-dimensional harmonic restoring force proportional to its x-displacement and its property parameter p2. The equation of motion is ẍ = -π²p₂x, which gives simple harmonic oscillation with angular frequency ω = π√p₂. The y-coordinate remains fixed at zero, and the parameter p1 has no effect on the motion.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes a central attractive force where particle 2 experiences acceleration inversely proportional to its distance from the fixed particle 1 at the origin. The force magnitude scales with source property p1 and inversely with probe mass p2, producing a logarithmic-like potential energy landscape. This is fundamentally different from Newtonian gravity (inverse-square) and more analogous to certain field theories or soft interactions in condensed matter systems.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law is a central inverse-square force law, analogous to Newtonian gravity. Particle 2 experiences an attractive force toward particle 1 (held fixed at the origin) proportional to the product of their properties (p1 and p2) and inversely proportional to the square of their separation distance. The acceleration on particle 2 is **a = -(G·p1·p2/r³)·r**, where G ≈ 1.0 is a universal coupling constant, and r is the position vector of particle 2. This law was validated across a wide range of property values (0.5 to 5.0), distances (0.5 to 4.0 units), and initial conditions (zero and nonzero velocities), consistently showing excellent agreement with observed trajectories.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered physics is a 2D harmonic oscillator where particle 2 experiences a restoring force proportional to both its displacement from the origin and the source particle's property p1. The force law F = -α·p1·r (with α ≈ 1.092) creates oscillations with frequency scaling as ω ∝ √(p1/p2). The system remains stable and periodic for coupling ratios p1/p2 < ~3.6, beyond which chaotic or unstable behavior emerges, but this boundary is outside the typical operating regime.

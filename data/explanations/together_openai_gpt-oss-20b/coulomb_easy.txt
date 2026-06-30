@@ -1,0 +1,23 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered dynamics consist of a constant attraction toward the origin whose magnitude is set by the source scalar \(p_1\), and a linear velocity-dependent drag that damps the motion.  The probe scalar \(p_2\) does not influence the evolution.  This leads to an exponential approach of the particle’s velocity toward a terminal speed proportional to \(p_1\), directed along the radial line to the origin.
+
+--- seed 2 ---   score: 0.80  (8/10)
+The motion of particle 2 is governed by a central attractive force that follows an inverse‑square law. The acceleration is proportional to the product of the scalar properties \(p_1\) and \(p_2\) and points from the moving particle towards the fixed source at the origin. Thus particle 2 spirals inward under a force \(\mathbf{F} = -\alpha p_1 p_2\,\mathbf{r}/|\mathbf{r}|^3\), where \(\alpha\) is a coupling constant determined by fitting to the data.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The dynamics of particle 2 are governed by a constant attractive force directed towards the stationary particle 1.  
+The force magnitude scales linearly with particle 2’s intrinsic property p2, independent of distance.  
+Consequently, particle 2 accelerates uniformly towards the origin, with its acceleration proportional to p2 and a fitting constant.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

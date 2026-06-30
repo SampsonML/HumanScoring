@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The data are best explained by a spatially uniform linear field centred at the origin, giving each particle an outward acceleration proportional to its own position vector and not to the other particles. In other words, the particles do not measurably interact with one another; they each follow the same unstable oscillator equation with independent x and y components. This produces hyperbolic growth from rest and the exact closed-form position update used above.
+
+--- seed 1 ---   score: 0.00  (0/10)
+The universe is governed by a global central field that is linear in displacement from the origin, so each particle feels acceleration equal to minus its position vector. Particles do not seem to interact with one another at all; instead, every coordinate evolves independently as a simple harmonic oscillator with angular frequency 1. Final positions are therefore given analytically by r(t)=r(0)cos(t)+v(0)sin(t).
+
+--- seed 2 ---   score: 0.00  (0/10)
+The particles appear to move in a shared linear restoring field pointing toward the instantaneous equilibrium point, which is just the system’s centre of mass. Empirically this behaves like a mean-field isotropic harmonic oscillator: each coordinate follows the same sinusoidal evolution with one common angular frequency, while the centre of mass stays fixed by symmetry. Pairwise details seem subdominant compared with this collective quadratic potential.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The particles appear to be independent tracers in a background field rather than sources of a mutual pairwise interaction. The field is separable and linear in coordinates: motion along x feels a weak restoring acceleration toward the origin, while motion along y feels an anti-restoring acceleration away from the origin. Initial velocities contribute normally through second-order dynamics, but the dominant structure is this anisotropic linear field.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The particles behave independently in a shared isotropic field centered at the origin, rather than exerting noticeable pairwise forces on one another. Each particle follows a central-force equation with an inward linear restoring term and a weaker outward nonlinear term proportional to \(r^2 \mathbf{r}\), so the field is effectively a radial Duffing potential. This explains the nearly decoupled motion, the radius-dependent oscillation frequency, and the stronger nonlinearity seen for particles started farther from the center.

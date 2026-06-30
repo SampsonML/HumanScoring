@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 feels an attractive acceleration directed exactly toward particle 1. The coupling strength is proportional to the source property p1 and inversely proportional to the probe property p2, while the field magnitude falls as 1/r, corresponding to a logarithmic potential. Initial velocity simply superposes with this central acceleration to produce inward radial motion or gently bent trajectories.
+
+--- seed 1 ---   score: 0.10  (1/10)
+Particle 1 creates a radially symmetric field whose strength is constant in space but directed toward the source, so the probe experiences an inward acceleration of fixed magnitude. The coupling scales linearly with the source property and inversely with the probe property, giving \( \mathbf{a} = -k (p1/p2)\,\hat{\mathbf{r}} \). Structurally, this is a central-force law with no detectable dependence on distance, only on direction and the ratio of particle properties.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The source at the origin generates a central attractive field whose acceleration points toward the origin and has magnitude proportional to p1 divided by distance. Particle 2 couples linearly to this field, while its own property p2 appears dynamically irrelevant. In vector form the law is approximately a = -k p1 r / |r|^2, i.e. an inverse-distance central force field.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particle 1 creates a static central field centered at the origin, and particle 2 responds to it with an acceleration directed radially inward. The force scales linearly with the source property p1 and inversely with the probe property p2, with spatial dependence consistent with an inverse-square law in magnitude, or vector form proportional to -r/r^3. The dynamics are smooth, deterministic, and independent of any back-reaction since particle 1 remains fixed.
+
+--- seed 4 ---   score: 0.40  (4/10)
+Particle 1 generates a static central field centered at the origin, and particle 2 couples to it with an inertial response inversely proportional to its property p2 while the source strength is proportional to p1. The field is radial with magnitude proportional to 1/r, so the probe acceleration is \(-k (p1/p2)\hat{r}\), equivalent to motion in a logarithmic potential. The dynamics are isotropic and independent of the probe’s velocity except through ordinary second-order time evolution.

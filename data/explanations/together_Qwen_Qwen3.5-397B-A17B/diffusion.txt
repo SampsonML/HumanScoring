@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered law describes a velocity-dependent radial force between two particles. Particle 2 experiences an attractive force toward particle 1 (fixed at origin) with magnitude proportional to (p1/p2)/r^5, where r is the separation distance. The force has a unique velocity dependence: it vanishes when the particle moves outward with radial velocity exceeding a critical threshold (~0.5), is active at zero radial velocity, and strengthens when moving inward. This creates a velocity-selective attraction mechanism where only particles moving toward (or stationary relative to) the source experience the force, while outward-moving particles essentially decouple from the interaction.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered law describes a velocity-dependent attractive force acting on particle 2 toward the origin (where particle 1 is fixed). The force magnitude is proportional to the ratio p1/p2, decays exponentially with distance (exp(-r/r0) with r0 ≈ 0.85), and is modulated by a velocity threshold: the force scales as (1 - |v|/v_crit) when speed is below v_crit ≈ 0.5, and vanishes completely above this threshold. This creates a "friction-like" behavior where fast-moving particles experience no force, while slow particles are pulled toward the source.
+
+--- seed 2 ---   score: 0.10  (1/10)
+Particle 2 experiences a velocity-dependent drag force from particle 1 (fixed at origin). The force is radial and opposes the particle's radial motion: F = -k * (p1/p2) * (v_r/r³) * r̂, where v_r is the radial velocity component and r̂ is the radial unit vector. This creates a damping effect that depends on the ratio of particle properties (p1/p2), the inverse cube of distance, and the radial velocity. The force vanishes when the particle is at rest or moving purely tangentially, and acts to reduce radial motion regardless of direction (inward or outward).
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered law describes a velocity-dependent attractive force between two particles. Particle 2 experiences an acceleration toward the origin (where particle 1 is fixed) that scales with the ratio p1/p2 and decays exponentially with distance (exp(-r)). Crucially, the force only acts when the particle's radial velocity is non-positive (stationary or moving inward toward the origin); when the particle moves outward (radial velocity > 0), the force vanishes completely. This creates a ratchet-like behavior where particles can escape outward freely but are pulled back if they stop or reverse direction.
+
+--- seed 4 ---   score: 0.10  (1/10)
+Particle 2 moves under an attractive central force toward particle 1 (fixed at the origin). The force law is an inverse-cube dependence on distance: acceleration magnitude equals G × (p1/p2) / r³, where p1 represents the source particle's field strength, p2 acts as the probe particle's mass (inertial resistance), and G ≈ 0.05 is the coupling constant. The force points radially inward along the line connecting the particles, producing no velocity-dependent terms.

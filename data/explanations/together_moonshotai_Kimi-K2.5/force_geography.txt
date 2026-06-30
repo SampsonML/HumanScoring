@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law describes particle motion in a 2D central logarithmic potential where particle 1 at the origin generates an attractive force proportional to p1/r on particle 2. The parameter p2 acts as an effective inertial mass, scaling both the central acceleration and the linear drag. The drag force is proportional to p1 and velocity, representing a friction-like dissipation in this medium. This system mimics a "particle in a logarithmic well with viscous damping" where coupling constants p1 and p2 trade off between force strength and inertia.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 2 obeys a modified 2D "gravity" where particle 1 generates a logarithmic potential φ = -G·p1·ln(r). The resulting force scales as 1/r rather than 1/r², and particle 2's inertia is proportional to its parameter p2. At small separations the force softens via an epsilon regularization, preventing singular accelerations. This produces the observed logarithmic-spiral trajectories where orbital periods are independent of semi-major axis, a hallmark of logarithmic potentials.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The system follows a modified Newtonian gravity where particle 2 experiences a central attractive force proportional to p1/r^2 toward particle 1 at the origin, with particle 2's inertia proportional to p2. This creates Kepler-like orbits with the 1/r^2 force law, where the effective coupling strength G*p1/p2 determines orbital dynamics. The force depends only on the separation distance, not on particle 2's position directly, making it a conservative central force field.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered law describes a finite-range central force between particles, where particle 2 experiences an attractive force directed toward the fixed particle 1 at the origin. The force magnitude follows a Yukawa-like form F ~ (p1/p2) * r * exp(-r/L), combining linear growth with distance at short ranges and exponential decay at long ranges, with a characteristic screening length L ≈ 3.0. The coupling strength scales with the ratio of scalar properties p1/p2, indicating particle 1 acts as a source and particle 2 as a responder with inertial damping proportional to p2.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The discovered law is Newtonian gravity: particle 1 exerts an attractive central force on particle 2 proportional to p1/r², where p1 acts as a gravitational mass/charge. Particle 2's property p2 serves as inertial mass, making the acceleration a = G·p1/(p2·r²). The force is purely radial with no velocity-dependent terms, matching Keplerian orbital dynamics in 2D.

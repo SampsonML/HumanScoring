@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The discovered physical law is a system of 10 independent particles, each subject to velocity-dependent viscous damping. Each particle experiences a drag force proportional to its velocity (F = -α·v), with no inter-particle interactions or external forces. The dynamics for each particle are governed by the equations: dv/dt = -α·v and dx/dt = v, where α is the damping coefficient fitted from trajectories. This results in exponential velocity decay v(t) = v₀·exp(-α·t) and asymptotic position evolution x(t) = x₀ + (v₀/α)·(1 - exp(-α·t)).
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered physics is a system of 10 globally coupled particles where each particle experiences a force from every other particle proportional to the relative displacement vector divided by the squared distance. This creates a coupled oscillator system with wave-like normal modes. The system exhibits remarkable stability only when all 10 particles are present and mutually coupled; removing or reducing particles causes exponential instability. The force law F_ij = κ(r_j - r_i)/(|r_j - r_i|² + ε) drives complex bounded oscillatory motion with emergent coherent structures.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered system consists of 10 particles that interact through pairwise repulsive Coulomb-like forces, where each particle experiences a force proportional to (r_i - r_j) / |r_i - r_j|^3 from every other particle. This creates a system of coupled nonlinear ODEs that exhibits high stiffness and numerical sensitivity, particularly when particles approach each other. The particles naturally arrange themselves to minimize potential energy, creating equilibrium configurations such as evenly-spaced linear arrangements. The repulsive nature of the interaction prevents particles from colliding and drives the system dynamics.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered physical system is governed by a damped harmonic oscillator field where each particle is attracted toward the origin with a restoring force proportional to its distance, plus velocity-dependent friction. The equation of motion is dv/dt = -α·r̂ - β·v, where α is the spring constant controlling the radial attraction and β is the damping coefficient. This creates stable dynamics for symmetric particle distributions, with particles executing damped radial oscillations around the origin as they gradually dissipate energy through friction.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered system is governed by damped harmonic oscillator dynamics where each of the 10 particles independently oscillates toward the origin (center) with exponential velocity damping. The force law follows d²r/dt² = -ω²r - γ(dr/dt), creating both a restoring force (proportional to displacement from origin) and a dissipative damping force (proportional to velocity). This unified field couples all particles to the same center point, causing them to gradually converge with characteristic oscillations that decay over time.

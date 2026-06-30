@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law describes a central attractive force where particle 2 experiences an acceleration toward the fixed particle 1 at the origin. The acceleration magnitude follows a = k·p₁/(p₂·r), where r is the distance from the origin, p₁ acts as a source charge, p₂ serves as inertial mass, and k ≈ 0.179 is a coupling constant. The force law exhibits a 1/r spatial dependence rather than the familiar Newtonian 1/r², with the acceleration scaling linearly with the source property p₁ and inversely with the probe's inertial property p₂.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The discovered law describes particle 2 moving in an effective medium created by particle 1 (fixed at origin). The motion follows a Coulomb-like inverse-square attractive force proportional to the ratio p1/p2, modified by a velocity-dependent drag also proportional to p1/r. The damping effect strengthens near the origin, consistent with a 1/r scaling observed in the high-precision trajectory data.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The discovered law is a central attractive force where particle 2 experiences an acceleration directed toward particle 1 (at the origin) with magnitude proportional to p1/p2 times r^(-alpha), where r is the separation distance. The fitted exponent alpha ≈ 0.88 suggests a force law slightly weaker than inverse-linear (1/r), while the coupling shows p1 acts as a source strength and p2 as an inertial/resistance factor in the denominator. This is conservative Newtonian mechanics with no velocity-dependent drag, as velocities remain constant when p1=0.
+
+--- seed 3 ---   score: 0.20  (2/10)
+This universe features an attractive central force where particle 2 experiences a radial acceleration directed toward particle 1 (fixed at the origin) with magnitude a = k·(p1/p2)/r. The force depends linearly on the source property p1 and inversely on the probe property p2, with a 1/r spatial dependence rather than the familiar inverse-square law of Newtonian gravity. The acceleration is purely radial with no velocity-dependent terms, creating purely attractive trajectories that spiral or fall directly toward the origin depending on initial angular momentum.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered law describes a central attractive force between two particles where particle 1 (fixed at the origin) acts as a source and particle 2 experiences an acceleration proportional to p1/p2 and inversely proportional to the distance r from the origin. The force law a = -G(p1/p2)/r corresponds to a logarithmic potential, distinct from Newtonian gravity. Particle 1 is held fixed, and there is no velocity-dependent damping - the particle's inertia determines its trajectory under this central force.

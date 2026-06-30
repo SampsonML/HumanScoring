@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The discovered force law is F = -G1*M*m/r² + G2*M*m*r/α, combining an attractive inverse-square term with a repulsive-like linear term. The ring orbiters at r=5 maintain circular orbits with v≈2.59 because the two force terms partially cancel, creating a flat effective potential. The massive anchor (m~10^15) dominates the dynamics while probes of varying mass experience acceleration independent of their mass, indicating gravitational coupling. The linear term grows with distance, so at large radii it dominates, causing probes to accelerate outward, while near the origin the inverse-square term pulls particles inward.
+
+--- seed 1 ---   score: 0.30  (3/10)
+The universe contains a massive central anchor and a ring of orbiting particles. The anchor provides a strong 1/r^2 attractive force, while the ring distribution creates an effective linear repulsive force (~r), resulting in a stable equilibrium radius near r ≈ 12 where probes remain nearly stationary. Particles inside this radius are pulled inward; those outside are pushed outward with acceleration proportional to the net radial force divided by the particle's inertial mass.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The universe follows standard Newtonian mechanics in an inertial frame. All 26 particles (the massive anchor at the center, 20 ring orbiters, and 5 user-controlled probes) interact through pairwise inverse-square gravitational forces. The anchor particle has enormous mass (~10^15) and dominates the central gravitational field, while the ring orbiters and probes move according to their total gravitational environment. No fictitious forces (Coriolis, centrifugal) are present - the coordinate system is truly inertial. The ring orbiters at radius 5 maintain circular orbits when their velocity matches the circular orbit speed v = sqrt(G*M_enclosed/r).
+
+--- seed 3 ---   score: 0.10  (1/10)
+I discovered a velocity-dependent guiding field that drives particles toward circular equilibrium orbits where the tangential velocity equals v_eq(r) = k/r, with k approximately 13. The force is mass-independent—particles of any mass at the same radius experience identical accelerations. Particles with tangential velocity less than k/r spiral inward, while those with velocity greater than k/r spiral outward. Additionally, any radial motion is damped, causing particles to settle into stable circular trajectories at their initial radius. This creates a continuum of stable circular orbits parameterized by radius, analogous to planetary rings but with a specific 1/r velocity law rather than Keplerian dynamics.
+
+--- seed 4 ---   score: 0.00  (0/10)
+This universe follows a 2D simple harmonic oscillator law where all particles experience a central restoring force proportional to their displacement from the origin. The force law is F = -mω²r, causing particles to accelerate toward the origin with magnitude proportional to distance. The 20 background orbiters maintain stable circular orbits at radius 5 because their tangential velocity v = 2.59 ≈ ω×5 provides the exact centripetal force needed to balance the harmonic oscillator's inward pull — creating closed circular trajectories without radial oscillation.

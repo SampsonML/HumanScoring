@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+This is a 2D self-gravitating system governed by a logarithmic potential: every background particle sources an attractive acceleration of magnitude G/r directed along the line toward it (a 1/r force law, the 2D analogue of Newtonian gravity). The five probes are massless test particles that feel the summed field from all background particles but exert no force themselves; far-field measurements pin their coupling at G≈0.556 per source (total field ≈11.1/r for the 20-particle population). The background particles mutually attract under the same 1/r form but with a stronger effective coupling (G_bg≈1.2), so the cluster slowly reconfigures and that evolving field shapes the near-field probe trajectories.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The simulated universe contains a fixed external central potential centred on the domain origin: every particle, background or probe, experiences an attractive acceleration directed toward the centre with magnitude that decreases slowly with radius, well described by a softened power law a = k·r/(r²+eps²)^((q+1)/2) with k≈6, q≈0.5–1, and a softening core eps≈2. The probes are passive test particles that only feel this field (they generate none), so a probe released from rest falls straight through the centre and oscillates back and forth, while one given tangential velocity follows a closed orbit-like path. The background particles obey the identical central law and merely add small perturbations; the radial-infall half-period grows with the launch radius (roughly ∝ r₀^0.8), which is what fixed the force exponent.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The simulated universe contains 20 fixed-population source particles and 5 neutral probes. Each source attracts every other particle (and the probes) with a force directed along the connecting line, but the force magnitude is non-singular at close range and grows weakly with separation — a sub-linear confining interaction (force per source ∝ |d|^p with p≈0.34), intermediate between a constant "string-tension" force and a harmonic spring. The probes feel only the superposition of these forces from the moving background; the resulting radial field rises from the centre, peaks near r≈3, and then falls roughly as 1/r outside the cloud, consistent with a smooth, finite, extended-source potential.
+
+--- seed 3 ---   score: 0.50  (5/10)
+This universe behaves like 2D Newtonian gravity (equivalently, a logarithmic gravitational potential): every fixed background source produces an attractive force on a probe that points toward the source and decays as 1/distance, rather than the 1/distance² of 3D gravity. The neutral probes generate no field themselves and simply accelerate under the vector sum of all background pulls, while the background particles carry large initial velocities and also attract one another, so the field they collectively produce drifts over time. Far outside the cluster the net field reduces cleanly to G·N/r toward the centre, which is how the 1/r form and coupling strength (G ≈ 0.5 per unit source) were identified.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The simulated universe contains 20 background particles plus 5 passive probes. Each particle generates an attractive field whose magnitude falls off as G/r^alpha with alpha≈1, i.e. a two-dimensional Newtonian (logarithmic-potential) gravity in which the force per source scales as the inverse of separation; measured early-time accelerations confirmed a·r ≈ constant. The background bodies mutually gravitate and evolve under this same law, while the probes feel the summed field from all background sources but contribute nothing themselves, so their trajectories are obtained by integrating the net inverse-distance pull from the moving background population.

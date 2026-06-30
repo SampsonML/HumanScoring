@@ -1,0 +1,20 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered law describes particle 2 moving under an attractive inverse-fourth power central force from particle 1 (fixed at the origin), with force magnitude proportional to p1/p2 and decaying as r^-4. The motion also exhibits linear velocity damping (friction) proportional to the velocity. This creates trajectories where particles spiral inward slowly while losing kinetic energy, with orbital dynamics distinct from standard gravitational or Coulomb systems due to the steep r^-4 falloff and dissipative drag term.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The discovered law is a modified Newtonian gravity where particle 2 experiences an attractive inverse-square force toward particle 1 (fixed at the origin). The key findings are: (1) the force magnitude follows F = G·p1·p2/r², making the acceleration a = G·p1/(p2·r²), with p1 acting as source mass and p2 as inertial mass; (2) the force is always attractive (directed toward the origin); (3) the 1/r² dependence matches Keplerian orbits with the characteristic energy scaling. This differs from standard gravity only in that the probe's response to force scales as 1/p2 rather than having mass play a dual role.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes a finite-range central force interaction with velocity-dependent damping. Particle 2 experiences an attractive Yukawa-like force F = α·p1·p2·exp(-r/Λ)/r directed toward particle 1 at the origin, where Λ ≈ 1.5 sets the interaction range and α ≈ 1 governs the coupling strength. A linear Stokes drag term -γ·v (with γ ≈ 0.02) damps the motion proportionally to velocity. The p1·p2 multiplicative coupling indicates both particle properties contribute symmetrically to the interaction. This model captures the observed oscillatory bound trajectories at small separations and the weak interaction at large distances.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered law describes particle 2 experiencing a velocity-dependent central force from particle 1. The force magnitude scales as (p1/p2)/r^3 and its direction depends on whether particle 2's speed is below or above a critical velocity v_c = r*sqrt(p1/p2). When v < v_c, the force is attractive (toward particle 1); when v > v_c, it's repulsive. The transition is smooth, governed by a tanh function. This creates oscillatory motion at low velocities and slowly decaying velocity at high velocities, matching the observed behavior where fast particles experience drag-like effects while slow particles undergo oscillation.
+
+--- seed 4 ---   [no trial file]

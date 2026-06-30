@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The universe has a fixed radial field centered on the immobile anchor at the origin. Every particle's acceleration is purely radial with magnitude g(r) = alpha*r - beta/r, where r is the distance from the anchor. This combines a linear "anti-Hooke" outward push (alpha*r) with an attractive 1/r pull (-beta/r), producing a stable circular orbit radius at r = sqrt(beta/alpha) ≈ 12.6 (where the field vanishes); inside this radius particles are pulled inward, outside they are flung outward. Crucially, the acceleration is independent of the particle's own mass and of every other particle's mass — only the anchor's location matters — so the 20 ring orbiters and the probes all decouple and move in this single static central field. Fitted constants: alpha ≈ 0.05, beta ≈ 7.96; the ring orbiters at r=5 with v≈2.59 satisfy v² = beta - alpha*r² = 6.71 exactly.
+
+--- seed 1 ---   score: 0.80  (8/10)
+This 2D universe uses a logarithmic gravitational potential, so the force between any two massive particles is attractive and falls off as 1/r (rather than 1/r² as in 3D Newtonian gravity); accelerations from neighbours sum vectorially with strength G·m_j·(r_j−r_i)/|r_j−r_i|². Superposed on this is a position-dependent "cosmological repulsion" Λ·r pointing away from the origin — a Hooke-like anti-restoring acceleration that dominates at large distance and would drive runaway exponential expansion in the absence of gravity. Test particles couple only through their position (acceleration is independent of their own mass), and the very massive central anchor (M ≈ 10¹⁵, with G·M ≈ 8) sets a near-Keplerian inner region where 1/r attraction balances Λ·r repulsion at r ≈ 12–13, giving the observed circular orbits at r=5 with v ≈ 2.59.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The 2D universe has a single fixed central potential pinned at the anchor: every particle (anchor, ring orbiters, probes) experiences a purely radial acceleration toward the origin equal to A/r − B·r, with A≈8 and B≈0.05. The 1/r piece behaves like 2D logarithmic gravity from the very massive anchor, while the linear repulsive piece acts like an anti-Hooke "cosmological" outward push from a uniform negative-density background. The acceleration is independent of probe mass and of the masses/positions of other particles (probes don't gravitate on each other), and the ring orbiters maintain rigid circular rotation at radius 5 because at that radius A/r − B·r exactly supplies the required centripetal acceleration ω²r ≈ 1.34.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The anchor at the origin sources a static, radial scalar field with potential V(r) = A·ln(r) − (B/2)·r², producing acceleration a⃗ = (−A/r + B·r)·r̂ on every other particle. Short-range behavior is logarithmic attraction (∝ 1/r toward the anchor), while long-range behavior is harmonic repulsion (∝ r outward), with an unstable equilibrium at r = √(A/B). All non-anchor particles (background orbiters and probes) are passive test particles in this field — they do not source forces on one another, and their inertial mass cancels out so that acceleration depends only on position relative to the anchor (best-fit constants A ≈ 8, B ≈ 0.05).
+
+--- seed 4 ---   score: 0.80  (8/10)
+The universe is 2D with a modified gravitational field: each particle sources a logarithmic gravitational potential (so the gravitational acceleration toward a source of mass M at distance r is G·M/r, not G·M/r²), and there is a universal cosmological-constant-like outward acceleration B·r proportional to position from the origin. The total acceleration on any particle is the sum of pairwise log-gravity attractions plus this de Sitter–style repulsion, giving an effective radial acceleration around the anchor of a(r) = -A/r + B·r with A = G·M_anchor ≈ 7.95 and B ≈ 0.05, producing a stable orbital radius near r ≈ √(A/B) ≈ 12.6 beyond which particles are flung outward. Probe acceleration is independent of probe inertial mass (equivalence principle holds).

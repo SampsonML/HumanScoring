@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The source particle (particle 1, fixed at the origin) generates a static radial field that pulls the probe particle 2 directly toward it. The acceleration is purely central with magnitude G·p1/(p2·r): it is proportional to the source property p1, inversely proportional to the probe property p2, and falls off as 1/r — the signature of a 2D logarithmic (Coulomb-like) potential. No velocity-dependent (magnetic-type) coupling was detected; the dynamics are entirely governed by this attractive inverse-distance central force with G ≈ 0.16.
+
+--- seed 1 ---   score: 1.00  (10/10)
+The source particle generates a 2D logarithmic potential, giving the probe a purely radial, attractive acceleration of magnitude k·p1/(p2·r) (force falls off as 1/r, the natural Gauss-law behavior in two spatial dimensions). The coupling is proportional to the source property p1 and inversely proportional to the probe property p2 (its inertial/charge factor), with fitted constant k ≈ 0.16. There is no velocity-dependent or transverse (magnetic) component — trajectories with cross-velocity confirmed the force stays strictly along the line to the source.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The source particle sources a 2D logarithmic potential, so the probe experiences a central, attractive acceleration directed toward the source with magnitude k·(p1/p2)/r — an inverse-distance (1/r) force, the natural Coulomb/gravity analog in two dimensions. The coupling grows linearly with the source's scalar property p1 and falls inversely with the probe's property p2 (which acts like an inertial mass), with k ≈ 0.157. No velocity-dependent or angular terms were detected; trajectories are pure central-force orbits.
+
+--- seed 3 ---   score: 0.90  (9/10)
+Particle 2 is attracted toward the fixed source (particle 1 at the origin) by a central force whose magnitude is G·(p1/p2)/r — a 1/r force law, which is the 2D analog of a logarithmic potential (the field of a point source in two dimensions). The acceleration points radially inward, scales linearly with the source property p1, and inversely with the probe property p2; the coupling constant G ≈ 0.16. This was confirmed by measuring clean velocity-derived accelerations across distances (r = 2 to 10) and property values, all matching a = 0.16·p1/(p2·r).
+
+--- seed 4 ---   score: 1.00  (10/10)
+The source particle (particle 1, fixed at the origin) generates a 2D logarithmic potential, producing an attractive central force on the probe whose magnitude scales as 1/r (a · r is constant along the radial direction). The acceleration is directed toward the source and scales linearly with the source strength p1 and inversely with the probe property p2, with overall coupling constant k ≈ 0.15. This is the analogue of gravity/electrostatics in a 2D universe where field flux conservation gives a 1/r rather than 1/r² law.

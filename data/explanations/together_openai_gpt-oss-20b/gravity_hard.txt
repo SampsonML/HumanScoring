@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 2 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.00  (0/10)
+The universe behaves as if each particle experiences a central harmonic potential and viscous damping: the acceleration is proportional to minus position and velocity, with no forces between particles. This yields simple damped oscillations around the origin, consistent with all observed trajectories. The system is thus a collection of independent damped harmonic oscillators.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The universe follows an N‑body inverse‑cubic attraction law. Every particle generates a field whose strength falls off as 1/r², producing a force that varies as (r_j‑r_i)/|r_j‑r_i|³. This leads to curved trajectories, as seen in the experiments, with a single coupling constant controlling the interaction strength.
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

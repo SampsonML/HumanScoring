@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The universe has a single static central field centered at the anchor (origin) whose potential is U(r) = -A r²/2 + B ln(r), producing a purely radial acceleration a_r = A·r - B/r on every particle, with A ≈ 0.0493 and B ≈ 7.95. The force is independent of both the source masses and the test particle's mass — particles are massless test charges in a fixed external field. This gives attraction for r < √(B/A) ≈ 12.7 (1/r term dominates, like 2D gravity/logarithmic confinement) and repulsion for larger r (harmonic anti-spring), so the 20 ring orbiters at r=5 sit deep in the attractive region and orbit circularly with speed √(B - A r²) ≈ 2.59, while probes far away are flung outward.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The simulated universe behaves like a 2D world with two ingredients: (1) a uniform "dark-energy"/cosmological background that gives every particle a mass-independent outward acceleration H²·r from the origin (with H² ≈ 0.05), explaining the observed asymptote a/r → 0.05 at large distances; and (2) ordinary attractive gravity between matter particles using a 2D logarithmic potential, i.e. force per mass F = G·mⱼ/|r_ij| (inverse-first-power, α = 1), with G ≈ 0.178. The single ultra-massive anchor at the origin is a pure cosmological landmark — it does not participate in gravitational attraction, otherwise its 10¹⁵ mass would dwarf everything; the ring of 20 orbiters (total mass 45) supplies an inward 2D-Gauss-law contribution G·M_ring/r on probes outside the ring, matching the measured a ≈ 0.05·r − 8/r law.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The universe has a two-component central field sourced linearly by each particle's mass: a Newtonian-2D-like attractive piece producing acceleration -G·m/r along the line of sight (corresponding to a logarithmic gravitational potential, ∇²φ ∝ ρ in 2D), plus a repulsive cosmological-constant-like linear piece +Λ·m·r outward (a de-Sitter-style background that becomes dominant at large distances). Test particles' accelerations are independent of their own inertial mass and are the vector sum of contributions from all sources; because the central anchor has mass ~10¹⁵, it overwhelmingly determines probe trajectories, yielding the radial law a_r ≈ -G·M_anchor/r + Λ·M_anchor·r with a force-balance radius near r ≈ √(G/Λ) ≈ 12.5 where attraction and cosmic repulsion cancel.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The universe contains a fixed, static central force field anchored at the origin. Every particle (anchor, orbiters, probes) experiences the same purely radial acceleration a_r = −A/r + B·r with A≈8 and B≈0.05 — attractive (∝1/r) inside the equilibrium radius r_eq = √(A/B) ≈ 12.65 and repulsive (∝r) outside it. The field does not depend on the particle's inertial mass, on the masses of other particles, or on inter-particle interactions; the anchor's huge mass and the ring of orbiters are only props moving in the same field, and the ring's circular speed v² = A − B·r² confirms the law at r = 5.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Every particle in this universe feels a purely central, radial acceleration produced by a fixed field anchored at the origin: a(r) = α·r − β/r, pointing radially outward when positive. The −β/r piece is the 2D analogue of Newtonian gravity (i.e. a logarithmic potential −β·ln r), while the +α·r piece is a uniform outward "anti-gravity" term akin to a positive cosmological constant in a de-Sitter universe. Crucially, the acceleration depends only on the particle's distance from the origin — not on its inertial mass, not on the masses or positions of other particles — which is why the 20 ring orbiters all share the same angular frequency ω² = β/R² − α at the ring radius R = 5, and why probes follow identical trajectories regardless of mass.

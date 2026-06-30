@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The system is governed by a central pairwise repulsive field. Each particle experiences a force directed away from every other particle, with magnitude proportional to the absolute product of their scalar charges. The force decays with distance as |r|^{‑p}, where the exponent p is close to 2, reproducing an inverse‑square‑like repulsion while allowing for alternative scalings through fitting.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The particles experience a central force field that exerts a constant radial acceleration proportional to each particle’s charge. Positive charges are accelerated outward from the origin, negative charges inward, with magnitude α·|q| independent of distance. This law reproduces the observed linear growth of velocity and the opposite motion of opposite‑signed charges.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The system hosts a scalar charge field mediating a central interaction. Each pair of particles feels a force whose magnitude is proportional to the product of their charges and whose direction lies along the line connecting them. The interaction is distance‑independent (apart from the unit‑vector normalization), giving a constant‑magnitude push or pull depending on the sign of the charge product.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The particles interact through a Coulomb‑like central force: the force on each particle is proportional to its charge multiplied by the sum of the products of its charge with every other particle’s charge, directed along the line connecting them and falling off with the inverse‑square of distance. With unit mass this gives accelerations a_i = k q_i ∑_j q_j (r_i−r_j)/|r_i−r_j|³, where k is a constant fitted from data. The system’s evolution is obtained by integrating these equations of motion from the initial conditions.
+
+--- seed 4 ---   score: 0.70  (7/10)
+The particles interact through a central pairwise force proportional to the product of their scalar charges, directed along the line joining them. The force magnitude follows an inverse‑distance power law |r|⁻ᵝ with β≈2, making it analogous to a Coulomb‑like attraction/repulsion depending on charge sign. A single coupling constant k sets the overall strength of the interaction.

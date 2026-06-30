@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The 30 particles interact through a 2D Coulomb-like attractive field: each pair contributes a force along the unit separation vector with magnitude proportional to 1/r (corresponding to the gradient of a logarithmic potential, which is the natural "gravity" in 2D). The coupling constant c is roughly 0.165 in the universe's units. The dynamics are second-order Newtonian (acceleration = force), and the field appears scale-invariant in the sense that pairwise forces depend only on relative positions of pairs; however, longer integrations exhibit a non-conservative-looking drift at the chain ends which my model does not fully capture and which may indicate an additional non-pairwise gauge or self-field term beyond the leading attractive 1/r law.
+
+--- seed 1 ---   score: 0.90  (9/10)
+The universe contains 30 particles in 2D coupled to a scalar field obeying the 2D Poisson equation, so a point source produces a logarithmic potential and a 1/r radial force. Every particle acts as an equal-strength source, but each particle carries an intrinsic test-charge q_i that determines how it RESPONDS to the collective field: q_i = +1 for indices 0-14 and q_i = -1 for indices 15-29. The equation of motion is d²r_i/dt² = G·q_i·Σ_{j≠i} (r_j - r_i)/|r_j - r_i|² with G ≈ 0.16; because only the receiver's charge appears (not q_i·q_j), Newton's third law is broken — group A particles attract each other while group B particles repel each other, even though the field they generate is identical.
+
+--- seed 2 ---   score: 0.00  (0/10)
+In this universe particles experience no direct position-based force; instead, each particle's acceleration is a weighted sum of the velocities of all other particles, with weights decaying with spatial separation (approximately Gaussian). Because the coupling matrix acts directly on v (not on v_k - v_j), the system has positive eigenmodes that grow exponentially in time, producing the characteristic index-correlated velocity patterns I observed: particles near (in index/space) a moving particle quickly acquire similar velocity, and collective modes amplify rather than dissipate. Stationary configurations are stable (no force on resting particles), but any seed velocity propagates and grows through the dense particle medium.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The simulated universe appears to have particles interacting through a pairwise attractive central force, similar to gravity but with the distance-dependence exponent (α) treated as unknown. Each particle experiences an acceleration that is the sum over all other particles of G*(r_j - r_i)/|r_j - r_i|^α, with a small softening parameter ε to prevent singularities at close approach. While I observed unusual behaviors such as symmetric outward forces in linearly-arranged clusters that don't perfectly match standard Newtonian gravity, the inverse-power attractive law captures the basic two-body and short-range collective dynamics I observed (e.g., particles pulling toward neighbors with a strength that decays with distance).
+
+--- seed 4 ---   score: 0.90  (9/10)
+The universe contains two species of particles distinguished by index: indices 0–14 are "attractive" (sign +1) and indices 15–29 are "repulsive" (sign −1). Each particle i feels a total force equal to sign_i · k · Σ_{j≠i} r̂_{i→j} / r_ij — that is, a 1/r central interaction where the force direction depends only on the receiver's species, not on the source's. This breaks Newton's third law: an A-B pair both accelerate in the same direction (A pulled toward B while B is pushed away from A), producing the characteristic "V-shaped" velocity profile observed in mixed chains, while pure-A chains collapse and pure-B chains explode symmetrically. The coupling constant k ≈ 0.16.

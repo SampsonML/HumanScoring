@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Each particle generates a radial inverse-square field whose strength and sign are set by its own charge, and all other particles accelerate in that field with a coupling that is completely independent of their own charge — even neutral particles feel the force. Thus a positive charge pushes everything away and a negative charge pulls everything in, with acceleration a_i = Σ_j q_j (r_i − r_j)/|r_i − r_j|³ (k ≈ 1), which breaks Newton's third law (a 2:1 charge pair accelerates in a 1:2 ratio). Superposition holds exactly, there is no drag or velocity dependence, and isolated particles move uniformly.
+
+--- seed 1 ---   score: 1.00  (10/10)
+Each particle sources a Coulomb-like inverse-square field proportional to its signed charge, but particles respond to the total field as pure test masses: the acceleration of particle i is the sum over all other particles j of q_j·(r_i−r_j)/|r_i−r_j|³, completely independent of particle i's own charge. This makes the interaction non-reciprocal (Newton's third law is violated — a charged particle pushes a neutral one, which exerts no force back), with positive charges repelling everything and negative charges attracting everything. There is no drag, no velocity-dependent force, and superposition holds exactly with unit coupling constant.
+
+--- seed 2 ---   score: 1.00  (10/10)
+Each particle with charge q_j creates an inverse-square vector field pointing away from itself (toward itself if q_j is negative), and every other particle — regardless of its own charge, even if neutral — accelerates in response to the superposition of these fields: a_i = Σ_j q_j (r_i − r_j)/|r_i − r_j|³ with coupling constant K ≈ 1. Unlike Coulomb's law, the force is not proportional to the product q_i·q_j, so it violates Newton's third law: two opposite charges drift in the same direction rather than attracting symmetrically. There is no drag, no velocity-dependent (magnetic) force, and the dynamics obey clean linear superposition.
+
+--- seed 3 ---   score: 1.00  (10/10)
+This universe contains a one-way Coulomb-like field: each particle with charge q creates an instantaneous, unretarded radial field E = q r̂/r² obeying exact superposition, and every particle (unit mass) accelerates as a = ΣE regardless of its own charge — so positive charges repel all particles and negative charges attract all particles, breaking Newton's third law. The receiver's charge only matters as a source for others; neutral particles are perfect test particles that still respond fully to the field. The 1/r² form holds without softening from r ≈ 0.5 out to r ≈ 25, with coupling constant 1 and no velocity-dependent (magnetic) terms.
+
+--- seed 4 ---   score: 1.00  (10/10)
+In this universe each charge generates a Coulomb-like inverse-square field (a ∝ q_source/r², coupling constant ≈ 1), but particles respond to the field independently of their own charge — even neutral particles are accelerated. Thus positive charges repel every particle and negative charges attract every particle, breaking Newton's third law for unequal charge pairs (e.g. a +/− pair drifts together in the same direction). The fields superpose linearly, there is no softening at short range, and there are no velocity-dependent (drag or magnetic) forces — free particles move ballistically.

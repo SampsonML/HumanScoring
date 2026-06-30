@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+This universe obeys a 2D gravitational force law where each particle exerts an acceleration on every other particle proportional to the source mass and inversely proportional to the square of the separation distance: a_i = G × Σ_{j≠i} m_j × (r_j − r_i) / |r_j − r_i|². This is the natural gravity in 2D space, corresponding to a logarithmic gravitational potential φ = −G·M·ln(r), which is the Green's function of the 2D Laplacian. The coupling constant G ≈ 7.9×10⁻¹⁵ is extremely small relative to the anchor mass (~10¹⁵), making the effective gravitational acceleration from the anchor approximately 7.9/r, while the ring orbiters also contribute repulsive or attractive forces depending on their relative positions.
+
+--- seed 1 ---   score: 0.20  (2/10)
+In this 2D universe, all particles interact via a pairwise attractive force whose magnitude scales as F = G·m_j/r (a 1/r force law corresponding to a 2D logarithmic gravitational potential), directed from each source particle toward the probe. The acceleration of any particle is independent of its own mass (confirmed experimentally), consistent with a gravitational-type coupling. The massive central anchor (mass ~10^15) dominates the dynamics at short range, pulling probes inward with acceleration ∝ 1/R; at larger radii the geometric arrangement of ring orbiters creates a net outward effective force that grows with radius, producing a zero-crossing in the radial acceleration around r≈12-13, all of which is reproduced by the same 1/r pairwise law summed over all 26 particles.
+
+--- seed 2 ---   score: 0.30  (3/10)
+In this 2D simulated universe, particles interact via two distinct force laws. The massive anchor particle (index 0) exerts an attractive force on all other particles with magnitude proportional to 1/r (a 2D Coulomb/gravitational law), giving acceleration a = G_A × M_anchor / r directed toward the anchor. All non-anchor particles (the ring orbiters and probes) exert mutually repulsive forces where the force vector is directly proportional to the displacement vector between particles (a linear/spring-like repulsion), giving acceleration a = G_R × m_source × (r_probe - r_source). This combination of central 1/r attraction and linear inter-particle repulsion allows the ring orbiters to maintain stable orbits while creating a net outward linear field (∝ r) outside the ring that partially counteracts the anchor's attraction at large distances.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The simulated universe obeys standard pairwise Newtonian inverse-square gravity in 2D: every pair of particles i and j exerts a mutual attractive force F_ij = G·m_i·m_j/r² directed along the line connecting them, where r is their separation distance. The gravitational constant G ≈ 7.67×10⁻¹⁵ is universal — the same G governs anchor-probe, ring-probe, and ring-ring interactions. The massive anchor (M = 10¹⁵) dominates probe dynamics at small radii, producing the clean 1/r² acceleration scaling observed, while the ring orbiters create more complex forces at larger radii due to their discrete, non-uniform mass distribution (masses cycling through 1, 2, 4) which produces non-trivial net forces that can appear outward at certain radii outside the ring.
+
+--- seed 4 ---   score: 0.20  (2/10)
+In this simulated universe, all particles interact via an attractive inverse-distance (1/r) force law — the 2D analog of Newtonian gravity with a logarithmic potential. The acceleration of particle i due to particle j is a_ij = G * m_j * (r_j − r_i) / |r_ij|², where the magnitude falls off as 1/r rather than the standard 1/r². The coupling constant G ≈ 7.9 × 10⁻¹⁵ was determined from the anchor particle (mass ≈ 10¹⁵) dominating at small separations, where a*r ≈ constant ≈ 7.9. The sign reversal of net force at large radii (r > ~13) arises from the ring of 20 orbiters at r = 5, whose collective attraction overcomes the central anchor's attraction at far distances due to geometry.

@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 1 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.00  (0/10)
+The field is a radial restoring force, \(\mathbf{F} = -k\,\mathbf{r}\), acting on every particle. Each particle obeys simple harmonic motion independently, driven only by its own position vector. The law predicts oscillatory trajectories with period \(2\pi/\sqrt{k}\). The only tunable constant is the strength \(k\).
+
+--- seed 3 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

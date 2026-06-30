@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The probes obey a single isotropic central force directed along the line to the anchor at the origin, with radial acceleration a(r) = -A/r + B·r. The first term is a 2D logarithmic-potential (Newtonian-in-2D) attraction that dominates near the centre, and the second is a linear repulsion that grows without bound and produces exponential runaway at large radius; the crossover (zero force) sits near r ≈ √(A/B) ≈ 12–13. The acceleration is completely independent of the probe's own mass (force ∝ probe mass), and the 20 ring orbiters at radius 5 are in stable circular orbits of precisely this field (their tangential speed of ~2.59 gives centripetal acceleration matching -A/5 + B·5), confirming the net potential acts as an approximately static central well centred on the heavy anchor.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The probes experience a static, isotropic central acceleration field about the anchor whose inward radial component is a(r) = A/r − C·r. The A/r term is a two-dimensional Newtonian/logarithmic gravity (force ∝ 1/r) sourced by the central anchor, while the −C·r term is a harmonic anti-confining background that grows with radius and turns the net field outward beyond a crossover near r ≈ √(A/C) ≈ 12.6. The acceleration is independent of probe inertial mass (it is a pure acceleration field), and the symmetric ring of orbiters keeps the field centred on the origin throughout the motion.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The probes move in a central field anchored at the massive central particle (origin). The radial acceleration is a(r) = -K/r + C·r: the -K/r term is a two-dimensional logarithmic-potential attraction (the field of a point source falls as 1/r by Gauss's law in 2D, dominated by the huge-inertia anchor), while the +C·r term is a linearly growing outward repulsion acting like a uniform confining/anti-gravitating background. Acceleration is independent of the probe's own mass (an equivalence-principle/gravity-like coupling), and the field crosses zero near r≈12.6, being attractive inside and expelling outside; the small orbiter masses produce only negligible perturbations on top of this smooth central field.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The probes move in a static, central (radially symmetric) field centered on the massive anchor at the origin. The radial acceleration is a_r = −K/r + c·r: a 2D-gravity-like inverse-distance attraction toward the center (K≈8.0) combined with a linear repulsive term that grows with distance (c≈0.058), which together create a stable equilibrium "ring" at r = √(K/c) ≈ 11.7 where the force vanishes. The acceleration is independent of probe mass (it is a field acceleration), and the discrete ring orbiters' individual gravitational contributions are negligible compared to this dominant central field.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The universe is governed by a single static, central field anchored at the origin. Any particle experiences a radial acceleration a(r) = -A/r + k·r, where the -A/r term is a two-dimensional logarithmic-potential attraction (force falling as 1/r) and the +k·r term is a linear anti-confining repulsion that dominates at large radii and flings distant probes outward. The acceleration depends only on position (not on the particle's mass, the anchor, or the individual orbiters), so the 20 ring orbiters simply trace stable circular orbits (their v²/r ≈ A/r − k·r balances exactly at r=5), and the probes follow the same field with A≈8 and k≈0.05.

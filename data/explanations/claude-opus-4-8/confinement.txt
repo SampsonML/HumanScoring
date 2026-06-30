@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The source particle (property p1) creates a static, radially symmetric attractive field acting on the probe (property p2). The field has two additive pieces: a standard inverse-square term (A/r²) and a constant, distance-independent term (B), giving a total radial acceleration of magnitude (p1/p2)(A/r² + B) directed toward the source. The acceleration scaling as p1/p2 indicates p1 plays the role of a source charge/mass while p2 acts as the probe's inertial mass, and the constant B term produces a uniform confining pull that dominates at large separations where the inverse-square term vanishes.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The probe particle (particle 2) is pulled toward a fixed source (particle 1) by a central, always-attractive force. The acceleration magnitude is (p1/p2)·(k/r² + c): it scales linearly with the source property p1, inversely with the probe property p2 (so p2 acts like an inertial mass), and combines a standard inverse-square (Newtonian-like) field with a constant long-range term c that keeps the force finite and nonzero even at very large separations. Measured constants are k ≈ 1.0 and c ≈ 0.1.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The source particle at the origin generates a central attractive field acting on the probe. The probe's acceleration toward the source is (p1/p2)·(A/r² + C): an inverse-square Newtonian-like component plus a constant, range-independent attractive component representing a uniform background field. The coupling scales linearly with the source property p1 and inversely with the probe property p2, so p2 behaves as the probe's inertial mass. The constant term was clearly resolved by its dominance at large r (acceleration plateaus near 0.1·p1/p2 out to r=50), while the 1/r² term dominates at small r.
+
+--- seed 3 ---   score: 0.90  (9/10)
+Particle 2 experiences a central attractive acceleration directed toward the fixed source at the origin. The acceleration magnitude is (p1/p2)·(A/r² + B): a standard Newtonian inverse-square attraction (A≈1) plus a constant, distance-independent attractive term (B≈0.1) that dominates at large separations. The source strength p1 multiplies and the probe property p2 divides the acceleration, so p2 behaves as an inertial mass while p1 acts as a source charge; the motion is purely radial with no tangential or velocity-dependent components.
+
+--- seed 4 ---   score: 0.70  (7/10)
+The source particle creates a central, attractive field on the probe whose acceleration magnitude is (p1/p2)·(k/r² + c), with k≈1.0 and c≈0.1. This is a Newtonian/Coulomb-like inverse-square field superimposed on a constant uniform attractive background that dominates at large separation. The force always points from the probe toward the source, scales linearly with the source's charge p1, inversely with the probe's mass-like property p2, and shows no dependence on the probe's velocity.

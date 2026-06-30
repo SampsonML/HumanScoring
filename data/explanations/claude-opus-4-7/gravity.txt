@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 1 sits at the origin and sources a 2D logarithmic potential φ(r) = (p1/(2π)) ln(r) — the Green's function of the Laplacian in two dimensions. Particle 2 couples to this field through its inertia p2, experiencing an attractive radial force F = -p1/(2π r) r̂ and hence acceleration a = -p1/(2π p2) · r̂/r. This is the genuine 2D analogue of Newtonian gravity (force ∝ 1/r rather than 1/r²), and the prefactor 1/(2π) is the universal 2D Green's-function constant.
+
+--- seed 1 ---   score: 1.00  (10/10)
+Particle 1 sits at the origin and sources a radial field whose strength decays as 1/r — the natural 2D analogue of Newtonian gravity (logarithmic potential, like the field around an infinite line charge in 3D). The probe particle 2 experiences an attractive acceleration directed toward the origin with magnitude k·p1/(p2·r), where p1 acts like a source charge/mass, p2 acts like inertia (so the force has p1·p2 form but acceleration scales as p1/p2), and the coupling constant k ≈ 0.159 ≈ 1/(2π). The force is purely central and independent of the probe's velocity.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The system behaves as a 2D electrostatics analogue. Particle 1 sources a logarithmic scalar potential φ(r) = (p1/2π)·ln(r) — the Green's function of the 2D Laplacian — and particle 2 moves under the gradient force a = -∇φ = -p1·r̂/(2πr). The probe's own property p2 does not couple to the field, so the acceleration is independent of p2 and exactly linear in p1 with magnitude 1/(2πr).
+
+--- seed 3 ---   score: 1.00  (10/10)
+Particle 1 (fixed at the origin) sources a 2D logarithmic potential φ(r) = k·(p1/p2)·ln(r). The probe particle 2 experiences the corresponding central force, giving radial acceleration a_r = -k·(p1/p2)/r — i.e. force falls off as 1/r rather than 1/r² as in 3D Newtonian gravity, which is the natural Green's-function behaviour of the Laplacian in two dimensions. The coupling depends linearly on the source strength p1 and inversely on the probe property p2 (so p2 plays the role of an inertial-like mass), with the coefficient k ≈ 1/(2π).
+
+--- seed 4 ---   score: 1.00  (10/10)
+The probe particle moves under a 2D logarithmic potential sourced by the fixed particle: phi(r) = (p1/(2*pi)) * ln(r). Particle 2 has inertia given by its scalar property p2, so its acceleration is a = -(p1/(2*pi*p2)) * r_hat / r — a central, attractive force whose magnitude falls off as 1/r (the natural Green's function of the 2D Laplacian), with the source strength scaling linearly with p1 and the response scaling inversely with p2.

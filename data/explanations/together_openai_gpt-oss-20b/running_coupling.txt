@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+In this universe particle 2 experiences a constant magnitude pull toward the still particle 1, with the pull proportional to the product of the two particles’ properties. The force direction is simply the unit vector from particle 2 to particle 1, making the motion a simple attractive drive with fixed strength. No dependence on distance or velocity is present, yielding a linear‑in‑time acceleration toward particle 1.
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.30  (3/10)
+The system is a two‑body gravitational interaction where particle 1 is fixed at the origin and exerts an inverse‑square attraction on particle 2. The acceleration magnitude equals \((p_1\,p_2)/r^2\) directed toward particle 1, with the product \(p_1p_2\) acting as a composite “gravitational charge.” Thus particle 2 follows Keplerian orbits determined solely by the two scalar properties and initial conditions.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 follows a motion dominated by an inverse‑square attractive force to a stationary source at the origin, with an additional linear velocity drag whose magnitude is proportional to particle 2’s own scalar property. The resulting dynamics combine acceleration toward the source and a resistive term that slows (or accelerates) motion according to its current velocity, producing the observed trajectories. This reflects a central field coupled to the particles’ properties and a simple dissipative mechanism.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The particles obey a Newtonian central attraction law: particle 2 experiences a force toward the fixed position of particle 1 that scales as the inverse square of their separation, regardless of the scalar properties p1 and p2. The resulting acceleration is \(-\mathbf{r}/r^{3}\), producing trajectories that spiral inward under this attractive potential. This simple inverse‑square force fully accounts for the observed motion of particle 2.

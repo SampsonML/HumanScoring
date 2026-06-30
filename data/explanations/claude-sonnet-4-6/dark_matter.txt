@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : dark_matter
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The universe exhibits a shear flow field where each particle acts as a source of a velocity (not force) field. Specifically, a source particle at position (xj, yj) imparts to any other particle at (xi, yi) a y-velocity contribution of -K*(xi - xj), while the x-velocity is unaffected (dvx = 0). This creates a linear shear: particles displaced in the +x direction from a source are pushed in the -y direction, and vice versa, with the strength proportional to the x-separation and independent of y-separation or distance. The dynamics are purely kinematic — each particle moves at a constant velocity (no acceleration) equal to the sum of field contributions from all other source particles, causing straight-line trajectories with slopes set by the initial configuration.
+
+--- seed 1 ---   score: 0.30  (3/10)
+This universe obeys standard Newtonian inverse-square gravity in 2D: every particle exerts a gravitational acceleration on every other particle proportional to G/r², directed along the line joining them (equivalently, `a_i = G * Σ_{j≠i} (r_j - r_i)/|r_j - r_i|^3`). The 20 background particles are arranged in an annular ring at radius ~10-14 units from the center and orbit under their mutual gravitational attraction with initial velocities of ~3 units/s. The neutral probe particles feel the same gravitational force from the background particles (and each other, though they are massless/non-interactive in terms of generating field), following second-order Newtonian equations of motion with G ≈ 1.035 and force exponent alpha ≈ 3.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The simulated universe contains 20 background particles and 5 neutral probe particles governed by an N-body gravitational system. The force between any two particles follows an inverse-square law: F = G * m / r², directed along the line connecting the particles, where G ≈ 1.0. Background particles interact gravitationally with each other (full N-body) and carry non-zero initial velocities that keep them in orbital motion at radii of approximately 10–14 units from the center. The probe particles act as pure test particles, feeling the gravitational attraction of all background particles but exerting no force themselves on either the background or on each other.
+
+--- seed 3 ---   score: 0.30  (3/10)
+The simulated universe contains 20 fixed background particles arranged in an approximately circular ring at radius ~12-14 units. Each probe particle obeys Newtonian mechanics (second-order ODE) and feels an attractive inverse-square gravitational force from each background particle: F_i = Σⱼ k·(rⱼ − rᵢ)/|rⱼ − rᵢ|³, where k ≈ 0.678 is the gravitational coupling constant. The force law has the same functional form as Newtonian gravity in 3D (force ∝ 1/r²), but operating in a 2D spatial domain. The structured background arrangement creates a net field at the center of the domain that produces the observed complex probe trajectories including circular orbits and radial decay along certain symmetry directions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The physical system consists of 20 background particles undergoing free (inertial) motion at constant velocity, plus 5 neutral probe particles that feel attractive gravitational forces from the background particles but do not generate any field themselves. The force on each probe from each background particle follows an inverse power law: F = G * (r_bg - r_probe) / |r_bg - r_probe|^(alpha+1), where alpha ≈ 3 (steeper than standard Newtonian gravity with alpha=2), meaning the force magnitude falls off as 1/r^3 with distance. The gravitational coupling constant G ≈ 3.0 is larger than unity, and the exponent alpha ≈ 3.04 was consistently recovered across multiple fitting experiments using early-time probe accelerations and trajectory matching.

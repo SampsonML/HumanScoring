@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The universe is governed by a two-dimensional attractive logarithmic field: each particle acts as an identical source, and the acceleration it produces at another particle is proportional to the displacement vector divided by squared separation. The total acceleration of each particle is the linear superposition of this field from all other particles, while initial velocities simply provide the usual inertial first derivative of position.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The universe contains two label-defined charge species: particles 0–14 have one sign and particles 15–29 have the opposite sign. Their field is the two-dimensional Coulomb/log-potential field, so the acceleration from another particle is proportional to the displacement vector divided by squared distance; equal signs attract while opposite signs repel. Velocities and initial conditions otherwise enter through ordinary second-order Newtonian time evolution.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The universe is governed by a two-dimensional logarithmic inverse-distance field: every particle contributes equally to a scalar potential, giving an acceleration proportional to the sum of displacement vectors divided by squared separations. Particles 0–14 couple to this field with positive sign, while particles 15–29 have the opposite coupling, so the latter accelerate opposite to the same field rather than sourcing an opposite field themselves.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The universe contains identical particles that mutually attract through a two-dimensional logarithmic potential, so the acceleration contribution from particle j to particle i is proportional to \((x_j-x_i)/|x_j-x_i|^2\). The coupling is very close to \(1/(2\pi)\), consistent with the Green’s function normalization of the 2D Poisson equation. Motion is otherwise ordinary second-order Newtonian dynamics with the supplied initial velocities.
+
+--- seed 4 ---   score: 0.70  (7/10)
+The universe contains a two-dimensional inverse-radius field: each particle contributes a logarithmic-potential field proportional to \((\mathbf r_j-\mathbf r_i)/|\mathbf r_j-\mathbf r_i|^2\). All particles source the field with the same sign, but the response depends on label: particles 0–14 accelerate along the field, while particles 15–29 accelerate oppositely. Initial velocities simply add through Newtonian time evolution under this field with a single global coupling constant.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 1 emits a causal scalar-like field from the origin, so particle 2 feels no force until the field front has reached its current radius. Once inside the causal cone, particle 2 experiences an inward central acceleration proportional to p1/p2, growing approximately linearly with the wavefront depth and decaying with a softened radial kernel. The motion is otherwise ordinary second-order dynamics with the source particle fixed at the origin.
+
+--- seed 1 ---   score: 0.60  (6/10)
+Particle 1 is a fixed source of a diffusing scalar field in two spatial dimensions, with diffusion constant D = 0.3 and heat-kernel factor exp(-r²/(4Dt)). Particle 2 feels a central attractive acceleration proportional to p1/p2 and to the radial field strength, giving a vector acceleration -(p1/p2) exp(-r²/(4Dt)) r_vec /(2πD r²). The force is initially absent at t = 0 for finite separation, then turns on as the diffusive influence reaches the probe.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 1 is a fixed source at the origin that emits a time-dependent diffusive radial field with heat-kernel factor exp(-r²/4t). Particle 2 couples to the gradient of that field with acceleration proportional to p1/p2, giving an attractive central acceleration -0.1 (p1/p2) exp(-r²/4t) r_vec/r². The interaction is isotropic, independent of velocity except through the particle’s changing position, and weakens strongly until the diffusive front reaches the probe.
+
+--- seed 3 ---   score: 0.60  (6/10)
+Particle 1 acts as a fixed source for a radially symmetric diffusive field that begins spreading from the origin at time zero. Particle 2 couples to the gradient of that field with strength proportional to p1/p2, giving a central attractive acceleration proportional to \(-\frac{p_1}{\pi p_2}\exp(-r^2/(2t))\,\mathbf r/r^2\). The force has no velocity dependence; transverse motion changes only the instantaneous radius at which the time-dependent diffusive field is sampled.
+
+--- seed 4 ---   score: 0.70  (7/10)
+Particle 1 acts as a fixed source for a time-dependent diffusive scalar field centered at the origin, with a Gaussian heat-kernel screening factor exp(-r²/(2t)). Particle 2 accelerates down the radial gradient of this field with coupling proportional to p1/p2, giving an attractive central acceleration proportional to -r/r² times that time-dependent exponential envelope. The force is isotropic, independent of velocity except through the trajectory, and particle 1 remains fixed.

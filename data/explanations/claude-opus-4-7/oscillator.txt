@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 1 acts as a stationary source generating a 2D logarithmic potential V(r) = C·p1·ln(r), which is the natural Green's function of the 2D Laplacian. The probe particle 2 experiences an attractive radial force F = -C·p1/r in the r̂ direction, and its acceleration scales inversely with its own scalar property p2 (so p2 plays the role of inertial mass while p1 plays the role of source charge). Numerically the coupling constant C is approximately 0.8, and the resulting motion (verified across many initial conditions) is exactly that of a particle in a logarithmic central potential — bound orbits decay inward and unbound trajectories curve gently — independent of distance through a strict 1/r force law.
+
+--- seed 1 ---   score: 0.50  (5/10)
+Particle 1 acts as a static source generating a 2D logarithmic potential φ(r) = G·p1·ln(r), and particle 2 experiences an acceleration a = -(G·p1/p2)·r̂/r — i.e. a radial 1/r attractive force whose strength scales linearly with the source charge p1 and inversely with the probe's "inertia" p2. The prefactor G fits to approximately π/4, consistent with a 2D Coulomb/gravitational analogue where field lines spread in a plane rather than 3D space.
+
+--- seed 2 ---   score: 0.80  (8/10)
+Particle 1 acts as a stationary monopole source of a scalar field that pulses synchronously everywhere with angular frequency ω ≈ π/2 (period 4). The field's spatial profile decays as 1/r in this 2D world, and the probe particle 2 experiences a radial acceleration directed toward the source equal to (A·p1 / (p2·r))·cos(ω t), with coupling A ≈ π/4. Notably there is no retardation/phase delay with distance — the oscillation is globally synchronous — and the probe's property p2 acts like an inertial mass that suppresses its response.
+
+--- seed 3 ---   score: 0.90  (9/10)
+The universe contains a time-oscillating radial scalar field sourced by particle 1. The probe particle 2 experiences a central acceleration whose magnitude scales as p1/(p2·r) (linear in the source charge p1, inverse in the probe's "inertia-like" property p2, and falling as 1/r), modulated in time by cos(ωt) with a universal angular frequency ω ≈ π/2. The associated velocity therefore oscillates as sin(ωt) with amplitude p1/(2·p2·r), so for stationary initial conditions far from the source the particle merely jitters back and forth, while close to the source it can be flung outward when the field reverses sign.
+
+--- seed 4 ---   score: 0.90  (9/10)
+Particle 1 sits at the origin and sources a radial scalar field whose strength oscillates sinusoidally in time, F_radial(r,t) = -K·p1·cos(ω·t)/r pointing along r̂. Particle 2 couples to this field with inertial mass equal to its property p2, so its acceleration is a = -(K·p1/(p2·r²))·cos(ω·t)·r_vec. Empirically K ≈ π/4 and ω ≈ π/2, giving a universal field oscillation period of 4 time-units regardless of separation, masses, or initial conditions; this produces small-amplitude radial breathing at large r and dramatic time-modulated escapes/captures at small r.

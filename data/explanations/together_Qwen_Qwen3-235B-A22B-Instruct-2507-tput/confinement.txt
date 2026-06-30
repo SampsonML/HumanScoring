@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The motion of particle 2 is governed by a central force directed toward particle 1 at the origin, with acceleration magnitude proportional to p1/p2. The force has two components: an inverse-square term and a constant term, both attractive. This results in strong acceleration at small distances and a finite acceleration at large distances, leading to bounded or unbounded trajectories depending on initial conditions.
+
+--- seed 1 ---   score: 0.20  (2/10)
+The motion of particle 2 is governed by a central force inversely proportional to its distance from particle 1, with strength proportional to the ratio of the source charge p1 to the probe charge p2. The acceleration diverges as the particle approaches the origin, causing strong attraction and oscillatory trajectories. This suggests a potential logarithmic in form, leading to a 1/r force law.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The physical system is governed by a central force field where particle 2 experiences an acceleration proportional to the product of the scalar charges p1 and p2, directed radially toward particle 1 at the origin. The magnitude of the acceleration scales as 1/sqrt(r), indicating a potential with a 1/sqrt(r) dependence, which is unusual for standard 2D or 3D field theories and suggests anomalous dimension or screening. The dynamics are conservative and result in bounded or unbounded orbits depending on initial conditions.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The motion of particle 2 is governed by a linear restoring force directed toward the origin, analogous to a harmonic oscillator. The force magnitude is proportional to the displacement and the scalar property p1 of the source, while the inertial response is inversely proportional to the scalar property p2 of the probe particle. This results in an acceleration proportional to -(p1/p2) times the position vector.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The physical system is governed by an attractive central force between the two particles, where the acceleration of particle 2 is proportional to the product of their scalar properties (p1 and p2) and inversely proportional to the square of the distance between them. The force acts along the line connecting the particles, and the dynamics are analogous to gravitational attraction in three dimensions, but observed in a two-dimensional universe.

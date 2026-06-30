@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law describes a gravitational-like system where all 10 particles mutually attract each through an inverse-square force law. Each particle experiences acceleration toward every other particle proportional to G times the displacement vector divided by the distance cubed (equivalent to 1/r² force magnitude). This creates a many-body interaction where particles cluster together over time, with closer particles experiencing stronger mutual attraction.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered law describes particles moving in a central potential field with a stable equilibrium at radius r₀ ≈ 2.98. The force is radial and restoring: F = -k(r - r₀)̂r, where r is the distance from the origin. This creates a circular equilibrium zone where particles experience zero net force at r = r₀, outward force when r < r₀, and inward force when r > r₀. The system behaves like a 2D harmonic oscillator constrained to radial motion, with particles oscillating around the equilibrium circle. The coupling constant k determines the stiffness of this restoring force.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The discovered law describes mutual attraction between all particles in the universe. Each particle experiences an acceleration toward every other particle, with the force magnitude scaling inversely with distance (F ∝ 1/r, not 1/r² like gravity). The acceleration on particle i is given by a_i = G × Σ_j (r_j - r_i) / |r_j - r_i|², which produces a 1/r force magnitude since the direction vector contributes one power of r in the denominator. This law explains why particles at different separations showed velocity ratios matching inverse distance scaling (4:2:1 for separations 1:2:4).
+
+--- seed 3 ---   score: 0.30  (3/10)
+The discovered law describes a 2D universe where 10 particles interact through pairwise attractive forces. Each particle experiences acceleration from the sum of forces exerted by all other particles, where the force magnitude scales inversely with separation distance raised to power alpha (approximately 1.5). The force direction points from each particle toward every other particle, creating mutual attraction. This is analogous to gravitational interaction but with a different distance exponent, and operates in 2D space rather than 3D.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered law describes a universe where all particles experience a constant-magnitude attractive force directed toward the collective center of mass of the entire particle population. Unlike gravitational or electrostatic forces that decay with distance, this force maintains fixed acceleration magnitude regardless of distance from the center of mass. The center of mass itself evolves as particles move, creating a dynamic attractor point. This produces convergent trajectories where all particles spiral or flow toward their common center, with the COM serving as the focal point of the attractive field.

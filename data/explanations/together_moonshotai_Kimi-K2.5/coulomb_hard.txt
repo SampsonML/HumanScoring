@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The discovered physical law is a 2D Coulomb interaction where particles exert pairwise central forces on each other. The force between two particles is proportional to the product of their scalar charges and inversely proportional to the square of their separation (F ~ q_i*q_j/r^2). Like charges (positive*positive or negative*negative) repel each other, while opposite charges attract. The force is conservative and follows the standard Coulomb vector form F_ij = k*q_i*q_j*(r_i - r_j)/|r_i - r_j|^3, leading to characteristic trajectories where charged particles accelerate away from or toward each other depending on their charge signs, while neutral particles (zero charge) remain unaffected.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The discovered system follows an inverse-square Coulomb electrostatic law where pairwise forces scale as F = k·q₁·q₂/r² with force direction along the inter-particle separation vectors. Like charges repel and opposite charges attract. The coupling constant k represents the effective strength of the interaction, analogous to 1/(4πε₀) in standard electromagnetism but with a different numerical value specific to this universe.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The universe obeys a 2D Coulomb electrostatics law where the force between any two particles is proportional to the product of their signed charges divided by the squared distance between them, with the force directed along their separation vector. This creates repulsion between like charges, attraction between opposite charges, and no interaction with or by neutral (zero-charge) particles.
+
+--- seed 3 ---   score: 0.80  (8/10)
+This universe follows a Coulomb-type force law: particles interact via pairwise central forces proportional to the product of their scalar charges and inversely proportional to the square of their separation (F ∝ q₁q₂/r²). Like charges repel, opposite charges attract, and neutral particles experience no force. The coupling constant k ≈ 0.182 characterizes interaction strength. Forces superpose linearly via vector addition, creating emergent many-body dynamics from simple pairwise interactions.
+
+--- seed 4 ---   score: 0.70  (7/10)
+Particles interact through a Coulomb-like inverse-square force law F_ij = k * q_i * q_j / r^2 along the line connecting particle i to particle j. Like charges repel and opposite charges attract, with forces superposing linearly in 2D space. The coupling constant k is close to unity (dimensionless in this system).

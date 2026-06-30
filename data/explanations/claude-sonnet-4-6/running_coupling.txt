@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 2 experiences a purely radial attractive force toward particle 1 (fixed at the origin), with acceleration magnitude a = G·p1/r^n. The strength scales linearly with the source property p1 (analogous to gravitational mass of the source), but the probe property p2 does not affect the acceleration (equivalence principle holds). The distance exponent n≈1.56 differs from the standard Newtonian value of 2, suggesting an anomalous gravitational-like interaction in this 2D universe with a sub-quadratic distance law.
+
+--- seed 1 ---   score: 0.10  (1/10)
+Particle 2 in this universe obeys a velocity-field law rather than a Newtonian force law: the system enforces that the inward radial speed toward particle 1 is at least K·p1/r^α, where r is the separation distance. If the particle's existing radial velocity (toward particle 1) is already larger than this threshold, it is unaffected; otherwise, the radial velocity is rapidly driven up to the threshold value (implemented as a very stiff one-sided restoring acceleration with gain 1000). The transverse velocity component is fully preserved at all times, as is any pre-existing radial velocity exceeding the natural field value. The parameter p2 (the probe particle's property) has no influence on its dynamics whatsoever.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The force law governing particle 2 is an inverse-square-law gravitational attraction: particle 2 experiences an acceleration directed toward particle 1 with magnitude a = G·p1·p2/r², where r is the distance between the particles, p1 and p2 are the scalar properties of particles 1 and 2 respectively, and G ≈ 7.5 is the coupling constant. Both particle properties enter symmetrically and linearly into the force, analogous to how mass enters Newton's law of gravitation. The particle stops upon reaching the origin (absorbed by particle 1), and orbits are possible with tangential initial velocities — consistent with standard Keplerian mechanics but with an unusually large coupling constant G≈7.5.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The force on particle 2 is purely radial and proportional to p1 (the source particle's property), with p2 having no influence. The force law is F = p1*(A·r·exp(−α·r) − B)·r̂, where r̂ points from particle 1 toward particle 2. This produces a repulsive "hump" at intermediate separations (peaked near r = 1/α) and a constant attractive background force −p1·B at large distances, creating a stable equilibrium at the radius where A·r·exp(−α·r) = B. The constant long-range attraction (unlike the 1/r decay in normal 2D gravity) is the most unusual feature of this universe's physics.
+
+--- seed 4 ---   score: 0.40  (4/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin). The acceleration magnitude follows a power-law in the separation distance r: a = G × (p1/p2) / r^α, where α ≈ 1.5 (a 3/2-power law, distinct from standard gravity's 1/r²). The force scales linearly with p1 (source strength) and inversely with p2 (probe property, analogous to inertia or charge), and the coupling constant G varies between experimental runs suggesting a stochastic or run-dependent coupling in this universe.

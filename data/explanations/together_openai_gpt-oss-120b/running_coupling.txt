@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+Particle 1 generates a short‑range field that pulls particle 2 toward the origin along the x‑axis. The pull has a constant magnitude proportional to the source property p1, described by an acceleration k·p1, but only acts while the probe’s x‑coordinate lies within a range R. No force is observed in the y‑direction, and the dynamics are therefore piecewise constant‑acceleration motion.
+
+--- seed 1 ---   score: 0.30  (3/10)
+Particle 2 experiences a central attractive field emanating from particle 1 at the origin. The field generates a force proportional to the source scalar p1 and decays as 1 / (r² + ε), with ε a short‑range softening length, while the probe’s own scalar p2 does not affect the acceleration. This inverse‑square‑like law with a soft core reproduces the observed trajectories across all tested conditions.
+
+--- seed 2 ---   score: 0.10  (1/10)
+Particle 2 feels a central attractive field emanating from particle 1 that delivers a constant acceleration magnitude proportional to the source scalar p1 and always points toward the origin. In addition, the probe experiences an isotropic linear drag whose strength is set by its own property p2 and its instantaneous velocity. The resulting motion is governed by the ODE a = α p1 · r̂ − β p2 v.
+
+--- seed 3 ---   score: 0.30  (3/10)
+Particle 2 is attracted toward the fixed particle 1 at the origin by a central force that follows an inverse‑square law. The acceleration magnitude is proportional to the product of the particles' scalar properties (p1 × p2) multiplied by a single coupling constant. This results in Newtonian‑like radial motion with one tunable interaction strength.
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 2 experiences a central attraction toward particle 1 located at the origin. The force follows an inverse‑square law, with strength proportional to the product of the scalar properties p1 and p2 and a single tunable prefactor α. No velocity‑dependent forces are needed to reproduce the observed trajectories.

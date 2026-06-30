@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+All six particles attract one another through a field whose pairwise force magnitude scales as k/r (an inverse-first-power law, i.e. the 2D analog of gravity sourced by a logarithmic potential), directed along the line connecting each pair. The force is purely positional with no dependence on velocity, and accelerations superpose linearly across all partner particles. Experimentally the product (force × separation) stayed constant at ≈0.32 for the relative acceleration of a pair across separations from 1 to 15 in both axes, giving a per-particle coupling k ≈ 0.16.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The six particles attract one another through a two-dimensional Newtonian-style gravity: each pair feels a force of magnitude C/r directed along their separation, producing acceleration C·(r_j−r_i)/|r_j−r_i|² (a logarithmic potential, confirmed by the pair force×distance product being constant ≈0.16). Superimposed on this is a uniform background acceleration g≈(−0.02,−0.02) that acts identically on every particle, which I isolated by placing a test particle at the origin surrounded by symmetric spectators and decomposing the residual non-central, distance-independent drift.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The six particles inhabit a 2D world and mutually attract through a field with a logarithmic potential, so each pair exerts an attractive force of magnitude G/r along their separation vector (the 2D analogue of gravity, where Poisson's equation yields a ln r potential and a 1/r field). All particles have equal unit mass, the forces from different partners add linearly (superposition confirmed), and the interaction has no dependence on velocity. The measured coupling constant G ≈ 0.159 is essentially 1/(2π), consistent with the 2D Green's-function normalisation; close encounters cause particles to pass through one another and oscillate, requiring a small softening length to regularise the singularity.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The six particles couple to a shared scalar field that produces a mutual attraction whose force magnitude scales as G/r (inverse of separation, the gradient of a 2D logarithmic potential), directed along the line joining each pair. Forces add pairwise, and although large-separation experiments hint at an extremely long-range screening length (~hundreds of units), it is negligible across the experimental domain, so the effective law is simply F = G/r toward each neighbour. A small residual super-linear attraction in dense symmetric clusters suggests a weak nonlinear self-field term, but the dominant, robustly measured behaviour is the pairwise 1/r attraction with coupling constant G ≈ 0.16–0.27.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The six particles all couple to a common scalar field that obeys the 2D Poisson equation, whose Green's function is the logarithmic potential phi = k·ln(r). Each pair therefore attracts with a force of magnitude k/r (a 1/r force, the 2D analogue of gravity) directed along the line joining them; forces add linearly, masses are unity, and the dynamics show no dependence on velocity. Clean isolated-pair measurements across separations from 0.5 to 100 give a constant coupling k ≈ 0.16, consistent with the natural 2D value k = 1/(2π).

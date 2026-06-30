@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.70  (7/10)
+The system appears to be a 2D Newtonian many-body problem with signed charges acting as the coupling strengths. Each particle feels the sum of pairwise central forces from all others, with attraction for opposite signs and repulsion for like signs, and the magnitude follows an inverse-square law in distance. Velocities matter through ordinary second-order time evolution, while inertial mass seems identical for all particles.
+
+--- seed 1 ---   score: 0.70  (7/10)
+This universe appears to use a Coulomb- or Newton-like central interaction in two dimensions: each particle feels the superposed field from all others, with force proportional to the product of signed charges and directed along the line connecting the pair. The magnitude scales as inverse-square, so the vector acceleration is proportional to q_i q_j (r_j-r_i)/|r_j-r_i|^3, while particles with zero charge simply coast at constant velocity.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The universe appears to have a global linear field: the total source is the charge-weighted first spatial moment, the sum of each particle’s charge times its position vector. That single vector sets one uniform acceleration shared by all particles, regardless of their own charge or where they sit, so trajectories are just initial ballistic motion plus a common quadratic drift.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The system appears to be a Newtonian many-body dynamics problem where each particle carries a signed charge and all particles mutually interact. The field is consistent with an inverse-square central force, so each particle’s acceleration is the superposed sum of pairwise terms proportional to q_i q_j along the line connecting the pair. Positive and negative charges reverse the force direction, and velocities enter only through ordinary inertial time evolution.
+
+--- seed 4 ---   score: 0.70  (7/10)
+The system appears to be a deterministic many-body signed-charge dynamics where every particle both sources and feels a central inverse-square field. The force between a pair is along their separation vector and scales with the product of their charges, so like signs repel and opposite signs attract. The full trajectory is obtained by integrating the coupled Newtonian equations for all 10 particles simultaneously.

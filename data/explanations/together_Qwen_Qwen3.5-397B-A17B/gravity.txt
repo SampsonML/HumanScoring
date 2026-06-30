@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The discovered law describes a central force field where particle 2 experiences radial acceleration toward particle 1 (fixed at the origin). The acceleration magnitude scales as a = G·p1/(p2·r), where p1 is the source property, p2 acts as inertial mass, and r is the distance. This represents a 1/r force law (corresponding to a logarithmic potential Φ ∝ ln(r)), which differs fundamentally from the 1/r² laws of gravity or electrostatics in our universe.
+
+--- seed 1 ---   score: 0.50  (5/10)
+Particle 2 experiences a central force directed toward particle 1 (fixed at the origin), with acceleration magnitude proportional to the ratio p1/p2 and inversely proportional to the square of the distance between them. This is a 1/r² force law similar to gravitational or electrostatic attraction, but with the unique feature that the probe particle's property p2 appears inversely in the acceleration (rather than affecting inertia separately). The coupling constant k ≈ 0.16 sets the overall strength of the interaction.
+
+--- seed 2 ---   score: 0.80  (8/10)
+Particle 2 moves under a central attractive force toward the origin where particle 1 is fixed. The force magnitude follows a 1/r distance law (not inverse-square), scaled by the ratio of particle properties p1/p2. This creates a velocity-dependent trajectory where the acceleration vector always points toward the origin with magnitude G×(p1/p2)/r, causing particle 2 to spiral inward or oscillate depending on initial conditions.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The discovered law describes an attractive central force where particle 2 accelerates toward the origin (where particle 1 is fixed) following an inverse-square distance dependence. The acceleration magnitude is proportional to the source particle's property p1 and inversely proportional to the probe particle's property p2, yielding a = -k * (p1/p2) * pos2/|pos2|² with k ≈ 0.158. This resembles gravitational attraction but with p2 acting as an inertial mass in the denominator rather than numerator.
+
+--- seed 4 ---   score: 0.90  (9/10)
+Particle 2 experiences a central attractive force directed toward the origin (where particle 1 is fixed). The acceleration follows an inverse-distance law: a = -k × (p1/p2) × (1/r) × r̂, where r is the distance from the origin, r̂ is the unit radial vector, and k ≈ 0.155 is a universal coupling constant. The force scales linearly with the source particle's property p1 and inversely with the probe particle's property p2, suggesting p1 acts as a "charge" or source strength while p2 acts as an inertial or response parameter.

@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The particles move under a single central harmonic potential: each experiences a restoring acceleration proportional to its displacement from the origin. This isotropic Hooke‑law force is identical for all particles, producing simple harmonic oscillations with the same angular frequency. No direct pairwise interaction is required to reproduce the observed trajectories.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The hidden field acts as a central harmonic potential: each particle feels a restoring acceleration proportional to its displacement from the origin (a = −α r). All particles share the same coupling constant α, and the dynamics reduce to independent simple harmonic oscillators with no inter‑particle forces. The constant α is left free for fitting, capturing the universal strength of the field.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system consists of an isotropic harmonic field centered at the origin, producing a restoring force proportional to the displacement of each particle (−k r). A linear damping term (−γ v) opposes motion, representing energy loss to the medium. The combined dynamics d²r/dt² = −k r − γ dr/dt capture both inward drift of stationary particles and the attenuated outward motion when particles are given initial velocities.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The hidden field is a central harmonic potential that applies a linear restoring force F = ‑k r to every particle, independent of the others. Consequently each particle undergoes simple harmonic motion about the origin with a universal spring constant k. No additional pairwise or dissipative forces are needed to reproduce the observed trajectories.
+
+--- seed 4 ---   score: 0.00  (0/10)
+All ten particles move independently under a central harmonic restoring force proportional to their distance from the origin, a = –k r. There is no coupling between particles or damping, so each follows simple harmonic motion with angular frequency ω = √k, giving r(t)=r₀ cos(ωt)+(v₀/ω) sin(ωt). The only free parameter of the law is the spring‑like constant k that sets the field strength.

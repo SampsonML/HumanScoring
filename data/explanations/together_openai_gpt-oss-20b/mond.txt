@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : mond
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The particles interact through a central Hookean attraction toward the origin, causing inward spiraling motion, and an isotropic pairwise repulsion that decays with the cube of the distance, providing the necessary angular momentum to generate rotational orbits. This simple 2‑body law reproduces the symmetric ring dynamics observed in the experiments.
+
+--- seed 1 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 2 ---   score: 0.00  (0/10)
+The discovered field is a centrifugal repulsive force that scales with the square of the distance from the centre, giving an outward acceleration proportional to r². The angular momentum of each particle about the centre is conserved, so the motion remains circular. This produces radial acceleration and keeps the centre particle stationary while all others drift outward.
+
+--- seed 3 ---   score: 0.00  (0/10)
+Particles in the simulated universe travel in straight lines at constant speed; there are no interactions or external forces.  The final position after a given duration is simply the initial position plus the velocity multiplied by time.  This non‑interacting, conserved‑momentum dynamics explains all measured trajectories.
+
+--- seed 4 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]

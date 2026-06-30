@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The system exhibits a pairwise attractive force between any two charged particles, regardless of the sign of their charges. The magnitude of the force is proportional to the geometric mean of the absolute values of the charges and follows an inverse-square law with distance. This results in all charged particles attracting each other, with the interaction strength determined by the product of the square roots of their charge magnitudes.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The system follows a pairwise inverse-square force law in 2D, where the force between two particles is proportional to the product of their charges and inversely proportional to the square of their separation. The force is attractive for opposite charges and repulsive for like charges, with direction along the inter-particle axis. The dynamics obey superposition and Newton's third law, indicating a conservative central force field analogous to Coulomb's law but unexpectedly scaling as 1/r² in two spatial dimensions.
+
+--- seed 2 ---   score: 0.70  (7/10)
+The system follows a Coulomb-like law in two dimensions where the force between particles is proportional to the product of their charges and inversely proportional to the square of the distance. The force is central and pairwise additive, with opposite charges attracting and like charges repelling. Neutral particles experience no force, confirming linear coupling to charge.
+
+--- seed 3 ---   score: 0.70  (7/10)
+The system follows a pairwise inverse-square force law in two dimensions, where the force between particles is proportional to the product of their signed charges and inversely proportional to the square of their separation. The force is attractive for opposite charges and repulsive for like charges, acting along the line connecting the particles. Particles with zero charge do not experience or exert forces, indicating a direct coupling between charge and interaction strength.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The system follows a 2D electrostatic-like law where the force between two particles is proportional to the product of their charges and inversely proportional to the square of the distance, with direction along the line connecting them. Like charges attract and opposite charges repel, indicating an inverted sign convention compared to our universe. The force scales as 1/r² in magnitude, consistent with the gradient of a logarithmic potential in two dimensions.

@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.5
+World : coulomb_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The universe contains point particles moving under a signed inverse-square field: each particle’s charge acts as a source whose field is proportional to q r/r³. All fields add linearly, and every particle accelerates in the total field from the other particles, independent of its own charge. Zero-charge particles are passive tracers that still respond to charged sources but generate no force themselves.
+
+--- seed 1 ---   score: 0.90  (9/10)
+The universe follows a moving-source inverse-square field law in two dimensions: each signed charge creates a radial field proportional to its charge times the displacement vector divided by distance cubed. All particles, including neutral ones, accelerate according to the sum of these fields, while the test particle’s own charge affects only how it sources the field for others, not how strongly it responds.
+
+--- seed 2 ---   score: 1.00  (10/10)
+Each particle acts as a signed source of an instantaneous central field: positive charges push outward and negative charges pull inward, with vector field \(q_j(r_i-r_j)/|r_i-r_j|^3\). All particles, including charged ones, accelerate according to the sum of fields produced by the other particles, but their own charge affects only the field they emit, not their susceptibility to acceleration. There is no damping or background force; zero-charge particles are passive tracers unless acted on by charged sources.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The universe contains moving signed source charges that generate a Newtonian inverse-square central field in two dimensions, with acceleration proportional to \(q_j(\mathbf r_i-\mathbf r_j)/|\mathbf r_i-\mathbf r_j|^3\). All particles respond to the superposed field in the same way regardless of their own charge, while their charge only determines how they source the field for others; self-interaction is absent.
+
+--- seed 4 ---   score: 0.90  (9/10)
+The universe is governed by an instantaneous Coulomb-like scalar field in two spatial dimensions: each particle with signed charge creates a radial field proportional to \(q\,\mathbf{r}/|\mathbf{r}|^3\). All particles respond to the sum of these fields with unit susceptibility, so their own charge affects only the field they source for others, not the acceleration they feel. Motion is otherwise Newtonian second-order dynamics with no damping, velocity dependence, retardation, screening, or preferred direction.

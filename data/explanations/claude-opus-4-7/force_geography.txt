@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : force_geography
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The probe particle (particle 2) experiences a central attractive force directed toward the fixed source particle (particle 1) at the origin. The acceleration magnitude scales linearly with the source's property p1 and inversely with the probe's property p2, decaying as 1/r² with separation — a Newtonian inverse-square law with a coupling constant G ≈ 0.6 in this universe. The data also showed weak oscillatory residuals at intermediate distances that hint at an additional wave/field contribution, but the dominant clean signal at small to moderate separations is captured by the inverse-square radial form.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 1 sources a scalar field that propagates outward as a damped oscillation in radius, A·cos(k·r+φ)/r^α, producing a central (radial) force on the probe particle 2. The force is non-conservative and shows a four-fold angular modulation (cos(4θ) pattern from the (x⁴+y⁴−6x²y²)/r⁴ term), indicating that the source emits anisotropically along the coordinate axes rather than isotropically. The probe's response scales linearly with the source coupling p1 and inversely with its own "inertia" p2.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The source particle (p1) creates a 2D logarithmic potential well V(r) ∝ p1·ln(r)/p2, yielding an attractive radial acceleration of magnitude G·p1/(p2·r) on the probe. This is the natural Coulomb-like solution to the 2D Poisson equation, where charges couple linearly through p1 (source strength) and the probe responds inversely through its own p2 (effective inertia). Additionally, the probe experiences an isotropic linear drag −γv from an ambient medium, which damps tangential motion (e.g. reduces orbital speed over time) without affecting the radial law itself.
+
+--- seed 3 ---   score: 0.70  (7/10)
+Particle 2 experiences a central attractive acceleration toward the origin (where particle 1 sits). The magnitude is an inverse-square law in r, scaled linearly by p1 and inversely by p2, but modulated by a Cartesian standing-wave factor [A + B·cos(k·x)·cos(k·y)] with k = 2π/5. This product-of-cosines factor introduces angular asymmetries and radial oscillation: along the axes the modulation is cos(kr), while at off-axis points the two-coordinate factorization produces a pattern reminiscent of a checkerboard background field that the particle couples to via 1/r².
+
+--- seed 4 ---   score: 1.00  (10/10)
+Particle 2 is attracted radially toward the fixed particle 1, but the force strength is not rotationally symmetric: it is modulated by a periodic anisotropic factor cos(kx)·cos(ky) in Cartesian coordinates with wavenumber k = 2π/5. The acceleration has the form a = −(p1/p2)·[α + β·cos(kx)·cos(ky)]·r̂/r, with α = 0.16, β = 0.08; particle 1's property p1 acts as a source charge (linear coupling) and p2 acts as an inertia/screening factor (inverse coupling). Physically this resembles a particle moving in the gradient of a logarithmic potential threaded by a periodic standing-wave background — the strength of the attraction depends on which lobe of the 5-unit-period checkerboard the probe happens to be in.

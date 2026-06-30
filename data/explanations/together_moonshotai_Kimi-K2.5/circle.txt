@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : circle
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The simulated universe contains 11 particles interacting through a central force field: a center particle coupled to 10 ring particles via a logarithmic-harmonic potential V(r) = k*log(r) - (omega0^2)*r^2/2. This creates an equilibrium radius r_eq ≈ sqrt(k)/omega0 ≈ 4.5 where attractive and repulsive forces balance. For initial radii below r_eq, the inverse-distance attraction dominates causing collapse, while above r_eq the linear restoring force drives runaway expansion. Angular momentum creates an effective potential barrier that stabilizes orbits when the initial tangential velocity exceeds a critical value v_crit = sqrt(k)/r, explaining why zero-velocity rings at small radii collapse but those with sufficient rotation maintain structure.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The system follows Newtonian gravity: all 11 particles have equal mass and act as point sources with pairwise 1/r² attraction through a Euclidean 2D plane. The gravitational constant G ≈ 0.41 sets the scale, with circular orbit velocity v_circ = sqrt(GM/r) where all masses M are unity. The centre particle is dynamically equivalent to ring particles; only initial conditions break the symmetry.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The universe contains 11 particles interacting through an attractive inverse-square central force law between a central particle and 10 surrounding ring particles. The force follows Newtonian gravitation: each ring particle experiences an attractive force F = G/r² directed toward the centre particle, independent of velocity except through orbital dynamics. The centre particle responds to the summed forces from all ring particles. This creates a system where rings can either collapse inward (insufficient tangential velocity), expand outward (excess velocity), or maintain approximately circular orbits (critical velocity v_c = sqrt(G/r)).
+
+--- seed 3 ---   score: 0.30  (3/10)
+The system consists of 11 equal-mass particles interacting through pairwise inverse-square gravitational attraction (Newton's law of gravitation) with an additional linear velocity-dependent drag term. The center particle and ring particles all attract each other with force magnitude proportional to 1/r². The velocity damping causes orbital decay from rest and stabilizes circular orbits at the critical velocity v = √(GM_eff/r). The fitted parameters G ≈ 0.75 and γ ≈ 0.12 capture the gravitational coupling and dissipative friction respectively.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The underlying physics follows an inverse-cube law force between particle pairs, where the acceleration on each particle is proportional to the displacement vector divided by the cube of the distance between particles. This is analogous to a gravitation-like self-interaction that does not fall off as quickly as standard gravity. All 11 particles interact pairwise through this field, with particle 0 (the center) participating symmetrically. The coupling constant G ≈ 0.001 gives the strength of this interaction.

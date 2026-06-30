@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+Particle 2 moves under a central inverse‑square attraction toward the fixed particle 1 at the origin. The acceleration is proportional to the source’s scalar property p1 and inversely proportional to the probe’s scalar property p2, with a single coupling constant G. This law reproduces the observed trajectories across varying distances, masses, and interaction strengths.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 moves under a central attractive field emanating from particle 1. The field obeys an inverse‑square law, with a strength proportional to the ratio of the probe’s scalar property p2 to the source’s property p1. Its motion is additionally damped by a linear drag proportional to its velocity.
+
+--- seed 2 ---   score: 0.10  (1/10)
+Particle 2 feels a central attractive interaction from particle 1 located at the origin. The force magnitude scales with the product of the two scalar properties and falls off as the inverse cube of their separation, yielding an acceleration a = ‑k p₁ p₂ r/|r|⁴. The single fitted coupling constant k captures the strength of this inverse‑cube field.
+
+--- seed 3 ---   score: 0.20  (2/10)
+Particle 2 experiences a central attractive field sourced by particle 1. The field strength scales linearly with the source property p1 and inversely with the probe property p2, following an inverse‑distance law (force ∝ 1/r). This yields the observed acceleration a = -G p1/(p2 r) r̂, where G is a universal coupling constant.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The source particle at the origin generates a radial field whose strength is proportional to its scalar property p1. The probe particle experiences an attractive force that decays as 1/r, scaled by the inverse of its own scalar property p2, yielding an acceleration a = -G·p1/(p2·r) r̂. This central, conservative interaction fully determines the probe’s motion.

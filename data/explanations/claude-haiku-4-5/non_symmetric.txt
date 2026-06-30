@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+The physical system in this universe is governed by the law of free particle motion: each particle moves in a straight line at constant velocity with no forces acting upon it. The equation of motion is r(t) = r₀ + v₀t, where r₀ is the initial position, v₀ is the initial velocity, and t is the elapsed time. There is no interaction field between particles—they are completely independent and unaffected by each other's presence.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered physics is a repulsive Coulomb-like field in which all 30 particles interact pairwise through inverse-square-law forces. Each particle experiences acceleration proportional to the sum of unit vectors pointing away from all other particles, weighted inversely by the squared distance to each neighbor. This creates a universal mutual repulsion that causes the particle cloud to expand radially outward with acceleration dependent on local density. The coupling constant α ≈ 0.152 sets the strength of the repulsion, and the system is integrated using adaptive RK45 ODE solving to handle the complex many-body dynamics accurately.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered physical law is a **many-body Coulomb repulsion system** where each of the 30 particles experiences mutual repulsive forces inversely proportional to approximately the square of their pairwise separation distances. The system exhibits perfect scale invariance and momentum conservation properties. Particles accelerate away from each other according to F = κ/r^α where α ≈ 1.8 (very close to the classical inverse-square law), creating a self-organizing gas-like dynamics where particles spread out under mutual electromagnetic-like repulsion while conserving total momentum when initialized symmetrically.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The discovered law describes a system of 30 particles interacting through repulsive Coulomb-like forces. Each pair of particles experiences a force proportional to 1/r², pointing away from each other. The system evolves according to Newton's laws with pairwise forces summing to produce the net acceleration on each particle. This is analogous to electrostatic repulsion between like-charged particles, where the coupling constant G acts as an effective charge-squared parameter.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The discovered physical law is a 2D harmonic oscillator field in which all 30 particles evolve independently under identical isotropic restoring forces. Each particle experiences acceleration proportional to its displacement from the origin (d²r/dt² = -ω²r), with angular frequency ω ≈ 0.171 rad/s. This creates periodic oscillations with a period of approximately 37 seconds, and particles move in elliptical orbits determined by their initial positions and velocities. The system exhibits no inter-particle interactions—each particle's dynamics is decoupled from the others.

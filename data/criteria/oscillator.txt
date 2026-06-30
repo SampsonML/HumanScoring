@@ -1,0 +1,73 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: oscillator
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Two particles interact through a 2D Poisson field, ∇²φ = source, with particle 1 the source (coupling p1) and particle 2 a test particle (inertia p2), so the spatial part of the force is the standard 2D 1/r law, F = -∇φ/p2.  The overall coupling of this field is modulated in absolute time by a sinusoid G(t) = G₀·cos(ω t + φ) with G₀ = 5, ω = π/2 (period T = 4), and φ = 0, so the effective force is G(t) times the static 2D-Poisson force.  Because G(t) changes sign within each period, the same particle pair attracts for a quarter-period, exerts no force at the zero-crossings, and repels for the next quarter — identical configurations evolve into qualitatively different trajectories depending on the absolute time at which the experiment is performed.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies the standard 2D Laplacian spatial form (∇²φ = source, force
+     ∝ 1/r in 2D) but with a *time-modulated overall coupling* G(t) — i.e.
+     the strength (and SIGN) of the interaction depends on absolute time,
+     not just on geometry; explicitly notes that the same configuration is
+     attractive at some phases and *repulsive* at others; identifies a
+     sinusoidal modulation G(t) = G₀·cos(ω t + φ) (or sin equivalent) and
+     estimates the period within roughly a factor of 2 of T = 4; correctly
+     keeps p1 as source coupling and p2 as inertia.  Note: the amplitude
+     can be reported either as G₀ ≈ 5 with an explicit 1/(2π) Green's
+     function prefactor, or as a single combined coefficient
+     G₀/(2π) ≈ 0.80 absorbing the Poisson kernel into the amplitude —
+     these are the same physics expressed in different conventions and
+     should be scored equivalently as long as the effective coupling is
+     numerically correct.
+ 7–9 — Identifies time-varying coupling on top of a 2D-gravity-like spatial
+     form, but misses the period quantitatively, omits the sign-flipping
+     behaviour, or muddles the p1/p2 roles.
+ 4–6 — Recognises that the dynamics are time-dependent but treats the
+     variation as transient / decaying or otherwise non-periodic, OR
+     identifies the 1/r spatial form but treats the coupling as constant
+     (missing the entire time modulation).
+ 1–3 — Models the system as static gravity, or proposes a qualitatively
+     wrong mechanism (drag, noise, history-dependent diffusion, …) that
+     does not include an explicit dependence on absolute time.
+   0 — Empty or irrelevant.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

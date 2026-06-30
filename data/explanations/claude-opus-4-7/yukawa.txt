@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The source particle generates a two-dimensional screened (Yukawa) scalar field, namely the Green's function of the 2D modified Helmholtz operator: φ(r) = (p1/(2π)) K₀(r/L), where K₀ is the modified Bessel function of the second kind and L≈2 is the screening length. The probe particle couples to this field as a test mass; its acceleration is a = −(1/p2)∇φ = −(p1/(2π p2 L)) K₁(r/L) r̂. This explains the observed 1/r divergence of the force at small r (since K₁(x)→1/x as x→0) and the exponential fall-off (with a √(1/r) prefactor) at large r, as well as the exact linear-in-p1, inverse-in-p2 scaling.
+
+--- seed 1 ---   score: 0.90  (9/10)
+Particle 1 sources a 2D screened (Yukawa-like) scalar field whose magnitude decays as exp(-r/L)/r with screening length L ≈ e ≈ 2.718. The probe particle 2 experiences a purely radial attractive acceleration with magnitude C·(p1/p2)·exp(-r/L)/r where C ≈ 0.197. The field strength is linear in the source's coupling p1 and inversely linear in the probe's coupling/inertia p2, and the force is independent of the probe's velocity (no drag or magnetic-like terms were observed).
+
+--- seed 2 ---   score: 1.00  (10/10)
+Particle 1 sources a static scalar field obeying the 2D screened Poisson (Helmholtz) equation (∇² − α²)ψ = −p₁ δ²(r), whose Green's function is the modified Bessel function K₀, giving ψ(r) = (p₁/2π) K₀(αr). Particle 2 couples to this field with charge p₁ and inertial response 1/p₂, so its acceleration is the gradient of the field divided by p₂: a = (p₁/p₂)(α/2π) K₁(αr) directed toward the source. The screening length 1/α ≈ 2 produces the characteristic Yukawa-like exponential falloff at large distances combined with a ~1/r divergence at short distances.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The source particle generates a screened 2D scalar field obeying the Klein-Gordon equation (-∇² + m²)φ = p1·δ(r), whose Green's function in 2D is (1/(2π))·K₀(m·r), where K₀ is the modified Bessel function of the second kind. The probe particle is pulled by the gradient of this field, giving a radial attractive force F = -p1·(m/(2π))·K₁(m·r)·r̂. The probe's scalar property p2 acts as inertial mass, so its acceleration is (p1/p2)·(m/(2π))·K₁(m·r) directed toward the source, with screening mass m ≈ 0.5 found from the data.
+
+--- seed 4 ---   score: 0.90  (9/10)
+The probe particle experiences a central attractive force toward the fixed source whose acceleration magnitude follows a 2D Yukawa-like (screened Coulomb) form: a = (p1/p2) · k · exp(−r/L) / r, directed along the line from probe to source. The source "charge" p1 enters linearly while the probe's property p2 acts like an inertial mass (force inversely proportional to p2). The exponential screening with characteristic length L ≈ 2.8 cuts off the long-range interaction, so at small r the law looks like a logarithmic-potential 1/r force, while beyond a few screening lengths the influence vanishes rapidly.

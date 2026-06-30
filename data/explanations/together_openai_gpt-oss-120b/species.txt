@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : species
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.10  (1/10)
+The hidden field generates a uniform overdamped force that pulls every particle toward the instantaneous centre of mass of the system. This results in exponential relaxation of each particle’s displacement from the centre, independent of its initial velocity. The single rate constant α controls how quickly the configuration contracts toward the centre of mass.
+
+--- seed 2 ---   score: 0.40  (4/10)
+The universe is governed by a pairwise attractive inverse‑square interaction, analogous to Newtonian gravity, acting between all six unit‑mass particles. The acceleration of each particle is the vector sum of forces proportional to the displacement divided by the cube of the inter‑particle distance, with a single coupling constant G. This law, integrated as an ODE, reproduces the observed noisy trajectories across all tested configurations.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The particles interact via a scalar field that exerts a central linear restoring force proportional to the displacement from the origin, identical for every particle. In addition, the field generates an isotropic linear drag, giving a damping force proportional to each particle’s instantaneous velocity. Both the spring constant k and the damping coefficient c are universal parameters of the underlying field.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The particles interact through a universal attractive field that follows an inverse‑square law, identical for every pair. Each particle experiences a net acceleration equal to the sum of the forces from all other particles, proportional to the vector difference divided by the cube of their separation. This gravitational‑like interaction fully determines the trajectories observed in the simulated universe.

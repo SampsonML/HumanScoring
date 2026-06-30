@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : coulomb_easy
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+Particle 2 experiences a radial force from the origin (where particle 1 is fixed) that follows an inverse-square law scaled by p1, similar to electrostatic repulsion. However, the acceleration is suppressed by the square of the radial velocity component: a = (p1/r²)/(1 + α·v_r²)·r̂, where v_r = v·r̂ is the radial velocity. This velocity-dependent damping means particles moving rapidly toward or away from the origin experience much weaker acceleration than stationary particles at the same distance. The tangential velocity component does not affect the acceleration magnitude.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 experiences a repulsive radial force from particle 1 (fixed at the origin). The acceleration follows an inverse-square law: a = G * p1 / r², directed radially outward from the origin. The force magnitude depends linearly on p1 (the source particle's property) and inversely on the square of the distance, but is independent of p2 (the probe's property) and the particle's velocity. This resembles a Coulomb-like repulsion where particle 1 acts as a fixed source charge and particle 2 as a test charge with unit coupling.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The discovered law describes a repulsive central force where particle 2 experiences acceleration proportional to p1 and inversely proportional to the square of the distance from particle 1. The force is purely radial, pointing away from particle 1 (located at the origin), following an inverse-square law similar to electrostatic repulsion but with only the source particle's property p1 determining the force magnitude. Particle 2's property p2 and its initial velocity do not influence the acceleration.
+
+--- seed 3 ---   score: 0.60  (6/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin). The force follows an inverse-square law where the acceleration magnitude is proportional to p1 (the source particle's property) and inversely proportional to the square of the distance from the origin. The acceleration vector is a = -p1 * r̂ / r², where r̂ is the unit radial vector. Particle 2's own property p2 does not affect its motion, and the force is purely attractive with no dependence on velocity.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 moves under a radial repulsive force from the origin where particle 1 is fixed. The acceleration magnitude follows an inverse-square law with distance (a ∝ p1/r²), scaled by the source particle's property p1. Unlike standard electromagnetism, the force does not depend on particle 2's property p2. Additionally, the acceleration exhibits velocity-dependent damping, decreasing as 1/(1 + 0.1|v|) with increasing speed, suggesting a drag-like effect intrinsic to this universe's physics.

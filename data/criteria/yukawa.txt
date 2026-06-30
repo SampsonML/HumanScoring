@@ -1,0 +1,62 @@
+======================================================================
+EXPLANATION SCORING CRITERIA — world: yukawa
+======================================================================
+
+This is exactly how the LLM judge scores each agent's prose
+<explanation> for this world. The judge reads the SYSTEM PROMPT and
+the USER PROMPT below, then returns an integer 0-10 which is
+normalized to [0,1] (score = raw/10).
+
+----------------------------------------------------------------------
+JUDGE SYSTEM PROMPT
+----------------------------------------------------------------------
+You are an expert physicist grading how well a student's prose description of a simulated physical system matches the ground-truth description. You are precise, fair, and reward semantic correctness over surface phrasing — paraphrases and equivalent formulations (e.g. 'inverse-square-like' ≈ '∇²φ' in 2D) should receive credit, but missing or wrong physical content should not.
+
+----------------------------------------------------------------------
+JUDGE USER PROMPT (ground truth + rubric filled in)
+----------------------------------------------------------------------
+Compare the student's description against the ground-truth description of the physical system.
+
+<ground_truth>
+Two particles interact through a screened scalar field obeying a 2D Helmholtz equation, ∇²φ - φ/λ² = source, with screening length λ = 2. Particle 1 sources the field with strength p1 and particle 2 accelerates under -∇φ/p2. The force is attractive at short range but suppressed exponentially beyond ~2 length units.
+</ground_truth>
+
+<student>
+«THE AGENT'S SUBMITTED <explanation> PROSE IS INSERTED HERE»
+</student>
+
+Score the student description on a 0–10 integer scale based on how well it captures:
+  1. The correct field equation / governing operator (e.g. Laplacian, fractional Laplacian, Helmholtz, diffusion, wave).
+  2. The temporal character (static vs. time-evolving; instantaneous vs. retarded).
+  3. The force law / coupling structure (how particles couple to the field, including p1/p2 roles).
+  4. Any structural features unique to this world: hidden species and their relative coupling strengths and signs, neutral probes, hidden/dark sources, screening lengths, etc.
+
+Use the world-specific rubric below to calibrate the bands. A 10/10 represents the best explanation achievable given the experimental capabilities — reward semantically-equivalent phrasings and numeric estimates within the tolerance specified by the rubric.
+
+<scoring_rubric>
+10 — Identifies a static screened / Helmholtz operator
+     (∇²φ − φ/λ² = source, or equivalent Yukawa form); names or describes
+     exponential suppression at long range with screening length within
+     roughly 1–4 (ground truth λ = 2); correctly identifies p1 as source
+     coupling and p2 as inertia.
+ 7–9 — Identifies screened / Yukawa-like behaviour qualitatively (short-range
+     attraction, long-range suppression) but misses a quantitative detail
+     (λ badly off or not estimated) or muddles the p1/p2 roles.
+ 4–6 — Recognises a static attractive field but treats it as a plain
+     Laplacian or generic power-law and misses the screening structure, or
+     asserts screening without any characterisation of its scale.
+ 1–3 — Wrong operator family (time-evolving, wave) or no distance-dependent
+     suppression despite the clear experimental signature.
+   0 — Empty or irrelevant.
+</scoring_rubric>
+
+Respond with 1–3 sentences of justification, then your final integer score inside <score>...</score> tags. Example: "<score>7</score>".
+
+----------------------------------------------------------------------
+GENERIC BAND GUIDE (the fallback used when no world rubric exists)
+----------------------------------------------------------------------
+10 — captures every essential element correctly, with correct quantitative or relational claims where applicable.
+ 7–9 — captures the operator and qualitative structure but misses or muddles a quantitative detail or one structural feature.
+ 4–6 — partially correct: identifies the general physics regime but misses key structural features (e.g. fails to identify multiple species).
+ 1–3 — incorrect operator or fundamentally wrong physical picture, with only superficial correctness.
+   0 — empty, irrelevant, or completely wrong.

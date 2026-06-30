@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The universe is well described by ordinary Newtonian-style N-body dynamics in 2D: each particle produces a central inverse-square field, and every other particle accelerates according to the sum of those pairwise contributions. Probe mass does not affect its trajectory except through the force it exerts on others, indicating equality of gravitational and inertial mass. The anchor is just an extremely massive body, while the ring orbiters are ordinary particles placed on nearly circular initial orbits around it.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The world is a fully interacting 2D Newtonian-style N-body system: each particle accelerates toward every other particle with a central force proportional to the source mass and falling as one over distance squared. Probe motion is independent of probe mass, showing equality of inertial and gravitational mass, while the ring particles and anchor also move and contribute to the field. The large central anchor is simply an extremely massive body rather than a special fixed potential.
+
+--- seed 2 ---   score: 0.20  (2/10)
+The world appears to obey ordinary Newtonian-like gravity in two spatial dimensions, implemented as a full N-body system where each particle accelerates toward every other particle with vector law proportional to source mass times displacement over distance cubed. The anchor is simply an enormous-mass body near the origin, while the ring particles are ordinary gravitating masses on near-circular orbits; probe motion is independent of probe mass, confirming equality of gravitational and inertial mass.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The probes move under an ordinary pairwise inverse-square gravitational law: each body feels acceleration from every other body proportional to the source mass and directed along the separation vector with a 1/r³ kernel. Probe mass only affects the force through the same gravitational/inertial mass factor and therefore cancels out of acceleration, while the anchor and the orbiting ring particles simply act as additional gravitating sources that must be co-evolved.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The universe is governed by ordinary Newtonian-style mutual gravity in 2D: every particle attracts every other with a central inverse-square force, so the acceleration of particle i is the sum of \(G m_j (\mathbf r_j-\mathbf r_i)/|\mathbf r_j-\mathbf r_i|^3\) over all other particles. Probe motion is independent of probe mass because gravitational and inertial mass are equal, and the anchor behaves like a fixed center only because its mass is enormous, not because it follows a different law.

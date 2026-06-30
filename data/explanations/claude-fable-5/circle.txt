@@ -1,0 +1,20 @@
+======================================================================
+Model : claude-fable-5
+World : circle
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+This universe contains a universal attractive pairwise force: every particle pulls every other particle with acceleration magnitude G/d^p along the line joining them, where d is the separation, G ≈ 1/6, and p ≈ 1.5 — a "three-halves" power law that lies between 2D logarithmic gravity and Newtonian inverse-square gravity. The law was verified across separations from ~0.3 to ~60 and across collapsing, circularly orbiting, eccentric, and escaping ring configurations: the measured ring acceleration scales precisely as R^(-1.5), and the absolute magnitude matches the sum of centre and ring-neighbour contributions with a single universal coupling, with no evidence of screening, softening, or velocity-dependent forces. All particles couple identically (equal effective masses), so the centre particle remains at rest in symmetric configurations as observed.
+
+--- seed 1 ---   score: 0.60  (6/10)
+All 11 particles interact through a pairwise attractive central force whose magnitude scales as G/d^1.5 — a long-range "modified gravity" with a shallower fall-off than Newton's inverse square. Each particle's acceleration is the vector sum of these contributions from every other particle, with G ≈ 0.166 per unit mass and no drag, softening, or velocity-dependent terms. This was established by measuring ring-collapse accelerations across radii 2–10 (clean exponent 1.50), confirming stable circular orbits at v = √C·r^(-1/4), and fitting eccentric and escaping trajectories down to the observation-noise floor.
+
+--- seed 2 ---   score: 0.70  (7/10)
+This universe contains a universal pairwise attractive force: every particle accelerates every other particle toward itself with magnitude G/d^p, where d is the pairwise distance, p ≈ 3/2 (instead of Newton's inverse-square), and G ≈ 1/6. All 11 particles (centre and ring) couple identically, with no mass differences or screening. I verified the exponent via initial-acceleration scaling across ring radii 2–10, confirmed energy and angular-momentum conservation with the implied potential −2G/√d, and validated the law against circular orbits, eccentric orbits, collapses, and escape trajectories, with an MSE fit converging to G = 0.1659, p = 1.4985.
+
+--- seed 3 ---   score: 0.70  (7/10)
+All 11 particles interact through a pairwise attractive central force whose acceleration magnitude falls off as G/d^1.5 with separation d — softer than Newtonian gravity's inverse-square law — with G ≈ 0.166 (close to 1/6). This was established by measuring the radial collapse acceleration of rest rings at radii 2–10 (scaling exactly as r^-1.5), by sustaining perfectly circular orbits at three radii using v_circ = sqrt(5.06·G·r^-0.5), and by the chaotic scattering of the centre particle after collapse, which shows the force is genuinely pairwise rather than from a fixed central field. The force is velocity-independent and conservative, corresponding to a pair potential proportional to -1/sqrt(d).
+
+--- seed 4 ---   [no trial file]

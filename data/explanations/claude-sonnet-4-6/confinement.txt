@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : confinement
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law governs particle 2's motion through an attractive Yukawa-type force from particle 1 (fixed at the origin). The acceleration magnitude follows a = G·p1·exp(−k·r)/r^n, directed toward particle 1, where r is the separation distance. The force scales linearly with particle 1's scalar property p1, is entirely independent of particle 2's property p2, and decays with distance via both a power-law factor (r^n, n≈2) and an exponential screening factor (exp(−kr), k≈0.248), resulting in a rapidly decaying interaction at large separations.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 experiences an attractive inverse-power-law force directed toward particle 1 (fixed at the origin). The acceleration magnitude is G·p1/r^n, where r is the separation distance, p1 is the scalar property of the source particle, and n≈2 (inverse-square law). The probe particle property p2 has no influence on the acceleration — only the source particle's property p1 matters, entering linearly. The constant G≈11.6 sets the overall strength of the interaction, analogous to a gravitational constant in a 2D universe where only the "mass" of the source particle drives the force.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 experiences an inverse-cube attractive force directed toward particle 1 (fixed at the origin), with acceleration magnitude a = K·p1/r², where r is the separation distance (yielding F ∝ 1/r³ in force). The scalar property p1 of the source particle scales the force linearly, while p2 has no effect on the dynamics. The fitted coupling constant K ≈ 1.597 governs the strength of the interaction, producing oscillatory bound orbits for particles starting at rest and precessing elliptical orbits for particles with initial angular momentum.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Particle 2 is subject to a radially attractive central force directed toward particle 1 (fixed at the origin). The force law combines an inverse-square short-range term with a constant long-range acceleration: a = (p1/p2) × (k/r² + C) × r̂_inward, where r is the separation between the particles. The scalar property p1 of the source particle acts as a charge/mass amplifying the force, while p2 acts as the inertial mass of the probe particle. The constant term C ≈ 0.1 produces a uniform background attraction at large distances, while the k/r² term dominates at short range.
+
+--- seed 4 ---   score: 0.20  (2/10)
+Particle 2 experiences a purely attractive force toward particle 1 (fixed at the origin), with acceleration magnitude a = G × p1 / r^n, where r is the separation distance, p1 is the scalar property of the source particle, and the exponent n ≈ 2/3. The force is completely independent of p2 (the probe particle's property), unlike standard Newtonian gravity. Clean velocity measurements at multiple distances (r=2,4,8) confirm that a×r^(2/3) ≈ constant ≈ 1.59×p1, establishing this as a sub-Newtonian power law with a fractional distance exponent rather than the standard inverse-square law.

@@ -1,0 +1,23 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : ether
+Judge : claude-opus-4-6
+Seeds : 3 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The discovered physics is a two‑dimensional Newtonian gravity centered on a massive, fixed anchor. All probe particles feel only this central attractive force, with acceleration \(a = G M_{\text{anchor}} \hat{r}/r^3\). No other interactions or mass‑dependent terms influence the trajectories.
+
+--- seed 1 ---   score: 0.10  (1/10)
+tag with 2-3 sentence description.<explanation>
+Each particle moves in a central, quadratic potential that exerts a restoring force proportional to its displacement from the origin. The motion is independent of particle mass; all probes perform simple harmonic oscillations with the same frequency set by a universal constant. The background ring orbiters maintain a stable circular orbit due to this universal Hookean attraction.
+
+--- seed 2 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 3 ---   score: 0.30  (3/10)
+The universe follows a 2‑D Newtonian gravitational law with a constant G common to all particle pairs.  
+The massive anchor is considered immobile, but it contributes its gravitational pull to other masses.  
+Particles accelerate toward each other proportional to the product of their masses and inversely with the square of their separation, producing the observed orbital‑like trajectories.
+
+--- seed 4 ---   [no trial file]

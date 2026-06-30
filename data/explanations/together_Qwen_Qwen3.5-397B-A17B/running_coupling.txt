@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : running_coupling
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law describes a radial attractive force where particle 2 accelerates toward particle 1 (fixed at the origin). The acceleration magnitude follows a power-law distance dependence a = G * (p1/p2) / r^n, where the source property p1 increases acceleration linearly, the probe property p2 decreases it linearly (suggesting p2 acts like inertial mass), and the distance exponent n ≈ 2.5 indicates a non-classical force law—stronger than gravity's inverse-square but weaker than a pure inverse-cube law. The force is central and conservative, with the coupling constant G ≈ 1.0.
+
+--- seed 1 ---   score: 0.30  (3/10)
+Particle 2 experiences an attractive central force directed toward particle 1 at the origin. The force magnitude scales linearly with the source particle's property p1 and follows an inverse power law with distance r, where the exponent is approximately 1.41 (close to �sqrt(2)). The probe particle's property p2 does not influence the dynamics, indicating that only the source particle's property determines the field strength. The force law is F = -G * p1 / r^n * r̂, producing radial acceleration toward the origin.
+
+--- seed 2 ---   score: 0.50  (5/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin). The force magnitude follows a power law: F ∝ (p1/p2) / r^n, where p1 and p2 are scalar properties of the source and probe particles respectively, r is the separation distance, and n ≈ 2.3. This is a non-standard gravitational-like law with a fractional exponent rather than the classical n=2. The coupling is linear in p1 (source strength) and inversely proportional to p2 (probe inertia or charge).
+
+--- seed 3 ---   score: 0.50  (5/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (fixed at the origin). The acceleration magnitude follows a power law dependence on distance: a ∝ (p1/p2) × r^(-n), where p1 and p2 are scalar properties of the source and probe particles respectively. The force scales linearly with p1, inversely with p2, and the distance exponent n is approximately 2.5 (between gravitational and dipole-like behavior). This creates a conservative central force field where particles accelerate inward with strength increasing rapidly as they approach the origin.
+
+--- seed 4 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive force directed toward particle 1 (fixed at the origin). The force magnitude follows a power-law distance dependence: acceleration = G * (p1/p2) / r^n, where r is the distance from the origin, p1 is the source particle property, p2 is the probe particle property, and n ≈ 2.7 is a non-integer exponent. The coupling is linear in p1 and inversely proportional to p2, suggesting p1 acts as a "charge" or source strength while p2 acts as an inertial or resistance factor. This law differs from standard gravity (n=2) or electrostatics (n=2) with its fractional exponent.

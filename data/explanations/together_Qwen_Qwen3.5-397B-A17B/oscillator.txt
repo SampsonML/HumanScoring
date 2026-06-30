@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 2 moves under an attractive central force directed toward particle 1 (fixed at the origin). The force magnitude follows an inverse-square law: F = -G × p1 / r², where r is the distance from the origin and G ≈ 0.79 is a universal coupling constant. The property p1 acts as the source strength (like charge or mass of the source), while p2 acts as the inertial mass of particle 2 (a = F/p2). This produces acceleration a = -G × p1/(p2 × r²) × r̂, equivalent to gravitational or electrostatic attraction in our universe but with a different coupling constant.
+
+--- seed 1 ---   score: 0.10  (1/10)
+Particle 2 experiences a harmonic restoring force toward its initial position r₀, not toward particle 1 at the origin. The force law is F = -k * (p1/p2) * (r - r₀) / |r₀|, where the effective spring constant scales inversely with initial distance. This creates oscillatory motion with angular frequency ω = √(k*p1/(p2*r₀)) and period T = 2π√(p2*r₀/(k*p1)). The scalar properties p1 and p2 act as coupling strength and effective mass respectively, determining the oscillation amplitude and frequency.
+
+--- seed 2 ---   score: 0.10  (1/10)
+Particle 2 moves under a repulsive central force emanating from particle 1 (fixed at the origin). The force law is an inverse-cube dependence on distance (a ∝ 1/r³), with the acceleration magnitude scaled by the square of the source particle's property p1 and inversely by the square of the probe particle's property p2. This suggests p1 acts as a field source strength while p2 represents an inertial coupling factor. The force is purely radial, pointing away from the origin, indicating a conservative repulsive potential field.
+
+--- seed 3 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive force toward particle 1 (fixed at origin). The force magnitude follows F ∝ (p1/p2)/r, where r is the separation distance. This inverse-distance force law produces oscillatory motion where particle 2 alternates between moving toward and away from the origin, with the oscillation amplitude and frequency determined by the p1/p2 ratio and initial conditions.
+
+--- seed 4 ---   score: 0.30  (3/10)
+Particle 2 moves under a central force directed toward the origin where particle 1 is fixed. The force follows an inverse-square law: the acceleration magnitude is proportional to the ratio p1/p2 and inversely proportional to the square of the distance from the origin (a ∝ (p1/p2)/r²). This produces trajectories similar to gravitational or electrostatic attraction, with the coupling constant k ≈ 4.0 determining the force strength. The motion is purely radial (along the line connecting particle 2 to the origin), as evidenced by velocity changes only in the direction of the position vector.

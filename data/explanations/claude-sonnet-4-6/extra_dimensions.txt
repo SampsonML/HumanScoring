@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : extra_dimensions
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law governs particle 2 under an attractive central force from particle 1 (fixed at the origin), with force magnitude F = C×p1/r directed radially inward, where r is the separation distance and p1 is the source particle's scalar property. This corresponds to the 2D analogue of gravity/Coulomb attraction, arising from a logarithmic scalar potential U(r) = C×p1×ln(r), which is the Green's function of the 2D Laplacian. The scalar property p2 of the probe particle does not affect its acceleration (akin to the equivalence principle), and the coupling constant C ≈ 0.168 was determined by fitting to trajectory data.
+
+--- seed 1 ---   score: 0.20  (2/10)
+Particle 2 is governed by a classical inverse-square gravitational attraction toward particle 1 (fixed at the origin). The acceleration is a = -G·p1·r̂/r², where r is the separation vector from particle 1 to particle 2, p1 is the scalar "mass" or "charge" of the source particle, and G≈1 is the coupling constant. The probe particle's own property p2 has no effect on its trajectory, so only p1 enters the force law. This is precisely Newton's law of gravitation in 2D with unit coupling constant.
+
+--- seed 2 ---   score: 0.20  (2/10)
+Particle 2 experiences a centripetal (attractive) acceleration directed toward particle 1 (fixed at the origin), with magnitude a = K · p1 / (p2 · r), where r is the distance between the particles. The force scales linearly with the source property p1 (analogous to charge or mass of the source), inversely with the probe property p2 (analogous to inertial mass or a screening charge), and inversely with the first power of the distance r — distinguishing this from standard Newtonian gravity (which falls off as 1/r²) or a Coulomb law. The coupling constant K ≈ 0.159 ≈ 1/(2π) is a universal constant of this universe, and p2 acts as an inertial-like factor that reduces the response of heavier probes.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The discovered law governs a 1D force field where particle 2 experiences a force exclusively in the x-direction, proportional to p1 (the scalar property of particle 1) and inversely proportional to the x-separation raised to the power n≈2. The y-component of velocity is entirely unaffected — there is no y-force regardless of y-separation, meaning the interaction is not spherically symmetric but rather acts like a "1D gravity" along the x-axis only. The force is attractive (directed from particle 2 toward particle 1's x-coordinate), scales linearly with p1, and is completely independent of p2.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The law governing particle 2 is a Morse-type radial force centered on particle 1 (at the origin). The acceleration of particle 2 is F = 2*D*a*(exp(-a*(r-r0)) - exp(-2*a*(r-r0))) directed radially, where r is the separation distance — this produces a repulsive force at short range (r < r0), zero force at the equilibrium radius r0, and an attractive force with a maximum at r = r0 + ln(2)/a before decaying exponentially at large separations. The equilibrium radius r0 = r0_ref * p1^(-beta) scales with the source particle's property p1 via a power law (beta ≈ 0.213), while the probe particle property p2 has no influence on the dynamics whatsoever.

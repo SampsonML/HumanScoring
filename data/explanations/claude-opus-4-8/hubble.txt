@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : hubble
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+The probes move in a static, central radial field anchored at the origin (the massive anchor particle). The radial acceleration has the form a(r) = -A/r + B·r: an attractive inverse-distance term characteristic of 2D Newtonian gravity from the central anchor, plus a linearly increasing repulsive term equivalent to a uniform repulsive background (anti-restoring harmonic). The acceleration is independent of the probe's own inertial mass, and the surrounding ring orbiters are light enough that their contributions cancel/negligibly perturb the field, so the force on every probe points exactly toward or away from the origin with magnitude |−A/r + B·r|.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The probes move in a static central field centred on the origin (the massive anchor surrounded by its orbiter ring). The radial acceleration is a(r) = C·r − A/r (outward positive): an inward 1/r attraction characteristic of a two-dimensional logarithmic gravitational potential dominates at small radius, while an outward linear "anti-restoring" term dominates beyond r≈12.6, where the net force reverses sign. The acceleration is independent of both the probe's mass and its velocity, with fitted constants A≈7.97 and C≈0.050; the giant anchor and the orbiter ring together reduce to this single mass-independent central law for predicting probe trajectories.
+
+--- seed 2 ---   score: 0.90  (9/10)
+The probes move in a fixed, mass-independent radial central field centered on the anchor at the origin, with radial acceleration a_r = -A/r + B·r (A ≈ 7.96, B ≈ 0.05). This derives from the potential Φ(r) = A·ln(r) + ½B·r², combining a 2D logarithmic (Newtonian-in-2D) attractive well that dominates near the center with an inverted-harmonic repulsive term that grows linearly and causes distant probes to escape (the zero-force radius is near r ≈ √(A/B) ≈ 12.6). The acceleration is independent of probe inertial mass and of the enormous anchor mass, indicating the bodies merely establish this emergent fixed central field rather than acting through ordinary mass-scaled N-body gravity.
+
+--- seed 3 ---   score: 0.80  (8/10)
+The probes move in a static central field centered on the massive anchor at the origin. The radial acceleration is a_r = -A/r + B·r: an attractive component that falls off as 1/r (corresponding to a logarithmic, 2D-gravity-like potential) plus a linearly growing outward term (an anti-harmonic / negative-background repulsion). The force is strictly central, independent of a probe's own mass and of its velocity, producing inward attraction for small radii, an equilibrium ring at r₀ = √(A/B) ≈ 13, and net outward push beyond it.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The simulated universe contains a central anchor of enormous mass at the origin that sets up a static, isotropic field whose radial acceleration on any test particle is a_r = -C/r + D·r. The -C/r term is a two-dimensional (logarithmic-potential) gravitational attraction dominated entirely by the anchor (C ≈ 7.96), while +D·r is a linear anti-confining repulsion (D ≈ 0.05) that overwhelms attraction beyond a turnover radius √(C/D) ≈ 12.6, causing distant particles to fly outward. Acceleration is independent of the probe's own mass, the ring orbiters merely orbit in this same field (their orbital speed 2.59 at r=5 matches √(C/r − D·r)·√r), and probes exert no measurable force on each other.

@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+This universe obeys a 1/r (rather than 1/r²) gravitational force law: the force between two particles of masses m_i and m_j separated by distance r is F = G·m_i·m_j/r, directed along the line joining them, with G ≈ 7.93×10⁻¹⁵. The dominant source of attraction is the central anchor particle (mass ~10¹⁵), whose 1/r force produces circular orbits at fixed speed v = √(G·M) ≈ 2.82 independent of orbital radius — consistent with the observed ring orbiter velocities. Probe particles interact with all 26 background bodies but not with each other, and the full N-body system is integrated forward using RK45.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The universe obeys a 1/r force law (arising from a logarithmic gravitational potential in 2D), where the acceleration of particle i due to particle j is a = G × m_j / r_ij × r̂_ij directed attractively. The massive anchor particle (mass ~10^15) dominates, producing an effective radial acceleration G × M_anchor / r ≈ 7.96/r toward the origin, confirmed precisely across all distances tested (0.5 to 20 units). All 26 particles interact pairwise through this same law with a universal coupling constant G ≈ 7.96 × 10^{-15}, with the ring orbiters contributing small but nonzero perturbations proportional to their masses (1, 2, or 4).
+
+--- seed 2 ---   score: 0.40  (4/10)
+In this 2D universe, gravity obeys a logarithmic potential law rather than the familiar 3D inverse-square law. The gravitational force between any two particles is F = G·m₁·m₂/r, directed along the line connecting them — this follows from applying Gauss's law in 2D where field lines spread over a circumference (2πr) rather than a spherical surface. The gravitational constant G ≈ 7.96×10⁻¹⁵ was confirmed both by measuring the initial acceleration of stationary probes at known distances from the massive anchor (a·r = G·M_anchor = 7.96 = constant) and by the circular orbit condition of the ring particles (v² = G·M_anchor = 2.82² ≈ 7.96). All 26 particles participate as full N-body gravitational sources, with the anchor (mass 1e15) dominating and the ring orbiters (masses cycling 1,2,4) contributing smaller perturbations.
+
+--- seed 3 ---   score: 0.30  (3/10)
+In this 2D universe, gravity obeys a 1/r force law (F = G·mᵢ·mⱼ/r) rather than the familiar 1/r² law of three-dimensional space. This corresponds to the solution of the 2D Poisson equation ∇²φ = 2πGρ, yielding a logarithmic potential φ(r) = G·M·ln(r). A key signature is that circular orbit speed is distance-independent (v = √(G·M)), consistent with the observed ring-orbiter speed of ≈2.82 at r=5, giving G·M_anchor ≈ 7.96 with M_anchor = 10¹⁵. All 26 particles interact pairwise through this law, but the enormous anchor mass dominates the dynamics of the probe particles.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The simulated universe obeys a logarithmic (1/r) force law: every pair of particles (i, j) exerts an attractive force of magnitude F = G·mᵢ·mⱼ/rᵢⱼ, corresponding to a potential V = −G·mᵢ·mⱼ·ln(rᵢⱼ). This is confirmed by the measured acceleration satisfying a·r = constant ≈ 7.95 across all probe radii from r=1 to r=20, and by the ring orbiters' circular orbital speed v = √(G·M_anchor) ≈ 2.82. All 26 particles interact pairwise via this same law, with the anchor's enormous mass (10¹⁵) dominating the force field while the symmetric ring of orbiters contributes negligibly to the net radial force on probes due to geometric cancellation.

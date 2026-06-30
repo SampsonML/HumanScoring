@@ -1,0 +1,20 @@
+======================================================================
+Model : claude-fable-5
+World : mond
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+All 11 particles interact through a pairwise, conservative, attractive central force whose acceleration magnitude is G/d^1.5 (G ≈ 6.4 per particle), i.e. a power law between Coulomb gravity (1/d²) and a constant force, corresponding to the potential φ(d) = −2G/√d. This was established by circular-orbit tests: the required tangential speed satisfied v²·√R = 32.5 to within 0.3% across radii 3–15 (32.5 = 5.06·G, where 5.06 is the geometric sum over the symmetric 11-particle ring), and eccentric orbits matched the predicted periapsis/apoapsis from energy and angular-momentum conservation in this potential. Rings released at rest undergo singular collapse through the centre, where the simulator's integrator injects energy and the particles scatter outward chaotically — a numerical artifact rather than a feature of the law.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The system consists of 11 equal particles interacting through a pairwise attractive central force that is the sum of three inverse power laws: f(r) = g1/r + g2/r² + g3/r³ (with g1≈1.37, g2≈5.9, g3≈4.0), i.e., a Newtonian 1/r² gravity term augmented by a long-range 1/r (logarithmic-potential) component and a short-range 1/r³ component. The force is velocity-independent and the dynamics are standard Newtonian (acceleration equals the vector sum of pairwise forces), verified by exact circular-orbit predictions at several radii and by the radial collapse acceleration profile, whose effective power-law exponent smoothly drifts from ≈1.8 at small separations to ≈1.2 at large ones. A ring released from rest collapses through the centre and slingshots outward, with the late-time coasting speed matching the energy integral of this three-term potential.
+
+--- seed 2 ---   score: 0.50  (5/10)
+All 11 particles interact through a pairwise attractive central force whose magnitude is the sum of two power laws: F(d) = A/d + B/d^p, with A ≈ 1.43, B ≈ 9.0, and p ≈ 2.2. The 1/d term corresponds to a 2D logarithmic potential and dominates at large separations (it makes the circular-orbit speed nearly independent of radius and decelerates escaping particles like 1/r forever, giving asymptotically constant escape speeds), while the steeper B/d^2.2 term dominates at short range and drives the violent collapse-and-slingshot behaviour of rings released from rest. No velocity dependence, screening, or non-central component was detected — the force is conservative, central, and acts identically between all particle pairs including the central one.
+
+--- seed 3 ---   score: 0.40  (4/10)
+All 11 particles (centre included, with identical coupling) interact through a purely attractive, velocity-independent pairwise central force whose acceleration magnitude is the sum of two power laws in separation d: a steep near-Newtonian term A/d^2.22 (A ≈ 9.2) plus a long-range logarithmic-potential tail B/d (B ≈ 1.45). This was established by measuring initial collapse accelerations of static rings over radii 2–15 (the net inward acceleration shows a smoothly varying log-slope incompatible with any single power law but fit to ~0.3% by the two-term form), and confirmed by stable circular orbits at the predicted speeds and by the slow 1/d deceleration of particles escaping to distances of hundreds of units. There is no drag, no velocity coupling, and no distinguished central particle — the dynamics are simple pairwise gravity-like attraction with this modified two-term radial profile.
+
+--- seed 4 ---   [no trial file]

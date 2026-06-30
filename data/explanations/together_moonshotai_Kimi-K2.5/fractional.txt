@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : fractional
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law is a Yukawa-type screened repulsive force between particles. Particle 1 at the origin generates a repulsive potential that decays exponentially with distance, with the screening length proportional to particle 2's property p2. The force magnitude scales with p1 (source strength) and is attenuated by exp(-λr/p2)/r², where λ is a fitted dimensionless parameter. This creates a "softened" Coulomb repulsion where larger p2 values screen the interaction more strongly, reducing the effective range of the force. The system exhibits characteristic terminal velocity behavior where particles asymptotically approach a constant velocity after experiencing the initial repulsive impulse.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered law describes particle 2 moving under a central force from particle 1 (fixed at the origin) following an inverse-power-law with exponent approximately 5.5, similar to a higher-order multipole interaction. The force magnitude scales with the source property p1 and the probe's effective mass scales with p2, giving acceleration proportional to p1/p2. The force is strictly radial and conservative, with no significant damping or screening effects detected in the dynamics.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The discovered law describes a modified gravitational interaction where particle 2 experiences an attractive force proportional to p1/r^2.5 toward the fixed particle 1 at the origin, with the 2.5 power law representing a fractional potential between Newtonian gravity and a screened interaction. Motion is damped by linear velocity-dependent drag (Stokes-like), and the inertial mass of particle 2 scales with its property p2. This combination produces orbital decay from any bound trajectory and characteristic velocity damping in free-fall scenarios, matching the observed trajectory data across all tested parameter regimes.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The universe exhibits a gravitational-like interaction where particle 2 experiences a central attractive force proportional to p1 and inversely proportional to the square of the distance from particle 1. The particle's inertia (resistance to acceleration) scales with p2, yielding an acceleration law a = G*p1/(p2*r²). This is mathematically analogous to Newtonian gravity in our universe, with p1 acting as a "charge" or mass for the source particle and p2 serving as inertial mass for the probe particle.
+
+--- seed 4 ---   score: 0.30  (3/10)
+The discovered law describes particle 2 moving under a screened inverse-square attraction toward particle 1 at the origin, combined with linear velocity-dependent drag. The attractive force magnitude scales as p1/r² × exp(-r/λ), where p1 is the source particle's charge-like property and λ is a screening length that weakens the interaction at large distances. The drag force is proportional to velocity with coefficient kappa, creating a terminal velocity phenomenon. Particle mass/inertia is encoded in p2, with acceleration proportional to p1/p2. This produces trajectories where particles accelerate toward the origin, reaching characteristic terminal velocities that scale as √(p1/p2)/r for initially stationary particles, while high-velocity particles maintain nearly constant speed due to weak drag at short timescales.

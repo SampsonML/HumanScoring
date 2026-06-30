@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.80  (8/10)
+Particle 2 is pulled toward the stationary source at the origin by a central force that scales with the source’s property p1, inversely with its own property p2, and follows an inverse‑distance law (∝ 1/r). The resulting acceleration is a = ‑K·(p1/p2)·r̂ / r, where K is a universal coupling constant. This law governs the motion of particle 2 in the simulated universe.
+
+--- seed 1 ---   score: 0.80  (8/10)
+Particle 1 acts as a static source at the origin that generates a radially symmetric field. The probe particle feels a central force whose magnitude is proportional to the source scalar p1, inversely proportional to its own scalar p2 and to the distance r from the source, i.e. F ∝ p1/(p2 r). This yields an acceleration a = α·p1/(p2 r) directed toward the origin, with α a universal constant of the simulated universe.
+
+--- seed 2 ---   score: 0.30  (3/10)
+Particle 2 is attracted toward particle 1 by a Hooke‑like central force. The force equals –k (p1/p2) r, where r is the displacement vector and k is a universal constant. This yields simple harmonic‑type acceleration proportional to distance and to the ratio of the scalar properties.
+
+--- seed 3 ---   score: 0.70  (7/10)
+Particle 2 experiences a central attraction toward particle 1 located at the origin. The acceleration magnitude scales linearly with the source scalar p₁ and inversely with the distance, i.e. a = ‑k p₁ r̂/|r|, where k is a universal constant. The probe’s own property p₂ does not affect its motion.
+
+--- seed 4 ---   score: 0.50  (5/10)
+Particle 2 is attracted toward particle 1 by a central force whose strength is proportional to the ratio of their scalar properties (p₁/p₂) and decays with the inverse square of the distance, effectively a 2‑D Coulomb‑like interaction. The force direction points toward the origin, and its magnitude is set by a universal coupling constant α that we fitted from the trajectories. This law explains the observed deceleration of particle 2 for varying distances and property values.

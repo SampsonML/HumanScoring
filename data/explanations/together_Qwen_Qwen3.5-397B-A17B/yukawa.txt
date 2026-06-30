@@ -1,0 +1,20 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered law describes a central force field where particle 2 experiences acceleration toward the origin (where particle 1 is fixed). The acceleration magnitude follows an inverse power law: a = G * p1 / (p2 * r^n), with the fitted exponent n ≈ 4 indicating an inverse quartic dependence on distance. The source particle's property p1 acts as the field strength multiplier, while the probe particle's property p2 acts inversely (like mass in Newton's second law—larger p2 means smaller acceleration for the same force). The constant G ≈ 10 sets the overall coupling strength. This is a non-standard gravitational-like law with steeper distance dependence than our universe's inverse-square gravity.
+
+--- seed 1 ---   score: 0.40  (4/10)
+Particle 2 experiences a central attractive force toward particle 1 (fixed at origin). The force magnitude follows an inverse-square law F = G*p1/r², where r is the distance from origin and p1 is a source property. Particle 2's acceleration is a = F/p2, where p2 acts as inertial mass, giving a = G*p1/(p2*r²). This produces trajectories where particle 2 accelerates toward the origin with magnitude proportional to p1/p2 and inversely proportional to the square of distance.
+
+--- seed 2 ---   [no trial file]
+
+--- seed 3 ---   score: 0.40  (4/10)
+The discovered law describes a central attractive force where particle 2 accelerates toward particle 1 (fixed at the origin). The acceleration magnitude scales as G × p1 / (p2 × r²), where p1 represents the source particle's field strength, p2 acts as an inertial mass for the probe particle, and r is the separation distance. This is analogous to Newtonian gravity or Coulomb attraction, with the force direction always pointing from particle 2 toward the origin. The 1/r² dependence was inferred from comparing motion at different initial distances, while the p1 and p2 dependencies were determined by varying these parameters systematically.
+
+--- seed 4 ---   score: 0.40  (4/10)
+Particle 2 experiences an attractive central force directed toward particle 1 (located at the origin). The acceleration magnitude follows a power-law distance dependence: |a| = G * (p1/p2) * r^(-n), where G ≈ 0.0344 and n ≈ 0.63. This represents a non-standard gravitational-like interaction with a fractional exponent (n < 1), meaning the force decays more slowly with distance than Newtonian gravity (n=2). The particle property p1 acts as the "source strength" while p2 acts as the "inertial mass" resisting acceleration.

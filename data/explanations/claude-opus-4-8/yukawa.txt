@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-8
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+The source particle generates a screened (massive) scalar field in 2D whose static potential is the modified Bessel function K0(k·r), the natural Green's function of the 2D screened-Poisson (Helmholtz) equation. The probe particle is attracted toward the source with an acceleration equal to the negative gradient of this potential, proportional to k·K1(k·r) and scaling linearly with the source property p1 and inversely with the probe property p2. The force is central (directed along the line to the source), behaving like 1/r at short range and decaying exponentially (∝ exp(-k·r)/√r) at long range, with screening length 1/k ≈ 1.8.
+
+--- seed 1 ---   score: 0.90  (9/10)
+Particle 1 sits at the origin and sources a screened (Yukawa-type) scalar field; the probe particle 2 experiences an attractive central acceleration of magnitude A·(p1/p2)·exp(-r/λ)/r pointing toward the origin. The force grows linearly with the source's property p1 and inversely with the probe's property p2 (an inertial-like factor), and the exponential factor with screening length λ≈2.38 cuts off the interaction at large separations. The radial fall-off goes as 1/r (rather than 1/r²), and the dynamics are purely position-dependent with no velocity-dependent (drag or magnetic) terms.
+
+--- seed 2 ---   score: 0.80  (8/10)
+The fixed source particle sources a screened scalar field governed by a 2D Helmholtz (screened-Poisson) equation, whose radial Green's function is the modified Bessel function K0(k·r). The probe particle couples to this field with a purely central, attractive force of magnitude C·(p1/p2)·K1(k·r) — i.e. the negative gradient of the screened potential — which diverges like 1/r at short range and decays as exp(-k·r)/√r at long range. The force scales linearly with the source property p1 and inversely with the probe property p2, and is entirely independent of the probe's velocity.
+
+--- seed 3 ---   score: 0.90  (9/10)
+Particle 1 at the origin sources a static, radially symmetric scalar field that attracts the probe particle 2 toward it. The acceleration on the probe is central (always pointing back to the source) and velocity-independent, with magnitude G·(p1/p2)·exp(−r/λ)/r^q: it scales linearly with the source property p1, inversely with the probe property p2, has a soft power-law core (exponent q≈0.77, gentler than Newtonian 1/r²), and is exponentially screened beyond a range λ≈2.1 (Yukawa-like). Fitted constants are G≈0.21, λ≈2.12, q≈0.77.
+
+--- seed 4 ---   score: 0.90  (9/10)
+Particle 2 is attracted to the fixed source (particle 1) by a screened Yukawa field: the acceleration points radially toward the source with magnitude (p1/p2)·C·exp(−r/L)/r, where r is the separation, C≈0.225, and L≈2.5 is the screening length. The source strength scales linearly with p1 while the probe's response scales inversely with p2, indicating p1 acts as a field charge and p2 as an inertial/coupling factor; the exponential cutoff reflects a massive mediating field with finite range.

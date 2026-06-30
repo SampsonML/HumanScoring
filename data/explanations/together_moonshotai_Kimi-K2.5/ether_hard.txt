@@ -1,0 +1,21 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : ether_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The discovered law is Newtonian gravity: all particles exert attractive inverse-square forces on each other, with acceleration on particle i given by a_i = Σ_j G·m_j·(r_j−r_i)/|r_j−r_i|³. The gravitational coupling constant G ≈ 40 was determined by fitting to circular orbit trajectories of test particles and background ring particles. The anchor's enormous mass (~10¹⁵) dominates the dynamics, making the system approximately Keplerian, but the full law includes all pairwise interactions between the 26 particles.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The universe exhibits Newtonian universal gravitation: every particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the distance squared. The central "anchor" with mass ~10^15 creates a dominant potential, but the 20 ring orbiters generate significant time-varying perturbations that strongly affect probe trajectories—especially near the ring radius of 5 units where probes experience complex multi-body scattering. The gravitational constant fitted to ~1.6 reproduces the observed ring-orbiter velocity of ~2.82 and the inward acceleration of test particles.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law is approximately free-particle motion with extremely weak gravitational coupling to the central anchor. The 20 background "orbiter" particles at r=5 constitute most of the system's mass (excluding the immobile anchor), creating a resonant ring structure. Probes outside r≈5-7 experience negligible net force, behaving as nearly free particles. The weak alpha parameter captures residual attraction from the massive anchor, which becomes significant only at small radii (r<2) where particles fall inward. The stable circular orbits of the background particles at r=5 with v≈2.82 represent a balanced equilibrium in the combined field, but this resonant structure minimally affects probes placed elsewhere.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The discovered physics is a central 1/r force field where each particle experiences an attractive acceleration **a = k/r** directed toward the origin, with fitted strength k ≈ 8. Unlike Newtonian gravity (1/r²), this universe has a harmonic-like potential where circular orbital velocity is constant (v_circ = √k ≈ 2.83) independent of radius. There are no inter-particle forces; the anchor and ring orbiters are merely test masses in this fixed external field. The force is proportional to particle mass following standard inertia (F = ma), making this a modified central-force universe with logarithmic potential.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The discovered law is Newtonian gravitation in 2D: each particle exerts a pairwise attractive force F = G*m1*m2/r^2 on every other particle. The gravitational constant G ≈ 39.8 (in simulation units) was determined from the observed circular orbit velocity v ≈ 2.82 at r = 5, using v^2 = GM/r where M is the central anchor mass. All 26 particles interact gravitationally, with the massive anchor at the center producing the dominant field that organizes the ring orbiters into stable circular orbits.

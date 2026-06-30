@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered system is a collection of six particles that experience a linear restoring force toward their collective center of mass. Each particle experiences an acceleration proportional to its displacement from the center of mass with coupling constant γ ≈ 10^7 s^-2. This is analogous to a plasma confined by a harmonic potential or a system of coupled oscillators where the restoring force arises from a global field centered at the center of mass. The system conserves momentum (the center of mass remains fixed if it starts at the origin) and evolves deterministically through standard Newtonian mechanics.
+
+--- seed 1 ---   score: 0.10  (1/10)
+This universe contains a system of 6 particles subject to a global harmonic potential with both spring-like restoring forces (proportional to position) and viscous damping (proportional to velocity). The high stiffness and damping cause the particles to oscillate rapidly with very small amplitudes around the origin, remaining nearly stationary at their initial positions over observable timescales. The system evolves as coupled damped harmonic oscillators under the potential V(r) = ½kr² with dissipation, causing any initial perturbations to decay quickly while the particles maintain approximate equilibrium near their starting locations.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered physical system is a 6-particle gas governed by pairwise repulsive interactions. Each particle i experiences a force from every other particle j proportional to their separation distance: the force magnitude is alpha * |r_ij|, directed along the line connecting them (repulsive). This creates a distance-dependent repulsion analogous to a spring force but acting between all pairs. The system exhibits symmetric motion with particles accelerating away from high-density regions, consistent with a many-body repulsive gas where the interaction strength grows with separation.
+
+--- seed 3 ---   score: 0.50  (5/10)
+The discovered physics is a 2D system of 6 particles interacting through pairwise inverse-square repulsive forces, similar to Coulomb repulsion in electrostatics. Each particle experiences acceleration determined by the vectorial sum of forces from all other particles, where the force from particle j on particle i is proportional to the displacement vector (r_i - r_j) divided by the cube of the distance |r_i - r_j|³. This produces an effective gravitational/Coulomb-like field with repulsive coupling constant G that must be fitted to the data.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The discovered system is one of free particles undergoing uniform rectilinear motion in 2D space. Each of the 6 particles moves with constant velocity independent of all others, with no inter-particle forces or field-mediated interactions. The final position of each particle is simply its initial position plus the product of its initial velocity and the simulation duration. Observations contain Gaussian measurement noise but do not affect the deterministic underlying dynamics.

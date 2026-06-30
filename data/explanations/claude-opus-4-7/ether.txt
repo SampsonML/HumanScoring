@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : ether
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.90  (9/10)
+The universe contains a single massive 'anchor' at the origin that sources a 2D logarithmic gravitational potential V(r) = K·ln(r), giving every other particle a radial acceleration of magnitude K/r toward the anchor — crucially, independent of either the source mass (it's a fixed coupling K ≈ 7.96, not G·M) or the test particle's own mass. This is confirmed by probes at different radii showing a·r = constant, and by probes of mass 0.5, 1, 2, 4, 8 at different positions showing identical a = K/r. On top of this central field acts a small uniform background acceleration g ≈ 0.05 in the +y direction (a constant gravitational "wind"); the 20 ring orbiters move under the same law and act as test particles whose own gravitational influence on the probes is negligible.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The dynamics are dominated by a single very heavy "anchor" particle that produces a 2D logarithmic-potential force on every other particle: the acceleration on a probe at displacement r from the anchor is −K·r̂/r (i.e. force per unit mass falls off as 1/r, not 1/r²). Probe acceleration is independent of the probe's own mass, and the orbiters and probes do not measurably source the field — only the anchor does. Superimposed on this central field is a small uniform external acceleration (≈ +0.05 in the y-direction) acting on all probes regardless of position.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The simulated world has a 2D logarithmic-gravity field sourced solely by the heavy anchor at the origin. Every other particle (ring orbiters and probes alike) feels acceleration a = −k r̂ / r toward the anchor — a 1/r force law corresponding to a logarithmic potential φ(r) = k ln r — with coupling k ≈ 7.957. Strikingly, neither source masses (orbiters) nor test masses (probes) enter the law: ring orbiters do not gravitate on probes nor on each other (confirmed by probes near and inside the ring still obeying a·r = −k cleanly), and probes of different mass at the same position acquire identical accelerations. The orbiter ring is in a circular orbit with v² = k, consistent with the centripetal balance for this 1/r force.
+
+--- seed 3 ---   score: 0.90  (9/10)
+The universe contains one dominant "anchor" mass that sources a logarithmic gravitational potential — particles feel a central acceleration of magnitude K/r (instead of the Newtonian K/r²) directed toward the anchor, which produces circular orbits at uniform speed v = √K (≈2.82, hence the ring orbiters' constant tangential speed). On top of this, every particle experiences an additional uniform background acceleration g (essentially a constant gravity-like field, primarily in the +y direction with magnitude ≈ 0.05). Inertial masses cancel from the equations of motion entirely — the lighter particles' masses do not matter for trajectories, only the anchor's role as the central source matters, so contributions from the orbiter-orbiter pairwise terms are negligible compared to the anchor's logarithmic field plus the uniform background.
+
+--- seed 4 ---   score: 0.80  (8/10)
+The universe contains a single central "anchor" mass that sources a 2D logarithmic gravitational potential — i.e. a force whose magnitude falls as 1/r and whose direction is purely radial toward the anchor. The coupling to test particles is independent of the test particle's inertial mass (acceleration ≈ K/r with K ≈ 8, regardless of probe mass). Superposed on this central field is a spatially uniform background acceleration of magnitude g_y ≈ 0.05 pointing in +y, which acts identically on every particle (probes and orbiters alike) — analogous to a uniform gravitational "wind". Probes do not appreciably interact with each other or with the smaller orbiters; only the anchor's central field plus the uniform background determine probe trajectories.

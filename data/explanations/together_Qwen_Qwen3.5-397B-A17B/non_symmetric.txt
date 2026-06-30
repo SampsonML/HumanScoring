@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3.5-397B-A17B
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+In this simulated universe, particles interact through a pairwise attractive force field where each particle accelerates toward all others. The magnitude of this interaction scales inversely with the square of the distance between particle pairs, resembling a 2D gravitational system. Consequently, particles tend to cluster together or exhibit orbital dynamics depending on their initial configuration and velocity.
+
+--- seed 1 ---   score: 0.10  (1/10)
+The discovered law describes a 2D universe where 30 particles interact through pairwise repulsive forces. Each particle experiences acceleration from all other particles proportional to G/r^alpha where r is the inter-particle distance, with the force direction pointing away from the source particle (repulsive). The fitted parameters suggest alpha ≈ 1.6 (between inverse-linear and inverse-square) and G ≈ 0.017. This creates a many-body system where particles spread out over time due to mutual repulsion, with the dynamics governed by standard Newtonian mechanics (F = ma) applied to the pairwise force law.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes a 2D universe where 30 particles interact through pairwise inverse-power law forces. Each particle experiences acceleration determined by the sum of forces from all other particles, where the force magnitude scales as G/r^alpha (with G≈1.0 and alpha≈2.0, resembling an inverse-square law). The force direction points along the line connecting particle pairs. This creates a many-body interaction system where particles mutually accelerate based on their relative positions, with no external field or velocity-dependent terms.
+
+--- seed 3 ---   score: 0.10  (1/10)
+The particles interact through pairwise repulsive forces that follow an inverse-square distance dependence (1/r²). Each particle experiences acceleration from all other particles in the system, with the force magnitude decreasing as separation increases and direction pointing away from other particles. This creates a many-body system where particles naturally spread apart over time due to mutual repulsion.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The discovered law describes a universe where each particle experiences an independent harmonic restoring force toward the origin. The equation of motion is d²r/dt² = -ω²r, meaning acceleration is proportional to negative position. This creates simple harmonic oscillation where all particles oscillate with the same angular frequency ω regardless of their amplitude or initial position. The particles do not interact with each other - each is effectively attached to the origin by an identical spring. This is fundamentally different from gravitational or electrostatic systems where particles interact pairwise; here the field is fixed and central, providing a uniform restoring force field throughout space.

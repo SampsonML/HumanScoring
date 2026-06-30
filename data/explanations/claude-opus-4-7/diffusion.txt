@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : diffusion
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.20  (2/10)
+The simulated universe appears to govern particle 2's motion by a third-order equation of motion: the *jerk* (time derivative of acceleration), rather than acceleration itself, is sourced by a Newton-like central pull from particle 1. The pull has magnitude k·(p1/p2)/r^n directed toward the origin, with initial acceleration set to zero. This explains the otherwise puzzling observations: particles released from rest start with zero acceleration and only slowly build up velocity (matching the v∝t³-like growth seen at large times), particles moving at large speed continue with little deflection (because the high-frequency response is suppressed by the integrating structure), and the strength scales linearly with the source charge p1 and inversely with the probe's "inertia" parameter p2.
+
+--- seed 1 ---   score: 0.80  (8/10)
+The source particle (particle 1) sits at the origin and injects a scalar field into the 2D plane starting at t=0. The field obeys the 2D heat/diffusion equation with diffusivity D, so its value at distance r and time t is the heat kernel phi(r,t) = (p1 / (4 pi D t)) * exp(-r^2 / (4 D t)). The probe particle (particle 2) has inertia p2 and accelerates down the field's spatial gradient, yielding a radial pull a = -(p1 / (2 pi D p2 r)) * exp(-r^2/(4 D t)); this naturally explains the observed time delay (force is exponentially small until t ~ r^2/(4D)), the linear scaling in p1, the 1/p2 mass-like scaling, and the long-time approach to a 2D log-potential-like force.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The probe particle experiences a one-sided, velocity-coupled radial force from the source particle: when (and only when) the probe is moving inward (v·r̂ < 0), it receives a radial acceleration along r̂ with magnitude proportional to (p1/p2)·|v_r|, with no distance dependence. The force vanishes for outward or purely tangential motion, behaving as a "rectified anti-damping" — small inward velocities grow exponentially while outward and perpendicular components propagate freely. The coupling p1/p2 indicates p1 acts like a source strength and p2 like an inertial mass scaling the response.
+
+--- seed 3 ---   score: 0.80  (8/10)
+Particle 1 acts as a constant point source (strength p1) of a scalar field obeying the 2D heat/diffusion equation, switched on at t=0. The Green's function gives a field φ(r,t) ∝ p1·E1(r²/(4Dt)), so the gradient produces a radial attractive force on the probe of magnitude (K·p1)/(2π·D·r)·exp(-r²/(4Dt)). The probe's mass p2 enters Newton's second law: a = F/p2. The exp(-r²/(4Dt)) factor captures the diffusive "arrival" of the field — the force starts near zero and asymptotes to the steady-state 1/r form as t→∞.
+
+--- seed 4 ---   score: 0.80  (8/10)
+Particle 1 acts as a point source of a scalar field that propagates by 2D diffusion (heat equation) rather than instantaneously. The field at particle 2's location is the time-integrated 2D heat kernel from the source, which produces a radial acceleration proportional to exp(-r²/(4Dt))/r — vanishing at early times (the "front" of diffusing influence hasn't arrived) and approaching a 1/r logarithmic-potential force at late times. The probe particle accelerates inward with inertial mass p2 and coupling strength p1, giving a = -k·p1·exp(-r²/(4Dt))/(p2·r^(n+1)) where the exponential Gaussian-style retardation explains the strongly time-dependent build-up of force we observed.

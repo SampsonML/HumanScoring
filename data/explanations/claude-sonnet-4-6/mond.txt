@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.30  (3/10)
+The universe contains 11 particles interacting pairwise through an attractive force law F = G * m_i * m_j / r^alpha, where r is the inter-particle distance. The center particle (index 0) carries a much larger "mass" M than the ring particles (mass normalized to 1), which explains the observed increase in effective force at smaller ring radii — the center particle dominates at all scales but the ring-ring interactions (each with unit mass) provide an additional contribution that is significant at small separations. The exponent alpha ≈ 1 governs the radial falloff at large separations, while the large center mass M accounts for the enhanced acceleration observed at small ring radii. Free parameters G (coupling), alpha (force exponent), and M (center mass) are fitted to the trajectory data.
+
+--- seed 1 ---   score: 0.30  (3/10)
+This universe contains 11 particles governed by a pairwise attractive force law, but with two distinct interaction channels: the central particle (particle 0) interacts with ring particles via F = G/r (a 1/r force corresponding to a logarithmic potential), while ring particles interact with each other via F = G/r² (an inverse-square law). The coupling constant G ≈ 8 appears identical for both interaction types. The system exhibits gravitational collapse when ring particles are released from rest: they first fall inward under the attractive forces, pass through the central region, then fly outward at high asymptotic velocity set by energy conservation; when given sufficient tangential velocity, ring particles maintain stable orbital configurations.
+
+--- seed 2 ---   score: 0.40  (4/10)
+In this simulated universe, all 11 particles (the central particle and the 10 ring particles) interact through a universal attractive force law F = G/d, where d is the distance between any two particles. Unlike standard Newtonian gravity (F∝1/d²), this 2D universe uses a 1/d force law, which in 2D corresponds to an interaction derived from a logarithmic potential (analogous to Coulomb's law in 2D). The coupling constant G ≈ 1.45 is universal for all particle pairs. This attractive force causes the ring particles to spiral inward toward the center, pass through, and then fly outward with nearly constant velocity, with the detailed trajectory depending sensitively on the initial ring radius and tangential velocity.
+
+--- seed 3 ---   score: 0.10  (1/10)
+This universe contains 11 particles interacting via a purely attractive pairwise power-law force F_ij = G * (r_j - r_i) / |r_j - r_i|^(alpha+1), analogous to a generalized gravitational law. All particles (center and ring) have equal masses and attract one another; the force strength G and exponent alpha are free parameters fitted to the observed trajectories. The observed dynamics — ring particles collapsing inward then explosively rebounding outward after passing near the center — is consistent with this purely attractive force that grows stronger at close range.
+
+--- seed 4 ---   score: 0.30  (3/10)
+This universe obeys a universal attractive force law between all particle pairs, with force magnitude F = G/r^alpha where r is the inter-particle separation and the force is directed toward the attracting particle. For the symmetric ring configuration, the center particle pulls all ring particles inward while the ring particles mutually repel each other in the radial direction due to their geometry — this competition causes the ring to either collapse to the center (if center attraction dominates) and then explosively rebound, or expand outward. The best-fit exponent is approximately alpha=1 (a 2D logarithmic-potential type force), with coupling constant G≈7.4, consistent with the observed initial accelerations scaling as a ≈ G/r + 4.5G/r² across all tested radii.

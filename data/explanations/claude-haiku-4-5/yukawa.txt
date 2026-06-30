@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : yukawa
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+Particle 2 is governed by an inverse-square attractive force toward the fixed particle 1 at the origin. The acceleration follows F/m = -G(p1/p2)/r² in the radial direction, analogous to Newtonian gravity but with coupling strength determined by the ratio of particle properties p1 and p2. This law correctly predicts all observed trajectories including escape velocities, orbital-like motion with tangential velocity components, and acceleration inversely proportional to the square of the separation distance.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The discovered law is Newtonian gravitational dynamics in a 2D universe. Particle 1 (held at the origin) acts as a gravitational source with effective mass p1, exerting an attractive force F = -G·p1/r² on particle 2 along the radial direction. Particle 2's property p2 is inert—it does not affect the trajectory shape, only serves as a label. The constant G ≈ 0.133 was empirically determined from short-duration experiments measuring initial accelerations at known distances and source strengths. The system exhibits bound and unbound orbits depending on initial velocity, consistent with standard orbital mechanics.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The discovered law describes a damped harmonic oscillator where particle 2 experiences two forces: (1) a linear restoring force proportional to its distance from particle 1 and scaled by p1, pulling it back toward the origin, and (2) a viscous damping force proportional to its velocity and scaled by p2, causing it to lose kinetic energy. The system exhibits either oscillatory or overdamped motion depending on the ratio of stiffness to damping. This is analogous to a spring-mass-damper system where the particle properties p1 and p2 control the effective spring constant and damping coefficient, respectively.
+
+--- seed 3 ---   score: 0.40  (4/10)
+The discovered law governs particle 2 under a radial attractive force inversely proportional to the square of its distance from particle 1. The force law is F = −(G·p1/p2)·r̂/r², where p1 acts as the source strength, p2 as the inertial mass, and G ≈ 1.024 is a universal coupling constant. This system exhibits classical gravitational dynamics: particles accelerate toward the origin regardless of initial velocity, trajectories follow conic sections, and the dynamics preserve energy and angular momentum in the orbital plane.
+
+--- seed 4 ---   score: 0.40  (4/10)
+The discovered physics is a gravitational attraction law where particle 2 is accelerated toward the stationary particle 1 by a force inversely proportional to the square of their separation distance. The magnitude of this attractive force scales with both the source particle's property p1 and the probe particle's property p2, with a gravitational coupling constant G ≈ 1.0. This is exactly analogous to Newtonian gravity in classical mechanics, implemented as a second-order ODE integrated with adaptive numerical methods.

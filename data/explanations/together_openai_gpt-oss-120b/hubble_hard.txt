@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-120b
+World : hubble_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The universe exhibits a solid‑body rotating background, characterized by a constant angular speed ω that all particles tend to follow. Probe particles experience two forces: a mass‑proportional radial repulsion (strength α) pushing them outward, and a linear drag (strength γ) that drives their velocity toward the background rotational field ω×r. The anchor is effectively immobile, while the background ring particles are in equilibrium under these same forces.
+
+--- seed 1 ---   score: 0.00  (0/10)
+The universe is governed by a uniform rotational acceleration field: every particle feels an acceleration proportional to its position rotated ninety degrees, a = α(−y, x). This produces a constant angular speed for all bodies independent of their masses; the massive anchor is effectively stationary. The single free constant α sets the angular acceleration and is fitted from the probe trajectories.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The system follows Newtonian gravity: every particle attracts every other with a force proportional to the product of their masses and inversely proportional to the cube of their separation (softened to avoid singularities). A single coupling constant G determines the strength of the interaction; the massive anchor’s inertia makes it effectively stationary, providing the central potential that sustains the ring’s circular motion. Probe trajectories result from the summed gravitational pulls of the anchor and the orbiting ring particles.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The probe particles experience no net force (mass‑independent) from the massive rotating ring or the central anchor, so they act as inert test particles. Consequently their trajectories are effectively static over the duration of the experiment.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The system behaves as a central harmonic oscillator: each particle feels a restoring force directed toward the massive, immobile anchor proportional to its displacement. The acceleration is given by –α r / m, where r is the vector from the anchor, m the particle’s mass, and α a constant stiffness parameter. The anchor’s huge inertia keeps it fixed while all other bodies oscillate around it.

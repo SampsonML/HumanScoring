@@ -1,0 +1,21 @@
+======================================================================
+Model : together/Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The motion of particle 2 is governed by a harmonic potential centered at the origin, where the restoring force is proportional to its displacement and scaled by the source charge p1. The probe charge p2 does not influence the dynamics, indicating asymmetric coupling. The system behaves like a spring with stiffness proportional to p1, leading to oscillatory trajectories when undamped.
+
+--- seed 1 ---   score: 0.70  (7/10)
+The system is governed by a central force in two dimensions, where the acceleration of particle 2 is directed toward particle 1 and proportional to the product of their scalar properties p1 and p2, and inversely proportional to the distance between them. This corresponds to a logarithmic potential, typical of line sources in two-dimensional physics. The force law is independent of the velocity of the probe particle, indicating a conservative interaction.
+
+--- seed 2 ---   score: 0.60  (6/10)
+The motion of particle 2 is governed by a central force proportional to the product p1*p2 and inversely proportional to the distance r, characteristic of a 2D field theory with a logarithmic potential. The force direction is along the line connecting the particles, and the system conserves angular momentum. The coupling constant G is approximately 0.5, and the law is consistent across attractive and repulsive cases.
+
+--- seed 3 ---   score: 0.90  (9/10)
+The system follows a 2D central force law where the force magnitude is proportional to p1 and inversely proportional to the distance r, resulting in a logarithmic potential. The property p2 acts solely as an inertial mass, determining the particle's resistance to acceleration. The constant 1/(2π) arises from the geometry of flux conservation in two dimensions.
+
+--- seed 4 ---   score: 0.20  (2/10)
+The system is governed by a central harmonic force where particle 2 experiences a restoring acceleration proportional to its displacement from the origin. The stiffness of this oscillator scales linearly with the source particle's property p1 and inversely with the probe's property p2. The dynamics are isotropic and energy-conserving, matching a 2D harmonic oscillator with frequency dependent on the ratio p1/p2.

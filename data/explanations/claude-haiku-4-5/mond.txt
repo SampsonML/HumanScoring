@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-haiku-4-5
+World : mond
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The discovered universe obeys Newtonian gravitational mechanics. The centre particle acts as a point mass source (with gravitational parameter GM ≈ 5), and the ring particles orbit under the inverse-square law F = -GM/r². Stable circular orbits occur when v = √(GM/r), and off-balance velocities produce precessing elliptical orbits characteristic of Keplerian dynamics. The system exhibits no inter-particle interactions between the ring particles themselves—only central-force interactions with the primary mass.
+
+--- seed 1 ---   score: 0.00  (0/10)
+The discovered physical law describes a system where particles on a ring experience radial repulsion proportional to their instantaneous speed. The centre particle remains fixed at the origin, while each ring particle accelerates outward with magnitude equal to alpha times the particle's velocity magnitude, directed radially away from the centre. This creates velocity-driven expansion: fast-moving particles push outward harder, while slower particles or those at equilibrium experience weaker repulsion, allowing the system to settle into stable or expanding configurations depending on initial conditions.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The discovered law governs a system of 11 particles under a central inverse-square attractive force, analogous to Newtonian gravity. The centre particle (index 0) creates a potential field F = -k/r², toward which all ring particles (indices 1–10) are attracted. There are no inter-particle interactions; each particle moves independently under the central field while conserving its angular momentum. Ring particles spiral inward toward the origin, with the dynamics determined entirely by the balance between radial attraction and angular momentum. The coupling constant k ≈ 71 was fitted from trajectory data across multiple initial configurations.
+
+--- seed 3 ---   score: 0.00  (0/10)
+This universe is governed by a Coulomb-like repulsive force between all particles, where the force magnitude between any two particles is inversely proportional to the square of their separation distance (F ∝ 1/r²). In the symmetric centre-plus-ring configuration, when tangential velocities are small, the particles establish a stable rotating equilibrium. However, when rotation exceeds a critical angular velocity (ω_c ≈ 0.012 rad/s), the centrifugal effects overcome the repulsive balance, destabilizing the ring and causing chaotic oscillatory motion.
+
+--- seed 4 ---   score: 0.10  (1/10)
+The discovered system exhibits classical mechanics with a composite central force field. Each of the 10 ring particles experiences a force combining linear attraction toward the origin (F ∝ -r, like a spring pulling inward) and a short-range inverse-cubic repulsion (F ∝ 1/r³). This composite force creates turning-point dynamics where particles initially contract toward a critical radius due to the dominant attraction, then undergo sudden reversal and exponential expansion as the repulsive inverse-cubic term dominates at short range. The centre particle remains fixed at the origin by symmetry of the configuration.

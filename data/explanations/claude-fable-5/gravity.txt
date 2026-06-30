@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-fable-5
+World : gravity
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 1.00  (10/10)
+Particle 2 moves under an attractive central force sourced by the fixed particle 1, corresponding to the Green's function of the 2D Laplacian: a logarithmic potential whose force falls off as 1/r (not 1/r²), i.e. acceleration = (p1/(2π p2)) · (1/r) directed toward the source. The property p1 acts as the source "charge" while p2 acts as the probe's inertial mass, so acceleration scales as p1/p2; the force is velocity-independent, unscreened, and exact from r ≈ 0.5 out to r = 10. A signature of this law is that circular orbit speed √(p1/(2π p2)) is independent of radius, which I verified experimentally with sustained circular orbits at r = 4 and r = 7.
+
+--- seed 1 ---   score: 1.00  (10/10)
+Particle 2 experiences an attractive central force from the fixed source at the origin whose magnitude falls off as 1/r — the field of a point source in a genuinely two-dimensional universe, corresponding to a logarithmic potential V(r) = (p1/2π)·ln(r). The acceleration is a = p1/(2π·p2·r) directed toward the source: it scales linearly with the source property p1, while the probe property p2 acts purely as inertial mass (force is independent of p2, so acceleration scales as 1/p2). The force is conservative and velocity-independent; a signature of the log potential confirmed experimentally is that circular orbital speed √(p1/(2π·p2)) is independent of orbital radius, like a flat galactic rotation curve.
+
+--- seed 2 ---   score: 1.00  (10/10)
+The probe particle moves under a purely central, attractive force sourced by particle 1 at the origin, with acceleration magnitude K·p1/(p2·r) where K ≈ 1/(2π) — i.e., the potential is logarithmic, exactly the Green's function of the Poisson equation in two dimensions (like the field of a charged line). The source property p1 acts as a charge that the force is linear in, while the probe property p2 acts as an inertial mass dividing the force; the trajectories conserve energy E = p2·v²/2 + K·p1·ln(r) and angular momentum. I found no velocity dependence, no screening length, and the 1/r force law holds unmodified from r ≈ 0.3 out to r > 20.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The source particle generates a static 2D logarithmic potential — the Green's function of the two-dimensional Laplacian, φ(r) = -(p1/2π) ln r — which is the natural analogue of Newtonian gravity in a 2D universe. The probe particle experiences a purely central, attractive acceleration of magnitude a = p1/(2π p2 r), directed toward the source, with no velocity dependence, no screening at large distance, and no softening at small distance. Notably, the probe's property p2 appears inversely in the acceleration (heavier probes accelerate less), implying the force couples linearly to both p1 and p2 while the inertial mass scales as p2², a violation of the usual equivalence principle.
+
+--- seed 4 ---   score: 1.00  (10/10)
+Particle 2 experiences a purely central, attractive, velocity-independent acceleration directed toward the fixed source particle, with magnitude (p1/(2π p2)) / sqrt(r² + ε²) where ε ≈ 0.05. At large separations this reduces to the 1/r force of a two-dimensional logarithmic gravitational potential (the Green's function of the 2D Laplacian sourced by p1, with coupling constant 1/2π), while at short range the force saturates at a finite value G·p1/(p2·ε) rather than diverging, indicating a softened/regularised core. The probe's property p2 acts as an inertial mass (acceleration ∝ 1/p2), the source property p1 acts as a gravitational charge (acceleration ∝ p1), and angular momentum and energy are conserved, consistent with conservative central-force dynamics.

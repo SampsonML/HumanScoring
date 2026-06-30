@@ -1,0 +1,21 @@
+======================================================================
+Model : together/openai/gpt-oss-20b
+World : species
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.00  (0/10)
+[no explanation submitted by the agent]
+
+--- seed 1 ---   score: 0.20  (2/10)
+The field is a $1/r^2$ attractive force acting pairwise between particles, analogous to Newtonian gravity but in this universe the gravitational constant appears as a free parameter $k$. Each particle also experiences velocity-proportional drag $\gamma \mathbf{v}$. The interaction law governs the acceleration, and integrating these equations reproduces the observed trajectories.
+
+--- seed 2 ---   score: 0.10  (1/10)
+The universe behaves like a set of six particles that exert a uniform attractive force toward the centre of mass, pulling each particle toward the average position of all others. Each pair contributes equally to the acceleration, so the acceleration of a particle is proportional to the vector sum of its displacements relative to all other particles. This results in a simple linear attractive interaction with a constant coupling parameter that can be fitted from data.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The universe contains six non‑interacting particles that are each bound by a Hookean force to the origin.  Their accelerations are proportional to the negative of their displacement, giving simple harmonic oscillations with unit angular frequency.  There is no coupling between particles, no damping, and no external noise affecting the deterministic trajectory apart from observational Gaussian noise added to the reported positions and velocities.
+
+--- seed 4 ---   score: 0.10  (1/10)
+In this universe the particles are coupled by a simple linear spring to the instantaneous center of mass. Each particle experiences a restoring acceleration toward the collective mean position, with the same spring constant for all pairs. This leads to collective oscillations about the center of mass without dissipative effects. The law is expressed as d²x_i/dt² = k (x̄(t) – x_i(t)), where x̄ is the mean position of all particles.

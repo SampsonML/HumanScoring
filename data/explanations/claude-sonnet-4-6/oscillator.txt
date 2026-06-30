@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-sonnet-4-6
+World : oscillator
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+Particle 2 undergoes simple harmonic motion in its radial velocity component relative to particle 1 (fixed at the origin). The radial velocity oscillates as v_r(t) = v0_r·cos(ωt) − A·sin(ωt), where the amplitude A = C·p1/r0 is proportional to p1 and inversely proportional to the initial separation r0, and the angular frequency ω = π/2 is a universal constant independent of all parameters. The tangential velocity component is unaffected by the interaction and drifts freely, while p2 has no influence on the dynamics whatsoever.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The governing force law is a logarithmic-potential attraction: particle 2 experiences a force F = −K·(p1/p2)·r̂/r directed toward particle 1, where r is the separation distance and K ≈ 0.2. This arises from a scalar potential V(r) = K·(p1/p2)·ln(r), which is the natural two-dimensional analogue of Newtonian gravity, following from Gauss's law applied to a 2D space. The coupling scales linearly with the source property p1 and inversely with the probe property p2, so heavier sources attract more strongly while more massive probes are less responsive to the field.
+
+--- seed 2 ---   score: 0.70  (7/10)
+Particle 2 is subject to a radially-directed, time-oscillating force from particle 1 fixed at the origin. The acceleration is a = -C·(p1/p2)·sin(ω·t)/r · r̂, where r is the current distance between the particles, r̂ is the outward radial unit vector, ω = π (period T = 2), and C ≈ 0.510. The force is proportional to the source strength p1, inversely proportional to the probe mass p2, inversely proportional to the radial distance (1/r spatial decay), and oscillates sinusoidally in time — resembling the radial component of a cylindrical wave field with a fixed temporal frequency driving particle transport. The net effect combines oscillatory motion with a secular drift whose sign and magnitude depend on the particle's radial position.
+
+--- seed 3 ---   score: 0.10  (1/10)
+Particle 2 experiences an inverse-square gravitational-like attractive force directed toward particle 1 (fixed at the origin), but only when the separation r exceeds a critical "dead zone" radius r_c ≈ 1.65. Inside r_c the force vanishes entirely and the particle moves inertially. The force magnitude is G/r² (with G ≈ 490) and is independent of the scalar properties p1 and p2. This creates a sharp inner boundary: particles placed outside r_c accelerate inward through origin and continue decelerating on the far side, while particles inside r_c remain stationary.
+
+--- seed 4 ---   score: 0.10  (1/10)
+In this 2D universe, particle 2 experiences an oscillatory attractive force directed toward particle 1 (fixed at the origin), with magnitude F = C · p1 · r^n · |cos(k · r²)|, where r is the separation distance and k ≈ π/8. The force scales linearly with p1 but is completely independent of p2. The |cos(k·r²)| factor creates a series of force zeros at r = 2, 2√3, 2√5, ... (where r² = π/(2k), 3π/(2k), ...), producing an unusual oscillatory radial dependence that is distinct from standard inverse-power or Yukawa laws, with the force strength modulated by a Gaussian-like envelope at short range and rapid oscillation at larger distances.

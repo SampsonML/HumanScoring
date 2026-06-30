@@ -1,0 +1,21 @@
+======================================================================
+Model : azure/gpt-5.4
+World : species
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The particles appear to all source and feel the same central pairwise field, with acceleration given by summing contributions proportional to the separation vector divided by distance cubed. In other words, the universe is well described by a many-body inverse-square force law for identical unit masses, integrated deterministically from the supplied initial positions and velocities. Symmetry tests suggest no particle-specific charges or external background field, just mutual superposition of the same interaction.
+
+--- seed 1 ---   score: 0.50  (5/10)
+The universe appears to be governed by pairwise superposition of an attractive central field: each particle sources the same field and every other particle accelerates toward it. The best-supported structure is an inverse-square law in vector form, so the total acceleration is the sum of all pair contributions proportional to displacement divided by distance cubed, with a tiny softening only to avoid singular numerical collisions.
+
+--- seed 2 ---   score: 0.00  (0/10)
+The six particles do not appear to interact with one another at all; instead, each moves independently in the same background vector field centered on the origin. The acceleration is linear in position with a distinctive mixed form, approximately a_x = a x + b y and a_y = b x - a y, which combines hyperbolic stretching with a rotational/shearing coupling. Velocities matter only through ordinary inertial evolution under this fixed linear field.
+
+--- seed 3 ---   score: 0.00  (0/10)
+The six particles do not appear to interact with one another at all; instead, each evolves independently in a fixed background field centred on the origin. Initial velocity contributes ballistically, while the field adds a constant acceleration that is linear in the particle’s initial coordinates, with a strong cross-coupled component and weaker anisotropic terms. The observed translation invariance failure under shifting the whole configuration confirms the force depends on absolute position relative to the centre, not pairwise separations.
+
+--- seed 4 ---   score: 0.50  (5/10)
+The six particles behave like equal-mass bodies moving under a shared pairwise central attractive field. The acceleration of each particle is the sum over all other particles of a Newtonian inverse-square interaction, equivalently a vector law proportional to displacement divided by distance cubed. Initial velocities superpose normally, and the whole system is just the 2D six-body problem with a common coupling strength.

@@ -1,0 +1,20 @@
+======================================================================
+Model : claude-opus-4-8
+World : mond
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.40  (4/10)
+The particles interact through a universal pairwise central attraction whose force magnitude between two bodies separated by distance d is F(d) = alpha/d + beta/d². This is a superposition of a 1/d term (the field of a 2D logarithmic potential) and a 1/d² Newtonian-like term, both purely attractive. All eleven particles—centre and ring alike—couple identically, so a symmetric ring with no tangential velocity collapses radially toward the centre while keeping its angular spacing, and adding tangential velocity makes the ring rotate rigidly as it contracts. Fitting initial accelerations across ring radii 2–15 gave alpha ≈ 1.25 and beta ≈ 8.4, and the analytic geometric sum (5.5·alpha/r + 4.862·beta/r²) reproduced the measured inward accelerations to three significant figures.
+
+--- seed 1 ---   score: 0.40  (4/10)
+The eleven particles interact through a static, conservative, central pairwise attraction whose force magnitude between any two particles separated by distance d is F(d) = alpha/d² + beta/d — a Newtonian inverse-square term plus an additional, longer-range 1/d term. Each particle obeys Newton's second law (unit mass) summed over all partners. I deduced this by measuring the radial acceleration a(r) of the symmetric ring: using the exact geometric sums over the centre plus the nine other ring particles, a·r² is linear in r (a·r² ≈ 4.863·alpha + 5.5·beta·r), which uniquely identifies the two-term force; the symmetric ring consequently collapses radially to the centre and re-expands, with the inverse-square term dominating at close range during collapse.
+
+--- seed 2 ---   score: 0.30  (3/10)
+The system is a set of 11 equal particles immersed in a single universal attractive field: every pair attracts along the line connecting them with a central force whose magnitude follows a power law F = G/r^n in their separation r. The fitted exponent is sub-inverse-square, near n ≈ 1.35, with coupling G ≈ 5; early-time radial accelerations of the symmetric ring scale as ~27/R^1.4 once the geometric sum over the nine neighbours is included. The central particle stays at rest because the symmetric ring exerts forces that cancel on it, while ring particles collapse inward (or orbit/precess when given tangential speed), the collapse diverging strongly as r → 0.
+
+--- seed 3 ---   score: 0.20  (2/10)
+The eleven particles interact through a central, conservative pairwise attractive field whose force magnitude decays as 1/d^1.5 with separation d (acceleration vector ∝ (r_j − r_i)/|r_j − r_i|^2.5). For the symmetric ring this produces a net inward acceleration that scales as r^(−1.5) (verified by a·r^1.5 ≈ const ≈ 32.5 across radii 2–15, by energy conservation ½v² − k/√r during collapse, and by matching the centripetal acceleration of orbiting cases). Released from rest the ring collapses inward, and because the potential ∝ −1/√r is singular at the origin the simultaneous convergence of all particles scatters them violently and they escape at nearly constant radial velocity, while sufficient tangential velocity instead yields smooth precessing orbits.
+
+--- seed 4 ---   [no trial file]

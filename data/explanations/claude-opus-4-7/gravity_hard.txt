@@ -1,0 +1,21 @@
+======================================================================
+Model : claude-opus-4-7
+World : gravity_hard
+Judge : claude-opus-4-6
+Seeds : 5 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.50  (5/10)
+The universe contains 10 point particles in a 2D plane that interact through a pairwise attractive logarithmic potential — the 2D analogue of the Coulomb force. Each particle accelerates toward every other particle with magnitude C/r (where r is the inter-particle separation), giving the equation of motion a_i = C · Σ_{j≠i} (r_j - r_i)/|r_j - r_i|². This is precisely the gradient of a logarithmic potential, the Green's function of the 2D Laplacian, so each particle acts as a source of a scalar field obeying a 2D Poisson equation. The coupling constant C ≈ 0.16 (close to 1/(2π)).
+
+--- seed 1 ---   score: 1.00  (10/10)
+The 10 particles interact through a 2D Coulomb / logarithmic potential: the field obeys ∇²φ = -ρ in two dimensions, whose Green's function is a logarithm, so each particle pulls every other with an attractive force F = G·(r_j-r_i)/|r_j-r_i|² (magnitude G/r). The coupling constant G is approximately 1/(2π) ≈ 0.16, consistent with the standard 2D Poisson Green's function. Crucially, each particle carries an index-dependent inertial mass that doubles in blocks of roughly three: particles 0–3 have mass 1, particles 4–6 have mass 2, and particles 7–9 have mass 4, so the same pairwise force produces visibly smaller accelerations on the higher-index particles while still conserving total momentum.
+
+--- seed 2 ---   score: 0.50  (5/10)
+The universe implements two-dimensional electrostatics with universal attractive "charges": every particle sources a logarithmic potential φ(r) = -(1/2π) ln(r), the Green's function of the 2D Laplacian. Each particle is then accelerated by the gradient of the total field summed over all other particles, giving a pairwise attractive force of magnitude 1/(2π r) along the connecting line. No velocity-dependent or non-pairwise terms were observed — the dynamics are simply Newtonian motion under this 2D Coulomb-like attraction.
+
+--- seed 3 ---   score: 1.00  (10/10)
+The 10 particles in this 2D universe attract each other pairwise with a force of magnitude F = k/r (with k ≈ 1/(2π)), directed along the line connecting them — this is the 2D analogue of gravity/Coulomb interaction, derivable from a logarithmic potential φ ∝ ln(r). Particles have quantised inertial masses in three tiers (m=1 for indices 0–3, m=2 for indices 4–6, m=4 for indices 7–9), so accelerations differ for otherwise-identical pair interactions: a_i = F_i/m_i via Newton's second law. There is no background field — distant particles influence a target purely through summed 1/r pair forces, which I verified by reproducing both isolated-pair accelerations and the small drifts induced by particles placed hundreds of units away.
+
+--- seed 4 ---   score: 1.00  (10/10)
+The 10 particles interact through a 2D logarithmic (Coulomb-in-2D) potential: each particle sources a scalar field obeying the 2D Laplace equation, so the pairwise force on particle i from particle j points toward j with magnitude c/|r_i-r_j|, where c ≈ 1/(2π) ≈ 0.159. Different particles carry different inertial masses, organised into three index-based groups: particles 0-3 have mass 1, particles 4-6 have mass 2, and particles 7-9 have mass 4, so each particle's acceleration is the total field force divided by its mass. All charges are equal and attractive (no repulsion observed in any pairing).

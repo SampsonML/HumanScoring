@@ -1,0 +1,20 @@
+======================================================================
+Model : together/moonshotai/Kimi-K2.5
+World : non_symmetric
+Judge : claude-opus-4-6
+Seeds : 4 present (of 5 expected)
+======================================================================
+
+--- seed 0 ---   score: 0.10  (1/10)
+The discovered law describes 30 particles in a 2D universe evolving under a position-dependent central force field with a critical radius T_c ≈ 5. Inside this radius, particles experience inward radial acceleration proportional to (T_c - r); outside, they experience outward acceleration proportional to (r - T_c). This creates a dynamical phase transition at r = T_c where particles tend to diverge from the origin when outside and converge when inside. The system also exhibits apparent rotational dynamics, suggesting the force field may include a Coriolis-like or frame-dragging component, or the particles couple to a rotating background field.
+
+--- seed 1 ---   score: 0.00  (0/10)
+The discovered physical law is a central force field where each particle experiences an acceleration toward the origin with magnitude proportional to the square root of its radial distance (a = -k√r). This "square-root oscillator" differs from standard harmonic oscillators, with particles at larger distances experiencing stronger but sublinearly-scaling restoring forces. The potential energy scales as V(r) ∝ r^(3/2), creating an unusual dynamical system where orbital periods depend on amplitude in characteristic ways. The fitted coupling constant k ≈ 0.0205 determines the strength of this global, position-dependent force field.
+
+--- seed 2 ---   [no trial file]
+
+--- seed 3 ---   score: 0.10  (1/10)
+The universe contains 30 particles in a 2D harmonic oscillator potential (restoring force proportional to displacement from origin) with additional pairwise Coulomb-like attractions between particles. The total force on each particle combines a linear central restoring force and an inverse-square radial attraction to other particles, leading to coupled oscillatory motion with characteristic frequencies determined by the oscillator constant and particle density.
+
+--- seed 4 ---   score: 0.00  (0/10)
+The 30 particles inhabit a 2D universe with a central velocity field and mutual repulsion. The field has a critical radius r₀ ≈ 12: particles outside this radius are pulled inward with speed v ∝ √(r − r₀), while particles inside are pushed outward with the same scaling. This creates a stable circular region where particles tend to accumulate. Superimposed on this is an inverse-square repulsive force between particle pairs that prevents collapse. The dynamics exhibit Galilean invariance—adding a uniform velocity to all particles shifts their trajectories uniformly—indicating no preferred reference frame or external potential. The velocity field represents a "cosmic wind" that organizes particle motion toward a stable annular structure at r ≈ 12.
