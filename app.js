@@ -288,7 +288,7 @@ function collectWorldRecords() {
       model: state.model,
       world: state.world,
       seed: seed.seed,
-      humanScore: s.score,
+      humanScore: s.score / 10,   // normalize 0-10 -> 0-1 to match judge_score
       notes: s.notes || "",
       judgeScore: seed.score,
       judgeRaw: seed.raw,
@@ -353,7 +353,7 @@ function exportJson() {
     records.push({
       annotator: state.store.annotator || "anonymous",
       model, world, seed: Number(seed),
-      humanScore: s.score, notes: s.notes || "",
+      humanScore: s.score / 10, notes: s.notes || "",   // normalize 0-10 -> 0-1
       judgeScore: sd ? sd.score : null,
       judgeRaw: sd ? sd.raw : null,
       judgeMax: sd ? sd.max : null,
