@@ -140,8 +140,22 @@ main { max-width: 940px; margin: 0 auto; padding: 1.25rem 1.5rem 4.5rem; }
 }
 .card.scored { border-color: rgba(63, 185, 80, .45); }
 .card.missing { opacity: .55; }
-.card-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
-.seed-label { font-family: var(--mono); font-size: .78rem; color: var(--muted); }
+.card-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  margin-bottom: .85rem; padding-bottom: .7rem; border-bottom: 1px solid var(--line);
+}
+.seed-label {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-size: .92rem; font-weight: 650; color: #9cc0ff;
+  background: var(--accent-bg); border: 1px solid rgba(79, 140, 255, .45);
+  padding: .34rem .75rem; border-radius: 999px;
+  text-shadow: 0 0 6px rgba(79, 140, 255, .9), 0 0 14px rgba(79, 140, 255, .5);
+  box-shadow: 0 0 10px rgba(79, 140, 255, .45), inset 0 0 9px rgba(79, 140, 255, .14);
+}
+.seed-label::before {
+  content: ""; width: 8px; height: 8px; border-radius: 50%; background: #7fb0ff; flex: none;
+  box-shadow: 0 0 6px rgba(79, 140, 255, .95), 0 0 11px rgba(79, 140, 255, .6);
+}
 .judge-badge {
   font-family: var(--mono); font-size: .76rem; padding: .2rem .6rem; border-radius: 999px;
   background: var(--inset); border: 1px solid var(--line); color: var(--muted);

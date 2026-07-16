@@ -165,7 +165,7 @@ function makeCard(seed, judge) {
   const saved = state.store.scores[k];
 
   const head = el("div", { class: "card-head" }, [
-    el("span", { class: "seed-label", text: `seed ${seed.seed}` }),
+    el("span", { class: "seed-label", text: `Science Agent · Attempt ${seed.seed + 1}` }),
     judgeBadge(seed),
   ]);
 
